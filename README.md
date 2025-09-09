@@ -24,7 +24,7 @@
 ## 🏆 IPhO 2025 (Theory) Results
 
 <div align="center">
-  <img src="img/HiPhO_IPhO2025.png" alt="ipho2025 results" width="600"/>
+  <img src="img/HiPhO_IPhO2025.png" alt="ipho2025 results" width="800"/>
 </div>
 
 - **Top-1 Human Score**: 29.2 / 30.0  
