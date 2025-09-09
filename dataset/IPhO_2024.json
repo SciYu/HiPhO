@@ -1,0 +1,1209 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "IPhO_2024_1_A_1",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[Earth as a Blackbody]\n\nIn this part, consider the Earth's surface as a blackbody and neglect the Earth's atmosphere.",
+        "question": "(1) Find the expression of the solar constant $S_0$. \n(2) Calculate the value of $S_0$ (expressed in $W/m^2$).",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the correct expression for the solar constant: $S_0 = \\sigma T_S^4 (\\frac{R_S}{d})^2$. Partial points: award 0.1 pt if the answer gives the incorrect expression but realizes energy conservation. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of the solar constant: $1.35 \\times 10^{3} \\frac{W}{m^2}$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$S_0 = \\sigma T_S^4 (\\frac{R_S}{d})^2$}",
+            "\\boxed{$1.35 \\times 10^{3}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            "$W/m^2$"
+        ],
+        "points": [
+            0.4,
+            0.2
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "IPhO_2024_1_A_2",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[Earth as a Blackbody]\n\nIn this part, consider the Earth's surface as a blackbody and neglect the Earth's atmosphere.",
+        "question": "(1) Find the expression of the Earth's temperature $T_{\\mathrm{E}}$. \n(2) Calculate the value of $T_{\\mathrm{E}}$ (expressed in $\\mathrm{K}$).",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the correct expression for the Earth's temperature: $T_{\\mathrm{E}} = (\\frac{S_0}{4 \\sigma})^{1/4} = \\sqrt{\\frac{R_S}{2d}} T_S$. Partial points: award 0.1 pt if the answer gives the incorrect expression but realizes energy balance. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of the Earth's temperature: $278 \\mathrm{K}$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$T_{\\mathrm{E}} = (\\frac{S_0}{4 \\sigma})^{1/4} = \\sqrt{\\frac{R_S}{2d}} T_S$}",
+            "\\boxed{278}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            "$\\mathrm{K}$"
+        ],
+        "points": [
+            0.4,
+            0.2
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "IPhO_2024_1_A_3",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[Earth as a Blackbody]\n\nIn this part, consider the Earth's surface as a blackbody and neglect the Earth's atmosphere.",
+        "question": "Find the function $f(x)$.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the correct expression for the function $f(x)$: $f(x) = 5(1-e^{-x})-x$ (Equivalent forms are also correct, e.g., $f(x) = (5-x)e^x-5 = 5e^x -5 - x e^x$). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$f(x) = 5(1-e^{-x})-x$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.4
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "IPhO_2024_1_A_4",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[Earth as a Blackbody]\n\nIn this part, consider the Earth's surface as a blackbody and neglect the Earth's atmosphere.",
+        "question": "(1) Calculate the numerical value of $x_{\\mathrm{m}}$. \n(2) From this value $x_{\\mathrm{m}}$, find the value of $b$ (expressed in $\\mathrm{nm} \\cdot K$).",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer gives the correct numerical value of $x_{\\mathrm{m}}$ within the range of $[4.96, 4.97]$. Partial points: award 0.2 pt if the answer gives a value of $x_{\\mathrm{m}}$ within the range of $[4.96, 4.97]$ but contains more than four significant figures. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the correct numerical value of $b$ within the range of $[2.89 \\times 10^{6}, 2.90 \\times 10^{6}]$ $\\mathrm{nm} \\cdot K$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$[4.96, 4.97]$}",
+            "\\boxed{$[2.89 \\times 10^{6}, 2.90 \\times 10^{6}]$}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            "$\\mathrm{nm} \\cdot K$"
+        ],
+        "points": [
+            0.3,
+            0.1
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "IPhO_2024_1_A_5",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[Earth as a Blackbody]\n\nIn this part, consider the Earth's surface as a blackbody and neglect the Earth's atmosphere.",
+        "question": "(1) Find $\\lambda_{\\text{max}}^{\\text{Sun}}$ for the Sun (expressed in $\\mathrm{nm}$). \n(2) Find $\\lambda_{\\text{max}}^{\\text{Earth}}$ for the Earth (expressed in $\\mathrm{nm}$).",
+        "marking": [
+            [
+                "Award 0.1 pt if the answer gives the correct numerical value of $\\lambda_{\\text{max}}^{\\text{Sun}}$ within the range of $[501, 502] \\mathrm{nm}$ (Equivalent form of $[5.01 \\times 10^{2} \\mathrm{nm}, 5.02 \\times 10^{2} \\mathrm{nm}]$ is also correct). Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the correct numerical value of $\\lambda_{\\text{max}}^{\\text{Earth}}$ as $1.04 \\times 10^{4} \\mathrm{nm}$ (Equivalent forms are also correct). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$[5.01 \\times 10^{2}, 5.02 \\times 10^{2}]$}",
+            "\\boxed{$1.04 \\times 10^{4}$}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "$\\mathrm{nm}$",
+            "$\\mathrm{nm}$"
+        ],
+        "points": [
+            0.1,
+            0.1
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "IPhO_2024_1_A_6",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[Earth as a Blackbody]\n\nIn this part, consider the Earth's surface as a blackbody and neglect the Earth's atmosphere.\n\nAs shown in the Figure 1, the functions $\\gamma \\tilde{u}_{\\mathrm{S}}(\\lambda)$ and $u\\left(\\lambda, T_{\\mathrm{E}}\\right)$ are plotted versus $\\lambda$, where $\\gamma$ is a dimensionless coefficient to rescale $\\tilde{u}_{S}(\\lambda)$ such that the values of the two peaks coincide.\n\n[figure1]\nFigure 1. The plot of $u(\\lambda, T_{\\mathrm{E}})$ (red) and $\\gamma \\tilde{u}_{S}(\\lambda)$ (blue) versus $\\lambda$.",
+        "question": "(1) Find the expression of $\\gamma$. \n(2) Determine the value of $\\gamma$.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $\\gamma$: $\\gamma = (\\frac{d}{R_S})^2 \\times (\\frac{T_E}{T_S})^5 = (\\frac{d}{R_S})^2 \\times (\\frac{\\lambda_S}{\\lambda_E})^5$. Partial points: award 0.3 pt if the answer realizes that $\\tilde{u}_S = (\\frac{R_S}{d})^2 u_S(\\lambda)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $\\gamma$ within the range of $[1.20 \\times 10^{-2}, 1.21 \\times 10^{-2}]$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\gamma = (\\frac{d}{R_S})^2 \\times (\\frac{T_E}{T_S})^5 = (\\frac{d}{R_S})^2 \\times (\\frac{\\lambda_S}{\\lambda_E})^5$}",
+            "\\boxed{$[1.20 \\times 10^{-2}, 1.21 \\times 10^{-2}]$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.6,
+            0.2
+        ],
+        "modality": "text+data figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_A_6_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_1_B_1",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[The Greenhouse Effect]\n\nIn this part, we introduce a simple model in which the Earth's atmosphere is modeled as a thin layer at a small distance above the Earth's surface so that the difference between the area of the atmosphere's layer and the area of the Earth's surface can be neglected (see Figure 1). In what follows assume that the major part of the thermal radiation from the Earth and the Sun are emitted at wavelengths near the $\\lambda_{\\max}$ for each one. Also assume that the \"atmosphere layer\" reflects a fraction $r_{\\mathrm{A}}=0.255$ of the visible-ultraviolet radiation incident from above or below, and completely transmits the rest. Assume that the atmosphere does not reflect any part of the infrared radiation, however, it absorbs a fraction $\\varepsilon$ of the infrared radiation and transmits the rest. This behavior, known as the greenhouse effect, changes the average temperature of the Earth. The Earth's surface, on the other hand, reflects a fraction $r_{E}$ of the visible-ultraviolet radiation and absorbs the rest of this radiation and all the infrared radiation.\n\n[figure1]\nFigure 1. Thermal flows between the Earth and the atmosphere.",
+        "question": "Assume that $\\varepsilon=1$ and $r_{\\mathrm{E}}=0$. (1) Find the expression of the Earth's temperature $T_{\\mathrm{E}}$; (2) Find the expression of the atmosphere's temperature $T_{\\mathrm{A}}$; (3) Calculate the numerical value of $T_{\\mathrm{E}}$ (expressed in $K$); (4) (3) Calculate the numerical value of $T_{\\mathrm{A}}$ (expressed in $K$).",
+        "marking": [
+            [
+                "Award 0.8 pt if the answer gives two correct expressions: $T_{\\mathrm{E}} = \\left( \\frac{(1-r_A) \\frac{S_0}{2}}{\\sigma} \\right)^{1/4}$, and $T_{\\mathrm{A}} = \\left( \\frac{(1-r_A) \\frac{S_0}{4}}{\\sigma} \\right)^{1/4}$. Partial points: award 0.6 pt if the answer gives only one of the two expressions correctly; or award 0.2 pt if the answer gives no correct expressions but realizes each energy balance relation. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $T_{\\mathrm{E}}$ as $3.07 \\times 10^{2} K$, and $T_{\\mathrm{A}}$ as $2.58 \\times 10^{2} K$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$T_{\\mathrm{E}} = \\left( \\frac{(1-r_A) \\frac{S_0}{2}}{\\sigma} \\right)^{1/4}$}",
+            "\\boxed{$T_{\\mathrm{A}} = \\left( \\frac{(1-r_A) \\frac{S_0}{4}}{\\sigma} \\right)^{1/4}$}",
+            "\\boxed{$T_E = 3.07 \\times 10^2$}",
+            "\\boxed{$T_A = 2.58 \\times 10^2$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null,
+            "K",
+            "K"
+        ],
+        "points": [
+            0.4,
+            0.4,
+            0.1,
+            0.1
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_B_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_1_B_2",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[The Greenhouse Effect]\n\nIn this part, we introduce a simple model in which the Earth's atmosphere is modeled as a thin layer at a small distance above the Earth's surface so that the difference between the area of the atmosphere's layer and the area of the Earth's surface can be neglected (see Figure 1). In what follows assume that the major part of the thermal radiation from the Earth and the Sun are emitted at wavelengths near the $\\lambda_{\\max}$ for each one. Also assume that the \"atmosphere layer\" reflects a fraction $r_{\\mathrm{A}}=0.255$ of the visible-ultraviolet radiation incident from above or below, and completely transmits the rest. Assume that the atmosphere does not reflect any part of the infrared radiation, however, it absorbs a fraction $\\varepsilon$ of the infrared radiation and transmits the rest. This behavior, known as the greenhouse effect, changes the average temperature of the Earth. The Earth's surface, on the other hand, reflects a fraction $r_{E}$ of the visible-ultraviolet radiation and absorbs the rest of this radiation and all the infrared radiation.\n\n[figure1]\nFigure 1. Thermal flows between the Earth and the atmosphere.\n\nNow assume that $r_{\\mathrm{E}} \\neq 0$. In this case, the combined system of \"Earth + atmosphere\" reflects a different fraction of the solar radiation, called \"albedo\" and denoted by $\\alpha$.",
+        "question": "(1) Determine the albedo, $\\alpha$, in terms of $r_{\\mathrm{E}}$ and $r_{\\mathrm{A}}$. \n(2) Calculate the numerical value of $\\alpha$, assuming $r_{\\mathrm{E}}=0.102$ and $r_{\\mathrm{A}}=0.255$.",
+        "marking": [
+            [
+                "Award 1.4 pt if the answer gives the correct expression for $\\alpha$: $\\alpha = r_{\\mathrm{A}} + \\frac{(1-r_{\\mathrm{A}})^{2} r_{\\mathrm{E}}}{1-r_{\\mathrm{A}} r_{\\mathrm{E}}}$. If the final expression is incorrect, evaluate the following four intermediate results separately to award partial points (points from each item may be added together): \n(1) Award 0.1 pt if the answer contains an intermediate result of $\\tilde{S}_0 = r_A S_0$. \n(2) Award 0.3 pt if the answer contains an intermediate results of $\\tilde{S}_1 = (1 - r_A)^2 r_E S_0 = \\frac{(1-r_A)^2}{r_A} r_E \\tilde{S}_0$. \n(3) Award 0.5 pt if the answer contains an intermediate result of $\\tilde{S}_n = \\frac{\\tilde{S}_{n-1}}{1 - r_A} r_A r_E \\times (1 - r_A) = r_A r_E \\tilde{S}_{n-1} = (r_A r_E)^{n-1} \\tilde{S}_1$. \n(4) Award 0.3 pt if the answer contains an intermediate result of $\\tilde{S} = \\sum_{n=0}^{\\infty} \\tilde{S}_n = \\tilde{S}_0 + \\tilde{S}_1 \\sum_{n=1}^{\\infty} (r_A r_E)^{n-1}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $\\alpha$ as $3.13 \\times 10^{-1}$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\alpha = r_{\\mathrm{A}} + \\frac{(1-r_{\\mathrm{A}})^{2} r_{\\mathrm{E}}}{1-r_{\\mathrm{A}} r_{\\mathrm{E}}}$}",
+            "\\boxed{$3.13 \\times 10^{-1}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.4,
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_B_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_1_B_3",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[The Greenhouse Effect]\n\nIn this part, we introduce a simple model in which the Earth's atmosphere is modeled as a thin layer at a small distance above the Earth's surface so that the difference between the area of the atmosphere's layer and the area of the Earth's surface can be neglected (see Figure 1). In what follows assume that the major part of the thermal radiation from the Earth and the Sun are emitted at wavelengths near the $\\lambda_{\\max}$ for each one. Also assume that the \"atmosphere layer\" reflects a fraction $r_{\\mathrm{A}}=0.255$ of the visible-ultraviolet radiation incident from above or below, and completely transmits the rest. Assume that the atmosphere does not reflect any part of the infrared radiation, however, it absorbs a fraction $\\varepsilon$ of the infrared radiation and transmits the rest. This behavior, known as the greenhouse effect, changes the average temperature of the Earth. The Earth's surface, on the other hand, reflects a fraction $r_{E}$ of the visible-ultraviolet radiation and absorbs the rest of this radiation and all the infrared radiation.\n\n[figure1]\nFigure 1. Thermal flows between the Earth and the atmosphere.\n\nNow assume that $r_{\\mathrm{E}} \\neq 0$. In this case, the combined system of \"Earth + atmosphere\" reflects a different fraction of the solar radiation, called \"albedo\" and denoted by $\\alpha$.",
+        "question": "(1) Express the Earth's temperature $T_{\\mathrm{E}}$ in terms of $\\sigma, \\alpha, S_{0}$, and $\\varepsilon$. \n(2) Using the given data and the calculated albedo, find the numerical value of $\\varepsilon$ which leads to the current average temperature of $T_{\\mathrm{E}} = 288 \\mathrm{K}$ for the Earth.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $T_{\\mathrm{E}}$: $T_{\\mathrm{E}} = \\left[\\frac{(1-\\alpha)}{2 \\sigma(2-\\epsilon)} S_{0}\\right]^{\\frac{1}{4}}$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer gives the correct numerical value of $T_{\\mathrm{E}}$ within the range of $[8.07 \\times 10^{-1}, 8.11 \\times 10^{-1}]$. Partial points: award 0.2 pt if the numerical answer is wrong but the expression for $\\varepsilon$ is correctly given as $\\varepsilon = \\frac{[\\sigma T_E^4 - \\frac{(1-\\alpha)}{4} S_0]}{\\sigma T_A^4} = 2 \\frac{[\\sigma T_E^4 - \\frac{(1-\\alpha)}{4} S_0]}{\\sigma T_E^4}$; or award 0.3 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$T_{\\mathrm{E}} = \\left[\\frac{(1-\\alpha)}{2 \\sigma(2-\\epsilon)} S_{0}\\right]^{\\frac{1}{4}}$}",
+            "\\boxed{$[8.07 \\times 10^{-1}, 8.11 \\times 10^{-1}]$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.6,
+            0.4
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_B_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_1_B_4",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[The Greenhouse Effect]\n\nIn this part, we introduce a simple model in which the Earth's atmosphere is modeled as a thin layer at a small distance above the Earth's surface so that the difference between the area of the atmosphere's layer and the area of the Earth's surface can be neglected (see Figure 1). In what follows assume that the major part of the thermal radiation from the Earth and the Sun are emitted at wavelengths near the $\\lambda_{\\max}$ for each one. Also assume that the \"atmosphere layer\" reflects a fraction $r_{\\mathrm{A}}=0.255$ of the visible-ultraviolet radiation incident from above or below, and completely transmits the rest. Assume that the atmosphere does not reflect any part of the infrared radiation, however, it absorbs a fraction $\\varepsilon$ of the infrared radiation and transmits the rest. This behavior, known as the greenhouse effect, changes the average temperature of the Earth. The Earth's surface, on the other hand, reflects a fraction $r_{E}$ of the visible-ultraviolet radiation and absorbs the rest of this radiation and all the infrared radiation.\n\n[figure1]\nFigure 1. Thermal flows between the Earth and the atmosphere.\n\nNow assume that $r_{\\mathrm{E}} \\neq 0$. In this case, the combined system of \"Earth + atmosphere\" reflects a different fraction of the solar radiation, called \"albedo\" and denoted by $\\alpha$.",
+        "question": "(1) Find the expression of $\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon}$. \n(2) Determine the value of $\\delta T_{\\mathrm{E}}$ (expressed in $K$), i.e., the increase in Earth's temperature if $\\varepsilon$ increases by one percent.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon}$: $\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon} = \\frac{1}{4}\\left[\\frac{(1-\\alpha) S_0}{2 \\sigma(2-\\varepsilon)}\\right]^{\\frac{1}{4}} \\frac{1}{(2-\\varepsilon)}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $\\delta T_{\\mathrm{E}}$ within the range of $[4.87 \\times 10^{-1}, 4.92 \\times 10^{-1}] K$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon} = \\frac{1}{4}\\left[\\frac{(1-\\alpha) S_0}{2 \\sigma(2-\\varepsilon)}\\right]^{\\frac{1}{4}} \\frac{1}{(2-\\varepsilon)}$}",
+            "\\boxed{$[4.87 \\times 10^{-1}, 4.92 \\times 10^{-1}]$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            "K"
+        ],
+        "points": [
+            0.6,
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_B_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_1_B_5",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[The Greenhouse Effect]\n\nIn this part, we introduce a simple model in which the Earth's atmosphere is modeled as a thin layer at a small distance above the Earth's surface so that the difference between the area of the atmosphere's layer and the area of the Earth's surface can be neglected (see Figure 1). In what follows assume that the major part of the thermal radiation from the Earth and the Sun are emitted at wavelengths near the $\\lambda_{\\max}$ for each one. Also assume that the \"atmosphere layer\" reflects a fraction $r_{\\mathrm{A}}=0.255$ of the visible-ultraviolet radiation incident from above or below, and completely transmits the rest. Assume that the atmosphere does not reflect any part of the infrared radiation, however, it absorbs a fraction $\\varepsilon$ of the infrared radiation and transmits the rest. This behavior, known as the greenhouse effect, changes the average temperature of the Earth. The Earth's surface, on the other hand, reflects a fraction $r_{E}$ of the visible-ultraviolet radiation and absorbs the rest of this radiation and all the infrared radiation.\n\n[figure1]\nFigure 1. Thermal flows between the Earth and the atmosphere.\n\nNow assume that $r_{\\mathrm{E}} \\neq 0$. In this case, the combined system of \"Earth + atmosphere\" reflects a different fraction of the solar radiation, called \"albedo\" and denoted by $\\alpha$.\n\nAssume $T_{\\mathrm{A}} = 245 \\mathrm{K}$ and $T_{\\mathrm{E}} = 288 \\mathrm{K}$. These values come from real data and may differ from the results which you have obtained in the previous tasks. Now suppose that a non-radiative (e.g. convective) thermal flow $J_{\\mathrm{NR}} = k\\left(T_{\\mathrm{E}}-T_{\\mathrm{A}}\\right)$ is maintained from the Earth to the atmosphere, where $k$ is a constant. The quantity, $J_{\\mathrm{NR}}$, is the transmitted power per unit area.",
+        "question": "(1) Express $\\varepsilon$ in terms of $T_{\\mathrm{E}}, T_{\\mathrm{A}}, \\sigma, \\alpha$, and $S_{0}$. \n(2) Express $k$ in terms of $T_{\\mathrm{E}}, T_{\\mathrm{A}}, \\sigma, \\alpha$, and $S_{0}$. \n(3) Calculate the value of $\\varepsilon$. \n(4) Calculate the value of $k$ (expressed in $W/(m^2 \\mathrm{K})$)",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $\\varepsilon$: $\\varepsilon = \\frac{\\sigma T_{\\mathrm{E}}^{4} - (1-\\alpha) \\frac{S_{0}}{4}}{\\sigma (T_{\\mathrm{E}}^{4} - T_{\\mathrm{A}}^{4})}$. Partial points: award 0.3 pt if the expression is incorrect but contains the correct relations for balance of energy. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer gives the correct expression for $k$: $k = \\frac{(2 T_{\\mathrm{A}}^{4}-T_{\\mathrm{E}}^{4}) \\times [\\sigma T_{\\mathrm{E}}^{4} - (1-\\alpha) \\frac{S_{0}}{4}]}{(T_{\\mathrm{E}}^{4}-T_{\\mathrm{A}}^{4}) \\times (T_{\\mathrm{E}}-T_{\\mathrm{A}})}$. Partial points: award 0.3 pt if the expression is incorrect but contains the correct relations for balance of energy. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $\\varepsilon$ within the range of $[8.47 \\times 10^{-1}, 8.52 \\times 10^{-1}]$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $k$ within the range of $[3.57 \\times 10^{-1}, 3.66 \\times 10^{-1}] W/(m^2 \\mathrm{K})$. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\varepsilon = \\frac{\\sigma T_{\\mathrm{E}}^{4} - (1-\\alpha) \\frac{S_{0}}{4}}{\\sigma (T_{\\mathrm{E}}^{4} - T_{\\mathrm{A}}^{4})}$}",
+            "\\boxed{$k = \\frac{(2 T_{\\mathrm{A}}^{4}-T_{\\mathrm{E}}^{4}) \\times [\\sigma T_{\\mathrm{E}}^{4}-(1-\\alpha) \\frac{S_{0}}{4}]}{(T_{\\mathrm{E}}^{4}-T_{\\mathrm{A}}^{4}) \\times (T_{\\mathrm{E}}-T_{\\mathrm{A}})}}",
+            "\\boxed{$[8.47 \\times 10^{-1}, 8.52 \\times 10^{-1}]$}",
+            "\\boxed{$[3.57 \\times 10^{-1}, 3.66 \\times 10^{-1}]$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null,
+            null,
+            "$W/(m^2 \\mathrm{K})$"
+        ],
+        "points": [
+            0.6,
+            0.6,
+            0.2,
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_B_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_1_B_6",
+        "context": "[The Greenhouse Effect] \n\nIn 2021, Syukuro Manabe and Klaus Hasselmann were awarded half of the Nobel Prize in Physics for their work in modeling Earth's climate and accurately predicting the global warming caused by human industrial activities. In this problem, we will examine a simple model of global warming due to the greenhouse effect. The greenhouse gases alter the optical properties of the Earth's atmosphere in transmitting or absorbing Earth's infrared radiation, resulting in a rise in the average temperature of the planet.\n\nAll objects, at different temperatures, emit thermal radiation. The quantity $u(\\lambda, T) d \\lambda$ indicates the thermal radiative power per unit area of an object at temperature $T$ between the wavelengths $\\lambda$ and $\\lambda+d \\lambda$. According to Planck's theory of blackbody radiation, we have\n\n$$u(\\lambda, T)=\\frac{2 \\pi h c^{2}}{\\lambda^{5}} \\frac{1}{\\exp \\left(\\frac{h c}{\\lambda k_{\\mathrm{B}} T}\\right)-1}$$ (Equation 1), in which $h c=1.24 \\times 10^{3} \\mathrm{eV} \\cdot \\mathrm{nm}$ and $k_{\\mathrm{B}}=8.62 \\times 10^{-5} \\mathrm{eV} / \\mathrm{K}$. The wavelength corresponding to the maximum of $u(\\lambda, T)$ comes from the relation $\\lambda_{\\max} T=b$ (Wien's displacement law). Indeed, using equation (1), it can be shown that $b=\\frac{h c}{x_{\\mathrm{m}} k_{\\mathrm{B}}}$, where the dimensionless quantity $x_{\\mathrm{m}}$ is the non-trivial root of an equation of the form $f(x)=0$; you are asked to find the function $f(x)$ in one of the following tasks. Total radiative power per unit area of a blackbody in all wavelengths is given by the Stephan-Boltzmann law as $U(T)=\\sigma T^{4}$ where $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / \\mathrm{m}^{2} \\mathrm{K}^{4}$. Moreover, according to Kirchhoff's law of radiation, at thermal equilibrium a body absorbing a certain fraction of the incident radiation at a specific wavelength, will radiate the same fraction of the blackbody radiation at that same wavelength.\n\nThroughout this problem assume that the Sun is a blackbody at its average surface temperature of $T_{\\mathrm{S}}=5.77 \\times 10^{3} \\mathrm{K}$. The Sun's radius is $R_{\\mathrm{S}}=6.96 \\times 10^{8} \\mathrm{m}$ and the average distance between the Earth and the Sun is $d=1.50 \\times 10^{11} \\mathrm{m}$. We denote by $\\tilde{u}_{S}(\\lambda)$, the spectral solar power radiated into a unit area of the Earth normal to the direction of radiation. The integral of this quantity over all wavelengths, i.e. $S_{0}=\\int \\tilde{u}_{S}(\\lambda) d \\lambda$, is called the solar constant.\n\nIn this problem assume that the Earth is in thermal equilibrium and has the same temperature at all points on its surface. In all parts of the problem, express the desired quantity in parametric form in terms of the data given in the problem and then find its numerical value accurate to three significant figures. The required units are indicated on the answer sheet.\n\n[The Greenhouse Effect]\n\nIn this part, we introduce a simple model in which the Earth's atmosphere is modeled as a thin layer at a small distance above the Earth's surface so that the difference between the area of the atmosphere's layer and the area of the Earth's surface can be neglected (see Figure 1). In what follows assume that the major part of the thermal radiation from the Earth and the Sun are emitted at wavelengths near the $\\lambda_{\\max}$ for each one. Also assume that the \"atmosphere layer\" reflects a fraction $r_{\\mathrm{A}}=0.255$ of the visible-ultraviolet radiation incident from above or below, and completely transmits the rest. Assume that the atmosphere does not reflect any part of the infrared radiation, however, it absorbs a fraction $\\varepsilon$ of the infrared radiation and transmits the rest. This behavior, known as the greenhouse effect, changes the average temperature of the Earth. The Earth's surface, on the other hand, reflects a fraction $r_{E}$ of the visible-ultraviolet radiation and absorbs the rest of this radiation and all the infrared radiation.\n\n[figure1]\nFigure 1. Thermal flows between the Earth and the atmosphere.\n\nNow assume that $r_{\\mathrm{E}} \\neq 0$. In this case, the combined system of \"Earth + atmosphere\" reflects a different fraction of the solar radiation, called \"albedo\" and denoted by $\\alpha$.\n\nAssume $T_{\\mathrm{A}} = 245 \\mathrm{K}$ and $T_{\\mathrm{E}} = 288 \\mathrm{K}$. These values come from real data and may differ from the results which you have obtained in the previous tasks. Now suppose that a non-radiative (e.g. convective) thermal flow $J_{\\mathrm{NR}} = k\\left(T_{\\mathrm{E}}-T_{\\mathrm{A}}\\right)$ is maintained from the Earth to the atmosphere, where $k$ is a constant. The quantity, $J_{\\mathrm{NR}}$, is the transmitted power per unit area.",
+        "question": "Express $\\varepsilon$ and $k$ in terms of $T_{\\mathrm{E}}, T_{\\mathrm{A}}, \\sigma, \\alpha$, and $S_{0}$, respectively (This is a preliminary question and do not include in the final answer). \n\n(1) Differentiating the equations obtained in part (0) with respect to $\\varepsilon$, find one algebraic equation satisfied by $\\frac{\\mathrm{d} T_{\\mathrm{A}}}{\\mathrm{d} \\varepsilon}$ and $\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon}$. \n(2) Differentiating the equations obtained in part (0) with respect to $\\varepsilon$, find another algebraic equation satisfied by $\\frac{\\mathrm{d} T_{\\mathrm{A}}}{\\mathrm{d} \\varepsilon}$ and $\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon}$. \n(3) Use these equations in parts (1) and (2) to find $\\delta T_{\\mathrm{E}}$ (expressed in $K$), i.e., the numerical value of change in the Earth's temperature as a result of a one percent increase in the value of $\\varepsilon$.",
+        "marking": [
+            [
+                "Award 0.8 pt if the answer finds two algebraic equations satisfied by $\\frac{\\mathrm{d} T_{\\mathrm{A}}}{\\mathrm{d} \\varepsilon}$ and $\\frac{\\mathrm{d} T_{\\mathrm{E}}}{\\mathrm{d} \\varepsilon}$: (1) $\\varepsilon \\left[ \\frac{1}{T_E - T_A} + \\frac{4 T_E^3}{2 T_A^4 - T_E^4} \\right] \\frac{\\mathrm{d} T_E}{\\mathrm{d} \\varepsilon} = 1 + \\varepsilon \\left[ \\frac{8 T_A^3}{2 T_A^4 - T_E^4} + \\frac{1}{T_E - T_A} \\right] \\frac{\\mathrm{d} T_A}{\\mathrm{d} \\varepsilon}$ and (2) $1 + \\varepsilon \\left[ \\frac{4 T_E^3}{T_E^4 - T_A^4} - \\frac{4 \\sigma T_E^3}{\\sigma T_E^4 - (1 - \\alpha) \\frac{S_0}{4}} \\right] \\frac{\\mathrm{d} T_E}{\\mathrm{d} \\varepsilon} = \\frac{4 T_A^3}{T_E^4 - T_A^4} \\varepsilon \\frac{\\mathrm{d} T_A}{\\mathrm{d} \\varepsilon}$. Partial points: award 0.6 pt if the answer finds only one of the equations correctly. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct numerical value of $\\delta T_E$ within the range of $[5.21 \\times 10^{-1}, 5.28 \\times 10^{-1}]$ K. Partial points: award 0.1 pt if the numerical answer falls within the acceptable error range of the correct value but contains more than four significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\varepsilon \\left[ \\frac{1}{T_E - T_A} + \\frac{4 T_E^3}{2 T_A^4 - T_E^4} \\right] \\frac{\\mathrm{d} T_E}{\\mathrm{d} \\varepsilon} = 1 + \\varepsilon \\left[ \\frac{8 T_A^3}{2 T_A^4 - T_E^4} + \\frac{1}{T_E - T_A} \\right] \\frac{\\mathrm{d} T_A}{\\mathrm{d} \\varepsilon}$}",
+            "\\boxed{$1 + \\varepsilon \\left[ \\frac{4 T_E^3}{T_E^4 - T_A^4} - \\frac{4 \\sigma T_E^3}{\\sigma T_E^4 - (1 - \\alpha) \\frac{S_0}{4}} \\right] \\frac{\\mathrm{d} T_E}{\\mathrm{d} \\varepsilon} = \\frac{4 T_A^3}{T_E^4 - T_A^4} \\varepsilon \\frac{\\mathrm{d} T_A}{\\mathrm{d} \\varepsilon}$}",
+            "$\\boxed{$[5.21 \\times 10^{-1}, 5.28 \\times 10^{-1}]$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null,
+            "K"
+        ],
+        "points": [
+            0.4,
+            0.4,
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_1_B_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_A_1",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[The Paul Trap] \n\nIt is known that with electrostatic fields, it is not possible to create a stable equilibrium for a charged particle. Therefore, creating a stable equilibrium point for ions requires more sophisticated techniques. The Paul trap is one of these techniques.\n\nAs shown in Figure 1, consider a ring of charge with a radius $R$ and a uniform positive linear charge density $\\lambda$. A positive point charge $Q$ with mass $m$ is placed at the center of the ring.\n\n[figure1]\nFigure 1. A positively charged ring with a uniform linear charge density $\\lambda$ and radius $R$: the origin of the coordinate system is at the center of the ring.",
+        "question": "(1) In cartesian coordinates $(x, y, z)$, obtain the electric field $\\vec{E}(x, y, z)$ due to the charged ring in the vicinity of the ring's center to the first order in $x / R$, $y / R$, and $z / R$. \n(2) Find the angular frequency $\\omega_x$ in the $x$ direction of small oscillations of the charged particle around the center of the ring in the directions for which a stable equilibrium exists. \n(3) Find the angular frequency $\\omega_y$ in the $y$ direction of small oscillations of the charged particle around the center of the ring in the directions for which a stable equilibrium exists.",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer gives the correct expression for the electric field $\\vec{E}(x, y, z) = \\frac{-\\lambda x}{4 \\epsilon_0 R^2} \\hat{x} + \\frac{-\\lambda y}{4 \\epsilon_0 R^2} \\hat{y} + \\frac{\\lambda z}{2 \\epsilon_0 R^2} \\hat{z}$ in cartesian coordinates. If the final expression is not fully correct, award 0.5 pt for a correct $z$-component only, or 0.5 pt for correct $x$- and $y$-components. Deduct 0.1 pt for each incorrect coefficient and 0.2 pt for each incorrect sign in a component. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct expression for the angular frequency $\\omega_x = \\sqrt{\\frac{Q \\lambda}{4 \\epsilon_0 R^2 m}}$ in the $x$ direction of small oscillations and $\\omega_y = \\sqrt{\\frac{Q \\lambda}{4 \\epsilon_0 R^2 m}}$ in the $y$ direction of small oscillations. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\vec{E}(x, y, z) = \\frac{-\\lambda x}{4 \\epsilon_0 R^2} \\hat{x} + \\frac{-\\lambda y}{4 \\epsilon_0 R^2} \\hat{y} + \\frac{\\lambda z}{2 \\epsilon_0 R^2} \\hat{z}$}",
+            "\\boxed{$\\omega_x = \\sqrt{\\frac{Q \\lambda}{4 \\epsilon_0 R^2 m}}$}",
+            "\\boxed{$\\omega_y = \\sqrt{\\frac{Q \\lambda}{4 \\epsilon_0 R^2 m}}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            1.0,
+            0.25,
+            0.25
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_A_2",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[The Paul Trap] \n\nIt is known that with electrostatic fields, it is not possible to create a stable equilibrium for a charged particle. Therefore, creating a stable equilibrium point for ions requires more sophisticated techniques. The Paul trap is one of these techniques.\n\nAs shown in Figure 1, consider a ring of charge with a radius $R$ and a uniform positive linear charge density $\\lambda$. A positive point charge $Q$ with mass $m$ is placed at the center of the ring.\n\n[figure1]\nFigure 1. A positively charged ring with a uniform linear charge density $\\lambda$ and radius $R$: the origin of the coordinate system is at the center of the ring.\n\nIn order to trap the charge $Q$ fully, we would like to apply alternating fields to produce a dynamic equilibrium. Assume that the charge density is $\\lambda = \\lambda_{0} + u \\cos \\Omega t$ in which $\\lambda_{0}$, $u$, and $\\Omega$ are adjustable. We shall ignore radiative effects. Then the equation of motion for small displacements from the center of the ring, along the direction perpendicular to the plane of the ring will turn out to be: \n$$\\ddot{z} = (+k^{2}+ a \\Omega^{2} \\cos \\Omega t) z$$ (Equation 1).",
+        "question": "(1) Write $k$ in terms of the known parameters. \n(2) Write $a$ in terms of the known parameters.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer gives the correct expression for $k = \\sqrt{\\frac{Q \\lambda_{0}}{2 \\epsilon_{0} R^{2} m}}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct expression for $a = \\frac{Q u}{2 \\epsilon_{0} R^{2} m \\Omega^{2}}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$k = \\sqrt{\\frac{Q \\lambda_{0}}{2 \\epsilon_{0} R^{2} m}}$}",
+            "\\boxed{$a = \\frac{Q u}{2 \\epsilon_{0} R^{2} m \\Omega^{2}}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.2,
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_A_3",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[The Paul Trap] \n\nIt is known that with electrostatic fields, it is not possible to create a stable equilibrium for a charged particle. Therefore, creating a stable equilibrium point for ions requires more sophisticated techniques. The Paul trap is one of these techniques.\n\nAs shown in Figure 1, consider a ring of charge with a radius $R$ and a uniform positive linear charge density $\\lambda$. A positive point charge $Q$ with mass $m$ is placed at the center of the ring.\n\n[figure1]\nFigure 1. A positively charged ring with a uniform linear charge density $\\lambda$ and radius $R$: the origin of the coordinate system is at the center of the ring.\n\nIn order to trap the charge $Q$ fully, we would like to apply alternating fields to produce a dynamic equilibrium. Assume that the charge density is $\\lambda = \\lambda_{0} + u \\cos \\Omega t$ in which $\\lambda_{0}$, $u$, and $\\Omega$ are adjustable. We shall ignore radiative effects. Then the equation of motion for small displacements from the center of the ring, along the direction perpendicular to the plane of the ring will turn out to be: \n$$\\ddot{z} = (+k^{2}+ a \\Omega^{2} \\cos \\Omega t) z$$ (Equation 1).\n\nWe would like to obtain an approximate solution to Equation (1) by making the following simplifying assumptions: $a \\ll 1$, $\\Omega \\gg k$, and $a \\Omega^{2} \\gg k^{2}$. With these assumptions, it can be shown that the solution of this equation can be split into two parts: $z(t) = p(t) + q(t)$, where $p(t)$ is a slowly varying component and $q(t)$ is a small-amplitude rapidly-varying component with a mean value of zero. In other words, $p(t)$ may be assumed constant over a few oscillations of $q(t)$ (see Figure 2).\n\n[figure2]\nFigure 2. A typical solution for the equation of motion of the charged particle: $p(t)$ gives the overall motion, and $q(t)$ represents small oscillations around this trajectory. The ellipse on the right is a magnification of a part of this trajectory.",
+        "question": "(1) Using the approximations stated above, find the equation of motion for $q(t)$ in terms of $a$, $\\Omega$, and $p$. \n(2) Find the solution of this equation by considering appropriate initial conditions corresponding to the required properties of this function.",
+        "marking": [
+            [
+                "Award a total of 1.0 pt for the following: award 0.1 pt if the answer gives the correct equation of motion for $q(t)$: $\\ddot{q} = p a \\Omega^2 \\cos \\Omega t$, and award 0.3 pt for each valid approximation used: (1) $p$ is almost constant, i.e., $\\ddot{p} \\simeq 0$; (2) $k^2 \\ll a \\Omega^2$; (3) $q \\ll p$. Otherwise, award 0 pt.",
+                "Award a total of 0.8 pt if the answer gives the correct expression for $q = -p a \\cos \\Omega t$. Partial points: if the answer gives the incorrect expression, award 0.4 pt if the answer gives the general solution $q = -pa \\cos \\Omega t + c_1 t + c_2$, and award 0.2 pt each for correctly setting $c_1 = 0$ and $c_2 = 0$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\ddot{q} = p a \\Omega^{2} \\cos \\Omega t$}",
+            "\\boxed{$q = -p a \\cos \\Omega t$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.0,
+            0.8
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_A_1_1.png",
+            "image_question/IPhO_2024_2_A_3_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_A_4",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[The Paul Trap] \n\nIt is known that with electrostatic fields, it is not possible to create a stable equilibrium for a charged particle. Therefore, creating a stable equilibrium point for ions requires more sophisticated techniques. The Paul trap is one of these techniques.\n\nAs shown in Figure 1, consider a ring of charge with a radius $R$ and a uniform positive linear charge density $\\lambda$. A positive point charge $Q$ with mass $m$ is placed at the center of the ring.\n\n[figure1]\nFigure 1. A positively charged ring with a uniform linear charge density $\\lambda$ and radius $R$: the origin of the coordinate system is at the center of the ring.\n\nIn order to trap the charge $Q$ fully, we would like to apply alternating fields to produce a dynamic equilibrium. Assume that the charge density is $\\lambda = \\lambda_{0} + u \\cos \\Omega t$ in which $\\lambda_{0}$, $u$, and $\\Omega$ are adjustable. We shall ignore radiative effects. Then the equation of motion for small displacements from the center of the ring, along the direction perpendicular to the plane of the ring will turn out to be: \n$$\\ddot{z} = (+k^{2}+ a \\Omega^{2} \\cos \\Omega t) z$$ (Equation 1).\n\nWe would like to obtain an approximate solution to Equation (1) by making the following simplifying assumptions: $a \\ll 1$, $\\Omega \\gg k$, and $a \\Omega^{2} \\gg k^{2}$. With these assumptions, it can be shown that the solution of this equation can be split into two parts: $z(t) = p(t) + q(t)$, where $p(t)$ is a slowly varying component and $q(t)$ is a small-amplitude rapidly-varying component with a mean value of zero. In other words, $p(t)$ may be assumed constant over a few oscillations of $q(t)$ (see Figure 2).\n\n[figure2]\nFigure 2. A typical solution for the equation of motion of the charged particle: $p(t)$ gives the overall motion, and $q(t)$ represents small oscillations around this trajectory. The ellipse on the right is a magnification of a part of this trajectory.",
+        "question": "(1) Using the mean effect of the rapidly varying component and obtain an effective equation of motion for $p(t)$. \n(2) Investigate the stability of the equilibrium point and find the condition for a stable equilibrium.",
+        "marking": [
+            [
+                "Award a total of 1.2 pt for the following: award 0.6 pt if the answer gives the correct equation of motion for $p(t)$: $\\ddot{p}(t) = \\left(k^{2} - \\frac{a^{2} \\Omega^{2}}{2}\\right) p$, and award 0.6 pt if the answer applies the correct approach (e.g., averaging over one period). Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer finds the correct condition for a stable equilibrium, $\\Omega > \\sqrt{2} \\frac{k}{a}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\ddot{p}(t) = \\left(k^{2} - \\frac{a^{2} \\Omega^{2}}{2}\\right) p$}",
+            "\\boxed{$\\Omega > \\sqrt{2} \\frac{k}{a}$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Inequality"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.2,
+            0.3
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_A_1_1.png",
+            "image_question/IPhO_2024_2_A_3_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_A_5",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[The Paul Trap] \n\nIt is known that with electrostatic fields, it is not possible to create a stable equilibrium for a charged particle. Therefore, creating a stable equilibrium point for ions requires more sophisticated techniques. The Paul trap is one of these techniques.\n\nAs shown in Figure 1, consider a ring of charge with a radius $R$ and a uniform positive linear charge density $\\lambda$. A positive point charge $Q$ with mass $m$ is placed at the center of the ring.\n\n[figure1]\nFigure 1. A positively charged ring with a uniform linear charge density $\\lambda$ and radius $R$: the origin of the coordinate system is at the center of the ring.\n\nIn order to trap the charge $Q$ fully, we would like to apply alternating fields to produce a dynamic equilibrium. Assume that the charge density is $\\lambda = \\lambda_{0} + u \\cos \\Omega t$ in which $\\lambda_{0}$, $u$, and $\\Omega$ are adjustable. We shall ignore radiative effects. Then the equation of motion for small displacements from the center of the ring, along the direction perpendicular to the plane of the ring will turn out to be: \n$$\\ddot{z} = (+k^{2}+ a \\Omega^{2} \\cos \\Omega t) z$$ (Equation 1).\n\nWe would like to obtain an approximate solution to Equation (1) by making the following simplifying assumptions: $a \\ll 1$, $\\Omega \\gg k$, and $a \\Omega^{2} \\gg k^{2}$. With these assumptions, it can be shown that the solution of this equation can be split into two parts: $z(t) = p(t) + q(t)$, where $p(t)$ is a slowly varying component and $q(t)$ is a small-amplitude rapidly-varying component with a mean value of zero. In other words, $p(t)$ may be assumed constant over a few oscillations of $q(t)$ (see Figure 2).\n\n[figure2]\nFigure 2. A typical solution for the equation of motion of the charged particle: $p(t)$ gives the overall motion, and $q(t)$ represents small oscillations around this trajectory. The ellipse on the right is a magnification of a part of this trajectory.\n\nAssume that $\\lambda_{0} = 8 \\times 10^{-9} \\mathrm{C} / \\mathrm{m}$ and $R = 10 \\mathrm{cm}$. We would like to use this device to trap a singly ionized atom 100 times heavier than a hydrogen atom. \n\nPhysical constants: mass of hydrogen atom $m_H = 1.674 \\times 10^{-27} kg$, charge of an electron $e = 1.602 \\times 10^{-19} C$, permittivity of free space $\\epsilon_0 = 8.854 \\times 10^{-12} F/m$, Boltzmann constant $k_B = 1.381 \\times 10^{-23} J/K$, Planck constant $\\hbar = 1.055 \\times 10^{-34} J \\cdot s$.",
+        "question": "(1) Calculate $k$ (expressed in $\\mathrm{rad/s}$). \n(2) Assume $a = 0.04$ and estimate the smallest frequency $\\Omega_{\\text{min}}$ required to stabilize the motion of this ion (expressed in $\\mathrm{rad/s}$). Use the data given at the end of the context.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer gives the correct value for $k = 2 \\times 10^{5} \\mathrm{rad/s}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct value for $\\Omega_{\\text{min}} \\approx 7 \\times 10^{6} \\mathrm{rad/s}$. Partial points: award 0.1 pt if the answer falls within the acceptable error range of the correct value but contains inappropriate number of significant figures. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$2 \\times 10^{5} \\mathrm{rad/s}$}",
+            "\\boxed{$7 \\times 10^{6} \\mathrm{rad/s}$}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "$\\mathrm{rad/s}$",
+            "$\\mathrm{rad/s}$"
+        ],
+        "points": [
+            0.2,
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_A_1_1.png",
+            "image_question/IPhO_2024_2_A_3_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_B_1",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[Doppler Cooling] \n\nIt may be necessary to cool a trapped atom or ion. Assume that a trapped atom of mass $m$, has two energy levels with an energy difference of $E_{0} = \\hbar \\omega_{\\mathrm{A}}$. Electrons in the lower level may absorb a photon and jump to the higher level, but after a period $\\tau$ they will return to the lower level and emit a photon with a frequency predominantly within $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$.",
+        "question": "Use the Heisenberg's uncertainty principle to find $\\Gamma$",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer gives the correct expression for $\\Gamma = \\frac{1}{\\tau}$. Answers with different numerical coefficients should be considered as correct answers. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\Gamma = \\frac{1}{\\tao}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "IPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "IPhO_2024_2_B_2",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[Doppler Cooling] \n\nIt may be necessary to cool a trapped atom or ion. Assume that a trapped atom of mass $m$, has two energy levels with an energy difference of $E_{0} = \\hbar \\omega_{\\mathrm{A}}$. Electrons in the lower level may absorb a photon and jump to the higher level, but after a period $\\tau$ they will return to the lower level and emit a photon with a frequency predominantly within $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$.\n\nWith a similar reasoning, when we shine a laser light on the trapped atom, if the angular frequency of the laser, $\\omega_{\\mathrm{L}}$, falls in the interval $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$, the atom may absorb the photon. Assume that the frequency $\\omega_{\\mathrm{L}}$ of the laser light is slightly lower than $\\omega_{\\mathrm{A}}$. For a particular device, the rate of photon absorption by an atom in the reference frame of the atom is given in Figure 1. The absorbed photon is then re-emitted in a random direction. To make things simple, we consider the problem in one dimension, i.e. we assume that the atoms can only move in the $x$ direction and the laser light shines on them both from the left and from the right. In the atom's reference frame, the light has a higher or lower frequency due to the motion of the atoms. Since the velocity $v$ of the atoms is very small, we only include terms of order $v / c$ and ignore all the higher-order terms. Moreover, we have $m \\gg \\hbar \\omega_{\\mathrm{A}} / c^{2}$ so that the velocity of the atom nearly does not change after absorbing the photon. Also, the change in frequency due to the Doppler effect is so small compared to $\\omega_{\\mathrm{A}}-\\omega_{\\mathrm{L}}$, that the function for $s$ in the diagram of Figure 1 may be approximated by the following linear function:\n\n$s(\\omega) = s_{\\mathrm{L}} + \\alpha (\\omega - \\omega_{\\mathrm{L}})$\nwhere $s$ is the number of absorbed photons per unit of time, $s_{\\mathrm{L}}$ is the value of $s$ for $\\omega = \\omega_{\\mathrm{L}}$, and $\\alpha$ is the slope of the line tangent to the curve at $\\omega_{\\mathrm{L}}$. The frequency of the re-emitted photon is almost equal to the frequency of the incident photon, but it is emitted with equal probability in the positive or negative $x$-direction. In fact, up to the order considered here the two frequencies are identical. Note that we are considering the whole process in the atom's reference frame.\n\n[figure1]\nFigure 1. The rate of photon absorption as a function of the frequency for a particular trap: the frequency corresponding to the energy difference between the two atomic levels is indicated by $\\omega_{\\mathrm{A}}$ and the slighlty smaller frequency of the laser is indicated by $\\omega_{\\mathrm{L}}$.",
+        "question": "Assume that the trapped atom is moving with a velocity, $v = v_{\\mathrm{x}}$ in the lab frame. In the frame of reference of the atom: \n(1) Calculate the collision rate of the photons, incident from one direction, with the atoms (denoted by $s_{+}$). \n(2) Calculate the collision rate of the photons, incident from another direction, with the atoms (denoted by $s_{-}$). \n(3) Calculate the rate of absorption of momentum in one direction (denoted by $\\pi_{+}$). \n(4) Calculate the rate of absorption of momentum in another direction (denoted by $\\pi_{-}$). \n(5) Determine the effective force $F$ on the atom as a function of $v$, $k_{\\mathrm{L}} = \\omega_{\\mathrm{L}} / c$, $\\hbar$, and $\\alpha$, in the reference frame of the laboratory. Assume $s_{\\mathrm{L}} \\ll \\alpha \\omega_{\\mathrm{L}}$.",
+        "marking": [
+            [
+                "Award a total of 0.5 pt for the following: award 0.3 pt if the answer gives the correct Doppler shift formulas for $\\omega_{+} = \\omega_{L} \\left(1 + \\frac{v}{c}\\right)$ and award 0.2 pt if the answer finds the correct expression for $s_{+} = s_{L} + \\alpha \\omega_{L} \\frac{v}{c}$. Otherwise, award 0 pt.",
+                "Award a total of 0.5 pt for the following: award 0.3 pt if the answer gives the correct Doppler shift formulas for $\\omega_{-} = \\omega_{L} \\left(1 - \\frac{v}{c}\\right)$ and award 0.2 pt if the answer finds the correct expression for $s_{-} = s_{L} - \\alpha \\omega_{L} \\frac{v}{c}$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the correct expression for $\\pi_{+} = s_{+} \\times (-\\hbar k_{+})$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the correct expression for $\\pi_{-} = s_{-} \\times (+\\hbar k_{-})$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct expression for the force $F = -(2\\alpha\\hbar k_{L}^2) v$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$s_{+} = s_L + \\alpha \\omega_L \\frac{v}{c}$}",
+            "\\boxed{$s_{-} = s_L - \\alpha \\omega_L \\frac{v}{c}$}",
+            "\\boxed{$\\pi_{+} = s_{+} \\times (-\\hbar k_{+})$}",
+            "\\boxed{$\\pi_{-} = s_{-} \\times (+\\hbar k_{-})$}",
+            "\\boxed{$F = -(2\\alpha\\hbar k_L^2) v$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Expression",
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.5,
+            0.5,
+            0.1,
+            0.1,
+            0.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Modern Physics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_B_2_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_B_3",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[Doppler Cooling] \n\nIt may be necessary to cool a trapped atom or ion. Assume that a trapped atom of mass $m$, has two energy levels with an energy difference of $E_{0} = \\hbar \\omega_{\\mathrm{A}}$. Electrons in the lower level may absorb a photon and jump to the higher level, but after a period $\\tau$ they will return to the lower level and emit a photon with a frequency predominantly within $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$.\n\nWith a similar reasoning, when we shine a laser light on the trapped atom, if the angular frequency of the laser, $\\omega_{\\mathrm{L}}$, falls in the interval $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$, the atom may absorb the photon. Assume that the frequency $\\omega_{\\mathrm{L}}$ of the laser light is slightly lower than $\\omega_{\\mathrm{A}}$. For a particular device, the rate of photon absorption by an atom in the reference frame of the atom is given in Figure 1. The absorbed photon is then re-emitted in a random direction. To make things simple, we consider the problem in one dimension, i.e. we assume that the atoms can only move in the $x$ direction and the laser light shines on them both from the left and from the right. In the atom's reference frame, the light has a higher or lower frequency due to the motion of the atoms. Since the velocity $v$ of the atoms is very small, we only include terms of order $v / c$ and ignore all the higher-order terms. Moreover, we have $m \\gg \\hbar \\omega_{\\mathrm{A}} / c^{2}$ so that the velocity of the atom nearly does not change after absorbing the photon. Also, the change in frequency due to the Doppler effect is so small compared to $\\omega_{\\mathrm{A}}-\\omega_{\\mathrm{L}}$, that the function for $s$ in the diagram of Figure 1 may be approximated by the following linear function:\n\n$s(\\omega) = s_{\\mathrm{L}} + \\alpha (\\omega - \\omega_{\\mathrm{L}})$\nwhere $s$ is the number of absorbed photons per unit of time, $s_{\\mathrm{L}}$ is the value of $s$ for $\\omega = \\omega_{\\mathrm{L}}$, and $\\alpha$ is the slope of the line tangent to the curve at $\\omega_{\\mathrm{L}}$. The frequency of the re-emitted photon is almost equal to the frequency of the incident photon, but it is emitted with equal probability in the positive or negative $x$-direction. In fact, up to the order considered here the two frequencies are identical. Note that we are considering the whole process in the atom's reference frame.\n\n[figure1]\nFigure 1. The rate of photon absorption as a function of the frequency for a particular trap: the frequency corresponding to the energy difference between the two atomic levels is indicated by $\\omega_{\\mathrm{A}}$ and the slighlty smaller frequency of the laser is indicated by $\\omega_{\\mathrm{L}}$.\n\nWe would like to find the lowest temperature that can be achieved using this technique. Assume that the velocity of a particular atom has been reduced to zero exactly, and at this very moment it absorbs a photon (incident from any of the two directions), and re-emits the photon randomly in any of the two directions, with almost the same frequency. Assume that this process happens once every $\\tau$ units of time.",
+        "question": "Considering the momentum of the atom after such a process for the two possible outcomes, calculate the average power absorbed by the atom.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer considers two equally likely outcomes for the final momentum: (1) The photon is emitted in the positive $x$-direction which causes the atom's momentum to become $p=0$, (2) The photon is emitted in the negative $x$-direction which causes the atom's momentum to become $P_{\\mathrm{f}}=+2 \\hbar k_{\\mathrm{L}}$. Partial points: award 0.3 pt if the answer considers only one of the two outcomes. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct expression for the average power absorbed by the atom, $P_{\\mathrm{in}} = \\frac{\\hbar^{2} k_{\\mathrm{L}}^{2}}{m \\tau}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{\\hbar^{2} k_{\\mathrm{L}}^{2}}{m \\tau}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Modern Physics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_B_2_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_B_4",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[Doppler Cooling] \n\nIt may be necessary to cool a trapped atom or ion. Assume that a trapped atom of mass $m$, has two energy levels with an energy difference of $E_{0} = \\hbar \\omega_{\\mathrm{A}}$. Electrons in the lower level may absorb a photon and jump to the higher level, but after a period $\\tau$ they will return to the lower level and emit a photon with a frequency predominantly within $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$.\n\nWith a similar reasoning, when we shine a laser light on the trapped atom, if the angular frequency of the laser, $\\omega_{\\mathrm{L}}$, falls in the interval $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$, the atom may absorb the photon. Assume that the frequency $\\omega_{\\mathrm{L}}$ of the laser light is slightly lower than $\\omega_{\\mathrm{A}}$. For a particular device, the rate of photon absorption by an atom in the reference frame of the atom is given in Figure 1. The absorbed photon is then re-emitted in a random direction. To make things simple, we consider the problem in one dimension, i.e. we assume that the atoms can only move in the $x$ direction and the laser light shines on them both from the left and from the right. In the atom's reference frame, the light has a higher or lower frequency due to the motion of the atoms. Since the velocity $v$ of the atoms is very small, we only include terms of order $v / c$ and ignore all the higher-order terms. Moreover, we have $m \\gg \\hbar \\omega_{\\mathrm{A}} / c^{2}$ so that the velocity of the atom nearly does not change after absorbing the photon. Also, the change in frequency due to the Doppler effect is so small compared to $\\omega_{\\mathrm{A}}-\\omega_{\\mathrm{L}}$, that the function for $s$ in the diagram of Figure 1 may be approximated by the following linear function:\n\n$s(\\omega) = s_{\\mathrm{L}} + \\alpha (\\omega - \\omega_{\\mathrm{L}})$\nwhere $s$ is the number of absorbed photons per unit of time, $s_{\\mathrm{L}}$ is the value of $s$ for $\\omega = \\omega_{\\mathrm{L}}$, and $\\alpha$ is the slope of the line tangent to the curve at $\\omega_{\\mathrm{L}}$. The frequency of the re-emitted photon is almost equal to the frequency of the incident photon, but it is emitted with equal probability in the positive or negative $x$-direction. In fact, up to the order considered here the two frequencies are identical. Note that we are considering the whole process in the atom's reference frame.\n\n[figure1]\nFigure 1. The rate of photon absorption as a function of the frequency for a particular trap: the frequency corresponding to the energy difference between the two atomic levels is indicated by $\\omega_{\\mathrm{A}}$ and the slighlty smaller frequency of the laser is indicated by $\\omega_{\\mathrm{L}}$.\n\nWe would like to find the lowest temperature that can be achieved using this technique. Assume that the velocity of a particular atom has been reduced to zero exactly, and at this very moment it absorbs a photon (incident from any of the two directions), and re-emits the photon randomly in any of the two directions, with almost the same frequency. Assume that this process happens once every $\\tau$ units of time.",
+        "question": "Determine the effective force $F$ on the atom as a function of $v$, $k_{\\mathrm{L}} = \\omega_{\\mathrm{L}} / c$, $\\hbar$, and $\\alpha$, in the reference frame of the laboratory. Assume $s_{\\mathrm{L}} \\ll \\alpha \\omega_{\\mathrm{L}}$ (This is a preliminary question and do not include in the final answer). \n\n(1) Consider the calculated force $F$ and calculate the output power. \n(2) Calculate the average value of $v^{2}$ at equilibrium. \n(3) Using your knowledge of the kinetic theory of gases estimate the temperature of the atoms $T$.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer gives the correct expression for the output power, $P_{\\text{out}} = -2 \\alpha \\hbar k_{L}^2 v^2$. Answers with different numerical coefficients should be considered as correct answers. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives the correct expression for the average value of $v^{2}$ at equilibrium, $\\bar{v^{2}} = \\frac{\\hbar \\Gamma}{2 \\alpha m}$. Answers with different numerical coefficients should be considered as correct answers. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the correct expression for the temperature of the atoms, $T = \\frac{\\hbar \\Gamma}{2 \\alpha k_{B}}$. Answers with different numerical coefficients should be considered as correct answers. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$-2 \\alpha \\hbar k_L^2 v^2$}",
+            "\\boxed{$\\frac{\\hbar \\Gamma}{2\\alpha m}$}",
+            "\\boxed{$\\frac{\\hbar \\Gamma}{2\\alpha k_B}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.3,
+            0.3,
+            0.2
+        ],
+        "modality": "text+variable figure",
+        "field": "Modern Physics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_B_2_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_2_B_5",
+        "context": "[Trapping Ions and Cooling Atoms] \n\nIn recent decades, trapping and cooling atoms and ions has been a fascinating topic for physicists, with several Nobel prizes awarded for work in this area. In the first part of this question, we will explore a technique for trapping ions, known as the \"Paul trap\". Wolfgang Paul and Hans Dehmelt received one half of the 1989 Nobel Prize in Physics for this work. Next, we investigate the Doppler cooling technique, one of the works cited in the press release for the 1997 Nobel Prize in Physics awarded to Steven Chu, Claude Cohen-Tannoudji, and William Daniel Phillips \"for developments of methods to cool and trap atoms with laser light\".\n\n[Doppler Cooling] \n\nIt may be necessary to cool a trapped atom or ion. Assume that a trapped atom of mass $m$, has two energy levels with an energy difference of $E_{0} = \\hbar \\omega_{\\mathrm{A}}$. Electrons in the lower level may absorb a photon and jump to the higher level, but after a period $\\tau$ they will return to the lower level and emit a photon with a frequency predominantly within $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$.\n\nWith a similar reasoning, when we shine a laser light on the trapped atom, if the angular frequency of the laser, $\\omega_{\\mathrm{L}}$, falls in the interval $[\\omega_{\\mathrm{A}}-\\Gamma, \\omega_{\\mathrm{A}}+\\Gamma]$, the atom may absorb the photon. Assume that the frequency $\\omega_{\\mathrm{L}}$ of the laser light is slightly lower than $\\omega_{\\mathrm{A}}$. For a particular device, the rate of photon absorption by an atom in the reference frame of the atom is given in Figure 1. The absorbed photon is then re-emitted in a random direction. To make things simple, we consider the problem in one dimension, i.e. we assume that the atoms can only move in the $x$ direction and the laser light shines on them both from the left and from the right. In the atom's reference frame, the light has a higher or lower frequency due to the motion of the atoms. Since the velocity $v$ of the atoms is very small, we only include terms of order $v / c$ and ignore all the higher-order terms. Moreover, we have $m \\gg \\hbar \\omega_{\\mathrm{A}} / c^{2}$ so that the velocity of the atom nearly does not change after absorbing the photon. Also, the change in frequency due to the Doppler effect is so small compared to $\\omega_{\\mathrm{A}}-\\omega_{\\mathrm{L}}$, that the function for $s$ in the diagram of Figure 1 may be approximated by the following linear function:\n\n$s(\\omega) = s_{\\mathrm{L}} + \\alpha (\\omega - \\omega_{\\mathrm{L}})$\nwhere $s$ is the number of absorbed photons per unit of time, $s_{\\mathrm{L}}$ is the value of $s$ for $\\omega = \\omega_{\\mathrm{L}}$, and $\\alpha$ is the slope of the line tangent to the curve at $\\omega_{\\mathrm{L}}$. The frequency of the re-emitted photon is almost equal to the frequency of the incident photon, but it is emitted with equal probability in the positive or negative $x$-direction. In fact, up to the order considered here the two frequencies are identical. Note that we are considering the whole process in the atom's reference frame.\n\n[figure1]\nFigure 1. The rate of photon absorption as a function of the frequency for a particular trap: the frequency corresponding to the energy difference between the two atomic levels is indicated by $\\omega_{\\mathrm{A}}$ and the slighlty smaller frequency of the laser is indicated by $\\omega_{\\mathrm{L}}$.\n\nWe would like to find the lowest temperature that can be achieved using this technique. Assume that the velocity of a particular atom has been reduced to zero exactly, and at this very moment it absorbs a photon (incident from any of the two directions), and re-emits the photon randomly in any of the two directions, with almost the same frequency. Assume that this process happens once every $\\tau$ units of time.",
+        "question": "Estimate the temperature of the atoms $T$ (expressed in $K$), for an atom 100 times heavier than a hydrogen atom. Assume that $\\omega_{\\mathrm{L}} = 2 \\times 10^{16} \\mathrm{rad} / \\mathrm{s}, \\tau = 5 \\times 10^{-9} \\mathrm{s}$, and $\\alpha=4$.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the correct expression for the temperature of the atoms, $T = 2 \\times 10^{-4} K$. If the answer falls within the acceptable error range of the correct value, the answer should be considered correct. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$2 \\times 10^{-4}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$K$"
+        ],
+        "points": [
+            0.4
+        ],
+        "modality": "text+variable figure",
+        "field": "Modern Physics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_2_B_2_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_A_1",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\n[A Binary System]\n\nConsider a simple model in which the black widow and its companion star, are represented by two point masses $M_{1}$ and $M_{2}$ moving on a circular orbit around their center of mass. To investigate the dynamics of this system, consider a rotating coordinate system in which the two bodies are stationary. Take the center of mass to be the origin of the coordinate system. Assume that the two point masses lie on the $x$-axis on both sides of the origin at a distance $a$ from each other, and that $M_{1}$ lies on the negative $x$-axis. At an arbitrary point $(x, y)$ in the plane of motion, the effective potential $\\varphi(x, y)$ for a unit test mass is the sum of the gravitational potentials of the two point masses plus the centrifugal potential.",
+        "question": "Write $\\varphi(x, y)$ in terms of $M_{1}$, $M_{2}$, $G$, and $a$.",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer gives the correct expression for $\\varphi(x, y)$: $\\varphi(x, y) = -\\frac{G M_{1}}{\\sqrt{\\left(x + \\frac{M_2}{M_1+M_2} a \\right)^{2}+y^{2}}} - \\frac{G M_{2}}{\\sqrt{\\left(x-\\frac{M_{1}}{M_1+M_2} a \\right)^{2}+y^{2}}} - \\frac{1}{2} \\frac{G (M_1+M_2)}{a^{3}}(x^{2}+y^{2})$. Partial points: if the answer gives the correct expression for the gravitational part, award 0.5 pt; if the answer gives the correct expression for the centrifugal part, award 0.5 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\varphi(x, y) = -\\frac{G M_{1}}{\\sqrt{\\left(x + \\frac{M_2}{M_1+M_2} a \\right)^{2}+y^{2}}} - \\frac{G M_{2}}{\\sqrt{\\left(x-\\frac{M_{1}}{M_1+M_2} a \\right)^{2}+y^{2}}} - \\frac{1}{2} \\frac{G (M_1+M_2)}{a^{3}}(x^{2}+y^{2})$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_A_3",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\n[A Binary System]\n\nConsider a simple model in which the black widow and its companion star, are represented by two point masses $M_{1}$ and $M_{2}$ moving on a circular orbit around their center of mass. To investigate the dynamics of this system, consider a rotating coordinate system in which the two bodies are stationary. Take the center of mass to be the origin of the coordinate system. Assume that the two point masses lie on the $x$-axis on both sides of the origin at a distance $a$ from each other, and that $M_{1}$ lies on the negative $x$-axis. At an arbitrary point $(x, y)$ in the plane of motion, the effective potential $\\varphi(x, y)$ for a unit test mass is the sum of the gravitational potentials of the two point masses plus the centrifugal potential.\n\nSuppose $M_{2} = M_{1} / 3$ and assume that $M_{2}$ is surrounded by a rarefied gas of very low density. The mass of this gas is insignificant and we ignore its gravitational effects. If the size of this gas envelope becomes greater than a specific limit, the gas will overflow onto $M_{1}$. Suppose the overflow occurs through $x = x_{0}$ on the $x$-axis.",
+        "question": "Find the numerical value of $\\frac{x_{0}}{a}$, up to two significant figures.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer gives the correct numerical value of $\\frac{x_{0}}{a}$, which is approximately 0.36. Partial points: if the answer obtains correct equation of $f(\\bar{x}_0) = \\frac{a}{G M} \\frac{d \\varphi}{d \\bar{x}} = 0$ with $\\varphi(\\bar{x}, 0) = \\frac{GM}{a} \\left[-\\frac{3/4}{(\\bar{x}+1/4)} + \\frac{1/4}{(\\bar{x}-3/4)} - \\frac{1}{2} \\bar{x}^2 \\right]$, but does not solve it correctly, award 0.2 pt; if the answer gives a numerical value of $\\frac{x_{0}}{a}$ that is within the acceptable error range of the correct value but rounded to only one decimal figure, award 0.3 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{0.36}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_A_4",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\n[A Binary System]\n\nConsider a simple model in which the black widow and its companion star, are represented by two point masses $M_{1}$ and $M_{2}$ moving on a circular orbit around their center of mass. To investigate the dynamics of this system, consider a rotating coordinate system in which the two bodies are stationary. Take the center of mass to be the origin of the coordinate system. Assume that the two point masses lie on the $x$-axis on both sides of the origin at a distance $a$ from each other, and that $M_{1}$ lies on the negative $x$-axis. At an arbitrary point $(x, y)$ in the plane of motion, the effective potential $\\varphi(x, y)$ for a unit test mass is the sum of the gravitational potentials of the two point masses plus the centrifugal potential.\n\nTake the rotational period of the stars around their center of mass to be $P$. Assume that mass flows from $M_{2}$ to $M_{1}$ at a very small rate of $\\mathrm{d} M_{1} / \\mathrm{d} t = \\beta$. This rate is so small that in each period of rotation, the distance between the two stars can be assumed to be constant. However, after a long period of time, the distance between the two stars changes, while the motion remains circular.",
+        "question": "(1) Calculate $\\dot{a}$, i.e., the rate of change of $a$ in terms of $\\beta$, $M_{1}$, $M_{2}$, $G$, and $a$. \n(2) Calculate $\\dot{P}$, i.e., the rate of change of $P$ in terms of $\\beta$, $M_{1}$, $M_{2}$, $G$, and $a$.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives both correct expressions for $\\dot{a}$ and $\\dot{P}$: $\\dot{a} = -2 \\beta a \\left(\\frac{1}{M_{1}} - \\frac{1}{M_{2}}\\right)$ and $\\dot{P} = -6 \\pi \\sqrt{\\frac{a^{3}}{G M}} \\beta \\left(\\frac{1}{M_{1}} - \\frac{1}{M_{2}}\\right)$. Partial points: if the answer gives only the correct expression for $\\dot{a}$, award 0.3 pt; if the answer gives only the correct expression for $\\dot{P}$, award 0.3 pt. If the answer gives both incorrect expressions but uses the correct approach of conservation of momentum, award 0.2 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\dot{a} = -2 \\beta a \\left(\\frac{1}{M_{1}} - \\frac{1}{M_{2}}\\right)$}",
+            "\\boxed{$\\dot{P} = -6 \\pi \\sqrt{\\frac{a^{3}}{G M}} \\beta \\left(\\frac{1}{M_{1}} - \\frac{1}{M_{2}}\\right)$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.3,
+            0.3
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_A_5",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\n[A Binary System]\n\nConsider a simple model in which the black widow and its companion star, are represented by two point masses $M_{1}$ and $M_{2}$ moving on a circular orbit around their center of mass. To investigate the dynamics of this system, consider a rotating coordinate system in which the two bodies are stationary. Take the center of mass to be the origin of the coordinate system. Assume that the two point masses lie on the $x$-axis on both sides of the origin at a distance $a$ from each other, and that $M_{1}$ lies on the negative $x$-axis. At an arbitrary point $(x, y)$ in the plane of motion, the effective potential $\\varphi(x, y)$ for a unit test mass is the sum of the gravitational potentials of the two point masses plus the centrifugal potential.\n\nTake the rotational period of the stars around their center of mass to be $P$. Assume that mass flows from $M_{2}$ to $M_{1}$ at a very small rate of $\\mathrm{d} M_{1} / \\mathrm{d} t = \\beta$. This rate is so small that in each period of rotation, the distance between the two stars can be assumed to be constant. However, after a long period of time, the distance between the two stars changes, while the motion remains circular.\n\nThe gas separated from $M_{2}$ forms a disk rotating around $M_{1}$ and heats up due to friction (Figure 1 -a). As the gas loses energy, it spirals inward toward $M_{1}$ and finally falls onto it. In the steady state, the mass flows at the constant rate of $\\beta$, from $M_{2}$ to the disc and from the disc onto $M_{1}$. At the same time, the heated disk emits thermal radiation as a blackbody. This disk forms very close to the neutron star so the gravitational pull of the $M_{2}$ star can be ignored for the analysis of the disk's motion. Also, ignore the heat capacity of the gas.",
+        "question": "Determine the temperature $T$ of the disc at distance $r$ from the center of the star $M_{1}$ in terms of $\\beta$, $M_{1}$, $G$, and $\\sigma$ (Stefan-Boltzmann constant).",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer uses the correct approach of energy relations. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct expression for the temperature $T$: $T = \\left(\\frac{G M_{1} \\beta}{8 \\pi \\sigma r^{3}}\\right)^{\\frac{1}{4}}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$T = \\left(\\frac{G M_{1} \\beta}{8 \\pi \\sigma r^{3}}\\right)^{\\frac{1}{4}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_A_6",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\n[A Binary System]\n\nConsider a simple model in which the black widow and its companion star, are represented by two point masses $M_{1}$ and $M_{2}$ moving on a circular orbit around their center of mass. To investigate the dynamics of this system, consider a rotating coordinate system in which the two bodies are stationary. Take the center of mass to be the origin of the coordinate system. Assume that the two point masses lie on the $x$-axis on both sides of the origin at a distance $a$ from each other, and that $M_{1}$ lies on the negative $x$-axis. At an arbitrary point $(x, y)$ in the plane of motion, the effective potential $\\varphi(x, y)$ for a unit test mass is the sum of the gravitational potentials of the two point masses plus the centrifugal potential.\n\nTake the rotational period of the stars around their center of mass to be $P$. Assume that mass flows from $M_{2}$ to $M_{1}$ at a very small rate of $\\mathrm{d} M_{1} / \\mathrm{d} t = \\beta$. This rate is so small that in each period of rotation, the distance between the two stars can be assumed to be constant. However, after a long period of time, the distance between the two stars changes, while the motion remains circular.\n\nThe gas separated from $M_{2}$ forms a disk rotating around $M_{1}$ and heats up due to friction (Figure 1 -a). As the gas loses energy, it spirals inward toward $M_{1}$ and finally falls onto it. In the steady state, the mass flows at the constant rate of $\\beta$, from $M_{2}$ to the disc and from the disc onto $M_{1}$. At the same time, the heated disk emits thermal radiation as a blackbody. This disk forms very close to the neutron star so the gravitational pull of the $M_{2}$ star can be ignored for the analysis of the disk's motion. Also, ignore the heat capacity of the gas.\n\nIn the binary system PSR J2215+5135, the mass of the neutron star is $M_{\\mathrm{NS}} = 2.27 M_{\\odot}$ and the mass of its companion star is $M_{\\mathrm{S}} = 0.33 M_{\\odot}$, where $M_{\\odot} = 1.98 \\times 10^{30} \\mathrm{kg}$ is the mass of the Sun. The rotational period is $P = 4.14 \\mathrm{hr}$, and the Stefan-Boltzmann constant is $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / (\\mathrm{m}^{2} \\mathrm{K}^{4})$, and the gravitational constant is $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} / (\\mathrm{kg} s)^{2}$. Assume that the mass flow rate to the neutron star is $\\beta = \\dot{M}_{\\mathrm{NS}} = 9 \\times 10^{-10} M_{\\odot} \\mathrm{yr}^{-1}$.",
+        "question": "Calculate the temperature $T$ of the disc at the radius $r = \\frac{a}{10}$ in kelvins.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer gives the correct value of the temperature, $T = 9 \\times 10^{3} K$. Partial points: if the numerical answer is incorrect, award 0.3 pt for the correct expression for $a = \\left[\\frac{P^{2} G\\left(M_{\\mathrm{S}}+M_{\\mathrm{NS}}\\right)}{4 \\pi^{2}}\\right]^{\\frac{1}{3}}$ and 0.1 pt for the correct expression for $T = \\left(\\frac{500 \\pi M_{\\mathrm{NS}} \\beta}{\\sigma P^{2}\\left(M_{\\mathrm{S}}+M_{\\mathrm{NS}}\\right)}\\right)^{\\frac{1}{4}}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$9 \\times 10^{3}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "K"
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Thermodynamics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_A_7",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\n[A Binary System]\n\nConsider a simple model in which the black widow and its companion star, are represented by two point masses $M_{1}$ and $M_{2}$ moving on a circular orbit around their center of mass. To investigate the dynamics of this system, consider a rotating coordinate system in which the two bodies are stationary. Take the center of mass to be the origin of the coordinate system. Assume that the two point masses lie on the $x$-axis on both sides of the origin at a distance $a$ from each other, and that $M_{1}$ lies on the negative $x$-axis. At an arbitrary point $(x, y)$ in the plane of motion, the effective potential $\\varphi(x, y)$ for a unit test mass is the sum of the gravitational potentials of the two point masses plus the centrifugal potential.\n\nTake the rotational period of the stars around their center of mass to be $P$. Assume that mass flows from $M_{2}$ to $M_{1}$ at a very small rate of $\\mathrm{d} M_{1} / \\mathrm{d} t = \\beta$. This rate is so small that in each period of rotation, the distance between the two stars can be assumed to be constant. However, after a long period of time, the distance between the two stars changes, while the motion remains circular.\n\nThe gas separated from $M_{2}$ forms a disk rotating around $M_{1}$ and heats up due to friction (Figure 1 -a). As the gas loses energy, it spirals inward toward $M_{1}$ and finally falls onto it. In the steady state, the mass flows at the constant rate of $\\beta$, from $M_{2}$ to the disc and from the disc onto $M_{1}$. At the same time, the heated disk emits thermal radiation as a blackbody. This disk forms very close to the neutron star so the gravitational pull of the $M_{2}$ star can be ignored for the analysis of the disk's motion. Also, ignore the heat capacity of the gas.\n\nIn the binary system PSR J2215+5135, the mass of the neutron star is $M_{\\mathrm{NS}} = 2.27 M_{\\odot}$ and the mass of its companion star is $M_{\\mathrm{S}} = 0.33 M_{\\odot}$, where $M_{\\odot} = 1.98 \\times 10^{30} \\mathrm{kg}$ is the mass of the Sun. The rotational period is $P = 4.14 \\mathrm{hr}$, and the Stefan-Boltzmann constant is $\\sigma=5.67 \\times 10^{-8} \\mathrm{W} / (\\mathrm{m}^{2} \\mathrm{K}^{4})$, and the gravitational constant is $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} / (\\mathrm{kg} s)^{2}$. Assume that the mass flow rate to the neutron star is $\\beta = \\dot{M}_{\\mathrm{NS}} = 9 \\times 10^{-10} M_{\\odot} \\mathrm{yr}^{-1}$.\n\nAssume that after a sudden explosion, the $M_{1}$ star ejects a part of its mass out of the binary system at a very high speed, and its mass becomes $M_{1}^{\\prime}$. Take the magnitude of the velocity of $M_{1}^{\\prime}$ relative to $M_{2}$ to be $v^{\\prime}$ after the explosion.",
+        "question": "(1) Determine the maximum value of $v^{\\prime}$, in terms of $M_{1}^{\\prime}$, $M_{2}$, $G$, and $a$, that allows the new binary system to stay bounded. \n(2) Assuming that the explosion is isotropic, what is the minimum value of $M_{1}^{\\prime}$ for the binary system to remain bounded?",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer contains $E^{\\prime} = \\frac{1}{2} \\mu^{\\prime} v^{\\prime 2} - \\frac{G M_{1}^{\\prime} M_{2}}{a} < 0$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer contains $v^{\\prime}_{\\text{max}} = \\sqrt{\\frac{2 G (M_{1}^{\\prime} + M_{2})}{a}}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer contains $v^{\\prime} = v$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the minimum value of $M_{1}^{\\prime}$ as $\\frac{M_{1} - M_{2}}{2}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\sqrt{\\frac{2 G (M_{1}^{\\prime} + M_{2})}{a}}$}",
+            "\\boxed{$\\frac{M_{1} - M_{2}}{2}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.4,
+            0.3
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_1",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.",
+        "question": "Determine the gravitational acceleration $g(r)$ near the center of the star in terms of $r$ and the constants $G$ and $\\rho_{c}$.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer gives the correct expression for $g(r) = -\\frac{4 \\pi G \\rho_{c} r}{3}$. If the answer misses the minus sign and gives $g(r) = \\frac{4 \\pi G \\rho_{c} r}{3}$, award 0.1 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$g(r) = -\\frac{4 \\pi G \\rho_{c} r}{3}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.2
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_2",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.",
+        "question": "Derive a (differential) equation for determining $\\rho(r)$ at equilibrium, and write it in the following form: $\\frac{d}{d r}\\left[h_{1}(\\rho, r) \\frac{d \\rho}{d r} \\right] + h_{2}(r) \\rho = 0$. \n(1) Find the function $h_{1}$. \n(2) Find the function $h_{2}$.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer finds both the function $h_{1}(\\rho, r) = r^{2} \\rho^{\\gamma-2}$ and the function $h_{2}(r) = \\frac{4 \\pi G r^{2}}{K \\gamma}$. Partial points: if the answer gives only one correct expression for $h_{1}$ or $h_{2}$, award 0.3 pt; if the answer gives the incorrect expression for both $h_{1}$ and $h_{2}$, but contains the correct form of the equation $\\vec{F} = -\\frac{G M(\\vec{r}) \\rho}{r^{2}} \\mathrm{A} \\Delta r - \\Delta p A = 0$, award 0.3 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$h_{1} = r^2 \\rho^{\\gamma-2}$}",
+            "\\boxed{$h_{2} = \\frac{4 \\pi G r^{2}}{K \\gamma}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.3,
+            0.3
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_3",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.",
+        "question": "Construct a quantity $r_{0}$ of the form $r_{0} = G^{l} p_{c}^{m} \\rho_{c}^{n}$ with the dimension of length.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the correct expression for $r_{0} = G^{-\\frac{1}{2}} p_{c}^{\\frac{1}{2}} \\rho_{c}^{-1}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$r_{0} = G^{-\\frac{1}{2}} p_{c}^{\\frac{1}{2}} \\rho_{c}^{-1}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.4
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_4",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.",
+        "question": "Derive a (differential) equation for determining $\\rho(r)$ at equilibrium, and write it in the following form: $\\frac{d}{d x}\\left[A_{1}(u, x) \\frac{d u}{d x}\\right] + A_{2}(x) u(x) = 0$, where $x = \\frac{r}{r_{0}}$ and $u = \\frac{\\rho}{\\rho_{c}}$. \n(1) Find the function $A_{1}(u, x)$. \n(2) Find the function $A_{2}(x)$.",
+        "marking": [
+            [
+                "Award 0.15 pt if the answer gives the correct expression for $A_1(u, x) = x^{2} u^{\\gamma-2}$, up to a constant coefficient. Otherwise, award 0 pt.",
+                "Award 0.15 pt if the answer gives the correct expression for $A_2(x) = \\frac{4 \\pi x^{2}}{\\gamma}$, up to a constant coefficient. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$A_1(u, x) = x^2 u^{\\gamma-2}$}",
+            "\\boxed{$A_2(x) = \\frac{4\\pi x^2}{\\gamma}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.15,
+            0.15
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_5",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.",
+        "question": "For $\\gamma=2$ one finds $u(x) = \\frac{f(x)}{x}$. Determine $f(x)$.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $f(x) = \\frac{\\sin (\\sqrt{2 \\pi} x)}{\\sqrt{2 \\pi}}$. Partial points: if the answer gives the equivalent form of the function $f(x) = A \\sin (\\sqrt{2 \\pi} x) + B \\cos (\\sqrt{2 \\pi} x)$, where $A$ and $B$ are constants, award 0.3 pt; if the answer gives the correct form of $A = \\frac{1}{\\sqrt{2 \\pi}}$, award 0.2 pt; if the answer gives the correct form of $B = 0$, award 0.1 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$f(x) = \\frac{\\sin (\\sqrt{2 \\pi} x)}{\\sqrt{2 \\pi}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.6
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_6",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.\n\nAssume that for a particular star $\\frac{d u}{d x}$, as a function of $x$, is given by the curve given in Figure 2.\n\n[figure2]\nFigure 2. The plot of $\\frac{d u}{d x}$.",
+        "question": "Use the behavior of the curve in Figure 2, in the vicinity of the point $x = 0$, to find $\\gamma$ up to 3 significant figures.",
+        "marking": [
+            [
+                "Award 0.1 pt if the answer contains $u^{\\prime} = 0$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer contains $\\lim_{x \\rightarrow 0} \\frac{u^{\\prime}(x)}{x} = u^{\\prime \\prime}(0)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer contains $\\gamma = -\\frac{4 \\pi}{3 u^{\\prime \\prime}(0)}$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the correct value of $\\gamma$ within the range of $[1.64, 1.70]$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$[1.64, 1.70]$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.8
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png",
+            "image_question/IPhO_2024_3_B_6_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_7",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.\n\nTo analyze the stability of the system, we assume that the star deviates slightly from its equilibrium state: we assume that the spherical shell, which was in equilibrium at radius $r$, now has a radius $\\tilde{r}$, similarly the parameters $g$, $p$, and $\\rho$ have changed to $\\tilde{g}$, $\\tilde{p}$, and $\\tilde{\\rho}$ respectively. For convenience, we shall only consider small $r^{\\prime}$s near the center of the star, for which we can assume that $\\tilde{r} = r(1 + \\varepsilon(t))$, where $\\varepsilon(t) \\ll 1$.",
+        "question": "(1) Find $\\tilde{\\rho}$ in terms of $\\rho$ and $g$ to the first order in $\\varepsilon$. \n(2) Find $\\tilde{g}$ in terms of $\\rho$ and $g$ to the first order in $\\varepsilon$.",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $\\tilde{\\rho} \\simeq \\rho(1 - 3\\epsilon)$. Partial points: if the answer gives the expression for $\\tilde{\\rho} = \\rho(1 + \\epsilon)^{-3}$, award 0.4 pt. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives the correct expression for $\\tilde{g} \\simeq g(1 - 2\\epsilon)$. Partial points: if the answer gives the expression for $\\tilde{g} = g(1 + \\epsilon)^{-2}$, award 0.2 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\tilde{\\rho} = \\rho(1 - 3\\epsilon)$}",
+            "\\boxed{$\\tilde{g} = g(1 - 2\\epsilon)$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.6,
+            0.3
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_8",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.\n\nTo analyze the stability of the system, we assume that the star deviates slightly from its equilibrium state: we assume that the spherical shell, which was in equilibrium at radius $r$, now has a radius $\\tilde{r}$, similarly the parameters $g$, $p$, and $\\rho$ have changed to $\\tilde{g}$, $\\tilde{p}$, and $\\tilde{\\rho}$ respectively. For convenience, we shall only consider small $r^{\\prime}$s near the center of the star, for which we can assume that $\\tilde{r} = r(1 + \\varepsilon(t))$, where $\\varepsilon(t) \\ll 1$.",
+        "question": "Using Newton's equation of motion for the spherical layer with the equilibrium radius of $r$, find $\\frac{d^{2} \\tilde{r}}{d t^{2}}$ in terms of $\\tilde{g}$, $\\tilde{\\rho}$, $K$, $\\gamma$, and $\\frac{\\partial \\tilde{\\rho}}{\\partial \\tilde{r}}$ (By $\\frac{\\partial \\tilde{\\rho}}{\\partial \\tilde{r}}$ we mean derivative of $\\tilde{\\rho}$ with respect to $\\tilde{r}$ at constant $t$.)",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer gives the correct expression for $\\frac{d^{2} \\tilde{r}}{d t^{2}} = \\tilde{g} - K \\gamma \\tilde{\\rho}^{\\gamma-2} \\frac{\\partial \\tilde{\\rho}}{\\partial \\tilde{r}}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{d^{2} \\tilde{r}}{d t^{2}} = \\tilde{g} - K \\gamma \\tilde{\\rho}^{\\gamma-2} \\frac{\\partial \\tilde{\\rho}}{\\partial \\tilde{r}}$}"
+        ],
+        "answer_type": [
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.6
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    },
+    {
+        "id": "IPhO_2024_3_B_9",
+        "context": "[Black Widow Pulsar] \n\nA significant number of the observed stars are binaries. One or both of the stars may be neutron stars rotating with a high angular velocity and emitting electromagnetic waves; such stars are called pulsars. Sometimes a companion star is an expansive mass of gas that gradually falls down onto the neutron star and causes its mass to increase (Figure 1-a). In this way, a neutron star gradually swallows up a portion of the mass of its companion star. For this reason, the neutron star has been compared to a black widow (or redback spider), a female spider which eats its mate after mating. The heating of the gas falling down onto the black widow generates radiation which can be observed. The heaviest neutron stars often are black widows and they serve as natural laboratories for testing fundamental physics. Figure 1-b shows the picture of the companion of the neutron star PSR J2215+5135, taken by the 3.4-meter optical telescope of the Iranian National Observatory. No neutron star can be seen in this image and the observed light is due to its companion.\n\n[figure1]\nFigure 1. (a) The falling gases of the companion star onto the neutron star. (b) The companion of the neutron star PSR J2215+5135. \n\nIn this part we study the stability of a single star. Consider a star containing a specific kind of matter with the equation of state $p = K \\rho^{\\gamma}$ where $K$ and $\\gamma$ are constants. Let $p(r)$ and $\\rho(r)$ be the pressure and density at a distance $r$ from the center of the star, respectively. The pressure and density at the center of the star are $p_{c}$ and $\\rho_{c}$, respectively. In all questions of this part, take all outward vectors to be positive.\n\nTo analyze the stability of the system, we assume that the star deviates slightly from its equilibrium state: we assume that the spherical shell, which was in equilibrium at radius $r$, now has a radius $\\tilde{r}$, similarly the parameters $g$, $p$, and $\\rho$ have changed to $\\tilde{g}$, $\\tilde{p}$, and $\\tilde{\\rho}$ respectively. For convenience, we shall only consider small $r^{\\prime}$s near the center of the star, for which we can assume that $\\tilde{r} = r(1 + \\varepsilon(t))$, where $\\varepsilon(t) \\ll 1$.",
+        "question": "(1) Obtain $\\frac{d^{2} \\varepsilon}{d t^{2}}$ in terms of $\\varepsilon$ and the constants given in the problem. \n(2) Find the minimum value of $\\gamma$ for a stable equilibrium. \n(3) Find the oscillation's angular frequency $\\omega$ of the star.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the correct expression for $\\frac{d^{2} \\varepsilon}{d t^{2}} = -\\frac{4 \\pi G \\rho_{c}}{3} (3 \\gamma - 4) \\varepsilon$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the minimum value of $\\gamma = \\frac{4}{3}$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives the correct expression for $\\omega = \\sqrt{\\frac{4 \\pi G \\rho_{c}}{3} (3 \\gamma - 4)}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{d^{2} \\varepsilon}{d t^{2}} = -\\frac{4 \\pi G \\rho_{c}}{3} (3 \\gamma - 4) \\varepsilon$}",
+            "\\boxed{$\\frac{4}{3}$}",
+            "\\boxed{$\\omega = \\sqrt{\\frac{4 \\pi G \\rho_{c}}{3} (3 \\gamma - 4)}$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Numerical Value",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.4,
+            0.1,
+            0.1
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "IPhO_2024",
+        "image_question": [
+            "image_question/IPhO_2024_3_A_1_1.png"
+        ]
+    }
+]

@@ -1,0 +1,850 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "PanPhO_2024_1_1",
+        "context": "We consider an inhomogeneous cylinder whose have are mode of two materials of different densities. The cylinder has radius $r$ and length $L$ and its cross section is shown in the Figure 1. The bottom half made of a material whose density is $1 kg / m^3$ while the upper half is mode of a material whose density is $c kg / m^3$, where $c$ is a parameter $0 < c < 1$. In the problem, we can use the fact that for a half-cylinder of radius $r$, the center of mass (CM) is located at a distance of $\\frac{4 r}{3 \\pi}$ from the axis of the half-cylinder, as shown in the Figure 2.\n\n[figure1]\n\n[figure2]",
+        "question": "(1) Compute the total mass $M$ of the entire inhomogeneous cylinder. Express the answer in terms of $r, L, c$. \n(2) Compute the distance $d$ between the geometrical center and the center of mass of the entire cylinder. Express the answer in terms of $r, L, c$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$M = \\frac{\\pi r^2 L}{2}(1+c)$}",
+            "\\boxed{$d = \\frac{4 r}{3 \\pi} \\left(\\frac{1-c}{1+c}\\right)$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_1_1_1.png",
+            "image_question/PanPhO_2024_1_1_2.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_1_2",
+        "context": "We consider an inhomogeneous cylinder whose have are mode of two materials of different densities. The cylinder has radius $r$ and length $L$ and its cross section is shown in the Figure 1. The bottom half made of a material whose density is $1 kg / m^3$ while the upper half is mode of a material whose density is $c kg / m^3$, where $c$ is a parameter $0 < c < 1$. In the problem, we can use the fact that for a half-cylinder of radius $r$, the center of mass (CM) is located at a distance of $\\frac{4 r}{3 \\pi}$ from the axis of the half-cylinder, as shown in the Figure 2.\n\n[figure1]\n\n[figure2]",
+        "question": "Compute the moment of inertia $I$ of the entire inhomogeneous cylinder with respect to its geometrical axis. Express the answers in terms of $r, L, c$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$I = \\frac{\\pi r^4 L}{4} (1+c)$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_1_1_1.png",
+            "image_question/PanPhO_2024_1_1_2.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_1_3",
+        "context": "We consider an inhomogeneous cylinder whose have are mode of two materials of different densities. The cylinder has radius $r$ and length $L$ and its cross section is shown in the Figure 1. The bottom half made of a material whose density is $1 kg / m^3$ while the upper half is mode of a material whose density is $c kg / m^3$, where $c$ is a parameter $0 < c < 1$. In the problem, we can use the fact that for a half-cylinder of radius $r$, the center of mass (CM) is located at a distance of $\\frac{4 r}{3 \\pi}$ from the axis of the half-cylinder, as shown in the Figure 2.\n\n[figure1]\n\n[figure2]\n\nDenote $M$ as the total mass of the entire inhomogeneous cylinder, $d$ as the distance between the geometrical center and the center of mass of the entire cylinder, $I$ as the moment of inertia of the entire inhomogeneous cylinder with respect to its geometrical axis.",
+        "question": "The geometrical axis of the cylinder is fixed in a horizontal position, but the cylinder is free to rotate without any friction around the axis. If the cylinder oscillates around its stable equilibrium position with small amplitude, calculate the period $T$ of oscillation of the cylinder. Express the answer in terms of $M, I, r, d$ and the gravitational acceleration $g$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$T = 2 \\pi \\sqrt{\\frac{I}{M g d}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_1_1_1.png",
+            "image_question/PanPhO_2024_1_1_2.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_1_4",
+        "context": "We consider an inhomogeneous cylinder whose have are mode of two materials of different densities. The cylinder has radius $r$ and length $L$ and its cross section is shown in the Figure 1. The bottom half made of a material whose density is $1 kg / m^3$ while the upper half is mode of a material whose density is $c kg / m^3$, where $c$ is a parameter $0 < c < 1$. In the problem, we can use the fact that for a half-cylinder of radius $r$, the center of mass (CM) is located at a distance of $\\frac{4 r}{3 \\pi}$ from the axis of the half-cylinder, as shown in the Figure 2.\n\n[figure1]\n\n[figure2]\n\nDenote $M$ as the total mass of the entire inhomogeneous cylinder, $d$ as the distance between the geometrical center and the center of mass of the entire cylinder, $I$ as the moment of inertia of the entire inhomogeneous cylinder with respect to its geometrical axis.\n\nNow we assume that the cylinder is completely free to move on a horizontal table under the gravity. We assume that the coefficient of static friction between the cylinder and the table is infinite, such that the cylinder cannot slide. Suppose that at time $t=0$, the cylinder is in its equilibrium position with an initial angular velocity $\\omega_0$.",
+        "question": "If $\\omega_0$ is sufficiently small, the cylinder will undergo a period motion around its stable equilibrium. What is the period $T$ of oscillation if the amplitude of the oscillation is small? Express the answer in terms of $M, l, r, d$ and the gravitational acceleration $g$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$T = 2 \\pi \\sqrt{\\frac{I + M(r^2 - 2 r d)}{M g d}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_1_1_1.png",
+            "image_question/PanPhO_2024_1_1_2.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_1_5",
+        "context": "We consider an inhomogeneous cylinder whose have are mode of two materials of different densities. The cylinder has radius $r$ and length $L$ and its cross section is shown in the Figure 1. The bottom half made of a material whose density is $1 kg / m^3$ while the upper half is mode of a material whose density is $c kg / m^3$, where $c$ is a parameter $0 < c < 1$. In the problem, we can use the fact that for a half-cylinder of radius $r$, the center of mass (CM) is located at a distance of $\\frac{4 r}{3 \\pi}$ from the axis of the half-cylinder, as shown in the Figure 2.\n\n[figure1]\n\n[figure2]\n\nDenote $M$ as the total mass of the entire inhomogeneous cylinder, $d$ as the distance between the geometrical center and the center of mass of the entire cylinder, $I$ as the moment of inertia of the entire inhomogeneous cylinder with respect to its geometrical axis.\n\nNow we assume that the cylinder is completely free to move on a horizontal table under the gravity. We assume that the coefficient of static friction between the cylinder and the table is infinite, such that the cylinder cannot slide. Suppose that at time $t=0$, the cylinder is in its equilibrium position with an initial angular velocity $\\omega_0$. If $\\omega_0$ is sufficiently small, the cylinder will undergo a period motion around its stable equilibrium.",
+        "question": "What is the minimum value of $\\omega_0$ that allows the cylinder to roll forever in the same direction. Express the answer in terms of $M, l, r, d$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\omega_0 = \\sqrt{\\frac{4 M g d}{M (r-d)^2 + (I - M d^2)}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_1_1_1.png",
+            "image_question/PanPhO_2024_1_1_2.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_2_1",
+        "context": "A closed container is divided into three compartments, A, B, and C, by two partitions, $D_1$ and $D_2$, as shown in the figure. Each compartment is filled with the same monoatomic ideal gas with pressure $P$, volume $V$, and absolute temperature $T$ as shown in the figure. The mass of partition $D_1$ is $m$, which can slide freely without friction, while partition $D_2$ is fixed and has a small valve on it. Now, the valve on partition $D_2$ is opened, allowing the gases in compartments B and C to mix and the entire system to reach equilibrium while maintaining a constant temperature $T_0$.\n\n[figure1]",
+        "question": "After the entire system reaches equilibrium: \n(1) What is the pressure $P_A$ of the gas in compartment A? Express your answer in terms of $P_0$. \n(2) What is the pressure $P_B$ of the gas in compartment B? Express your answer in terms of $P_0$. \n(3) What is the pressure $P_C$ of the gas in compartment C? Express your answer in terms of $P_0$. \n(4) What is the volume $V_A$ of the gas in compartment A? Express your answer in terms of $V_0$. \n(5) What is the volume $V_B$ of the gas in compartment B? Express your answer in terms of $V_0$. \n(6) What is the volume $V_C$ of the gas in compartment C? Express your answer in terms of $V_0$. \nNote: The definitions of $P_0$ and $V_0$ are given in the figure.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$P_A = \\frac{4}{3} P_0$}",
+            "\\boxed{$P_B = \\frac{4}{3} P_0$}",
+            "\\boxed{$P_C = \\frac{4}{3} P_0$}",
+            "\\boxed{$V_A = \\frac{3}{4} V_0$}",
+            "\\boxed{$V_B = \\frac{5}{4} V_0$}",
+            "\\boxed{$V_C = V_0$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Expression",
+            "Expression",
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_2_2",
+        "context": "A closed container is divided into three compartments, A, B, and C, by two partitions, $D_1$ and $D_2$, as shown in the figure. Each compartment is filled with the same monoatomic ideal gas with pressure $P$, volume $V$, and absolute temperature $T$ as shown in the figure. The mass of partition $D_1$ is $m$, which can slide freely without friction, while partition $D_2$ is fixed and has a small valve on it. Now, the valve on partition $D_2$ is opened, allowing the gases in compartments B and C to mix and the entire system to reach equilibrium while maintaining a constant temperature $T_0$.\n\n[figure1]",
+        "question": "How much total heat is absorbed by the gases in compartments B and C during the process of the entire system reaching equilibrium? Express your answer in terms of $P_0$ and $V_0$. \nNote: The definitions of $P_0$ and $V_0$ are given in the figure.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$0.288 P_0 V_0$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_2_3",
+        "context": "A closed container is divided into three compartments, A, B, and C, by two partitions, $D_1$ and $D_2$, as shown in the figure. Each compartment is filled with the same monoatomic ideal gas with pressure $P$, volume $V$, and absolute temperature $T$ as shown in the figure. The mass of partition $D_1$ is $m$, which can slide freely without friction, while partition $D_2$ is fixed and has a small valve on it. Now, the valve on partition $D_2$ is opened, allowing the gases in compartments B and C to mix and the entire system to reach equilibrium while maintaining a constant temperature $T_0$.\n\n[figure1]",
+        "question": "Calculate the change in entropy $\\Delta S$ of the entire system during the process of reaching equilibrium. Express your answer in terms of $P_0$, $V_0$, and $T_0$. \nNote: The definitions of $P_0$, $V_0$, and $T_0$ are given in the figure.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\Delta S \\approx 0.236 \\frac{P_0 V_0}{T_0}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_3_2",
+        "context": "[Trapped Ball] \n\nAs shown in the figure, a ball (modelled as a point charge of magnitude $q > 0$) of mass $m$ is trapped in a spherical cavity of radius $R$ carved from an infinite grounded conductor. The charge is at a distance $z$ from the center. In the problem, the gravity can be ignored.\n\n[figure1]",
+        "question": "Find the magnitude of the electric force $F(z)$ acting on the ball in terms of $q$, $z$, $R$ and the vacuum permittivity $\\varepsilon_0$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{1}{4 \\pi \\varepsilon_0} \\frac{q^2 R z}{(R^2 - z^2)^2}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_3_3",
+        "context": "[Trapped Ball] \n\nAs shown in the figure, a ball (modelled as a point charge of magnitude $q > 0$) of mass $m$ is trapped in a spherical cavity of radius $R$ carved from an infinite grounded conductor. The charge is at a distance $z$ from the center. In the problem, the gravity can be ignored.\n\n[figure1]",
+        "question": "If the ball is released at the center with a very small speed, find the speed of the ball $v$ when it is at a distance $R / 2$ from the center of the conductor. Express the answer in terms of $q, m, R$ and the vacuum permittivity $\\varepsilon_0$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$v = \\sqrt{\\frac{1}{12 \\pi \\varepsilon_0} \\frac{q^2}{m R}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_4_1",
+        "context": "[In this question, all answers cannot be expressed in terms of any trigonometrical functions.] \n\nAn ice hemisphere with radius $R$ and refractive index $n$ lies on a warm flat table and melts slowly. The rate of heat transfer from the table to the ice is proportional to the area of contact between them. It is known that the ice hemisphere completely melts in time $T_{0}$. Throughout the process, a laser beam incident on the ice from above. The beam is vertically incident at a distance of $R / 2$ from the axis of symmetry (see figure).\n\nAssume that the temperature of the ice and the surrounding atmosphere are $0^{\\circ} \\mathrm{C}$ and remains constant during the melting process. The laser beam does not transfer energy to the ice. The melting water immediately flows off the table, and the ice does not move along the table.\n\n[figure1]",
+        "question": "What is the position of the point on the table, $x_{0} = x(t=0)$, where the beam hit at time $t = 0$? Express the answer in terms of $n$ and $R$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$x_0 = \\frac{2 R}{\\sqrt{12 n^2 - 3} + 1}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Optics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_4_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_4_2",
+        "context": "[In this question, all answers cannot be expressed in terms of any trigonometrical functions.] \n\nAn ice hemisphere with radius $R$ and refractive index $n$ lies on a warm flat table and melts slowly. The rate of heat transfer from the table to the ice is proportional to the area of contact between them. It is known that the ice hemisphere completely melts in time $T_{0}$. Throughout the process, a laser beam incident on the ice from above. The beam is vertically incident at a distance of $R / 2$ from the axis of symmetry (see figure).\n\nAssume that the temperature of the ice and the surrounding atmosphere are $0^{\\circ} \\mathrm{C}$ and remains constant during the melting process. The laser beam does not transfer energy to the ice. The melting water immediately flows off the table, and the ice does not move along the table.\n\n[figure1]",
+        "question": "What is the height of the ice $z(t)$ as a function of time $t$? Express the answer in terms of $R$ and $T_{0}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$z(t) = R (1 - \\frac{t}{T_0})$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_4_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_4_3",
+        "context": "[In this question, all answers cannot be expressed in terms of any trigonometrical functions.] \n\nAn ice hemisphere with radius $R$ and refractive index $n$ lies on a warm flat table and melts slowly. The rate of heat transfer from the table to the ice is proportional to the area of contact between them. It is known that the ice hemisphere completely melts in time $T_{0}$. Throughout the process, a laser beam incident on the ice from above. The beam is vertically incident at a distance of $R / 2$ from the axis of symmetry (see figure).\n\nAssume that the temperature of the ice and the surrounding atmosphere are $0^{\\circ} \\mathrm{C}$ and remains constant during the melting process. The laser beam does not transfer energy to the ice. The melting water immediately flows off the table, and the ice does not move along the table.\n\n[figure1]",
+        "question": "What is the position of the point on the table, $x(t)$, where the beam hit for $t \\geq 0$? Express the answer in terms of $n, R, T_{0}$ and $t$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$x(t) = \\frac{R}{2}$ for $t \\geq \\frac{\\sqrt{3}}{2} T_0$}",
+            "\\boxed{$x(t) = \\frac{R}{2} - \\frac{R}{2} \\left(1 - \\frac{4}{\\sqrt{12 n^2 - 3} + 1}\\right) \\left(1 - \\frac{2}{\\sqrt{3}} \\frac{t}{T_0}\\right)$ for $t < \\frac{\\sqrt{3}}{2} T_0$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.5,
+            1.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Optics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_4_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_1",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part A: Gravitational fluctuations on the orbit of the satellite]",
+        "question": "Here we only consider gravity from the earth and consider the earth as a homogeneous ideal ball. Give the periodicity $T$ of a satellite rotating around the earth. Please use second as the unit and give three significant figures.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$3.15 \\times 10^{5}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "s"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_2",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part A: Gravitational fluctuations on the orbit of the satellite]\n\n[figure2]",
+        "question": "Since the shape and density of the earth is inhomogeneous, the satellite will feel an additional acceleration $\\delta a$ in addition to the uniform circular motion. To simplify the calculation, let us model the inhomogeneity of the earth as follows: Consider an ideal ball with mass $M - 2m$. Two additional point masses (each has mass $m$) are put to diametrically opposite points on the equator of the earth. Assume that the satellite orbit and the earth are in the same plane, with angle $\\theta$ between them. Give the precise formula to calculate $\\delta a$: \n(1) the $x$-component of the acceleration $\\delta a_{x}$; \n(2) the $y$-component of the acceleration $\\delta a_{y}$. \nPlease express your answer in terms of $G$, $M$, $m$, $R$, $r$, and $\\theta$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\delta a_{x} = -\\frac{G(M - 2m)}{R^2} - \\frac{G m (R - r \\cos \\theta)}{(R^2 + r^2 - 2 R r \\cos \\theta)^{3/2}} - \\frac{G m (R + r \\cos \\theta)}{(R^2 + r^2 + 2 R r \\cos \\theta)^{3/2}}$}",
+            "\\boxed{$\\delta a_{y} = \\frac{G m r \\sin \\theta}{(R^2 + r^2 - 2 R r \\cos \\theta)^{3/2}} - \\frac{G m r \\sin \\theta}{(R^2 + r^2 + 2 R r \\cos \\theta)^{3/2}}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png",
+            "image_question/PanPhO_2024_5_2_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_3",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part A: Gravitational fluctuations on the orbit of the satellite]\n\n[figure2]\n\nSince the shape and density of the earth is inhomogeneous, the satellite will feel an additional acceleration $\\delta a$ in addition to the uniform circular motion. To simplify the calculation, let us model the inhomogeneity of the earth as follows: Consider an ideal ball with mass $M - 2m$. Two additional point masses (each has mass $m$) are put to diametrically opposite points on the equator of the earth. Assume that the satellite orbit and the earth are in the same plane, with angle $\\theta$ between them.",
+        "question": "Calculate all the possible periodicities for $\\delta a$. Please use second as the unit and give three significant figures.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$3.39 \\times 10^{4}$}",
+            "\\boxed{$5.95 \\times 10^{4}$}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "s",
+            "s"
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png",
+            "image_question/PanPhO_2024_5_2_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_4",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part A: Gravitational fluctuations on the orbit of the satellite]\n\n[figure2]\n\nSince the shape and density of the earth is inhomogeneous, the satellite will feel an additional acceleration $\\delta a$ in addition to the uniform circular motion. To simplify the calculation, let us model the inhomogeneity of the earth as follows: Consider an ideal ball with mass $M - 2m$. Two additional point masses (each has mass $m$) are put to diametrically opposite points on the equator of the earth. Assume that the satellite orbit and the earth are in the same plane, with angle $\\theta$ between them.",
+        "question": "In the $R \\gg r$ limit, give the leading order expression (the lowest nonzero order in the Taylor expansion of $r / R$) for $\\delta a$: \n(1) the $x$-component of the acceleration $\\delta a_{x}$; \n(2) the $y$-component of the acceleration $\\delta a_{y}$. \nPlease express your answer in terms of $G$, $m$, $r$, $R$ and $\\theta$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\delta a_{x} \\simeq \\frac{3 G m r^{2} (1 - 3 \\cos^2 \\theta)}{R^4}$}",
+            "\\boxed{$\\delta a_{y} \\simeq \\frac{3 G m r^{2} \\sin 2 \\theta}{R^4}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png",
+            "image_question/PanPhO_2024_5_2_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_5",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part A: Gravitational fluctuations on the orbit of the satellite]\n\n[figure2]\n\nSince the shape and density of the earth is inhomogeneous, the satellite will feel an additional acceleration $\\delta a$ in addition to the uniform circular motion. To simplify the calculation, let us model the inhomogeneity of the earth as follows: Consider an ideal ball with mass $M - 2m$. Two additional point masses (each has mass $m$) are put to diametrically opposite points on the equator of the earth. Assume that the satellite orbit and the earth are in the same plane, with angle $\\theta$ between them.",
+        "question": "Estimate the typical value of $\\delta a$ with the unit of $m/s^2$ (an error within two orders of magnitude will be considered as correct).",
+        "marking": [],
+        "answer": [
+            "\\boxed{$[10^{-11}, 10^{-7}]$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "m/s^2"
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png",
+            "image_question/PanPhO_2024_5_2_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_6",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part A: Gravitational fluctuations on the orbit of the satellite]\n\n[figure2]\n\nSince the shape and density of the earth is inhomogeneous, the satellite will feel an additional acceleration $\\delta a$ in addition to the uniform circular motion. To simplify the calculation, let us model the inhomogeneity of the earth as follows: Consider an ideal ball with mass $M - 2m$. Two additional point masses (each has mass $m$) are put to diametrically opposite points on the equator of the earth. Assume that the satellite orbit and the earth are in the same plane, with angle $\\theta$ between them.",
+        "question": "In satellite experiments, we are interested in the gravitational waves with a particular periodicity (such as periods between 1-1000 seconds). Thus, if the periodicity of the gravitational fluctuation is too long, it will not interfere the gravitational wave measurement. Assume the satellite is co-rotating in the same direction with the spinning direction of the earth. In the Taylor expansion of $\\delta a$, calculate the component with period closest to 1000s. Denote this component as $\\delta a_{1000}$. Estimate the value of $\\delta a_{1000} / \\delta a$ for $\\theta = \\pi / 3$. (an error within two orders of magnitude will be considered as correct)",
+        "marking": [],
+        "answer": [
+            "\\boxed{$[10^{-143}, 10^{-139}]$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png",
+            "image_question/PanPhO_2024_5_2_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_7",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part B: Free electrons from the solar wind]\n\nConsider the laser signal between the satellites. Although the space between satellites is close to the vacuum, but it is not the absolute vacuum. In particular, solar wind will introduce free electrons. Let the number density of the free electrons be $N_{e}$, the electric charge of an electron be $e$, the electron mass be $m_{e}$. And we ignore other media apart from these electrons.",
+        "question": "Assume that the electrons move freely in the electric field produced by the laser. Calculate the acceleration of the electron $d \\mathbf{v}_{e} / d t$ as a function of the electric field $\\mathbf{E}$ produced by the laser.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{d \\mathbf{v}_{e}}{d t} = -e \\frac{\\mathbf{E}}{m_{e}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_8",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part B: Free electrons from the solar wind]\n\nConsider the laser signal between the satellites. Although the space between satellites is close to the vacuum, but it is not the absolute vacuum. In particular, solar wind will introduce free electrons. Let the number density of the free electrons be $N_{e}$, the electric charge of an electron be $e$, the electron mass be $m_{e}$. And we ignore other media apart from these electrons.\n\nAssume that the electrons move freely in the electric field produced by the laser. Denote the velocity of the electron as $\\mathbf{v}_e$, and the electric field produced by the laser as $\\mathbf{E}$.",
+        "question": "Calculate the time dependence of the electric current, $\\frac{d \\mathbf{J}}{d t}$, from the free electrons.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{d \\mathbf{J}}{d t} = \\frac{N_{e} e^{2} \\mathbf{E}}{m_{e}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_9",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part B: Free electrons from the solar wind]\n\nConsider the laser signal between the satellites. Although the space between satellites is close to the vacuum, but it is not the absolute vacuum. In particular, solar wind will introduce free electrons. Let the number density of the free electrons be $N_{e}$, the electric charge of an electron be $e$, the electron mass be $m_{e}$. And we ignore other media apart from these electrons.\n\nAssume that the electrons move freely in the electric field produced by the laser. Denote the velocity of the electron as $\\mathbf{v}_e$, and the electric field produced by the laser as $\\mathbf{E}$.",
+        "question": "Calculate the phase speed of the laser $v_{p}$ in the environment of the free electrons (since $v_{p}$ is very close to the speed of light, the higher order difference between $v_{p}$ and the speed of light can be ignored). \n\nHint: from the Maxwell equations, one can derive that $\\frac{\\partial^{2} \\mathbf{E}}{\\partial t^{2}} - c^{2} \\nabla^{2} \\mathbf{E} + c^{2} \\mu_{0} \\frac{d \\mathbf{J}}{d t} = 0$, where $c$ is the speed of light in vacuum.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$v_p \\simeq c \\left(1 + \\frac{\\mu_{0} N_{e} e^{2} \\lambda^{2}}{8 \\pi^{2} m_{e}}\\right)$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_10",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part B: Free electrons from the solar wind]\n\nConsider the laser signal between the satellites. Although the space between satellites is close to the vacuum, but it is not the absolute vacuum. In particular, solar wind will introduce free electrons. Let the number density of the free electrons be $N_{e}$, the electric charge of an electron be $e$, the electron mass be $m_{e}$. And we ignore other media apart from these electrons.",
+        "question": "Let $N_{e} = 10 \\mathrm{cm}^{-3}$. Calculate the phase error of the laser between two satellites. In other words, if there were no free electrons, the laser waveform arrived at a satellite is $\\cos \\theta$. Now with free electrons, the same wave form at the same moment changes into $\\cos (\\theta + \\delta \\theta)$. Calculate the value of $\\delta \\theta$. Express your answer in radians, and give the numerical value with three significant figures.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$5.19 \\times 10^{-6}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_11",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part C: Shot noise]\n\nAny precision measurements are limited by the uncertainty principle of quantum mechanics. Assume that every photon's arrival time at the detector can be considered as independent stochastic processes. Also, in actual experiments, phase error of the laser is more important. But here for simplicity, here we only estimate photon number errors.",
+        "question": "During a certain period of time, the average photon number in the laser is $N$. In this case, the error in the photon number measurement in the laser is $\\Delta N = N^{\\alpha}$. Find $\\alpha$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$1/2$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Modern Physics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_12",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part C: Shot noise]\n\nAny precision measurements are limited by the uncertainty principle of quantum mechanics. Assume that every photon's arrival time at the detector can be considered as independent stochastic processes. Also, in actual experiments, phase error of the laser is more important. But here for simplicity, here we only estimate photon number errors.",
+        "question": "If we request that in one second, the relative error of photon number measurement is $\\frac{\\Delta N}{N} < 3 \\times 10^{-6}$. Calculate the minimal power of laser $P_{\\text{rec}}$ that the satellite should receive. Express your answer in the unit of $W$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$2 \\times 10^{-8}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "W"
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Modern Physics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_5_13",
+        "context": "[Spatiotemporal varying electric permittivity] \n\nThe discovery of gravitational waves initiated an era of gravitational wave astronomy. In addition to the ground-based gravitational wave observatories, gravitational wave observatories based on laser interference between satellites are also planned, for example, the Taiji and Tianqin programs in China and LISA in Europe. Here, we study a simplified version similar to the Tianqin program.\n\n[figure1]\n\nAs illustrated in this figure, we consider three satellites surrounding the earth following circular orbits. They form an equilateral triangle. They form an interferometry in the nearly vacuum environment near the earth. From the change of interference patterns, the change of space distance is measured to detect gravitational waves. Here we will study the error sources for Tianqin to reach its desired measurement precision.\n\nIn this problem, we will use the physical constants and satellite parameters including:\n\nNewton's gravitational constant $G = 6.67 \\times 10^{-11} m^3 / (\\mathrm{kg} s^2)$ \nPlanck's constant $h = 6.626 \\times 10^{-34} m^2 \\mathrm{kg} / s$ \nVacuum Permeability $\\mu_0 = 1.257 \\times 10^{-6} \\mathrm{kg} m s^{-2} A^{-2}$ \nThe mass of the earth $M = 5.97 \\times 10^{24} \\mathrm{kg}$ \nThe radius of the earth $r = 6.37 \\times 10^6 m$ \nThe distance from a satellite to the center of the earth $R = 10^8 m$ \nThe laser wavelength used by the satellite $\\lambda = 1064 \\mathrm{nm}$ \nThe size of the optical system of the satellite $D = 0.1 m$ \n\n[Part C: Shot noise]\n\nAny precision measurements are limited by the uncertainty principle of quantum mechanics. Assume that every photon's arrival time at the detector can be considered as independent stochastic processes. Also, in actual experiments, phase error of the laser is more important. But here for simplicity, here we only estimate photon number errors.",
+        "question": "Assume the laser arrived at a satellite is emitted from the other satellite from the three-satellite system. Estimate: in an ideal case, what is the minimal emission power of laser $P_{\\text{emit}}$ from the other satellite (can be considered to be correct if the order-of-magnitude is correct). Express your answer in the unit of $W$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$[1, 9]$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "W"
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Modern Physics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_1",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction. \n\n[Part A: Geodesic on A Rotational Symmetric Curved Surface]\n\nIn mechanics, we are aware that when a system exhibits rotational symmetry, we can simplify the derivation of dynamics by applying the conservation of angular momentum. For instance, we can employ the conservation of angular momentum to derive Kepler's laws. In the current scenario, we consider a normalized angular momentum, denoted as L, which is defined as: \n$L = \\hat{z} \\cdot \\mathbf{\\rho} \\times \\frac{d \\mathbf{\\rho}}{d s} = \\rho^{2} \\frac{d \\phi}{d s}$ \nHere, $\\mathbf{\\rho}$ represents the projected position vector on the two-dimensional $x-y$ plane, given by $\\mathbf{\\rho} = x \\hat{x} + y \\hat{y} = \\hat{x} \\rho \\cos \\phi + \\hat{y} \\rho \\sin \\phi$, with the projected cone center as the origin. $\\rho$ is the magnitude of vector $\\mathbf{\\rho}$ and $s$ is the arc length along the path of light on the surface.",
+        "question": "Given that the infinitesimal arc length on the cone satisfies $d s^{2} = d x^{2} + d y^{2} + d z^{2}$ and $z = z(\\rho)$ is the height at that point, find the equation that the geodesic on the cone satisfies, in terms of $\\rho^{\\prime}(\\phi), \\rho, L$, and $\\theta$. Instead of using arc length $s$ to parametrize the geodesic, we have used $\\phi$ for parametrization.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\rho^{\\prime}(\\phi)^{2} = \\frac{\\sin^{2} \\theta}{L^{2}} \\rho^{2} (\\rho^{2} - L^{2})$}"
+        ],
+        "answer_type": [
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_2",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction. \n\n[Part A: Geodesic on A Rotational Symmetric Curved Surface]\n\nIn mechanics, we are aware that when a system exhibits rotational symmetry, we can simplify the derivation of dynamics by applying the conservation of angular momentum. For instance, we can employ the conservation of angular momentum to derive Kepler's laws. In the current scenario, we consider a normalized angular momentum, denoted as L, which is defined as: \n$L = \\hat{z} \\cdot \\mathbf{\\rho} \\times \\frac{d \\mathbf{\\rho}}{d s} = \\rho^{2} \\frac{d \\phi}{d s}$ \nHere, $\\mathbf{\\rho}$ represents the projected position vector on the two-dimensional $x-y$ plane, given by $\\mathbf{\\rho} = x \\hat{x} + y \\hat{y} = \\hat{x} \\rho \\cos \\phi + \\hat{y} \\rho \\sin \\phi$, with the projected cone center as the origin. $\\rho$ is the magnitude of vector $\\mathbf{\\rho}$ and $s$ is the arc length along the path of light on the surface.",
+        "question": "For a light starting on the flat surface with a perpendicular distance of $\\rho_{0} / 2$ to the origin, what will be minimal $\\rho$ the light can go.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{\\rho_{0}}{2}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_3",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction. \n\n[Part A: Geodesic on A Rotational Symmetric Curved Surface]\n\nIn mechanics, we are aware that when a system exhibits rotational symmetry, we can simplify the derivation of dynamics by applying the conservation of angular momentum. For instance, we can employ the conservation of angular momentum to derive Kepler's laws. In the current scenario, we consider a normalized angular momentum, denoted as L, which is defined as: \n$L = \\hat{z} \\cdot \\mathbf{\\rho} \\times \\frac{d \\mathbf{\\rho}}{d s} = \\rho^{2} \\frac{d \\phi}{d s}$ \nHere, $\\mathbf{\\rho}$ represents the projected position vector on the two-dimensional $x-y$ plane, given by $\\mathbf{\\rho} = x \\hat{x} + y \\hat{y} = \\hat{x} \\rho \\cos \\phi + \\hat{y} \\rho \\sin \\phi$, with the projected cone center as the origin. $\\rho$ is the magnitude of vector $\\mathbf{\\rho}$ and $s$ is the arc length along the path of light on the surface.",
+        "question": "What is the deflection angle $\\gamma$ by comparing the entering and exit rays on the flat surface? Express the numerical answer in degrees. \nHint: you may need to use $\\int \\frac{d x}{x \\sqrt{x^{2}-1}} = \\tan^{-1} \\sqrt{x^{2}-1} + c$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{49.7}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "degree"
+        ],
+        "points": [
+            7.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Optics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_4",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction.\n\n[Part B: Heat Conduction on A Spherical Surface]\n\nA usual trick is to search for a coordinate transform from the curved surface (represented by the Cartesian coordinates $(x, y, z)$) to a 2-dimensional coordinates system $X-Y$ plane so that the physics on the $(X, Y)$ just looks like a flat plane. For a unit spherical surface, such a map is the stereographic projection \n$(X, Y) = \\left(\\frac{x}{z+1}, \\frac{y}{z+1}\\right) = (\\rho \\cos \\phi, \\rho \\sin \\phi)$ \nSuppose now we consider heat conduction problem on such a spherical surface, i.e. a very thin shell of spherical surface. The steady-state heat conduction has the temperature profile satisfying the Laplace equation \n$\\nabla^{2} T(\\theta, \\phi) = 0$ \nwhile temperature profile is independent of radial distance $r$ in spherical coordinate $(r, \\theta, \\phi)$. The spherical surface is at radius $r=1$.",
+        "question": "Write down the Laplace equation that $T$ satisfies on the $(X, Y)$ coordinate and prove it. \nHint: For convenience, we are given the Laplacian in spherical and cylindrical coordinates as \nIn spherical coordinate $(r, \\theta, \\phi)$: \n$\\nabla^{2} f = \\frac{1}{r^{2}} \\partial_{r}\\left(r^{2} \\partial_{r} f\\right) + \\frac{1}{r^{2} \\sin \\theta} \\partial_{\\theta} \\left(\\sin \\theta \\partial_{\\theta} f\\right) + \\frac{1}{r^{2} \\sin^{2} \\theta} \\partial_{\\phi}^{2} f$  \ncylindrical coordinate $(\\rho, \\phi, z)$: \n$\\nabla^{2} f = \\frac{1}{\\rho} \\partial_{\\rho} \\left(\\rho \\partial_{\\rho} f\\right) + \\frac{1}{\\rho^{2}} \\partial_{\\phi}^{2} f + \\partial_{z}^{2} f$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{1}{\\rho} \\partial_{\\rho} \\left(\\rho \\partial_{\\rho} T\\right) + \\frac{1}{\\rho^{2}} \\partial_{\\phi}^{2} T = 0$}"
+        ],
+        "answer_type": [
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_5",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction.\n\n[Part B: Heat Conduction on A Spherical Surface]\n\nA usual trick is to search for a coordinate transform from the curved surface (represented by the Cartesian coordinates $(x, y, z)$) to a 2-dimensional coordinates system $X-Y$ plane so that the physics on the $(X, Y)$ just looks like a flat plane. For a unit spherical surface, such a map is the stereographic projection \n$(X, Y) = \\left(\\frac{x}{z+1}, \\frac{y}{z+1}\\right) = (\\rho \\cos \\phi, \\rho \\sin \\phi)$ \nSuppose now we consider heat conduction problem on such a spherical surface, i.e. a very thin shell of spherical surface. The steady-state heat conduction has the temperature profile satisfying the Laplace equation \n$\\nabla^{2} T(\\theta, \\phi) = 0$ \nwhile temperature profile is independent of radial distance $r$ in spherical coordinate $(r, \\theta, \\phi)$. The spherical surface is at radius $r=1$.\n\n[figure2]\n\nNow, the figure 2 gives the thin shell in the shape of lamp shade, which is in a hemi-spherical surface with a circular opening at the top. The whole shape still has a rotational symmetry about the vertical z-axis. The bottom of the lamp shade is kept at temperature $T_{b}$ (at $\\theta = \\frac{\\pi}{2}$ for spherical polar coordinate) and the top is kept at temperature $T_{t}$ (at $\\theta = \\theta_{t}$).",
+        "question": "Solve the temperature profile $T(\\theta)$, as a function of $\\theta$, with such rotational symmetry.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$T(\\theta) = (T_{t}-T_{b}) \\frac{\\ln \\left(\\tan \\frac{\\theta}{2}\\right)}{\\ln \\left(\\tan \\frac{\\theta_t}{2}\\right)} + T_{b}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png",
+            "image_question/PanPhO_2024_6_5_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_6",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction.\n\n[Part C: Heat Conduction on A Spherical Surface]\n\n[figure2]\n\nNow, we consider the top opening is tilted about the $y$-axis in breaking rotational symmetry. Suppose the top opening is still a circle on the spherical surface passing through $(x, y, z) = (0, 0, 1)$ and $(\\sin \\alpha, 0, \\cos \\alpha)$ as diameter and its normal is on the $x-z$ plane.",
+        "question": "Determine where the top opening is mapped on $(X, Y)$ plane through the stereographic projection map. Write down the equation of the circle that $X$ and $Y$ satisfy. \nHint: the answer is still a circle in $X$ and $Y$ coordinates.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\left(X - \\frac{1}{2} \\tan \\frac{\\alpha}{2}\\right)^{2} + Y^{2} = \\frac{1}{4} \\tan^{2} \\frac{\\alpha}{2}$}"
+        ],
+        "answer_type": [
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png",
+            "image_question/PanPhO_2024_6_6_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2024_6_7",
+        "context": "[Metric-modified geodesic and heat conduction] \n\nSolving physics, such as wave propagation, geodesics, and thermal conduction, on a curved surface in 3D requires a thorough understanding of metrics and differential geometry. However, there can be significant simplifications for systems with spatial symmetry or by adopting coordinate transformation. In this question, we will go through two problems for physics on a curved surface. The first one is light propagating on a curved surface. Figure 1 (a) shows a circular cone with height 5 mm and a base diameter of $2 \\rho_{0} = 10 \\mathrm{mm}$, joining to a flat surface. The flat surface has a circular hole of the same diameter so that as a whole, there is only one single surface with the cone part indicating the 'curved space.' The entire surface, including the flat surface and the cone, have a very thin surface so that light can be effectively confined on such a surface. We have assumed the cone is joint smoothly to the flat surface. \n\n[figure1]\n\nFigure 1(a) depicts a curved surface created by connecting a circular cone to a flat surface with a hole of the same size as the cone's base. In Figure 1(b), we present a top view of this surface. Light confined to such a surface originates on the flat surface at the bottom, undergoes bending due to the cone, and exits in a different direction.\n\n[Part C: Heat Conduction on A Spherical Surface]\n\n[figure2]\n\nNow, we consider the top opening is tilted about the $y$-axis in breaking rotational symmetry. Suppose the top opening is still a circle on the spherical surface passing through $(x, y, z) = (0, 0, 1)$ and $(\\sin \\alpha, 0, \\cos \\alpha)$ as diameter and its normal is on the $x-z$ plane.\n\nThe top opening of the surface is mapped onto the (X, Y) plane through the stereographic projection, resulting in a circle. The coordinates $X$ and $Y$ satisfy the equation of this circle.",
+        "question": "Solve the temperature profile $T(X, Y)$ when the bottom opening is kept at temperature $T_{b}$ and the top is kept at temperature $T_{t}$. You can leave your answer in terms of $X$ and $Y$ coordinates. \nHint: In the stereographic projected domain X-Y plane, Laplace equation is satisfied and you can further use general method of image, like the one used in solving electrostatic problem by putting two point charges on the $X$-axis with undetermined charges.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$T = \\frac{T_{t}-T_{b}}{2 \\ln \\mu} \\ln \\left(\\frac{(X-\\mu)^{2} + Y^{2}}{\\left(X-\\mu^{-1}\\right)^{2} + Y^{2}}\\right) + 2 T_{b} - T_{t}$ or $T = \\frac{T_t - T_b}{2 \\ln \\mu} \\ln \\left( \\frac{\\tan^2(\\theta/2) - 2\\mu \\tan(\\theta/2) \\cos \\phi + \\mu^2}{\\tan^2(\\theta/2) - 2\\mu^{-1} \\tan(\\theta/2) \\cos \\phi + \\mu^{-2}} \\right) + 2T_b - T_t$, where $\\mu = \\frac{1+\\sqrt{1-4a^2}}{2a}$ and $a = \\frac{1}{2} \\tan \\frac{\\alpha}{2}$.}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            8.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Thermodynamics",
+        "source": "PanPhO_2024",
+        "image_question": [
+            "image_question/PanPhO_2024_6_1_1.png",
+            "image_question/PanPhO_2024_6_6_1.png"
+        ]
+    }
+]

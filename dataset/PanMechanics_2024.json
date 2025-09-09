@@ -1,0 +1,704 @@
+[
+    {
+        "information": "若有需要，取重力加速度 $g = 10 m/s^2$ 及 重力常数 $G = 6.67 \\times 10^{-11} N m^2/\\mathrm{kg}^2$（若没有特别注明，取所有摩擦力为零）。"
+    },
+    {
+        "id": "PanMechanics_2024_1",
+        "context": "",
+        "question": "由三根质量为 $M$ 、长度为 $L$ 的相同均匀杆组成一个三角形。它通过顶部的枢轴铰接在垂直平面上，如图所示。这个物理摆的小振荡周期是多少？杆子通过其质心的转动惯量为 $I_{\\mathrm{CM}} = \\frac{1}{12} ML^2$。\n\n[figure1]\n\n(A) $\\sqrt{\\frac{3L}{2g}}$ \n(B) $2\\pi \\sqrt{\\frac{3L}{g}}$ \n(C) $\\pi \\sqrt{\\frac{3L}{g}}$ \n(D) $\\pi \\sqrt{\\frac{3ML}{g}}$ \n(E) $\\pi \\sqrt{\\frac{2\\sqrt{3}L}{g}}$",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_1_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_2",
+        "context": "",
+        "question": "一辆以 $36 m/s$ 速度行驶的卡车经过一辆以 $45 m/s$ 速度朝相反方向行驶的警车。如果警笛相对于警车的频率为 $500 Hz$,那么当警车接近卡车时,卡车内的观察者听到的频率是多少？(空气中的声速为 $343 m/s$) \n\n(A) $396 \\mathrm{Hz}$ \n(B) $636 \\mathrm{Hz}$ \n(C) $361 \\mathrm{Hz}$ \n(D) $393 \\mathrm{Hz}$ \n(E) $617 \\mathrm{Hz}$",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_3",
+        "context": "",
+        "question": "一颗卫星绕 X 行星做圆形轨道运行，且轨道距离行星表面非常近。要估计行星 X 的密度，我们只需测量：\n\n(A) 卫星的周期 \n(B) 轨道半径 \n(C) 卫星的速度 \n(D) 行星 X 的质量 \n(E) 卫星的质量",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_4",
+        "context": "质量为 $M$ 的三角楔子置于水平无摩擦的地面上。将质量为 $m$ 的木块放在楔子上，如图所示。木块和楔子之间没有摩擦力。系统从静止状态释放。给定 $M = 3m$ 和 $\\alpha = 45^{\\circ}$。",
+        "question": "求三角楔子加速度的大小。\n\n(A) $g/6$ \n(B) $g/7$ \n(C) $g/4$ \n(D) $g$ \n(E) 0",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_4_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_5",
+        "context": "质量为 $M$ 的三角楔子置于水平无摩擦的地面上。将质量为 $m$ 的木块放在楔子上，如图所示。木块和楔子之间没有摩擦力。系统从静止状态释放。给定 $M = 3m$ 和 $\\alpha = 45^{\\circ}$。",
+        "question": "若当木块滑到地面时，楔子相对地面的速度为 $1 m/s$。求木块在楔子上离地面的初始高度（假设木块为无体积的重点）。 \n\n(A) $0.60 m$ \n(B) $0.82 m$ \n(C) $1.00 m$ \n(D) $1.05 m$ \n(E) $1.40 m$",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_4_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_6",
+        "context": "",
+        "question": "在一维运动中，力 $F = -(m/b) v^2$ 作用在质量为 $m$ 的粒子上，其中 $v$ 是粒子的速度，$b$ 是常数。在 $t = 0 s$ 时，该粒子位于 $x = 0 m$。哪一个是粒子随时间变化的可能位置？\n\n(A) $x(t) = b \\ln (\\frac{t}{1 \\mathrm{s}})$ \n(B) $x(t) = b \\ln (\\frac{t}{1 \\mathrm{s}} + 1)$ \n(C) $x(t) = b \\frac{t / 1\\mathrm{s}}{2 + ( t/1\\mathrm{s})^2}$ \n(D) $x(t) = \\frac{b}{t/1\\mathrm{s}}$ \n(E) $x(t) = b \\sin (t/1\\mathrm{s})$",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_7",
+        "context": "一个体重 $60 \\mathrm{kg}$ 的人以 $5 m/s$ 的初始速度沿着半径为 $3 m$、质量为 $100 \\mathrm{kg}$ 的固定均匀圆形平台的切线跑步，如图所示。平台本来静止，当人跳上及静止在平台上后，平台绕中心的垂直轴旋转。圆形平台通过其质心的转动惯量为 $I_{\\mathrm{CM}} = \\frac{1}{2} M R^2$。",
+        "question": "求该人跳上平台后系统的角速度。\n\n(A) 0.500 rad/s \n(B) 0.250 rad/s \n(C) 1.33 rad/s \n(D) 0.909 rad/s \n(E) 1.705 rad/s",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_7_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_8",
+        "context": "一个体重 $60 \\mathrm{kg}$ 的人以 $5 m/s$ 的初始速度沿着半径为 $3 m$、质量为 $100 \\mathrm{kg}$ 的固定均匀圆形平台的切线跑步，如图所示。平台本来静止，当人跳上及静止在平台上后，平台绕中心的垂直轴旋转。圆形平台通过其质心的转动惯量为 $I_{\\mathrm{CM}} = \\frac{1}{2} M R^2$。",
+        "question": "找出总机械能的损失。\n\n(A) $150 J$ \n(B) $341 J$ \n(C) $257 J$ \n(D) $457 J$ \n(E) $0 J$",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_7_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_9",
+        "context": "两个 $1.0 \\mathrm{kg}$ 的粒子以 $(40.0 m/s) \\hat{l}$ 和 $(-20.0 m/s) \\hat{l}$ 的速度沿直线相互移动并發生碰撞。碰撞后，其中一个粒子以 $30.0 m/s$ 的速度离开。在碰撞过程中，两颗粒子共损失了 $100 \\mathrm{J}$ 的能量。",
+        "question": "求碰撞后另一个粒子的速度。\n\n(A) $33.2 m/s$ \n(B) $36.1 m/s$ \n(C) $17.3 m/s$ \n(D) $26.8 m/s$ \n(E) $30.0 m/s$",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_10",
+        "context": "两个 $1.0 \\mathrm{kg}$ 的粒子以 $(40.0 m/s) \\hat{l}$ 和 $(-20.0 m/s) \\hat{l}$ 的速度沿直线相互移动并發生碰撞。碰撞后，其中一个粒子以 $30.0 m/s$ 的速度离开。在碰撞过程中，两颗粒子共损失了 $100 \\mathrm{J}$ 的能量。",
+        "question": "求碰撞后粒子速度之间的夹角。\n\n(A) $141^{\\circ}$ \n(B) $105^{\\circ}$ \n(C) $70.5^{\\circ}$ \n(D) $96.4^{\\circ}$ \n(E) $48.2^{\\circ}$",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_11",
+        "context": "",
+        "question": "如图所示，粒子在 $x = a$ 点从静止状态释放，并根据图中所示的势能函数 $U(x)$ 沿 $x$ 轴移动。图中 $U(a) = U(e)$。粒子其后的运动为：\n\n(A) 移动到 $x = e$ 左侧的点，停止并保持静止。\n(B) 在 $x = a$ 及 $x = e$ 之间来回移动。\n(C) 以不同的速度移动到无穷大 $(x \\rightarrow \\infty)$。\n(D) 移动到 $x = b$，并保持静止状态。\n(E) 移动到 $x = e$，然后移动到 $x = d$，并保持静止状态。",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_11_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_12",
+        "context": "",
+        "question": "逃离木星引力的最低速度为 60 公里/秒。假设木星的半径为 70,000 公里，那么 80 公斤重的宇航员在木星上的重量是多少？\n\n(A) $1029 N$ \n(B) $1371 N$ \n(C) $2057 N$ \n(D) $2742 N$ \n(E) $4114 N$",
+        "marking": [],
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_13",
+        "context": "",
+        "question": "下列哪一个人必须是非惯性观察者？将地面视为惯性系。应考虑空气摩擦力。\nI. 一个人的位置被另一个观察者描述为 $y(t) = -\\frac{g}{2} t^2$。\nII. 坐在固定在地面上旋转的旋转木马边缘的人。\nIII. 一个人垂直向上跳跃。而此刻，当人处于最高位置时。\nIV. 一个人垂直向上跳跃。而此刻，人还在上升的时候。\nV. 一个戴着打开的降落伞进行跳伞的人。\n\n(A) 只有 I, IV 和 V \n(B) 只有 I 和 II \n(C) 只有 I,II,IV 和 V \n(D) 只有 II, III 和 IV \n(E) I, II, III, IV 和 V",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_14",
+        "context": "",
+        "question": "如图所示一个 3.0 kg 的三角体，求推动三角体的力 $F$，使在三角块上的 1.0 kg 方形块不会沿斜面移动。假设所有表面都是无摩擦的。\n\n(A) $15 N$ \n(B) $20 N$ \n(C) $25 N$ \n(D) $40 N$ \n(E) $45 N$",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_14_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_15",
+        "context": "",
+        "question": "一个边长为 $L$ 的正方体平稳地漂浮在容器内静止的水中。此时有一半的立方体位于水面以下。再将密度为水四分之一的液体添加到容器中，使立方体完全浸没在液体的表面下，而液体和水不混合，液体留在水上面。添加液体后，立方体从原來的水面上升了多少？\n\n(A) $L/6$ \n(B) $L/3$ \n(C) $L/2$ \n(D) $L/4$ \n(E) $L/5$",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_16",
+        "context": "",
+        "question": "一个盒子由两根具有相同线性质量密度的绳子悬挂在天花板上，如图所示。求弦 1 的基频 $f_1$ 与弦 2 的基频 $f_2$ 之比，$f_1 / f_2$。\n\n(A) $\\sqrt{3 \\sqrt{3}}$ \n(B) 3 \n(C) $3 \\sqrt{3}$ \n(D) $\\sqrt{6}$ \n(E) $\\sqrt{3}/4$",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_16_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_17_1",
+        "context": "质量为 $m$ 的质点附着在力常数为 $k$ 的弹簧上，在粗糙表面上沿 X 轴移动。以原点为弹簧自然长度时的位置。",
+        "question": "当 $t = 0$ 时，粒子在 $x_0 \\neq 0$ 及静止。假设弹簧力足够大，使得粒子在恒定的摩擦力 $f$ 下移动。在时间 $0 \\leq t \\leq \\tau$ 内，求 $x(t)$，其中 $\\tau$ 是 $t = 0$ 后粒子第一次停止的时间。用 $k$、$m$、$f$ 和 $x_0$ 表示 $x(t)$。设静摩擦系数为 0.03，动摩擦系数为 0.01，$m = 1 \\mathrm{kg}$，$k = 10 \\mathrm{N}/\\mathrm{m}$，重力加速度 $g = 10 m/s^2$。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$x(t) = (x_0 - \\frac{f}{k}) \\cos(\\sqrt{\\frac{k}{m}}t) + \\frac{f}{k}$}",
+            "\\boxed{$x(t) = (x_0 + \\frac{f}{k}) \\cos(\\sqrt{\\frac{k}{m}}t) - \\frac{f}{k}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            8.0,
+            8.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_17_2",
+        "context": "质量为 $m$ 的质点附着在力常数为 $k$ 的弹簧上，在粗糙表面上沿 X 轴移动。以原点为弹簧自然长度时的位置。\n(a) 当 $t = 0$ 时，粒子在 $x_0 \\neq 0$ 及静止。假设弹簧力足够大，使得粒子在恒定的摩擦力 $f$ 下移动。在时间 $0 \\leq t \\leq \\tau$ 内，求 $x(t)$，其中 $\\tau$ 是 $t = 0$ 后粒子第一次停止的时间。用 $k$、$m$、$f$ 和 $x_0$ 表示 $x(t)$。设静摩擦系数为 0.03，动摩擦系数为 0.01，$m = 1 \\mathrm{kg}$，$k = 10 \\mathrm{N}/\\mathrm{m}$，重力加速度 $g = 10 m/s^2$。\n注意：（a）是前置问题，请不要写入最终答案中。",
+        "question": "设 $x_0 = 1 m$。使用 (a) 或其他方式，找到粒子永久停止时的最终位置。（单位用 $m$ 表示）",
+        "marking": [],
+        "answer": [
+            "\\boxed{-0.02}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "m"
+        ],
+        "points": [
+            8.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_17_3",
+        "context": "质量为 $m$ 的质点附着在力常数为 $k$ 的弹簧上，在粗糙表面上沿 X 轴移动。以原点为弹簧自然长度时的位置。\n(a) 当 $t = 0$ 时，粒子在 $x_0 \\neq 0$ 及静止。假设弹簧力足够大，使得粒子在恒定的摩擦力 $f$ 下移动。在时间 $0 \\leq t \\leq \\tau$ 内，求 $x(t)$，其中 $\\tau$ 是 $t = 0$ 后粒子第一次停止的时间。用 $k$、$m$、$f$ 和 $x_0$ 表示 $x(t)$。设静摩擦系数为 0.03，动摩擦系数为 0.01，$m = 1 \\mathrm{kg}$，$k = 10 \\mathrm{N}/\\mathrm{m}$，重力加速度 $g = 10 m/s^2$。\n(b) 设 $x_0 = 1 m$。使用 (a) 或其他方式，找到粒子永久停止时的最终位置。（单位用 $m$ 表示）。\n注意：(a) 和 (b) 都是前置问题，请不要写入最终答案中。",
+        "question": "求出粒子的总移动距离。（单位用 $m$ 表示）",
+        "marking": [],
+        "answer": [
+            "\\boxed{49.98}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "m"
+        ],
+        "points": [
+            6.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_17_4",
+        "context": "质量为 $m$ 的质点附着在力常数为 $k$ 的弹簧上，在粗糙表面上沿 X 轴移动。以原点为弹簧自然长度时的位置。\n(a) 当 $t = 0$ 时，粒子在 $x_0 \\neq 0$ 及静止。假设弹簧力足够大，使得粒子在恒定的摩擦力 $f$ 下移动。在时间 $0 \\leq t \\leq \\tau$ 内，求 $x(t)$，其中 $\\tau$ 是 $t = 0$ 后粒子第一次停止的时间。用 $k$、$m$、$f$ 和 $x_0$ 表示 $x(t)$。设静摩擦系数为 0.03，动摩擦系数为 0.01，$m = 1 \\mathrm{kg}$，$k = 10 \\mathrm{N}/\\mathrm{m}$，重力加速度 $g = 10 m/s^2$。\n(b) 设 $x_0 = 1 m$。使用 (a) 或其他方式，找到粒子永久停止时的最终位置。（单位用 $m$ 表示）。\n(c) 求出粒子的总移动距离。（单位用 $m$ 表示）\n注意：(a)、(b) 和 (c) 都是前置问题，请不要写入最终答案中。",
+        "question": "求粒子永久停止之前所经过的总时间。（单位用 $s$ 表示）",
+        "marking": [],
+        "answer": [
+            "\\boxed{48.68}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "s"
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2024_18_1",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。",
+        "question": "求 $k_N$ 。答案以 $K$ 表示。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$k_N = (N-1) K$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_2",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。",
+        "question": "求释放前处于平衡状态的弹簧的总长度 $L_0$。答案以 $M$，$g$ 和 $K$ 表示。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$L_0 = \\frac{Mg}{2K}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_3",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。",
+        "question": "应用牛顿第二定律，写出顶部 $x_N$、底部 $x_1$ 和第 $n$ 个质量 $x_n$ 的运动方程，而 $1 < n < N$，答案以 $m_N$、$k_N$、$g$ 以及其他质量的坐标 $x_2, x_3, \\ldots$（如果需要）表示。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$m_N \\ddot{x}_1 = -k_N (x_1 - x_2) + m_N g$}",
+            "\\boxed{$m_N \\ddot{x}_n = k_N (x_{n+1} - 2x_n + x_{n-1}) + m_N g$}",
+            "\\boxed{$m_N \\ddot{x}_N = k_N (x_{N-1} - x_N) + m_N g$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            2.0,
+            2.0,
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_4",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 \\mathrm{s}$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 \\mathrm{s}$ 时，$x_N = 0 \\mathrm{m}$。现在考虑 $N = 2$、$m_N = 1 \\mathrm{kg}$ 且 $k_N = 1 \\mathrm{N}/\\mathrm{m}$ 的情况（$g = 10 m/s^2$）。",
+        "question": "求系统质心的加速度。（向下为正，单位用 $m/s^2$ 表示）",
+        "marking": [],
+        "answer": [
+            "\\boxed{10}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "m/s^2"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_5",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。现在考虑 $N = 2$、$m_N = 1 \\mathrm{kg}$ 且 $k_N = 1 \\mathrm{N}/\\mathrm{m}$ 的情况（$g = 10 m/s^2$）。",
+        "question": "求出两个质量随时间变化的距离函数：$d(t) = x_1(t) - x_2(t)$。(表达式中重力加速度用 $g$ 表示)",
+        "marking": [],
+        "answer": [
+            "\\boxed{$d(t) = g \\cos(\\sqrt{2} t)$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            5.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_6",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。现在考虑 $N = 2$、$m_N = 1 \\mathrm{kg}$ 且 $k_N = 1 \\mathrm{N}/\\mathrm{m}$ 的情况（$g = 10 m/s^2$）。",
+        "question": "当两个质量碰撞时（设碰撞时间为 $\\tau$），设底部质量从 $t = 0 \\mathrm{s}$ 的下降距离为 $D_2 = x_1(\\tau) - x_1(0) = \\gamma L_0$。求 $\\gamma$ 的数值。",
+        "marking": [],
+        "answer": [
+            "\\boxed{0.117}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            6.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_7",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。现在考虑 $N = 3$ 的情况。",
+        "question": "为了使弹簧的总质量和总弹簧常数 $K$ 与 $N = 2$、$m_N = 1 kg$ 且 $k_N = 1 N/m$ 的情况相同，（1）求出对应的 $m_N$（单位用 $kg$ 表示），（2）求出对应的 $k_N$（单位用 $N/m$ 表示）。",
+        "marking": [],
+        "answer": [
+            "\\boxed{2/3}",
+            "\\boxed{2}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "kg",
+            "N/m"
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_8",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。现在考虑 $N = 3$ 的情况。",
+        "question": "求解底部质量随时间变化的位置：$x_1(t)$。提示：尝试先找出质心的运动方程，$x_1$ 和 $x_3$ 之间的差的运动方程，及另一个由 $x_1, x_2$ 及 $x_3$ 的线性组合组成的量的运动方程。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$x_1(t) = \\frac{5}{9}g + \\frac{1}{2}gt^2 + \\frac{g}{2} \\cos(\\sqrt{3}t) - \\frac{g}{18} \\cos(3t)$}"
+        ],
+        "answer_type": [
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            8.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2024_18_9",
+        "context": "总质量为 $M$ 的弹性弹簧在未拉伸时具有均匀的质量分布。其弹簧常数为 $K$，为简单起见，假设其自然长度为零。现在它从顶端悬挂起来，并在恒定重力 $g$ 下垂直悬挂并达至静止状态。\n\n[figure1]\n\n如图 1 所示，在 $t = 0 s$ 时，顶端从静止状态释放，弹簧落下。为了理解它的下落运动，我们可以将弹簧建模为一系列 $N$ 个质量为 $m_N$ 的相同质量，与 $N - 1$ 个具有弹簧常数 $k_N$ 和零自然长度的相同弹簧连接。\n\n[figure2]\n\n如图 2 所示，坐标 $x_1, x_2, \\cdots x_N$ 分别是距离底部 $(x_1)$ 和顶部 $(x_N)$ 位置的质量，从天花板开始测量（向下为正）。在 $t = 0 s$ 时，$x_N = 0 m$。\n\n(f) 考虑 $N = 2$、$m_N = 1 \\mathrm{kg}$ 且 $k_N = 1 \\mathrm{N}/\\mathrm{m}$ 的情况（$g = 10 m/s^2$）。当两个质量碰撞时（设碰撞时间为 $\\tau$），设底部质量从 $t = 0 \\mathrm{s}$ 的下降距离为 $D_2 = x_1(\\tau) - x_1(0) = \\gamma L_0$。求 $\\gamma$ 的数值。\n注意：(f) 是前置问题，请不要写入最终答案中。\n\n现在考虑 $N = 3$ 的情况。",
+        "question": "底部质量经过 (f) 部分中的 $\\tau$ 时间后：\n\n（1）求下降的距离 $D_3 = x_1(\\tau) - x_1(0)$（用 $L_0$ 表示）。\n（2）比较 $D_3$ 及在 (f) 部分所得距离 $D_2$，看看哪一个比较小，在答案中写上 $D_3$ 或 $D_2$。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$D_3 = 0.054 L_0$}",
+            "\\boxed{$D_3$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2024",
+        "image_question": [
+            "image_question/PanMechanics_2024_18_1.png",
+            "image_question/PanMechanics_2024_18_2.png"
+        ]
+    }
+]

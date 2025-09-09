@@ -1,0 +1,686 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "NBPhO_2025_1_1",
+        "context": "[Flying Dumbbell] \n\nIn this problem, we shall study the dynamics of a dumbbell consisting of two steel balls, each with radius $r = 1 \\mathrm{cm}$, connected by a steel rod with diameter $d = 1 \\mathrm{mm}$ and length $l = 10 \\mathrm{cm}$, in the absence of gravity. Unless instructed otherwise, assume steel is perfectly elastic. You may simplify your calculations by assuming $l \\gg r$.",
+        "question": "Given that the Young's modulus of steel is $Y = 2 \\times 10^{11} \\mathrm{Pa}$ and the density of steel is $\\rho = 7800 \\mathrm{kg}\\mathrm{m}^{-3}$, determine the period $T$ of free longitudinal oscillations of the dumbbell. (Do not consider oscillations with standing waves in the rod where the balls remain almost at rest.) Young's modulus is the ratio of a material's stress (force per unit area) to its strain (relative deformation). Express your answer in $\\mathrm{ms}$.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer explains that the oscillation is symmetric around the centre of the rod (or invokes Newton's third law). Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly expresses the stiffness of the half-rod as $k = Y \\frac{\\pi}{2} d^2 / l$. Partial points: award 0.3 pt if there is a minor mistake in the stiffness expression. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives the mass of the ball as $m = \\frac{4}{3} \\pi r^3 \\rho$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer realises that the system can be treated as a spring. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly obtains the oscillation period formula as $T = 2 \\pi \\sqrt{m/k}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly obtains the final answer for the oscillation period as $T \\approx 0.64 \\mathrm{ms}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{0.64}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "ms"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_1_2",
+        "context": "[Flying Dumbbell] \n\nIn this problem, we shall study the dynamics of a dumbbell consisting of two steel balls, each with radius $r = 1 \\mathrm{cm}$, connected by a steel rod with diameter $d = 1 \\mathrm{mm}$ and length $l = 10 \\mathrm{cm}$, in the absence of gravity. Unless instructed otherwise, assume steel is perfectly elastic. You may simplify your calculations by assuming $l \\gg r$. \n\n(i) Given that the Young's modulus of steel is $Y = 2 \\times 10^{11} \\mathrm{Pa}$ and the density of steel is $\\rho = 7800 \\mathrm{kg}\\mathrm{m}^{-3}$, determine the period $T$ of free longitudinal oscillations of the dumbbell. (Do not consider oscillations with standing waves in the rod where the balls remain almost at rest.) Young's modulus is the ratio of a material's stress (force per unit area) to its strain (relative deformation). \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "Estimate the impact time $\\tau$ when a steel ball bounces off a steel wall. Express your answer in $\\mathrm{\\mu s}$.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer realises that the compressed ball is essentially a compression wave. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly gives the formula for the speed of sound as $c_s = \\sqrt{Y / \\rho}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly gives the relation between time, radius and speed as $\\tau \\approx 2 r / c_s = 2r \\sqrt{\\rho / Y}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly obtains the final answer $\\tau \\approx 4 \\mathrm{\\mu s}$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.5 pt if the answer realises that the ball can be thought of as a spring. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly approximates the ball as a spring of stiffness $\\kappa \\sim Y r$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly gives the relation between the spring constant and the time of frequency as $\\tau \\approx 2 \\pi \\sqrt{m / \\kappa}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly obtains the final answer $\\tau \\approx 4 \\mathrm{\\mu s}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{4}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$\\mu s$"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_1_4",
+        "context": "[Flying Dumbbell] \n\nIn this problem, we shall study the dynamics of a dumbbell consisting of two steel balls, each with radius $r = 1 \\mathrm{cm}$, connected by a steel rod with diameter $d = 1 \\mathrm{mm}$ and length $l = 10 \\mathrm{cm}$, in the absence of gravity. Unless instructed otherwise, assume steel is perfectly elastic. You may simplify your calculations by assuming $l \\gg r$. \n\n(i) Given that the Young's modulus of steel is $Y = 2 \\times 10^{11} \\mathrm{Pa}$ and the density of steel is $\\rho = 7800 \\mathrm{kg}\\mathrm{m}^{-3}$, determine the period $T$ of free longitudinal oscillations of the dumbbell. (Do not consider oscillations with standing waves in the rod where the balls remain almost at rest.) Young's modulus is the ratio of a material's stress (force per unit area) to its strain (relative deformation).\n\n(ii) Estimate the impact time $\\tau$ when a steel ball bounces off a steel wall. \n\n(iii) The dumbbell moves toward a steel wall with velocity $\\vec{v} = -v \\hat{x}$, with its axis perpendicular to the wall, and bounces back. Here, $\\hat{x}$ denotes a unit vector along the axis perpendicular to the wall. Sketch how the $x$-component $v_x$ of the front ball's velocity (the ball that collides with the wall) depends on time. \n\nParts (i)–(iii) are preliminary questions and should not be included in the final answer.",
+        "question": "Now, the dumbbell moves toward a steel wall with velocity $\\vec{v} = -v \\hat{x}$ as before, but its axis forms an angle $\\alpha$ with the $x$-axis. The interaction of the front ball with the wall depends qualitatively on the angle $\\alpha$, with a transition from one type of interaction to another occurring at $\\alpha = \\alpha_{0}$. Determine the value of $\\alpha_{0}$. Express your answer in degrees. Hint: $\\min \\left(\\frac{\\sin x}{x}\\right) \\approx -0.217$.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer realises it behaves as in the previous question (balls at velocity $-v$ and $v$, center of mass at rest), but it now also rotates and oscillates around the centre of mass. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the expression for the angular speed of rotation as $\\Omega = 2 v \\sin \\alpha / l$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives the expression for the oscillation amplitude as $a = v \\cos \\alpha \\sqrt{m/k} = v \\cos \\alpha / \\omega$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer realises that the difference in interaction is whether the first ball bounces once or twice. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the formula for the distance of the front ball to the wall over time as $\\frac{l}{2} \\cos \\alpha - \\left[ \\frac{l}{2} - a \\sin(\\omega t) \\right] \\cos(\\alpha + \\Omega t)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer realises that if the distance of the front ball to the wall over time is over 0 for all $t > 0$, the first ball does not hit the wall twice. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly finds the critical angle $\\alpha_0 \\approx 25^{\\circ}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{25^{\\circ}}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "degrees"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_1_5",
+        "context": "[Flying Dumbbell] \n\nIn this problem, we shall study the dynamics of a dumbbell consisting of two steel balls, each with radius $r = 1 \\mathrm{cm}$, connected by a steel rod with diameter $d = 1 \\mathrm{mm}$ and length $l = 10 \\mathrm{cm}$, in the absence of gravity. Unless instructed otherwise, assume steel is perfectly elastic. You may simplify your calculations by assuming $l \\gg r$. \n\n(i) Given that the Young's modulus of steel is $Y = 2 \\times 10^{11} \\mathrm{Pa}$ and the density of steel is $\\rho = 7800 \\mathrm{kg}\\mathrm{m}^{-3}$, determine the period $T$ of free longitudinal oscillations of the dumbbell. (Do not consider oscillations with standing waves in the rod where the balls remain almost at rest.) Young's modulus is the ratio of a material's stress (force per unit area) to its strain (relative deformation).\n\n(ii) Estimate the impact time $\\tau$ when a steel ball bounces off a steel wall. \n\n(iii) The dumbbell moves toward a steel wall with velocity $\\vec{v} = -v \\hat{x}$, with its axis perpendicular to the wall, and bounces back. Here, $\\hat{x}$ denotes a unit vector along the axis perpendicular to the wall. Sketch how the $x$-component $v_x$ of the front ball's velocity (the ball that collides with the wall) depends on time. \n\n(iv) Now, the dumbbell moves toward a steel wall with velocity $\\vec{v} = -v \\hat{x}$ as before, but its axis forms an angle $\\alpha$ with the $x$-axis. The interaction of the front ball with the wall depends qualitatively on the angle $\\alpha$, with a transition from one type of interaction to another occurring at $\\alpha = \\alpha_{0}$. Determine the value of $\\alpha_{0}$. Hint: $\\min \\left(\\frac{\\sin x}{x}\\right) \\approx -0.217$. \n\nParts (i)–(iv) are preliminary questions and should not be included in the final answer.",
+        "question": "Under the assumptions of the previous task, let $\\alpha > \\alpha_{0}$. Additionally, assume that while steel is highly elastic, it is not infinitely so: any oscillations excited in the rod will decay by the time the rear ball collides with the wall. Determine the speed with which the centre of mass of the dumbbell departs from the wall.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer realises that the dumbbell rotates around its centre of mass after the first collision. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer realises that the longitudinal oscillations have decayed by the time of the second collision. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly gives the expression for the velocity of the ball at the moment of the second collision as $v \\sin \\alpha$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly gives the expression for the component of the ball's velocity in the direction of the surface normal at the moment of the second collision as $v \\sin^2 \\alpha$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer realises that the component of velocity of the second ball in the direction of the surface normal is also $v \\sin^2 \\alpha$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer realises that the speed of the centre of mass is $v \\sin^2 \\alpha$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$v \\sin^{2} \\alpha$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_2_1",
+        "context": "[Evaporation] \n\nFor the subsequent tasks, the graph shows how the density of saturated water vapour in $\\mathrm{g} \\mathrm{m}^{-3}$ depends on the temperature in $^\\circ C$.\n\n[figure1]\n\nYou may also use the following characteristics of water. Specific heat capacity $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$; latent heat of vaporization $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$; density $\\rho = 1000 \\mathrm{kg} \\mathrm{m}^{-3}$; molar mass of water $\\mu = 18 \\mathrm{g} \\mathrm{mol}^{-1}$. You may also assume water vapour to behave as an ideal gas. The universal gas constant is $R = 8.31 \\mathrm{J} \\mathrm{mol}^{-1} \\mathrm{K}^{-1}$.",
+        "question": "A cylinder contains a certain amount of water at temperature $T_{0} = 90^{\\circ} \\mathrm{C}$, as shown in the figure. The cross-sectional area of the piston is $S = 1 \\mathrm{dm}^{2}$. What is the minimum pulling force required to move the piston? Express your answer in $N$. The pressure of the surrounding air is $p_{0} = 100 \\mathrm{kPa}$.\n\n[figure2]",
+        "marking": [
+            [
+                "Award 0.8 pt if the answer realises that the pressure inside the cylinder equals the saturated vapour pressure of water at temperature $T_0$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer reads the density $\\rho$ from the graph in the range $[400, 440] \\mathrm{g m^{-3}}$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer uses the ideal gas law to obtain an expression for the pressure $p_1$ at temperature $T_0$ as $p_1 = \\rho R T / \\mu$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly gives the expression for the force needed to pull the piston as $S (p_0 - p_1)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly obtains the numerical value of the minimum pulling force required to move the piston as $F \\approx 300 \\mathrm{N}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{300}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "N"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+data figure",
+        "field": "Thermodynamics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_2_1_1.png",
+            "image_question/NBPhO_2025_2_1_2.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2025_2_2",
+        "context": "[Evaporation] \n\nFor the subsequent tasks, the graph shows how the density of saturated water vapour in $\\mathrm{g} \\mathrm{m}^{-3}$ depends on the temperature in $^\\circ C$.\n\n[figure1]\n\nYou may also use the following characteristics of water. Specific heat capacity $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$; latent heat of vaporization $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$; density $\\rho = 1000 \\mathrm{kg} \\mathrm{m}^{-3}$; molar mass of water $\\mu = 18 \\mathrm{g} \\mathrm{mol}^{-1}$. You may also assume water vapour to behave as an ideal gas. The universal gas constant is $R = 8.31 \\mathrm{J} \\mathrm{mol}^{-1} \\mathrm{K}^{-1}$. \n\n(i) A cylinder contains a certain amount of water at temperature $T_{0} = 90^{\\circ} \\mathrm{C}$, as shown in the figure. The cross-sectional area of the piston is $S = 1 \\mathrm{dm}^{2}$. What is the minimum pulling force required to move the piston? The pressure of the surrounding air is $p_{0} = 100 \\mathrm{kPa}$.\n\n[figure2]\n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "If the piston is pulled so that it shifts by $a = 3 \\mathrm{dm}$, the water cools to a temperature of $T_{1} = 89^{\\circ} \\mathrm{C}$; what is the mass of the water under the piston? Express your answer in $g$.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer reads the vapour density $\\rho_1$ from the graph in the range $[390, 420] \\mathrm{g m^{-3}}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the expression for the mass of water vapour as $m_v = S a \\rho_1$, where $S$ is the cross-sectional area of the piston, and $\\rho_1$ is the vapour density. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the expression for the latent heat as $m_v L$, where $m_v$ is the mass of vapour. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the expression for the heat lost by water as $(m - m_v) \\cdot c \\cdot (T_0 - T_1)$, where $m$ is the mass of the water, $m_v$ is the mass of vapour, and the water cools from $T_0$ to $T_1$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly applies the energy conservation equation $m_v L = (m - m_v) \\cdot c \\cdot (T_0 - T_1)$, where $m$ is the mass of the water, $m_v$ is the mass of vapour, and the water cools from $T_0$ to $T_1$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly obtains the expression for the mass of water $m = \\frac{\\rho_1 S a L}{c (T_0 - T_1)}$, where $\\rho_1$ is the vapour density, and the water cools from $T_0$ to $T_1$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly obtains the numerical value of the mass of water $m \\in [630, 680] \\mathrm{g}$ with the correct dimension. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{[630, 680]}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "g"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+data figure",
+        "field": "Thermodynamics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_2_1_1.png",
+            "image_question/NBPhO_2025_2_1_2.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2025_2_3",
+        "context": "[Evaporation] \n\nFor the subsequent tasks, the graph shows how the density of saturated water vapour in $\\mathrm{g} \\mathrm{m}^{-3}$ depends on the temperature in $^\\circ C$.\n\n[figure1]\n\nYou may also use the following characteristics of water. Specific heat capacity $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$; latent heat of vaporization $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$; density $\\rho = 1000 \\mathrm{kg} \\mathrm{m}^{-3}$; molar mass of water $\\mu = 18 \\mathrm{g} \\mathrm{mol}^{-1}$. You may also assume water vapour to behave as an ideal gas. The universal gas constant is $R = 8.31 \\mathrm{J} \\mathrm{mol}^{-1} \\mathrm{K}^{-1}$. \n\n(i) A cylinder contains a certain amount of water at temperature $T_{0} = 90^{\\circ} \\mathrm{C}$, as shown in the figure. The cross-sectional area of the piston is $S = 1 \\mathrm{dm}^{2}$. What is the minimum pulling force required to move the piston? The pressure of the surrounding air is $p_{0} = 100 \\mathrm{kPa}$.\n\n[figure2]\n\n(ii) If the piston is pulled so that it shifts by $a = 3 \\mathrm{dm}$, the water cools to a temperature of $T_{1} = 89^{\\circ} \\mathrm{C}$; what is the mass of the water under the piston? \n\nWater evaporation has a cooling effect the intensity of which depends on the relative humidity and air convection intensity. It appears, however, that once a dynamical thermal equilibrium is reached, the equilibrium temperature of a wet surface depends only on the relative humidity and the temperature of air and does not depend on the convection speed (as long as the convection is not too weak). This is so because the two competing processes determining the equilibrium state both depend on the thickness of the laminar (non-turbulent) surface layer exactly in the same way. In what follows we shall use the following assumptions. (a) Atop a wet surface (such as a sweating bare skin), there is a layer with a laminar flow of a certain thickness $d$. (b) Atop the laminar layer, the surrounding turbulent flow keeps a constant temperature $T$ and relative humidity $r$, both equal to the respective values in the bulk of the surrounding air. (c) Heat flux from beneath the wet surface (e.g. through the skin) can be neglected. (d) The heat conductivity of air $\\kappa = 30 \\mathrm{mW} \\mathrm{m}^{-1} \\mathrm{K}^{-1}$ at $T = 70^{\\circ} \\mathrm{C}$ (neglect the temperature dependence), and the diffusivity of water molecules in air $D = 26 \\mathrm{mm}^{2} \\mathrm{s}^{-1}$. Neglect the dependence of $D$ on the temperature. Note that the particle flux (net number of molecules passing a cross-section in y-z-plane per second and per cross-sectional area) can be found as $J = D \\frac{\\mathrm{d} n}{\\mathrm{d} x}$, where $n$ denotes the number density (number of molecules per volume). \n\nParts (i)–(ii) are preliminary questions and should not be included in the final answer.",
+        "question": "Determine the temperature of sweating human skin in a sauna if the air temperature $T = 110^{\\circ}\\mathrm{C}$ and $r = 3\\%$. Express your answer in $^{\\circ}\\mathrm{C}$.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer states that at equilibrium the heat going away from the skin (up) is equal to the heat going to the skin (down) due to evaporation. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives the expression for the heat flux down as $\\kappa \\frac{dT}{dx}$, where $\\kappa$ is the heat conductivity of air and $T$ is the temperature. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly gives the expression for the heat flux up as $\\frac{D L \\mu}{R} \\frac{d}{dx} \\frac{P}{T}$, where $D$ is the diffusivity of water molecules in air, $L$ is the latent heat of vaporization, $\\mu$ is the molar mass of water, $R$ is the universal gas constant, $P$ is the vapour pressure, and $T$ is the temperature. Partial points: award 0.3 pt if the answer only correctly gives the magnitude of the heat flux up as $L J m$, where $J$ is the particle flux and $m$ is the mass of one molecule; award 0.1 pt if the answer correctly gives the expression for the mass of one molecule as $m = \\mu / N_A$, where $N_A$ is Avogadro's number; award 0.1 pt if the answer correctly gives the expression $n = P / (T k_B)$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer deduces that the direction of the heat flow is opposite to $\\frac{dn}{dx}$, explicitly mentioning or implying the existence of the minus sign in the equations. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer correctly states the relation between the pressure of the water $P$ and the relative humidity $r$ as $P = r p$, where $p$ is the saturation pressure of vapour. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly integrates to obtain $\\kappa (T - T_s) = \\frac{D L \\mu}{R} \\left[ \\frac{p(T_s)}{T_s} - \\frac{r p(T)}{T} \\right]$, where the index $s$ denotes quantities evaluated at the skin surface and $r$ is the relative humidity. Alternatively, if a change from $d$ to $\\Delta$ in the derivatives is made, it must be properly justified: for heat conductivity, no explicit explanation is needed, but for Fick's law, the answer must state that $J$ is constant because the number of particles is conserved. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer correctly substitutes $\\rho = p \\mu / (R T)$ for the density. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer reads the density $\\rho$ correctly from the graph as $\\rho_1 \\in [800, 815] \\mathrm{g m^{-3}}$. Otherwise, award 0 pt.",
+                "Award 0.8 pt if the answer correctly applies the graphical method to find that $\\rho(T_s) = r p(T) + \\frac{\\kappa}{D L} (T - T_s)$ defines a straight line in $(T, \\rho)$ graph, where the index $s$ denotes quantities evaluated at the skin surface. Alternatively, any other valid numerical method that is explained is accepted. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives the numerical final result of the temperature of sweating human skin in a sauna as $T_s \\in [36, 47] ^\\circ \\mathrm{C}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{[36, 47]}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$^{\\circ}\\mathrm{C}$"
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+data figure",
+        "field": "Thermodynamics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_2_1_1.png",
+            "image_question/NBPhO_2025_2_1_2.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2025_3_1",
+        "context": "[Nuclear Reactors] \n\nIn order to maintain a chain reaction in a modern thermal-neutron nuclear reactor one needs three things: 1. nuclear fuel (e.g. $\\mathrm{U}^{235}$), 2. moderator (e.g. water) and 3. coolant. In most cases the moderator acts as the coolant as well. Neutrons released from a thermal fission of $\\mathrm{U}^{235}$ have a mean kinetic energy of approximately $E_{0} = 2 \\mathrm{MeV}$. However, neutrons which are that fast are inefficient in triggering fission of $\\mathrm{U}^{235}$: neutrons need to be slowed down to an average kinetic energy of $E_{f} = 0.025 \\mathrm{eV}$. In what follows, justify why non-relativistic approximations can be used unless explicitly instructed otherwise.",
+        "question": "The rest energy of neutrons $m_{\\mathrm{n}} c^{2} = 940 \\mathrm{MeV}$, the Boltzmann constant $k_{\\mathrm{B}} = 1.38 \\times  10^{-23} \\mathrm{J} \\mathrm{K}^{-1}$, and the elementary charge $e = 1.602 \\times 10^{-19} \\mathrm{C}$. \n\n(1) What is the required speed of neutrons, i.e. the speed $v_f$ of neutrons with kinetic energy $E_{f}$? Express your answer in $m/s$. \n(2) What is the temperature $T_{f}$ of a neutron gas where the average kinetic energy of neutrons is $E_{f}$? Express your answer in $K$. \n(3) What is the initial speed of neutrons, i.e. the speed $v_0$ of neutrons with energy $E_{0}$? Express your answer in $m/s$.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer correctly expresses the required velocity of the neutrons with the kinetic energy $E_f$ as $v_f = \\sqrt{2 E_f / m}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly calculates both $v_f = 2.2 \\times 10^3 \\mathrm{m/s}$ ($v_f$ is the velocity with $E_f$) and $v_0 = 2.0 \\times 10^7 \\mathrm{m/s}$ ($v_0$ is the velocity with $E_0$) for the given cases. Partial points: award 0.3 pt if only one numerical value is correct. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly uses $E_f = \\frac{3}{2} k_B T$, where $k_B$ is the Boltzmann constant and $T$ is the temperature. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer uses $E_f = \\frac{3}{2} k_B T$ to correctly calculate the temperature of a neutron gas with $E_f$ as $T_f = 193 \\mathrm{K}$. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer justifies the validity of the classical (non-relativistic) approach for both cases, for example by showing that the speed is much less than the speed of light or that the kinetic energy is significantly less than the rest energy $E_f \\ll m c^2$. Partial points: award 0.3 pt if the answer uses $E_f = k_B T$ without justification and finds $T = 290 \\mathrm{K}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$2.2 \\times 10^3$}",
+            "\\boxed{193}",
+            "\\boxed{$2.0 \\times 10^7$}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "m/s",
+            "K",
+            "m/s"
+        ],
+        "points": [
+            0.5,
+            0.5,
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_3_3",
+        "context": "[Nuclear Reactors] \n\nIn order to maintain a chain reaction in a modern thermal-neutron nuclear reactor one needs three things: 1. nuclear fuel (e.g. $\\mathrm{U}^{235}$), 2. moderator (e.g. water) and 3. coolant. In most cases the moderator acts as the coolant as well. Neutrons released from a thermal fission of $\\mathrm{U}^{235}$ have a mean kinetic energy of approximately $E_{0} = 2 \\mathrm{MeV}$. However, neutrons which are that fast are inefficient in triggering fission of $\\mathrm{U}^{235}$: neutrons need to be slowed down to an average kinetic energy of $E_{f} = 0.025 \\mathrm{eV}$. In what follows, justify why non-relativistic approximations can be used unless explicitly instructed otherwise.\n\n(i) The rest energy of neutrons $m_{\\mathrm{n}} c^{2} = 940 \\mathrm{MeV}$, the Boltzmann constant $k_{\\mathrm{B}} = 1.38 \\times  10^{-23} \\mathrm{J} \\mathrm{K}^{-1}$, and the elementary charge $e = 1.602 \\times 10^{-19} \\mathrm{C}$. What is the required speed of neutrons, i.e. the speed $v_f$ of neutrons with kinetic energy $E_{f}$? What is the temperature $T_{f}$ of a neutron gas where the average kinetic energy of neutrons is $E_{f}$? \n\n(ii) What is the initial speed of neutrons, i.e. the speed $v_0$ of neutrons with energy $E_{0}$? \n\nParts (i)–(ii) are preliminary questions and should not be included in the final answer.",
+        "question": "(1) From a completely nonrelativistic point of view, what should be the mass $M$ of the moderator's atoms to slow down the fast neutrons as efficiently as possible? Express $M$ in terms of $m_{\\mathrm{n}}$. \n(2) If the mass of the moderator's atoms were to be $M = 135 m_{\\mathrm{n}}$, how many collisions with such atoms at a temperature much lower than $T_{f}$ would a fast neutron need to experience to slow down from $E_{0}$ to $E_{f}$? Assume that all collisions are elastic and central.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer states that $T \\ll T_f$, so the moderator atoms are essentially at rest. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer justifies that the maximum momentum transfer occurs when $m_n = M$, where $m_n$ is the neutron mass and $M$ is the mass of the moderator atom. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer applies both momentum conservation $m_1 (v_{1,f} - v_{1,i}) = m_2 (v_{2,i} - v_{2,f})$ and kinetic energy conservation $m_1 (v_{1,f}^2 - v_{1,i}^2) = m_2 (v_{2,i}^2 - v_{2,f}^2)$, where $m_1$ and $m_2$ are the particle masses, $v_{1,i}$ and $v_{1,f}$ are the initial and final velocities of particle 1, and $v_{2,i}$ and $v_{2,f}$ are the initial and final velocities of particle 2. Partial points: award 0.3 pt if the answer applies only momentum conservation or only energy conservation. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer expresses $u = v \\frac{m_1 - m_2}{m_1 + m_2}$, where $u$ is the speed of the neutron after collision and $v$ is the speed of the neutron before collision. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer expresses $v_f = v_0 \\left( \\frac{m_1 - m_2}{m_1 + m_2} \\right)^N$, where $v_f$ is the final velocity after $N$ collisions, $v_0$ is the initial velocity of the neutron, $m_1$ and $m_2$ are the masses, and $N$ is the number of collisions. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly calculates the number of needed collisions from $E_0$ to $E_f$ as $N = 614$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$M = m_n$}",
+            "\\boxed{614}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.7,
+            1.8
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_3_4",
+        "context": "[Nuclear Reactors] \n\nIn order to maintain a chain reaction in a modern thermal-neutron nuclear reactor one needs three things: 1. nuclear fuel (e.g. $\\mathrm{U}^{235}$), 2. moderator (e.g. water) and 3. coolant. In most cases the moderator acts as the coolant as well. Neutrons released from a thermal fission of $\\mathrm{U}^{235}$ have a mean kinetic energy of approximately $E_{0} = 2 \\mathrm{MeV}$. However, neutrons which are that fast are inefficient in triggering fission of $\\mathrm{U}^{235}$: neutrons need to be slowed down to an average kinetic energy of $E_{f} = 0.025 \\mathrm{eV}$. In what follows, justify why non-relativistic approximations can be used unless explicitly instructed otherwise.\n\n(i) The rest energy of neutrons $m_{\\mathrm{n}} c^{2} = 940 \\mathrm{MeV}$, the Boltzmann constant $k_{\\mathrm{B}} = 1.38 \\times  10^{-23} \\mathrm{J} \\mathrm{K}^{-1}$, and the elementary charge $e = 1.602 \\times 10^{-19} \\mathrm{C}$. What is the required speed of neutrons, i.e. the speed $v_f$ of neutrons with kinetic energy $E_{f}$? What is the temperature $T_{f}$ of a neutron gas where the average kinetic energy of neutrons is $E_{f}$? \n\n(ii) What is the initial speed of neutrons, i.e. the speed $v_0$ of neutrons with energy $E_{0}$? \n\n(iii) From a completely nonrelativistic point of view, what should be the mass of the moderator's atoms to slow down the fast neutrons as efficiently as possible? If the mass of the moderator's atoms were to be $M = 135 m_{\\mathrm{n}}$, how many collisions with such atoms at a temperature much lower than $T_{f}$ would a fast neutron need to experience to slow down from $E_{0}$ to $E_{f}$? Assume that all collisions are elastic and central. \n\nParts (i)–(iii) are preliminary questions and should not be included in the final answer.",
+        "question": "Nuclear fuel, i.e. $\\mathrm{U}^{235}$, is placed inside metal rods and pressurized with helium gas to $p_{0} = 2.5 \\mathrm{MPa}$. During operation, as $\\mathrm{U}^{235}$ keeps on fissioning inside the fuel rods, there is a build up of gas inside the rods. With a non-invasive ultrasound measurement we can measure that the gas pressure inside the rod after it is finally picked out from the core is $p = 6.5 \\mathrm{MPa}$. \n\n(1) Assuming that the gas released inside the rods is completely made of xenon isotope ${}_{54}^{135}\\mathrm{Xe}$ and that the initial gas volume drops from $V_{0} = 18 \\mathrm{cm}^{3}$ to $V = 9 \\mathrm{cm}^{3}$ due to the swelling of the fuel pellets, how many moles of xenon are released from fission? \n(2) What is the ratio of helium to xenon inside the rod? The measurements are done at $T_{0} = 20^{\\circ}\\mathrm{C}$; the universal gas constant $R = 8.31 \\mathrm{J} \\mathrm{mol}^{-1} \\mathrm{K}^{-1}$.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer correctly applies Boyle's law. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly applies Dalton's law. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer expresses $n_{\\mathrm{Xe}} = p_{\\mathrm{Xe}} V / (R T_0)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly calculates $n_{\\mathrm{Xe}} = 5.5 \\times 10^{-3} \\mathrm{mol}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly expresses $n_{\\mathrm{He}} = p_{\\mathrm{He}} V_0 / (R T_0)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly calculates $\\frac{n_{\\mathrm{He}}}{n_{\\mathrm{Xe}}} = 3.3$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$5.5 \\times 10^{-3}$}",
+            "\\boxed{3.3}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "mol",
+            null
+        ],
+        "points": [
+            1.1,
+            0.4
+        ],
+        "modality": "text-only",
+        "field": "Thermodynamics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_5_1",
+        "context": "",
+        "question": "[Throwing] \n\nA drone starts from the origin at rest and accelerates horizontally with an acceleration $g$ to the $+x$ direction. Simultaneously, a ball is thrown from the point with coordinates $(x, y)  = (-h, -h)$. What is the minimum initial speed $v_0$ the ball needs to hit the drone? The free fall acceleration $g$ is antiparallel to the $y$-axis.",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer identifies the idea of switching to the coaccelerating frame, where the drone is at rest and an effective gravitational field is present. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer states that the ball gains a horizontal acceleration $g$, where $g$ is the free-fall acceleration magnitude. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives the effective gravitational field magnitude as $g \\sqrt{2}$, pointing at a $45^{\\circ}$ angle from the drone to the throwing point. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer applies the energy conservation equation $\\frac{1}{2} m v_0^2 = m (g \\sqrt{2}) (h \\sqrt{2})$, where $m$ is the ball mass, $v_0$ is the initial speed, and $h$ is the given distance parameter. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly obtains the minimum initial speed $v_0 = 2 \\sqrt{g h}$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.6 pt if the answer correctly writes the three kinematic equations: (1) In time $t$, the drone travels a distance $s = \\frac{1}{2} gt^2$; (2) For a collision to occur at time $t$, the ball must travel a vertical distance $h$, giving $h = v t \\sin \\alpha - \\frac{1}{2} g t^2$; (3) The horizontal distance $h + s$ gives $h + s = v t \\cos \\alpha$, where $\\alpha$ is the launch angle, $v$ is the initial speed, and $t$ is the flight time. Partial points: award 0.2 pt for each of the three equations. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer derives the condition $\\sin \\alpha = \\cos \\alpha$ from the kinematic equations. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer explicitly states $\\alpha = 45^{\\circ}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer uses $v_x = v_y$ to argue that the highest point of the trajectory must be as low as possible to minimize the initial speed. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer applies energy conservation or the respective kinematical equation. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly obtains the minimum initial speed $v_0 = 2 \\sqrt{g h}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$v_{0} = 2 \\sqrt{gh}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_5_2",
+        "context": "",
+        "question": "[Throwing] \n\nA stone is thrown from point $S$ (shown in the figure below) with an initial speed $v$. A boy at point $B$ wishes to hit the stone in midair by throwing a ball simultaneously with the stone's release. He wants to use the minimum possible speed $u$ that will still allow the ball to hit the stone in midair. After calculating the stone's trajectory, he determines the optimal trajectory for the ball and throws it according to his calculations. The collision point $C$ is shown in the figure. Using the scale provided and necessary measurements from the figure: \n\n(1) Find the initial speed $v$ of the stone. Express your answer in $m/s$. \n(2) Find the initial speed $u$ of the ball. Express your answer in $m/s$. \nThe free fall acceleration is $g = 9.8 m s^{-2}$.\n\n[figure1]",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer identifies the idea of switching to the free-falling frame. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states explicitly or implicitly that the stone and the ball travel in straight lines in the free-falling frame. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly writes $SC' = v t$ and $BC' = u t$, where $v$ is the initial speed of the stone, $u$ is the initial speed of the ball, $t$ is the collision time, and $C'$ is the point obtained in the free-falling frame by shifting the collision point $C$ vertically upward by $h = \\frac{1}{2} g t^2$. Partial points: award 0.1 pt for each correct equation. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer notices that we need to minimize $\\frac{|SC'|}{|BC'|}$ (or maximizing its reciprocal), where $C'$ is defined as the point obtained by shifting $C$ vertically upward by $h = \\frac{1}{2} g t^2$ in the free-falling frame. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly applies the sine theorem to minimize $\\frac{|SC'|}{|BC'|}$, where $C'$ is defined as the point obtained by shifting $C$ vertically upward by $h = \\frac{1}{2} g t^2$ in the free-falling frame. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states that the maximum of $\\frac{|SC'|}{|BC'|}$ occurs when $\\angle C'BS = 90^{\\circ}$, where $C'$ is defined as the point obtained by shifting $C$ vertically upward by $h = \\frac{1}{2} g t^2$ in the free-falling frame. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states that in the free-falling frame the collision point $C'$ is shifted upwards with respect to $S$, $B$, and $C$ by a distance $h = \\frac{1}{2} g t^2$, where $g$ is the gravitational acceleration. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer correctly expresses $|CC'| = \\frac{1}{2} g t^2$, where $C'$ is defined as the point obtained by shifting $C$ vertically upward by $h = \\frac{1}{2} g t^2$ in the free-falling frame. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer provides a well-drawn and correct geometrical construction showing $S$, $B$, $C$, and $C'$ (where $C'$ is defined as the point obtained by shifting $C$ vertically upward by $h = \\frac{1}{2} g t^2$ in the free-falling frame). Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives $v = \\sqrt{g} |SC'| / \\sqrt{2 |CC'|}$ and $u = \\sqrt{g} |BC'| / \\sqrt{2 |CC'|}$, where $|SC'|$ and $|BC'|$ are distances from $S$ and $B$ to $C'$ in the free-falling frame, and $C'$ is defined as the point obtained by shifting $C$ vertically upward by $h = \\frac{1}{2} g t^2$. Partial points: award 0.1 pt for each correct formula. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly calculates $v \\in [11.8, 12.7] \\mathrm{m/s}$ and $u \\in [10.5, 11.4] \\mathrm{m/s}$. Partial points: award 0.1 pt for each correct value (only if the method is correct). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{[11.8, 12.7]}",
+            "\\boxed{[10.5, 11.4]}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            "m/s",
+            "m/s"
+        ],
+        "points": [
+            2.0,
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_5_2_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2025_6_1",
+        "context": "",
+        "question": "[Birds] \n\nA long and thin homogenous beam with uniform thickness and square cross-section floats horizontally in water with its top surface parallel to the water surface. A bird lands on one end of the beam, and as a result, the beam sinks so that the edge of the upper face on the bird's side is exactly at the same height as the water surface, while at the other end of the beam the lower face does not rise above the water. What is the maximum number of such birds that this beam can hold above water?",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer uses any correct torque balance to solve the problem. Partial points: award 0.3 pt if the answer uses any correct force balance with the bird present. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly identifies the moment arm for the force of the bird as $\\frac{1}{2} L$, where $L$ is the beam length. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer explicitly states or derives that the centre of mass of a triangle is located at the intersection of its medians, a distance $\\frac{2}{3} L$ away from the bird. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the moment arm for the buoyancy force as $\\frac{1}{6} L$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer justifies the numerical result for the maximum number of birds is 4. Otherwise, award 0 pt.",
+                "Award 2.0 pts if the answer explicitly states that the final result for the maximum number of birds does not depend on fixing any unknown parameters. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{4}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_7_1",
+        "context": "[Charged Rod] \n\nA rod of mass $m$ carries a charge $q$; both the charge and the mass are homogeneously distributed over its entire length $l$. The system is in homogeneous magnetic field of strength $B$, parallel to the $z$-axis whereas the rod is in the x-y-plane. Neglect any forces except for the Lorentz force. One end of the rod is painted red, and the other - blue.",
+        "question": "Consider the case when the rod rotates around its centre of mass. What should be the angular speed $\\omega$ for the mechanical tension force at the centre of the rod to be zero?",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer considers forces on an infinitesimal part of the rod. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer equates the Lorentz force and the centrifugal force with justification, i.e., writes $\\mathrm{d}q v B = \\mathrm{d}m \\omega^2 r$, where $\\mathrm{d}q$ is the infinitesimal charge, $v$ is the tangential velocity, $B$ is the magnetic field strength, $\\mathrm{d}m$ is the infinitesimal mass, $\\omega$ is the angular speed, and $r$ is the distance from the axis of rotation. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer uses the relation $\\omega = \\frac{v}{r}$, where $v$ is the tangential velocity and $r$ is the distance from the axis of rotation. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer uses the ratio $\\frac{\\mathrm{d}q}{\\mathrm{d}m} = \\frac{q}{m}$, where $q$ is the total charge of the rod and $m$ is the total mass of the rod. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer expresses the angular speed as $\\omega = \\frac{qB}{m}$, where $q$ is the total charge, $B$ is the magnetic field strength, and $m$ is the total mass of the rod. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\omega = \\frac{Bq}{m}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Electromagnetism",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_7_2",
+        "context": "[Charged Rod] \n\nA rod of mass $m$ carries a charge $q$; both the charge and the mass are homogeneously distributed over its entire length $l$. The system is in homogeneous magnetic field of strength $B$, parallel to the $z$-axis whereas the rod is in the x-y-plane. Neglect any forces except for the Lorentz force. One end of the rod is painted red, and the other - blue. \n\n(i) Consider the case when the rod rotates around its centre of mass. What should be the angular speed $\\omega$ for the mechanical tension force at the centre of the rod to be zero? \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "Consider now a case when initially the blue end of the rod is at the origin $(x = y = 0)$, and the red end at $x = l$. The blue end's initial speed is zero while the red end's speed is $v$, parallel to the y-axis. It turns out that after a certain time $t$, the red end passes through the origin. \n\n(1) Find the smallest possible value for $t$. \n(2) Express the corresponding value of $v$ in terms of $m$, $q$ and $l$.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer deduces, with justification, that the net force on the rod is $\\vec{F} = q \\vec{v}_C \\times \\vec{B}$, where $q$ is the total charge, $\\vec{v}_C$ is the velocity of the center of mass, and $\\vec{B}$ is the magnetic field. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer obtains that the velocity of the center of mass is $v_C = v/2$, where $v$ is the initial velocity of the red end. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer justifies that the center of mass moves on a circular path. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer expresses the radius of the circular path of the center of mass as $R = \\frac{m v}{2 q B}$, where $m$ is the total mass, $q$ is the total charge, and $B$ is the magnetic field strength. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer concludes that the angular velocity of the center of mass is $\\omega = \\frac{q B}{m}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer expresses the angular velocity of the rotation of the rod around the center of mass as $\\Omega = v/l$, where $l$ is the length of the rod. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer justifies that $\\Omega$ is conserved, where $\\Omega$ is the angular velocity of the rotation of the rod around the center of mass. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer argues that $t < 2\\pi/\\omega$ is possible only if $R = l/2$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer justifies that in this case, the red end will never end up at the origin. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer justifies that the condition for the red end to reach the origin after time $T$ is $\\Omega T = \\pi + 2\\pi k$ with $k \\in \\mathbb{Z}_{\\geq 0}$. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer expresses the final result as $v = \\frac{q B l}{m} \\left( \\frac{1}{2} + k \\right)$, where $k$ is a non-negative integer. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{2 \\pi}{\\omega}$}",
+            "\\boxed{$v = \\frac{lBq}{2m}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            2.0,
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Electromagnetism",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_8_1",
+        "context": "[Phase Spiral] \n\nHere we shall study the motion of Milky Way stars in the Solar neighbourhood in the direction of the $z$-axis, i.e. perpendicular to the galactic plane. For our purposes, we can model the galactic gravity field as being created by a continuous mass density $\\rho$ (that accounts for the masses of stars, dark matter, gas, interstellar dust, etc), and assume that this mass forms an infinite mirror-symmetric plate, i.e. $\\rho \\equiv \\rho(z)$ and $\\rho(z) = \\rho(-z)$ is independent of $x$ and $y$. Throughout the problem, you may assume that each star's total energy is conserved over the entire considered time period. Gravitational constant $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} \\mathrm{kg}^{-1} \\mathrm{s}^{-2} = 4.30 \\times 10^{-3} \\mathrm{pc} \\mathrm{M}_{\\odot}^{-1} (\\mathrm{km}/\\mathrm{s})^{2}$.",
+        "question": "Assuming that the mass density is constant over the plate's thickness. i.e. $\\rho(z) = \\rho_{0}$, what is the acceleration $a_{z}$ of a star at a distance $z$ from the mid-plane?",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer identifies that the gravitational acceleration obeys Gauss' law, i.e., the number of field lines passing through a closed surface is proportional to the enclosed mass. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly writes the formula relating the mass inside with gravitational flus, e.g., $\\iint g \\cdot \\mathrm{d}A = -4\\pi G M$, where $g$ is the gravitational field (acceleration), $G$ is the gravitational constant, and $M$ is a point mass. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer applies Gauss' law to a cuboid of area $A$ and half-thickness $z$, obtaining $-2 a_z A = -4\\pi G (2A z \\rho_0)$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the final result for the acceleration at distance $z$ from the mid-plane as $a_z = -4\\pi G \\rho_0 z$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.5 pt if the answer finds the acceleration of a thin disk by integrating the surface contribution over the plate. Partial points: award 0.3 pt if the answer writes the correct integral; award 0.2 pt if the answer gives the correct evaluation, including finding that the acceleration is independent of the displacement from the surface. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer infers that only the layers within $-a < z < a$ contribute to the final acceleration. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives the final result for the acceleration at distance $z$ from the mid-plane as $a_z = -4\\pi G \\rho_0 z$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$a_{z} = -4 \\pi G \\rho_{0} z$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_8_2",
+        "context": "[Phase Spiral] \n\nHere we shall study the motion of Milky Way stars in the Solar neighbourhood in the direction of the $z$-axis, i.e. perpendicular to the galactic plane. For our purposes, we can model the galactic gravity field as being created by a continuous mass density $\\rho$ (that accounts for the masses of stars, dark matter, gas, interstellar dust, etc), and assume that this mass forms an infinite mirror-symmetric plate, i.e. $\\rho \\equiv \\rho(z)$ and $\\rho(z) = \\rho(-z)$ is independent of $x$ and $y$. Throughout the problem, you may assume that each star's total energy is conserved over the entire considered time period. Gravitational constant $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} \\mathrm{kg}^{-1} \\mathrm{s}^{-2} = 4.30 \\times 10^{-3} \\mathrm{pc} \\mathrm{M}_{\\odot}^{-1} (\\mathrm{km}/\\mathrm{s})^{2}$. \n\n(i) Assuming that the mass density is constant over the plate's thickness. i.e. $\\rho(z) = \\rho_{0}$, what is the acceleration $a_{z}$ of a star at a distance $z$ from the mid-plane? \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "Consider a star that starts with zero velocity at a distance of $z = a$ from the mid-plane. With what period does it start oscillating around the mid-plane?",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer notices that the movement is that of a harmonic oscillator. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly gives the oscillation period as $T = \\sqrt{\\frac{\\pi}{G \\rho_0}}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\sqrt{\\frac{\\pi}{G \\rho_0}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2025_8_4",
+        "context": "[Phase Spiral] \n\nHere we shall study the motion of Milky Way stars in the Solar neighbourhood in the direction of the $z$-axis, i.e. perpendicular to the galactic plane. For our purposes, we can model the galactic gravity field as being created by a continuous mass density $\\rho$ (that accounts for the masses of stars, dark matter, gas, interstellar dust, etc), and assume that this mass forms an infinite mirror-symmetric plate, i.e. $\\rho \\equiv \\rho(z)$ and $\\rho(z) = \\rho(-z)$ is independent of $x$ and $y$. Throughout the problem, you may assume that each star's total energy is conserved over the entire considered time period. Gravitational constant $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} \\mathrm{kg}^{-1} \\mathrm{s}^{-2} = 4.30 \\times 10^{-3} \\mathrm{pc} \\mathrm{M}_{\\odot}^{-1} (\\mathrm{km}/\\mathrm{s})^{2}$. \n\n(i) Assuming that the mass density is constant over the plate's thickness. i.e. $\\rho(z) = \\rho_{0}$, what is the acceleration $a_{z}$ of a star at a distance $z$ from the mid-plane? \n\n(ii) Consider a star that starts with zero velocity at a distance of $z = a$ from the mid-plane. With what period does it start oscillating around the mid-plane? \n\nIn reality, density decreases with growing $|z|$. Measuring density has been a great challenge because of contributions from dark and other difficult-to-see matter. Here, we consider a breakthrough method of doing it. Consider the distributions of the stars in our neighbourhood on the $z$-$v_{z}$ phase plane, where each star is a dot with coordinates $(v_{z}, z)$; $v_{z}$ denotes the $z$-component the star's velocity, and $z$ - the vertical coordinate. Initially, these dots were distributed nearly homogeneously, but some time ago, the Milky Way was perturbed externally, probably by a passing-by dwarf galaxy; this shuffled the positions and velocities of stars, creating a bar-shaped overdensity region. When moving within that bar-shaped region from the centre to the periphery, the total energy per mass of stars increased monotonously. Over time, this overdensity region started \"winding up\", due to the oscillation periods of stars in the vertical plane depending on their oscillation amplitude $z_{\\mathrm{m}}$, and evolved into a spiral pictured below (Antoja et al. 2018, Nature 561, 360). An observation that you need to exploit below is that the ordering of stars by energies along the spiral today remains the same as it was at the time of perturbation. \n\nThe oscillation period of stars depends on the amplitude $z_{\\mathrm{m}}$ because the gravitational potential (the potential energy per mass) $\\Phi(z)$ is not parabolic. In such a case, the period can be approximately found by substituting the real $\\Phi(z)$ with a $k z^{2}$ matching $\\Phi(z)$ at $z = z_{\\mathrm{m}}$, i. e. with $k = \\Phi(z_{\\mathrm{m}}) / z_{\\mathrm{m}}^{2}$. \n\n[figure1] \n\n(iii) At the intersection points of the spiral with $v_z = 0$, calculate $\\Phi(z)$ by interpolating data linearly where appropriate; plot your results (this follows the analysis of Guo et al. 2024, ApJ, 960, 133) \n\nParts (i)–(iii) are preliminary questions and should not be included in the final answer.",
+        "question": "Assuming that the mass density is almost constant for $|z| \\leq 0.3 \\mathrm{kpc}$, what is the mass density near $z = 0$? Express your answer in $\\mathrm{kg} / \\mathrm{m}^3$.",
+        "marking": [
+            [
+                "Award 0.8 pt if the answer connects the first value of $\\Phi(z_1)$ with $\\rho_0$ by assuming constant mass density. Partial points: award 0.6 pt if the answer obtains correct values of $\\Phi(z)$ but does not use the first data point. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer correctly obtains the final expression for $\\rho_0$ as $\\rho_0 = \\frac{\\Phi(z_1)}{2\\pi G z_1^2}$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer correctly obtains the numerical value of $\\rho_0$ within the range $[5.5 \\times 10^{-21}, 6.7 \\times 10^{-21}]$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{[5.5 \\times 10^{-21}, 6.7 \\times 10^{-21}]}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$\\mathrm{kg} / \\mathrm{m}^3$."
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Modern Physics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_8_3_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2025_8_5",
+        "context": "[Phase Spiral] \n\nHere we shall study the motion of Milky Way stars in the Solar neighbourhood in the direction of the $z$-axis, i.e. perpendicular to the galactic plane. For our purposes, we can model the galactic gravity field as being created by a continuous mass density $\\rho$ (that accounts for the masses of stars, dark matter, gas, interstellar dust, etc), and assume that this mass forms an infinite mirror-symmetric plate, i.e. $\\rho \\equiv \\rho(z)$ and $\\rho(z) = \\rho(-z)$ is independent of $x$ and $y$. Throughout the problem, you may assume that each star's total energy is conserved over the entire considered time period. Gravitational constant $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} \\mathrm{kg}^{-1} \\mathrm{s}^{-2} = 4.30 \\times 10^{-3} \\mathrm{pc} \\mathrm{M}_{\\odot}^{-1} (\\mathrm{km}/\\mathrm{s})^{2}$. \n\n(i) Assuming that the mass density is constant over the plate's thickness. i.e. $\\rho(z) = \\rho_{0}$, what is the acceleration $a_{z}$ of a star at a distance $z$ from the mid-plane? \n\n(ii) Consider a star that starts with zero velocity at a distance of $z = a$ from the mid-plane. With what period does it start oscillating around the mid-plane? \n\nIn reality, density decreases with growing $|z|$. Measuring density has been a great challenge because of contributions from dark and other difficult-to-see matter. Here, we consider a breakthrough method of doing it. Consider the distributions of the stars in our neighbourhood on the $z$-$v_{z}$ phase plane, where each star is a dot with coordinates $(v_{z}, z)$; $v_{z}$ denotes the $z$-component the star's velocity, and $z$ - the vertical coordinate. Initially, these dots were distributed nearly homogeneously, but some time ago, the Milky Way was perturbed externally, probably by a passing-by dwarf galaxy; this shuffled the positions and velocities of stars, creating a bar-shaped overdensity region. When moving within that bar-shaped region from the centre to the periphery, the total energy per mass of stars increased monotonously. Over time, this overdensity region started \"winding up\", due to the oscillation periods of stars in the vertical plane depending on their oscillation amplitude $z_{\\mathrm{m}}$, and evolved into a spiral pictured below (Antoja et al. 2018, Nature 561, 360). An observation that you need to exploit below is that the ordering of stars by energies along the spiral today remains the same as it was at the time of perturbation. \n\nThe oscillation period of stars depends on the amplitude $z_{\\mathrm{m}}$ because the gravitational potential (the potential energy per mass) $\\Phi(z)$ is not parabolic. In such a case, the period can be approximately found by substituting the real $\\Phi(z)$ with a $k z^{2}$ matching $\\Phi(z)$ at $z = z_{\\mathrm{m}}$, i. e. with $k = \\Phi(z_{\\mathrm{m}}) / z_{\\mathrm{m}}^{2}$. \n\n[figure1] \n\n(iii) At the intersection points of the spiral with $v_z = 0$, calculate $\\Phi(z)$ by interpolating data linearly where appropriate; plot your results (this follows the analysis of Guo et al. 2024, ApJ, 960, 133) \n\n(iv) Assuming that the mass density is almost constant for $|z| \\leq 0.3 \\mathrm{kpc}$, what is the mass density near $z = 0$? \n\nParts (i)–(iv) are preliminary questions and should not be included in the final answer.",
+        "question": "Dark matter is an \"invisible\" form of matter that only interacts by gravity. In general, it is found that dark matter forms halos that extend significantly farther than visible matter structures. By assuming that the dark matter density doesn't vary significantly within the volume of interest and that it starts dominating far away from the galactic plane, from around $z = 0.7 \\mathrm{kpc}$, estimate the local dark matter density $\\rho_{\\mathrm{DM}}$. Express your answer in $\\mathrm{kg} / \\mathrm{m}^3$.",
+        "marking": [
+            [
+                "Award 0.7 pt if the answer obtains an expression for the total mass per unit area (surface density) enclosed within height $z$ using the constant density approximation, e.g., $\\Sigma(z) = \\rho_0 z = \\frac{\\Phi(z)}{2\\pi G z}$, where $\\Sigma(z)$ is the surface density, $\\rho_0$ is the assumed constant mass density over the plate's thickness, $\\Phi(z)$ is the gravitational potential per unit mass, and $G$ is the gravitational constant. Otherwise, award 0 pt.",
+                "Award 0.9 pt if the answer takes the difference between the total surface densities at two heights $z_6$ and $z_5$ where dark matter dominates at $z_6$ (and not at $z_5$), and sets $\\Sigma(z_6) - \\Sigma(z_5) = \\rho_{\\mathrm{DM}} (z_6 - z_5)$ to isolate the dark matter contribution, where $\\rho_{\\mathrm{DM}}$ is the local dark matter density. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer expresses $\\rho_{\\mathrm{DM}}$ in terms of $\\Phi(z)$ at the two heights as $\\rho_{\\mathrm{DM}} \\approx \\frac{1}{2\\pi G (z_6 - z_5)} \\left(\\frac{\\Phi(z_6)}{z_6} - \\frac{\\Phi(z_5)}{z_5}\\right)$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives a numerical value of the local dark matter density $\\rho_{\\mathrm{DM}}$ within the range $[6.9 \\times 10^{-22} \\mathrm{kg/m^3}, 8.5 \\times 10^{-22} \\mathrm{kg/m^3}]$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 1.6 pt if the answer uses the previous relation between density and potential to express $(z_6 - z_5) \\rho_{\\mathrm{DM}} = z_6 \\rho(z_6) - z_5 \\rho(z_5)$, where the difference between the total surface densities at two heights $z_6$ and $z_5$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer presents a final explicit expression for $\\rho_{\\mathrm{DM}}$ based on $z_6$ and $z_5$, e.g., $\\rho_{\\mathrm{DM}} = \\frac{1}{2\\pi G (z_6 - z_5)} \\left(\\frac{\\Phi(z_6)}{z_6} - \\frac{\\Phi(z_5)}{z_5}\\right).$ Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer gives a numerical value of the local dark matter density $\\rho_{\\mathrm{DM}}$ within the range $[6.9 \\times 10^{-22} \\mathrm{kg/m^3}, 8.5 \\times 10^{-22} \\mathrm{kg/m^3}]$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{[6.9 \\times 10^{-22}, 8.5 \\times 10^{-22}]}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$\\mathrm{kg} / \\mathrm{m}^3$"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+data figure",
+        "field": "Modern Physics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_8_3_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2025_8_6",
+        "context": "[Phase Spiral] \n\nHere we shall study the motion of Milky Way stars in the Solar neighbourhood in the direction of the $z$-axis, i.e. perpendicular to the galactic plane. For our purposes, we can model the galactic gravity field as being created by a continuous mass density $\\rho$ (that accounts for the masses of stars, dark matter, gas, interstellar dust, etc), and assume that this mass forms an infinite mirror-symmetric plate, i.e. $\\rho \\equiv \\rho(z)$ and $\\rho(z) = \\rho(-z)$ is independent of $x$ and $y$. Throughout the problem, you may assume that each star's total energy is conserved over the entire considered time period. Gravitational constant $G = 6.67 \\times 10^{-11} \\mathrm{m}^{3} \\mathrm{kg}^{-1} \\mathrm{s}^{-2} = 4.30 \\times 10^{-3} \\mathrm{pc} \\mathrm{M}_{\\odot}^{-1} (\\mathrm{km}/\\mathrm{s})^{2}$. \n\n(i) Assuming that the mass density is constant over the plate's thickness. i.e. $\\rho(z) = \\rho_{0}$, what is the acceleration $a_{z}$ of a star at a distance $z$ from the mid-plane? \n\n(ii) Consider a star that starts with zero velocity at a distance of $z = a$ from the mid-plane. With what period does it start oscillating around the mid-plane? \n\nIn reality, density decreases with growing $|z|$. Measuring density has been a great challenge because of contributions from dark and other difficult-to-see matter. Here, we consider a breakthrough method of doing it. Consider the distributions of the stars in our neighbourhood on the $z$-$v_{z}$ phase plane, where each star is a dot with coordinates $(v_{z}, z)$; $v_{z}$ denotes the $z$-component the star's velocity, and $z$ - the vertical coordinate. Initially, these dots were distributed nearly homogeneously, but some time ago, the Milky Way was perturbed externally, probably by a passing-by dwarf galaxy; this shuffled the positions and velocities of stars, creating a bar-shaped overdensity region. When moving within that bar-shaped region from the centre to the periphery, the total energy per mass of stars increased monotonously. Over time, this overdensity region started \"winding up\", due to the oscillation periods of stars in the vertical plane depending on their oscillation amplitude $z_{\\mathrm{m}}$, and evolved into a spiral pictured below (Antoja et al. 2018, Nature 561, 360). An observation that you need to exploit below is that the ordering of stars by energies along the spiral today remains the same as it was at the time of perturbation. \n\nThe oscillation period of stars depends on the amplitude $z_{\\mathrm{m}}$ because the gravitational potential (the potential energy per mass) $\\Phi(z)$ is not parabolic. In such a case, the period can be approximately found by substituting the real $\\Phi(z)$ with a $k z^{2}$ matching $\\Phi(z)$ at $z = z_{\\mathrm{m}}$, i. e. with $k = \\Phi(z_{\\mathrm{m}}) / z_{\\mathrm{m}}^{2}$. \n\n[figure1] \n\n(iii) At the intersection points of the spiral with $v_z = 0$, calculate $\\Phi(z)$ by interpolating data linearly where appropriate; plot your results (this follows the analysis of Guo et al. 2024, ApJ, 960, 133) \n\n(iv) Assuming that the mass density is almost constant for $|z| \\leq 0.3 \\mathrm{kpc}$, what is the mass density near $z = 0$? \n\n(v) Dark matter is an \"invisible\" form of matter that only interacts by gravity. In general, it is found that dark matter forms halos that extend significantly farther than visible matter structures. By assuming that the dark matter density doesn't vary significantly within the volume of interest and that it starts dominating far away from the galactic plane, from around $z = 0.7 \\mathrm{kpc}$, estimate the local dark matter density $\\rho_{\\mathrm{DM}}$. \n\nParts (i)–(v) are preliminary questions and should not be included in the final answer.",
+        "question": "How long ago did the perturbation occur? Express your answer in $s$.",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer includes the idea of using differences in the winding rate between two points on the spiral. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer expresses the angular frequency $\\omega$ in terms of $\\Phi(z)$ by assuming a harmonic oscillator, i.e., $\\omega(z) = \\sqrt{\\frac{2\\Phi(z)}{z^2}}$, where $G$ is the gravitational constant, $\\rho_0$ is the constant mass density, $\\Phi(z)$ is the gravitational potential per unit mass at height $z$, and $z$ is the distance from the mid-plane. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer picks two labeled points on the spiral (e.g., $z_1$ and $z_6$) and connects the age of the spiral, $\\omega$ and the winding amount via $T_0 = 2.5 \\frac{2\\pi}{\\omega(z_6) - \\omega(z_1)}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer gives a numerical value for the time of the perturbation that falls within the range $[1.7 \\times 10^{16} \\mathrm{s}, 2.1 \\times 10^{16} \\mathrm{s}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$[1.7 \\times 10^{16} \\mathrm{s}, 2.1 \\times 10^{16} \\mathrm{s}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "s"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+data figure",
+        "field": "Modern Physics",
+        "source": "NBPhO_2025",
+        "image_question": [
+            "image_question/NBPhO_2025_8_3_1.png"
+        ]
+    }
+]

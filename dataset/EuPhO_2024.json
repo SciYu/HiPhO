@@ -1,0 +1,302 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "EuPhO_2024_1_1",
+        "context": "As shown in the figure, a puck (a small disc) with radius $r$ and uniform density is moving on a horizontal plane with the velocity $v_{0}$ without rotation. The puck meets a fixed half-circular wall with a radius $R \\gg r$ and starts to move along the wall. The coefficient of friction with the wall is $\\mu$, and friction with the horizontal plane is negligible.",
+        "question": "Find the velocity of the puck $v_{e}$ when it leaves the wall. Consider different possible cases.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer realizes that puck is sliding initially. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer realizes that puck may roll without sliding. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer states that sliding ends when roll condition $v = {r\\omega }$ is met. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly equates the normal force with $m v^2 / R$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer uses $$F_f = \\mu N$$ for the friction force. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer gives the correct equation for translational motion: $m \\frac{d v}{d t} = -\\mu m \\frac{v^2}{R}$. Partial points: deduct 0.2 pt for wrong sign. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the integral expression for translational motion with correct initial conditions: $\\int_{v_0}^v \\frac{d v}{v^2} = - \\frac{\\mu}{R} \\int_0^t dt$, where $$t=0$$ is the time at which the puck meets the semicircular wall and has the initial velocity $$v_0$$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer gives the expression for $$v$$ as a function of time or angle as in $v(t) = \\frac{v_0}{1 + t/\\tau}$ or $v = v_0 \\exp(-\\mu \\varphi)$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer gives the equation of motion for rotation: $$r \\frac{d \\omega}{d t} = \\frac{\\mu m r^2}{R I} v^2 = \\frac{2\\mu}{R} \\cdot \\frac{v_0^2}{(1 + t/\\tau)^2}$$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer uses $$I = \\frac{1}{2} m r^2$$ as the moment of inertia. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the integral expression for rotational motion with correct initial conditions: $r \\int_0^{\\omega} d \\omega = \\frac{2 v_0}{\\tau} \\int_0^t \\frac{d t}{(1 + t/\\tau)^2}$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer gives the expression for $$r \\omega$$ as a function of time or angle as in $r \\omega = v_0 \\frac{2t / \\tau}{1 + t/\\tau}$ or $r \\omega = 2v_0 (1 - \\exp(-\\mu \\varphi))$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly finds the time $$\\frac{R}{2 v_0 \\mu}$$ or angle $$\\frac{\\ln(3/2)}{\\mu}$$ for the transition to rolling without sliding. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer obtains the critical coefficient of friction: $$\\mu_c = \\frac{\\ln(3/2)}{\\pi}$$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer finds the final velocity $$v_e = \\frac{2 v_0}{3}$$ for rolling without sliding. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer finds the velocity $$v_e = v_0 \\exp(-\\pi \\mu)$$ if the puck slides the whole time. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$v_e = \\frac{2 v_0}{3}$}",
+            "\\boxed{$v_e = v_0 \\exp(-\\pi \\mu)$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            4.0,
+            4.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "EuPhO_2024",
+        "image_question": [
+            "images_question/EuPhO_2024_1_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2024_2_1",
+        "context": "Alice and Bob are twin astronauts on a long space mission. After many years, they are finally approaching each other to reunite. Alice's spaceship is moving towards Bob's spaceship at a speed of $u = \\frac{3}{5}c$ ,where $c$ is the speed of light.\n\nDuring their approach, both Alice and Bob send gifts to each other. Alice sends gifts to Bob at regular time intervals $\\Delta t_{0}$ in her own frame of reference, with each gift travelling at a velocity $v = \\frac{4}{5}c$ (again, in her frame of reference). Similarly, Bob sends gifts to Alice at the same regular time intervals $\\Delta t_{0}$ in his own frame of reference, with each gift also travelling at a velocity $v = \\frac{4}{5} c$ in his frame of reference. Assume that the distance $L$ between Alice and Bob is so large that there are many gifts in transit at any given moment.",
+        "question": "In Bob's reference frame: \n\n(1) Find the distance $l_B$ between two successive gifts sent by Alice. \n(2) Find the time interval $\\Delta t_{1}$ at which these gifts from Alice arrive at Bob's spaceship.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer writes the correct formula for relativistic addition of velocities. Partial points: deduct 0.3 pt for one mistake. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the relative velocity $v_B$ of frames B and G as $v_B = \\frac{35}{37} c$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer finds $l_{A} = \\frac{4}{5} c \\Delta t_0$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives correct $\\gamma$ formula $\\gamma_v = \\frac{1}{\\sqrt{1 - v^2/c^2}}$. Partial points: deduct 0.2 pt for one mistake. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer states that $l_{1} = l_{2} / \\gamma$ is only true in rest frame. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer uses $l_{A} = l_{G} / \\gamma_v$, where $G$ is the rest frame of the gifts. Partial points: deduct 0.1 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer uses $l_{B} = l_{G} / \\gamma_{v_B}$, where $G$ is the rest frame of the gifts. Partial points: deduct 0.1 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct expression for $l_{B}$: $l_B = v \\Delta t_0 \\frac{\\gamma_v}{\\gamma_{v_B}} = \\frac{16}{37} \\Delta t_0 c$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct numerical result $16/37 = 0.\\overline{432}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer uses $\\Delta t_{1} = l_{B} / v_{B}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct numerical result $16/35 \\approx 0.457$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.5 pt if the answer writes the correct formula for relativistic addition of velocities. Partial points: deduct 0.3 pt for one mistake. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the relative velocity $v_B$ of frames B and G as $v_B = \\frac{35}{37} c$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives correct $\\gamma$ formula $\\gamma_v = \\frac{1}{\\sqrt{1 - v^2/c^2}}$. Partial points: deduct 0.2 pt for one mistake. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer realizes that two subsequent gifts are sent from the same place in Alice's frame. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer finds $\\Delta {t}_{0,B} = \\gamma_{u} \\Delta t_{0}$. Partial points: deduct 0.1 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer finds that in Bob's frame,second gift at position $u \\Delta t_{0,B}$ while first gift at $v_{B} \\Delta t_{0,B}$. Partial points: deduct 0.2 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct expression for $l_{B}$: $l_B = (v_B - u) \\Delta t_0 \\gamma_u = \\frac{16}{37} \\Delta t_0 c$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct numerical result $16/37 = 0.\\overline{432}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer uses $\\Delta t_{1} = l_{B} / v_{B}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct numerical result $16/35 \\approx 0.457$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$l_B = \\frac{16}{37} c \\Delta t_{0}$}",
+            "\\boxed{$\\Delta t_{1} = \\frac{16}{35} \\Delta t_0$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            4.0,
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "EuPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "EuPhO_2024_2_2",
+        "context": "Alice and Bob are twin astronauts on a long space mission. After many years, they are finally approaching each other to reunite. Alice's spaceship is moving towards Bob's spaceship at a speed of $u = \\frac{3}{5}c$ ,where $c$ is the speed of light.\n\nDuring their approach, both Alice and Bob send gifts to each other. Alice sends gifts to Bob at regular time intervals $\\Delta t_{0}$ in her own frame of reference, with each gift travelling at a velocity $v = \\frac{4}{5}c$ (again, in her frame of reference). Similarly, Bob sends gifts to Alice at the same regular time intervals $\\Delta t_{0}$ in his own frame of reference, with each gift also travelling at a velocity $v = \\frac{4}{5} c$ in his frame of reference. Assume that the distance $L$ between Alice and Bob is so large that there are many gifts in transit at any given moment.",
+        "question": "At a given instant, Alice can see a number of gifts moving away from her and a number of gifts moving towards her. What is the ratio between these two numbers?",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer identifies the distance to Bob as $d_B$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the light travel time to Bob as $t_l = d_B / c$, where $d_B$ is the distance to Bob. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer recognizes the need to correct for light travel time in Alice's frame. Otherwise, award 0 pt.",
+                "Award 0.9 pt if the answer gives $d_{AG} = d_B + t_l v$. Partial points: deduct 0.3 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer computes the number of gifts sent by Alice to Bob $N_{a \\rightarrow b} = d_{AG} / L_A$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer recognizes the need to correct for light travel time in the incoming direction. Otherwise, award 0 pt.",
+                "Award 0.9 pt if the answer gives $d_{BG} = d_B - t_l v_B$. Partial points: deduct 0.3 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer computes $N_{b \\rightarrow a} = d_{BG} / L_B$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives a symbolic expression for the ratio $N_{\\text{out}} / N_{\\text{in}}$ = $\\frac{(1+v/c) c}{(1-v_B/c)v} \\frac{16}{37}$ or $\\frac{(c+v) v_B \\Delta t_1}{v \\Delta t_0 (c-v)}$. Partial points: deduct 0.2 pt for each mistake. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the final numerical result is correct (ratio=18). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{18}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            5.0
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "EuPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "EuPhO_2024_3_1",
+        "context": "As shown in the figure, a Fabry-Pérot interferometer consists of two identical parallel planar mirrors separated by a distance $L$. The space between and outside the mirrors is filled with air. The mirrors are partially reflective; when light is aimed towards one of these mirrors along the normal direction, the reflected beam has intensity $R < 1$ times the intensity of the incident beam. Assume that the mirrors are symmetric, meaning they interact the same way with light incident from either side, and lossless. Assume also that they are highly reflective, meaning $1 - R \\ll 1$. A monochromatic laser beam of power $P$ is aimed towards the interferometer perpendicular to the mirrors. The distance $L$ is chosen so that the back-reflected beam vanishes, i.e., all the optical power is transmitted through the interferometer. \n\n[figure1]",
+        "question": "Show that the laser beam must acquire a nonzero phase shift $\\phi$ when it passes through either of the mirrors.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer shows understanding that some light is initially reflected without entering the interferometer. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer shows understanding that light bounces back and forth between the mirrors. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer uses one or two travelling waves in each region. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer writes equations relating amplitudes via $r$ and $t$, such as $B = tA + rC$ and $0 = rA + tC$. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer solves the system to obtain the condition $e^{-2i k L} = r^2 - t^2$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer uses the relation $|r|^2 + |t|^2 = 1$ or $R + T = 1$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer states that $|r|^2 + |t|^2 = 1$ is a consequence of conservation of energy. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer indicates that the solutions $r$ and $t$ should be complex numbers. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.3 pt if the answer shows understanding that some light is initially reflected without entering the interferometer. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer shows understanding that light bounces back and forth between the mirrors. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer refers to the idea of superposition of complex amplitudes. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly includes the effects on amplitudes from reflection, transmission, and propagation. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer sums up the complex amplitudes as a geometric series. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer derives the equation: $e^{-2i k L} = r^2 - t^2$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer uses the condition $|r|^2 + |t|^2 = 1$ or $R + T = 1$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer states that $|r|^2 + |t|^2 = 1$ is a consequence of conservation of energy. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer shows understanding that the solutions $r$ and $t$ should be complex. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.3 pt if the answer shows understanding that some light is initially reflected without entering the interferometer. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer shows understanding that light bounces back and forth between the mirrors. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer uses the relation $1 + r = t$. Otherwise, award 0 pt.",
+                "Award 0.8 pt if the answer justifies the relation $1 + r = t$ using continuity of the electric field or thin-mirror arguments. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer uses the condition $|r|^2 + |t|^2 = 1$ or $R + T = 1$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer states that $|r|^2 + |t|^2 = 1$ is a consequence of conservation of energy. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer shows understanding that the solutions $r$ and $t$ should be complex. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            ""
+        ],
+        "answer_type": [
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "EuPhO_2024",
+        "image_question": [
+            "images_question/EuPhO_2024_3_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2024_3_2",
+        "context": "As shown in the figure, a Fabry-Pérot interferometer consists of two identical parallel planar mirrors separated by a distance $L$. The space between and outside the mirrors is filled with air. The mirrors are partially reflective; when light is aimed towards one of these mirrors along the normal direction, the reflected beam has intensity $R < 1$ times the intensity of the incident beam. Assume that the mirrors are symmetric, meaning they interact the same way with light incident from either side, and lossless. Assume also that they are highly reflective, meaning $1 - R \\ll 1$. A monochromatic laser beam of power $P$ is aimed towards the interferometer perpendicular to the mirrors. The distance $L$ is chosen so that the back-reflected beam vanishes, i.e., all the optical power is transmitted through the interferometer. \n\n[figure1]",
+        "question": "The laser beam must acquire a nonzero phase shift $\\phi$ when it passes through either of the mirrors. Find the magnitude of $\\phi$ (expressed in $^{\\circ}$).",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer explicitly concludes that the phase difference is $90^{\\circ}$. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer takes the modulus of $e^{-2ikL} = r^2 - t^2$ to get the conditions involving only $r$ and $t$. Otherwise, award 0 pt.",
+                "Award 0.8 pt if the answer correctly manipulates $r, t, r^*, t^*$ to show that $r$ is an imaginary number times $t$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.5 pt if the answer explicitly concludes that the phase difference is $90^{\\circ}$. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer takes the modulus of $e^{-2ikL} = r^2 - t^2$ to get the conditions involving only $r$ and $t$. Otherwise, award 0 pt.",
+                "Award 0.8 pt if the answer uses a geometric argument to show that $r$ and $t$ must make a right angle. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\pm 90$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$^{\\circ}$"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "EuPhO_2024",
+        "image_question": [
+            "images_question/EuPhO_2024_3_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2024_3_3",
+        "context": "As shown in the figure, a Fabry-Pérot interferometer consists of two identical parallel planar mirrors separated by a distance $L$. The space between and outside the mirrors is filled with air. The mirrors are partially reflective; when light is aimed towards one of these mirrors along the normal direction, the reflected beam has intensity $R < 1$ times the intensity of the incident beam. Assume that the mirrors are symmetric, meaning they interact the same way with light incident from either side, and lossless. Assume also that they are highly reflective, meaning $1 - R \\ll 1$. A monochromatic laser beam of power $P$ is aimed towards the interferometer perpendicular to the mirrors. The distance $L$ is chosen so that the back-reflected beam vanishes, i.e., all the optical power is transmitted through the interferometer. \n\n[figure1]",
+        "question": "At a certain moment, the incident laser beam is switched off rapidly. Find the total energy $E$ of the light that travels back from the interferometer towards the laser after the laser is switched off.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer states that since $|t| \\ll |r|$, the amplitudes $|B|$ and $|C|$ are very large and their difference is small, thus, $|B|$ and $|C|$ are approximately equal. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer applies symmetry to show that $2E = U$ ($U$ is the initial energy stored inside the interferometer) or that half the energy is emitted towards the laser. Otherwise, award 0 pt.",
+                "Award 1.5 pt if the answer finds the relation between $P^{\\prime}$ and $P$ (suppose the power contained in each wave (forwards- and backwards-propagating) in region II is $P^{\\prime}$), i.e., $P^{\\prime} \\approx P / (1 - R)$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct value for the initial energy stored inside the interferometer: $U \\approx \\frac{2}{1 - R} \\cdot \\frac{L P}{c}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct value for the total energy: $E \\approx \\frac{1}{1 - R} \\cdot \\frac{L P}{c}$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 1.5 pt if the answer shows, even by reasoning, that the power propagating out through the first mirror decreases by a factor $R^2$ every $\\Delta t$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer multiplies by $\\Delta t$ to convert power or intensity to energy. Otherwise, award 0 pt.",
+                "Award 1.5 pt if the answer sums a geometric series to find the total energy $E$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer gives the correct value for $E$, i.e., $E \\approx \\frac{1}{1 - R} \\cdot \\frac{L P}{c}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$E \\approx \\frac{1}{1 - R} \\frac{LP}{c}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "EuPhO_2024",
+        "image_question": [
+            "images_question/EuPhO_2024_3_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2024_3_4",
+        "context": "As shown in the figure, a Fabry-Pérot interferometer consists of two identical parallel planar mirrors separated by a distance $L$. The space between and outside the mirrors is filled with air. The mirrors are partially reflective; when light is aimed towards one of these mirrors along the normal direction, the reflected beam has intensity $R < 1$ times the intensity of the incident beam. Assume that the mirrors are symmetric, meaning they interact the same way with light incident from either side, and lossless. Assume also that they are highly reflective, meaning $1 - R \\ll 1$. A monochromatic laser beam of power $P$ is aimed towards the interferometer perpendicular to the mirrors. The distance $L$ is chosen so that the back-reflected beam vanishes, i.e., all the optical power is transmitted through the interferometer. \n\n[figure1]",
+        "question": "Estimate the duration $T$ of the light pulse that travels back towards the laser.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer states that energy reduces by a factor $R^2$ each time a wave is removed. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer uses the fact that the reduction of energy occurs at intervals $\\Delta t$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer provides a valid mathematical argument that leads to the correct result: $T \\approx \\frac{1}{1 - R} \\cdot \\frac{L}{c}$ when $1 - R \\ll 1$. Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.2 pt if the answer states that the decay of stored energy is roughly exponential like $e^{-2 \\log(1/R) t / (\\Delta t)}$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer states the outwards energy flux. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer uses the energy decay equation to determine the decay constant and finds $T \\approx \\frac{1}{1 - R} \\cdot \\frac{L}{c}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$T \\approx \\frac{1}{1 - R} \\cdot \\frac{L}{c}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "EuPhO_2024",
+        "image_question": [
+            "images_question/EuPhO_2024_3_1_1.png"
+        ]
+    }
+]

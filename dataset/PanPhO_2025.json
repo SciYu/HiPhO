@@ -1,0 +1,1201 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "PanPhO_2025_1_1",
+        "context": "As shown in the figure, consider a lollipop made of a solid sphere of mass $m$ and radius $r$ that is radially pierced by a massless stick. The free end of the stick is pivoted on the ground. The sphere rolls on the ground without slipping, with its centre moving in a circle of radius $R$ with angular velocity $\\Omega$ (along $-\\hat{z}$ direction). The moment of inertia of a solid sphere along the symmetric axis with mass $m$ and radius $r$ is $I = \\frac{2}{5} m r^{2}$.\n\n[figure1]",
+        "question": "What is the (instantaneous) total angular velocity $\\vec{\\omega}$ of the lollipop? Express your answer in terms of $r$, $R$, $\\Omega$, $\\hat{x}$ and $\\hat{z}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{\\omega} = \\frac{R \\Omega}{r} \\hat{x}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_1_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_1_2",
+        "context": "As shown in the figure, consider a lollipop made of a solid sphere of mass $m$ and radius $r$ that is radially pierced by a massless stick. The free end of the stick is pivoted on the ground. The sphere rolls on the ground without slipping, with its centre moving in a circle of radius $R$ with angular velocity $\\Omega$ (along $-\\hat{z}$ direction). The moment of inertia of a solid sphere along the symmetric axis with mass $m$ and radius $r$ is $I = \\frac{2}{5} m r^{2}$.\n\n[figure1]",
+        "question": "What is the angular momentum $\\vec{L}$ of the lollipop? Express your answer in terms of $m, r, R, \\Omega, \\hat{x}$ and $\\hat{z}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{L} = \\frac{7}{5} m r R \\Omega \\hat{x} - m R^{2} \\Omega \\hat{z}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_1_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_1_3",
+        "context": "As shown in the figure, consider a lollipop made of a solid sphere of mass $m$ and radius $r$ that is radially pierced by a massless stick. The free end of the stick is pivoted on the ground. The sphere rolls on the ground without slipping, with its centre moving in a circle of radius $R$ with angular velocity $\\Omega$ (along $-\\hat{z}$ direction). The moment of inertia of a solid sphere along the symmetric axis with mass $m$ and radius $r$ is $I = \\frac{2}{5} m r^{2}$.\n\n[figure1]",
+        "question": "What is the normal force $\\vec{N}$ between the ground and the sphere?",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{N} = \\frac{7}{5} m r \\Omega^{2} + m g$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_1_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_2_1",
+        "context": "In 2018, the Nobel Prize in physics was awarded to Arthur Ashkin, for the creation of the \"laser tweezer\", a device that allows one to hold and move transparent microscopic objects with the help of light. In this device, a parallel beam of light from a laser passes through a converging lens $L$ and hits a microparticle $M$, which can also be considered as a converging lens. Point $F$ is the common focus of $L$ and $M$. The light intensity in the beam is $I = 1.00 \\mu \\mathrm{W} / \\mathrm{cm}^{2}$, the beam radius is $R = 1.00 \\mathrm{cm}$, and the focal length of the lens $L$ is $F = 10.0 \\mathrm{cm}$. Ignore the absorption and reflection of light. Speed of light in vacuum is $c = 3 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$.\n\n[figure1]",
+        "question": "Find the expression of the force due to the light acting on the lens $L$, in the setup shown in Fig.2a. Express the answer in terms of $I$, $R$, $F$, $c$, and $\\hat{y}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$-\\hat{y} \\frac{\\pi I R^{4}}{4 c F^{2}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_2_2",
+        "context": "In 2018, the Nobel Prize in physics was awarded to Arthur Ashkin, for the creation of the \"laser tweezer\", a device that allows one to hold and move transparent microscopic objects with the help of light. In this device, a parallel beam of light from a laser passes through a converging lens $L$ and hits a microparticle $M$, which can also be considered as a converging lens. Point $F$ is the common focus of $L$ and $M$. The light intensity in the beam is $I = 1.00 \\mu \\mathrm{W} / \\mathrm{cm}^{2}$, the beam radius is $R = 1.00 \\mathrm{cm}$, and the focal length of the lens $L$ is $F = 10.0 \\mathrm{cm}$. Ignore the absorption and reflection of light. Speed of light in vacuum is $c = 3 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$.\n\n[figure1]",
+        "question": "Calculate the (numerical value) magnitude of the force (expressed in $N$) acting on the microparticle $M$, in the setup shown in Fig.2a.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$[2.60 \\times 10^{-17}, 2.64 \\times 10^{-17}]$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "N"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_2_3",
+        "context": "In 2018, the Nobel Prize in physics was awarded to Arthur Ashkin, for the creation of the \"laser tweezer\", a device that allows one to hold and move transparent microscopic objects with the help of light. In this device, a parallel beam of light from a laser passes through a converging lens $L$ and hits a microparticle $M$, which can also be considered as a converging lens. Point $F$ is the common focus of $L$ and $M$. The light intensity in the beam is $I = 1.00 \\mu \\mathrm{W} / \\mathrm{cm}^{2}$, the beam radius is $R = 1.00 \\mathrm{cm}$, and the focal length of the lens $L$ is $F = 10.0 \\mathrm{cm}$. Ignore the absorption and reflection of light. Speed of light in vacuum is $c = 3 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$.\n\nNext, the left half of the lens $L$ is covered by a diaphragm, as shown in Fig.2b.\n\n[figure1]",
+        "question": "Find the expression of the force $\\vec{F}$ acting on the microparticle in this case. Express the answer in terms of $I$, $R$, $F$, $c$, $\\hat{i}$, and $\\hat{j}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{F} = -\\frac{2 I R^{3}}{3 c F} \\hat{i} + \\frac{\\pi I R^{4}}{8 c F^{2}} \\hat{j}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_2_4",
+        "context": "In 2018, the Nobel Prize in physics was awarded to Arthur Ashkin, for the creation of the \"laser tweezer\", a device that allows one to hold and move transparent microscopic objects with the help of light. In this device, a parallel beam of light from a laser passes through a converging lens $L$ and hits a microparticle $M$, which can also be considered as a converging lens. Point $F$ is the common focus of $L$ and $M$. The light intensity in the beam is $I = 1.00 \\mu \\mathrm{W} / \\mathrm{cm}^{2}$, the beam radius is $R = 1.00 \\mathrm{cm}$, and the focal length of the lens $L$ is $F = 10.0 \\mathrm{cm}$. Ignore the absorption and reflection of light. Speed of light in vacuum is $c = 3 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$.\n\nNext, the left half of the lens $L$ is covered by a diaphragm, as shown in Fig.2b.\n\n[figure1]",
+        "question": "Calculate the (numerical value) magnitude of the force in this case. Express the force vector $\\vec{F}$ in component form with numerical values, following the format: $\\vec{F} = (a \\hat{i} + b \\hat{j}) N$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{F} = -2.24 \\times 10^{-16} \\hat{i} + 1.32 \\times 10^{-17} \\hat{j}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            "N"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_2_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_3_1",
+        "context": "The toroidal cavity is designed to confine charged particles for nuclear fusion. This geometry enables charged particles to follow helical magnetic field lines, allowing them to remain suspended within the cavity without coming into contact with the walls. As depicted in the figure, consider a toroidal cavity with an outer radius $R_{0}$ and a circular cross-section of radius $r_{0}$, where $r_{0} \\ll R_{0}$. In the figure, $O$ represents the origin.\n\n[figure1]",
+        "question": "If a wire is uniformly and tightly wound around the toroidal cavity for $N$ turns, and the magnetic field inside the cavity is given as: $\\vec{B}_{1}(r) = f(r)(\\sin \\phi \\hat{x} - \\cos \\phi \\hat{y})$, find $f(r)$ in terms of $N$, $I$, $R_{o}$, $r_{0}$ and relevant physical constants. Here $r$, $\\phi$ represent the radial and angular coordinates in a polar coordinate system on the plane.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$f(r) = \\frac{\\mu_{0} N I}{2 \\pi r}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_3_2",
+        "context": "The toroidal cavity is designed to confine charged particles for nuclear fusion. This geometry enables charged particles to follow helical magnetic field lines, allowing them to remain suspended within the cavity without coming into contact with the walls. As depicted in the figure, consider a toroidal cavity with an outer radius $R_{0}$ and a circular cross-section of radius $r_{0}$, where $r_{0} \\ll R_{0}$. In the figure, $O$ represents the origin.\n\n[figure1]\n\nHowever, the diamagnetic drifty caused by the gradient of the toroidal magnetic field tends to push the particles outward, leading to a loss of confinement.",
+        "question": "To address this, a uniform magnetic field $\\vec{B}_{2} = B_{0} \\hat{z}$ is applied along the $z$-direction. In this uniform magnetic field $\\vec{B}_{2}$, a particle of mass $m$ and charge $q$ moves in uniform circular motion with a radius $R_{o}$, find the angular frequency $\\omega_{0}$ of this circular motion. Express the answer in terms of $q$, $m$, $B_{0}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\omega_0 = \\frac{q B_{0}}{m}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_3_3",
+        "context": "The toroidal cavity is designed to confine charged particles for nuclear fusion. This geometry enables charged particles to follow helical magnetic field lines, allowing them to remain suspended within the cavity without coming into contact with the walls. As depicted in the figure, consider a toroidal cavity with an outer radius $R_{0}$ and a circular cross-section of radius $r_{0}$, where $r_{0} \\ll R_{0}$. In the figure, $O$ represents the origin.\n\n[figure1]\n\nHowever, the diamagnetic drifty caused by the gradient of the toroidal magnetic field tends to push the particles outward, leading to a loss of confinement.\n\nTo address this, a uniform magnetic field $\\vec{B}_{2} = B_{0} \\hat{z}$ is applied along the $z$-direction. In this uniform magnetic field $\\vec{B}_{2}$, a particle of mass $m$ and charge $q$ moves in uniform circular motion with a radius $R_{o}$, the angular frequency of this circular motion is denoted by $\\omega_{0}$.",
+        "question": "For a charged particle with mass $m$ and charge $q$, write down the equations of motion in the $r$, $\\phi$, $z$ directions for its motion inside the toroidal cavity with $\\vec{B}_{1}$ and $\\vec{B}_{2}$. Express three equations in term of the dimensionless parameter $\\alpha = \\frac{\\mu_{0} N I}{2 \\pi R_{0} B_{0}}$, $\\dot{r}$, $\\dot{\\phi}$, $\\dot{z}$, $\\ddot{r}$, $\\ddot{\\phi}$, and $\\ddot{z}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$m \\left(\\ddot{r} - r \\dot{\\phi}^{2}\\right) + q B_{0} \\left(-\\frac{\\alpha R_{0} \\dot{z}}{r} - r \\dot{\\phi} \\right) = 0$}",
+            "\\boxed{$m (2 \\dot{r} \\dot{\\phi} + r \\ddot{\\phi}) + q B_{0} \\dot{r} = 0$}",
+            "\\boxed{$m \\ddot{z} + q B_{0} \\left( \\frac{\\alpha R_{0} \\dot{r}}{r} \\right) = 0$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.67,
+            0.67,
+            0.66
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_3_4",
+        "context": "The toroidal cavity is designed to confine charged particles for nuclear fusion. This geometry enables charged particles to follow helical magnetic field lines, allowing them to remain suspended within the cavity without coming into contact with the walls. As depicted in the figure, consider a toroidal cavity with an outer radius $R_{0}$ and a circular cross-section of radius $r_{0}$, where $r_{0} \\ll R_{0}$. In the figure, $O$ represents the origin.\n\n[figure1]\n\nHowever, the diamagnetic drifty caused by the gradient of the toroidal magnetic field tends to push the particles outward, leading to a loss of confinement.\n\nPart (B): To address this, a uniform magnetic field $\\vec{B}_{2} = B_{0} \\hat{z}$ is applied along the $z$-direction. In this uniform magnetic field $\\vec{B}_{2}$, a particle of mass $m$ and charge $q$ moves in uniform circular motion with a radius $R_{o}$, the angular frequency of this circular motion is denoted by $\\omega_{0}$. \n\nPart (C): For a charged particle with mass $m$ and charge $q$, write down the equations of motion in the $r$, $\\phi$, $z$ directions for its motion inside the toroidal cavity with $\\vec{B}_{1}$ and $\\vec{B}_{2}$. Express three equations in term of the dimensionless parameter $\\alpha = \\frac{\\mu_{0} N I}{2 \\pi R_{0} B_{0}}$, $\\dot{r}$, $\\dot{\\phi}$, $\\dot{z}$, $\\ddot{r}$, $\\ddot{\\phi}$, and $\\ddot{z}$. (Parts (B) and (C) are preliminary questions and do not include in the final answer)",
+        "question": "Based on the equations of motion derived in part (C), consider the case where the charged particle is slightly perturbed from the circular motion described in part (B). Let the perturbed motion be expressed as: $r(t) = R_{0} + \\delta r(t)$, $\\phi(t) = -\\omega_{0} t + \\delta \\phi(t)$, $z(t) = \\delta z(t)$. Here, we assume $\\delta r$, $\\delta z \\ll R_{0}$ and $\\delta \\phi \\ll 1$. Derive three equations of motion that are expanded to the first order in $\\delta r(t)$, $\\delta \\phi(t)$, $\\delta z(t)$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\delta \\ddot{r} + \\omega_{0} R_{0} \\delta \\dot{\\phi} - \\alpha \\omega_{0} \\delta \\dot{z} = 0$}",
+            "\\boxed{$R_{0} \\delta \\ddot{\\phi} - \\omega_{0} \\delta \\dot{r} = 0$}",
+            "\\boxed{$\\delta \\ddot{z} + \\alpha \\omega_{0} \\delta \\dot{r} = 0$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.67,
+            0.67,
+            0.66
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_3_5",
+        "context": "The toroidal cavity is designed to confine charged particles for nuclear fusion. This geometry enables charged particles to follow helical magnetic field lines, allowing them to remain suspended within the cavity without coming into contact with the walls. As depicted in the figure, consider a toroidal cavity with an outer radius $R_{0}$ and a circular cross-section of radius $r_{0}$, where $r_{0} \\ll R_{0}$. In the figure, $O$ represents the origin.\n\n[figure1]\n\nHowever, the diamagnetic drifty caused by the gradient of the toroidal magnetic field tends to push the particles outward, leading to a loss of confinement.\n\nPart (B): To address this, a uniform magnetic field $\\vec{B}_{2} = B_{0} \\hat{z}$ is applied along the $z$-direction. In this uniform magnetic field $\\vec{B}_{2}$, a particle of mass $m$ and charge $q$ moves in uniform circular motion with a radius $R_{o}$, the angular frequency of this circular motion is denoted by $\\omega_{0}$. \n\nPart (C): For a charged particle with mass $m$ and charge $q$, write down the equations of motion in the $r$, $\\phi$, $z$ directions for its motion inside the toroidal cavity with $\\vec{B}_{1}$ and $\\vec{B}_{2}$. Express three equations in term of the dimensionless parameter $\\alpha = \\frac{\\mu_{0} N I}{2 \\pi R_{0} B_{0}}$, $\\dot{r}$, $\\dot{\\phi}$, $\\dot{z}$, $\\ddot{r}$, $\\ddot{\\phi}$, and $\\ddot{z}$.\n\nPart (D): Based on the equations of motion derived in part (C), consider the case where the charged particle is slightly perturbed from the circular motion described in part (B). Let the perturbed motion be expressed as: $r(t) = R_{0} + \\delta r(t)$, $\\phi(t) = -\\omega_{0} t + \\delta \\phi(t)$, $z(t) = \\delta z(t)$. Here, we assume $\\delta r$, $\\delta z \\ll R_{0}$ and $\\delta \\phi \\ll 1$. Derive three equations of motion that are expanded to the first order in $\\delta r(t)$, $\\delta \\phi(t)$, $\\delta z(t)$. (Parts (B), (C), and (D) are preliminary questions and do not include in the final answer)",
+        "question": "Given initial conditions: $\\delta r(0) = 0$, $\\delta \\dot{r}(0) = v_{0}$, $\\delta \\phi(0) = \\delta \\dot{\\phi}(0) = \\delta z(0) = \\delta \\dot{z}(0) = 0$. Define $\\Omega_0$ as $\\sqrt{1+\\alpha^{2}} \\omega_{0}$. \n\n(1) Find the expression of $\\delta r(t)$. \n(2) Find the expression of $\\delta z(t)$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\delta r(t) = \\frac{v_{0} \\sin \\left(\\Omega_{0} t\\right)}{\\Omega_{0}}$}",
+            "\\boxed{$\\delta z(t) = -\\frac{\\alpha v_{0}\\left(1 - \\cos \\Omega_{0} t\\right)}{\\Omega_0 \\sqrt{1+\\alpha^{2}}}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_3_6",
+        "context": "The toroidal cavity is designed to confine charged particles for nuclear fusion. This geometry enables charged particles to follow helical magnetic field lines, allowing them to remain suspended within the cavity without coming into contact with the walls. As depicted in the figure, consider a toroidal cavity with an outer radius $R_{0}$ and a circular cross-section of radius $r_{0}$, where $r_{0} \\ll R_{0}$. In the figure, $O$ represents the origin.\n\n[figure1]\n\nHowever, the diamagnetic drifty caused by the gradient of the toroidal magnetic field tends to push the particles outward, leading to a loss of confinement.\n\nPart (B): To address this, a uniform magnetic field $\\vec{B}_{2} = B_{0} \\hat{z}$ is applied along the $z$-direction. In this uniform magnetic field $\\vec{B}_{2}$, a particle of mass $m$ and charge $q$ moves in uniform circular motion with a radius $R_{o}$, the angular frequency of this circular motion is denoted by $\\omega_{0}$. \n\nPart (C): For a charged particle with mass $m$ and charge $q$, write down the equations of motion in the $r$, $\\phi$, $z$ directions for its motion inside the toroidal cavity with $\\vec{B}_{1}$ and $\\vec{B}_{2}$. Express three equations in term of the dimensionless parameter $\\alpha = \\frac{\\mu_{0} N I}{2 \\pi R_{0} B_{0}}$, $\\dot{r}$, $\\dot{\\phi}$, $\\dot{z}$, $\\ddot{r}$, $\\ddot{\\phi}$, and $\\ddot{z}$.\n\nPart (D): Based on the equations of motion derived in part (C), consider the case where the charged particle is slightly perturbed from the circular motion described in part (B). Let the perturbed motion be expressed as: $r(t) = R_{0} + \\delta r(t)$, $\\phi(t) = -\\omega_{0} t + \\delta \\phi(t)$, $z(t) = \\delta z(t)$. Here, we assume $\\delta r$, $\\delta z \\ll R_{0}$ and $\\delta \\phi \\ll 1$. Derive three equations of motion that are expanded to the first order in $\\delta r(t)$, $\\delta \\phi(t)$, $\\delta z(t)$. (Parts (B), (C), and (D) are preliminary questions and do not include in the final answer)",
+        "question": "To prevent the charged particle from colliding with the walls of the toroidal cavity after being perturbed: \n\n(1) If $\\alpha > 1$, what conditions must $\\frac{v_{0}}{r_{0} \\omega_{0}}$ satisfy? \n(2) If $\\alpha < 1$, what conditions must $\\frac{v_{0}}{r_{0} \\omega_{0}}$ satisfy?",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{v_{0}}{r_{0} \\omega_{0}} < \\frac{1+\\alpha^2}{2\\alpha}$}",
+            "\\boxed{$\\frac{v_{0}}{r_{0} \\omega_{0}} < 1$}"
+        ],
+        "answer_type": [
+            "Inequality",
+            "Inequality"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            1.5,
+            1.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_3_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_4_1",
+        "context": "[Harrison and the Longitude Problem] \n\nAccurate measurement of the longitude was a long-standing problem in sea navigation. The earliest solution to this problem was to compare the local time at a location with that of a meridian. However, there was not a clock accurate enough to preserve the absolute time of another location during a journey, until the inventions by the $18^{\\text{th}}$ century English clockmaker John Harrison.\n\nLet us start our discussion on the simplest type of clock, which is maintained by a vertically hung simple pendulum. It is made of a heavy bob of mass $m$, hung by a rod of length $L$ and negligible mass, to a hinge. The timekeeping is evidently sensitive to temperature fluctuations.",
+        "question": "For a simple pendulum clock, would thermal expansion make it go faster or slower?\n\n(A) Faster. \n(B) Slower.",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanPhO_2025_4_2",
+        "context": "[Harrison and the Longitude Problem] \n\nAccurate measurement of the longitude was a long-standing problem in sea navigation. The earliest solution to this problem was to compare the local time at a location with that of a meridian. However, there was not a clock accurate enough to preserve the absolute time of another location during a journey, until the inventions by the $18^{\\text{th}}$ century English clockmaker John Harrison.\n\nLet us start our discussion on the simplest type of clock, which is maintained by a vertically hung simple pendulum. It is made of a heavy bob of mass $m$, hung by a rod of length $L$ and negligible mass, to a hinge. The timekeeping is evidently sensitive to temperature fluctuations.\n\n[figure1]",
+        "question": "In adjustment, Harrison proposed a modification to the rod of a pendulum, now consisting of two types of metals (of thermal expansion coefficients $\\alpha_{1}$ and $\\alpha_{2}$ respectively) by installing a central piece of metal 2 of length $l^{\\prime}$.\n\n(1) Which of the 3 proposals in Fig. 4a can suppress the temperature fluctuations? \n(2) How long should the middle piece $l^{\\prime}$ of metal 2 be such that the total length of the rod $L$ is independent of temperature fluctuations in this proposal? Express your answer in terms of $L$, $\\alpha_{1}$ and $\\alpha_{2}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}",
+            "\\boxed{$l^{\\prime} = \\frac{\\alpha_{1}}{\\alpha_{2}-\\alpha_{1}} L$}"
+        ],
+        "answer_type": [
+            "Multiple Choice",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            0.75,
+            0.75
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_4_2_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_4_3",
+        "context": "[Harrison and the Longitude Problem] \n\nAccurate measurement of the longitude was a long-standing problem in sea navigation. The earliest solution to this problem was to compare the local time at a location with that of a meridian. However, there was not a clock accurate enough to preserve the absolute time of another location during a journey, until the inventions by the $18^{\\text{th}}$ century English clockmaker John Harrison.\n\nLet us start our discussion on the simplest type of clock, which is maintained by a vertically hung simple pendulum. It is made of a heavy bob of mass $m$, hung by a rod of length $L$ and negligible mass, to a hinge.\n\n[figure1]",
+        "question": "One problem is that simple pendulums were affected by the motion of the ship it was on. To evaluate this effect, consider a ship's journey between two cities separated by $D = 96 \\mathrm{km}$ shown in the figure. Starting from rest at noon, the ship first accelerated forward at a constant rate, then maintained a constant velocity $v_{0} = 27 \\mathrm{km} \\mathrm{h}^{-1}$ until it decelerated at the same rate to arrive at the destination. The two cities are in the same time zone, and upon arrival, the local time was recorded as 16:00:00. Assuming that the pendulum clock was perfectly calibrated with real time upon departure, calculate the numerical value of the time difference between the pendulum clock and the real time at the end of the journey? (expressed in $s$)",
+        "marking": [],
+        "answer": [
+            "\\boxed{$1.8 \\times 10^{-4}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "s"
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_4_3_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_4_4",
+        "context": "[Harrison and the Longitude Problem] \n\nAccurate measurement of the longitude was a long-standing problem in sea navigation. The earliest solution to this problem was to compare the local time at a location with that of a meridian. However, there was not a clock accurate enough to preserve the absolute time of another location during a journey, until the inventions by the $18^{\\text{th}}$ century English clockmaker John Harrison.\n\nLet us start our discussion on the simplest type of clock, which is maintained by a vertically hung simple pendulum. It is made of a heavy bob of mass $m$, hung by a rod of length $L$ and negligible mass, to a hinge. The timekeeping is evidently sensitive to temperature fluctuations. Another problem is that simple pendulums were affected by the motion of the ship it was on.\n\n To design a clock that can mitigate the effects discussed in the previous part, Harrison built the following clock, known as the \"H1\". Let us consider a simplified model of the H1 clock, shown in the figure.\n\nTwo massive dumbbells, each of length $\\ell$ joining two metal balls of mass $M$, are connected by two identical springs of stiffness $k$. The middle contacts ensure that the rotations of the dumbbells are always in antiphase. The oscillations of the dumbbells are used to determine time.\n\n[figure1]",
+        "question": "Just from the simplified design, one can see that its accuracy is not affected by translational motion of the ship. Which of the following correctly summarizes the reason behind it? Select only one option.\n\n(A) Spring can be made exceedingly stiff, such that elastic forces dominate by orders of magnitude over gravitational forces or any net force due to acceleration of the ship. \n(B) Stabilization of the clock is actualized with the springs in the H1 clock design. Therefore, the dumbbells stay level during ship motion, and their oscillations are always perpendicular to gravity. \n(C) The H1 clock is effectively equivalent to a gyroscope, which removes any bias due to translations of the boat owing to the mechanism of precession. \n(D) In the non-inertial frame of the ship, the metal balls on each dumbbell experience equal and opposite torques due to translational effects, so they cancel out and do not affect oscillations.",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_4_4_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_4_5",
+        "context": "[Harrison and the Longitude Problem] \n\nAccurate measurement of the longitude was a long-standing problem in sea navigation. The earliest solution to this problem was to compare the local time at a location with that of a meridian. However, there was not a clock accurate enough to preserve the absolute time of another location during a journey, until the inventions by the $18^{\\text{th}}$ century English clockmaker John Harrison.\n\nLet us start our discussion on the simplest type of clock, which is maintained by a vertically hung simple pendulum. It is made of a heavy bob of mass $m$, hung by a rod of length $L$ and negligible mass, to a hinge. The timekeeping is evidently sensitive to temperature fluctuations. Another problem is that simple pendulums were affected by the motion of the ship it was on.\n\n To design a clock that can mitigate the effects discussed in the previous part, Harrison built the following clock, known as the \"H1\". Let us consider a simplified model of the H1 clock, shown in the figure.\n\nTwo massive dumbbells, each of length $\\ell$ joining two metal balls of mass $M$, are connected by two identical springs of stiffness $k$. The middle contacts ensure that the rotations of the dumbbells are always in antiphase. The oscillations of the dumbbells are used to determine time.\n\n[figure1]",
+        "question": "Determine the period $T$ of small oscillations of the H1 clock design in terms of $M$, $k$ and $l$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$T = 2 \\pi \\sqrt{\\frac{M}{2 k}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_4_4_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_4_6",
+        "context": "[Harrison and the Longitude Problem] \n\nAccurate measurement of the longitude was a long-standing problem in sea navigation. The earliest solution to this problem was to compare the local time at a location with that of a meridian. However, there was not a clock accurate enough to preserve the absolute time of another location during a journey, until the inventions by the $18^{\\text{th}}$ century English clockmaker John Harrison.\n\nLet us start our discussion on the simplest type of clock, which is maintained by a vertically hung simple pendulum. It is made of a heavy bob of mass $m$, hung by a rod of length $L$ and negligible mass, to a hinge. The timekeeping is evidently sensitive to temperature fluctuations. Another problem is that simple pendulums were affected by the motion of the ship it was on.\n\n To design a clock that can mitigate the effects discussed in the previous part, Harrison built the following clock, known as the \"H1\". Let us consider a simplified model of the H1 clock, shown in the figure (on the left).\n\nTwo massive dumbbells, each of length $\\ell$ joining two metal balls of mass $M$, are connected by two identical springs of stiffness $k$. The middle contacts ensure that the rotations of the dumbbells are always in antiphase. The oscillations of the dumbbells are used to determine time.\n\n[figure1]",
+        "question": "However, Harrison's H1 design still has many problems. For instance, let us consider the rocking of the ship, under the influence of waves. Let us consider a small model toy boat with the clock on board that moves on a sinusoidal landscape of the form $z = A_{z} \\sin (2 \\pi x / \\lambda)$ at a constant speed $v_{s}$, as shown in the figure (on the right).\n\nWhat is the time-averaged new oscillation period of the clock $<T^{\\prime}>$, considering that $v_{s} T^{\\prime} \\ll A_{z} \\ll \\lambda$, and that the dimensions of the boat/clock are much less than $A_{z}$? Express your answer as the ratio $\\frac{<T^{\\prime}>-T}{T}$.\n\nHint: the radius of curvature $R$ of a curve $z(x)$ is given by $\\frac{1}{R} \\approx \\frac{\\mathrm{d}^{2} z}{\\mathrm{d} x^{2}}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{<T^{\\prime}>-T}{T} = -\\frac{2 \\pi^{4} A_{z}^{2} M v_{s}^{2}}{k \\lambda^{4}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_4_6_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_1",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART I: No friction between the ball and the wall. \n\nFirstly, we begin with a case where the wall and the ball are frictionless. Suppose the force exerting on the ball by the wall at the contact point $P$ is $\\vec{F} = -N \\hat{e}*{p}$ which is only the normal force.",
+        "question": "Write down the position vector $\\vec{r}$ of point $C$ in terms of $m$, $g$, $R$, $r$, $\\phi$, $z$, their derivatives and basis vectors in cylindrical coordinates.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{r} = (R-r) \\hat{e}_{\\rho} + z \\hat{e}_{z}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_2",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART I: No friction between the ball and the wall. \n\nFirstly, we begin with a case where the wall and the ball are frictionless. Suppose the force exerting on the ball by the wall at the contact point $P$ is $\\vec{F} = -N \\hat{e}*{p}$ which is only the normal force.",
+        "question": "Given the initial condition: at time $t=0$, $z(0)=H$, $\\phi(0)=0$, $\\dot{z}(0)=0$ and $\\dot{\\phi}(0)=\\Omega>0$. \n\n(1) Find $\\phi(t)$ as a function of $t$. \n(2) Find $z(t)$ as a function of $t$. \n(3) Find $N(t)$ as a function of $t$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\phi(t) = \\Omega t$}",
+            "\\boxed{$z(t) = H - \\frac{1}{2} g t^2$}",
+            "\\boxed{$N(t) = m(R - r)\\Omega^2$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            0.67,
+            0.67,
+            0.66
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_3",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives.",
+        "question": "Find three equations of motion describing the center of mass (CM) of the ball.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$m(R-r) \\dot{\\phi}^{2} = N$}",
+            "\\boxed{$m(R-r) \\ddot{\\phi} = F_{\\phi}$}",
+            "\\boxed{$m \\ddot{z} = F_{z} - m g$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_4",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives.",
+        "question": "Write down a set of differential equations for $\\omega_{\\rho}$, $\\omega_{\\phi}$ and $\\omega_{z}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$I \\dot{\\omega}_{\\rho} - I \\dot{\\phi} \\omega_{\\phi} = 0$}",
+            "\\boxed{$I \\dot{\\omega}_{\\phi} + I \\dot{\\phi} \\omega_{\\rho} = -r F_{z}$}",
+            "\\boxed{$I \\dot{\\omega}_{z} = r F_{\\phi}$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_5",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives.",
+        "question": "Write down equations of the rolling without slipping condition.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$(R-r) \\dot{\\phi} + r \\omega_{z} = 0$}",
+            "\\boxed{$\\dot{z} - r \\omega_{\\phi} = 0$}"
+        ],
+        "answer_type": [
+            "Equation",
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0,
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_6",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\n Previous questions: \n(1) Find three equations of motion describing the center of mass (CM) of the ball. \n(2)Write down a set of differential equations for $\\omega_{\\rho}$, $\\omega_{\\phi}$ and $\\omega_{z}$. \n(3) Write down equations of the rolling without slipping condition. (This is a preliminary question and do not include in the final answer)",
+        "question": "Find, from the equations of motion, that the rate of change of the $z$-component (vertical) of the total angular momentum of the ball with respective to the origin $O$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$m(R-r)^{2} \\dot{\\phi} + I \\omega_{z}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_7",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\n Previous questions: \n(1) Find three equations of motion describing the center of mass (CM) of the ball. \n(2)Write down a set of differential equations for $\\omega_{\\rho}$, $\\omega_{\\phi}$ and $\\omega_{z}$. \n(3) Write down equations of the rolling without slipping condition. (This is a preliminary question and do not include in the final answer)",
+        "question": "Consider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\n Show that the vertical motion of the ball is a simple harmonic motion. Write down the equation of the vertical motion, i.e., express $\\ddot{z}$ in terms of $z, \\Omega, K, H, g$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\ddot{z} = -\\frac{K}{K+1} \\Omega^{2}\\left(z - H + \\frac{g}{\\Omega^{2} K}\\right)$}"
+        ],
+        "answer_type": [
+            "Equation"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_8",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$.",
+        "question": "Find the angular frequency of the vertical simple harmonic motion, $\\Omega_{z}$, in terms of the initial angular velocity of the center of mass (CM) of the ball around the hole, $\\Omega$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\Omega_{z} = \\sqrt{\\frac{K}{K+1}} \\Omega$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_9",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$.",
+        "question": "Find minimum depth of the hole $H_{m}$ such that the ball will not touch the bottom of the hole in terms of $g$ and $\\Omega$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{2 g}{\\Omega^{2} K}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_10",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$.\n\n[Where does the energy go?]",
+        "question": "Using energy conservation: \n(1) Find the magnitude of angular velocity component $\\omega_{z}$ of the ball at the lowest point in its vertical motion. \n(2) Find the magnitude of angular velocity component $\\omega_{\\phi}$ of the ball at the lowest point in its vertical motion. \n(3) Find the magnitude of angular velocity component $\\omega_{\\rho}$ of the ball at the lowest point in its vertical motion, in terms of $g$, $r$, and $\\Omega$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\omega_{z} = -\\frac{R-r}{r} \\Omega$}",
+            "\\boxed{$\\omega_{\\phi} = 0$}",
+            "\\boxed{$\\omega_{\\rho} = \\frac{5 g}{\\Omega r}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null,
+            null
+        ],
+        "points": [
+            0.67,
+            0.67,
+            0.66
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_11",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$.",
+        "question": "Find the $z$-component of the centrifugal force of the entire ball.",
+        "marking": [],
+        "answer": [
+            "\\boxed{0}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_12",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$.",
+        "question": "Find the $z$-component of the Euler force of the entire ball.",
+        "marking": [],
+        "answer": [
+            "\\boxed{0}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_13",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$.",
+        "question": "Find the $z$-component of the Coriolis force of the entire ball.",
+        "marking": [],
+        "answer": [
+            "\\boxed{0}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_14",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$. \n\nThe rotation of the ball about the $y^{\\prime}$-axis (or the $\\phi$-componet in cylindrical coordinates) is coupled with the vertical motion of the ball when it is rolling without slipping. Therefore, knowing the torque of this rotation will give us insight into why the ball can move up and down under gravity. Let the angular velocity of the ball in this rotating frame as $\\vec{\\omega}^{\\prime}$.",
+        "question": "Find the torque with respect to the center of mass (CM) of the ball due to centrifugal force.",
+        "marking": [],
+        "answer": [
+            "\\boxed{0}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_15",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$. \n\nThe rotation of the ball about the $y^{\\prime}$-axis (or the $\\phi$-componet in cylindrical coordinates) is coupled with the vertical motion of the ball when it is rolling without slipping. Therefore, knowing the torque of this rotation will give us insight into why the ball can move up and down under gravity. Let the angular velocity of the ball in this rotating frame as $\\vec{\\omega}^{\\prime}$.",
+        "question": "Find the torque with respect to the center of mass (CM) of the ball due to Euler force.",
+        "marking": [],
+        "answer": [
+            "\\boxed{0}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_16",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$. \n\nThe rotation of the ball about the $y^{\\prime}$-axis (or the $\\phi$-componet in cylindrical coordinates) is coupled with the vertical motion of the ball when it is rolling without slipping. Therefore, knowing the torque of this rotation will give us insight into why the ball can move up and down under gravity. Let the angular velocity of the ball in this rotating frame as $\\vec{\\omega}^{\\prime}$.",
+        "question": "Find the torque $\\vec{\\tau}$ with respect to the center of mass (CM) of the ball due to Coriolis force.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{\\tau} = I (\\vec{\\omega}^{\\prime} \\times \\vec{\\Omega})$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_5_17",
+        "context": "[Golfer's Nightmare] \n\nWhat happens when a golf ball rolls along the inner vertical wall of the cylindrical hole under gravity? Normally, one thinks the ball will go in and never come back up. However, it is often observed that the ball first rolls down along the wall and but then it rolls back up without touching the bottom of the hole. \n\nSome mathematics Identities may be useful in this problem: \n\n$\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = \\vec{B} \\cdot (\\vec{C} \\times \\vec{A}) = \\vec{C} \\cdot(\\vec{A} \\times \\vec{B})$ \n$\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C}) \\vec{B} - (\\vec{A} \\cdot \\vec{B}) \\vec{C})$ \n\nTo understand this phenomenon, we consider a ball rolls without slipping along the vertical wall of a cylindrical hole at all time. The hole has a depth $H$ and radius $R$. The ball is spherically symmetrical, has a mass $m$, a radius $r$ and a moment of inertia $I = K m r^{2}$, where $K$ is a numerical constant that depends on the mass distribution inside the ball, such as $K = 2 / 5$ for a uniform sphere and $K = 2 / 3$ for a spherical thin shell, etc. Let \n$\\vec{r}$ be the position vector of the center of the ball;\n$\\vec{\\omega}$ be the angular velocity vector of the rotation of the ball; \n$\\vec{g}$ be the constant acceleration due to gravity pointing towards $-z$ direction, i.e. $\\vec{g} = -g \\hat{e}_{z}$\nWe ignore air friction in this problem. \n\nThe situation is shown in Figure 1 in cylindrical coordinates. Point $C$ is the center of the ball. Point $P$ is the contact point between the ball and the wall. The basis vectors $\\hat{e}_{\\rho}$ and $\\hat{e}_{\\phi}$ are the basis vectors in cylindrical coordinates $(\\rho, \\phi, z)$, where $\\rho$ is the perpendicular distance from $C$ to the $z$-axis, $\\phi$ is the azimuthal angle measured from $x$-axis and $z$ is the vertical distance of $C$ from the $xy$-plane containing the origin $O$. Given the basis vectors in cylindrical coordinates as \n\n$\\hat{e}_{\\rho} = \\cos \\phi \\hat{i} + \\sin \\phi \\hat{j}$, $\\hat{e}_{\\phi} = -\\sin \\phi \\hat{i} + \\cos \\phi \\hat{j}$, $\\hat{e}_{z} = \\hat{k}$, \n\nwhere $\\hat{i}, \\hat{j}$ and $\\hat{k}$ are the unit vectors of the Cartesian coordinates along $x$, $y$ and $z$ axis, respectively.\n\n[figure1]\nFigure 1. (a) The ball and the cylinder. (b) Top view of the situation. \n\nPART II. Rolling without slipping on the wall. \n\nAs we see in PART I, without friction, obviously, the ball will only accelerate downward. Now, we consider the ball is rolling without slipping on the wall surface. Suppose the forces exerting on the ball by the wall at the contact point $P$ include the normal force and the static friction as \n$\\vec{F} = -N \\hat{e}_{\\rho} + F_{\\phi} \\hat{e}_{\\phi} + F_{z} \\hat{e}_{z}$\nUsing cylindrical coordinates, let the position of the center of mass (CM) of the ball as \n$\\vec{r} = \\rho \\hat{e}_{\\rho} + z \\hat{e}_{z}$ \nand the angular velocity vector of the ball with respect to the CM as \n$\\vec{\\omega} = \\omega_{\\rho} \\hat{e}_{\\rho} + \\omega_{\\phi} \\hat{e}_{\\phi} + \\omega_{z} \\hat{e}_{z}$\n\nAnswer the following questions in terms of $m, g, R, r, \\phi, z, N, I, F_{\\phi}, F_{z}, \\omega_{\\rho}, \\omega_{\\phi}, \\omega_{z}$ and their derivatives. \n\nConsider the initial condition that at the top of the hole as at time $t = 0$, $z(0) = H$, $\\phi(0) = 0$, $\\dot{z}(0) = 0$ and $\\dot{\\phi}(0) = \\Omega > 0$. \n\nSince the vertical motion is a simple harmonic motion, if the golf ball has a tiny non-zero initial downward motion at the top of the hole, the ball will first roll down and, at the time that the golfer is happy about finishing the hole, the ball will come back up and out again. That is the golfer's nightmare! \n\nConsider the ball is a uniform solid sphere, i.e. $K = \\frac{2}{5}$. \n\nTo help explaining this phenomenon, one can investigate the motion of the ball in a reference frame $S^{\\prime}(x^{\\prime}, y^{\\prime}, z^{\\prime})$ that rotates about the $z$-axis with the same angular velocity $\\Omega \\hat{e}_{z}$ as the motion of the ball around the hole. In this $S^{\\prime}$ frame, the $\\phi^{\\prime}$ value of the position of the ball is fixed at $\\phi^{\\prime} = 0$.\n\nIn this rotating frame, there are three fictitious forces including the centrifugal force, the Euler force $\\vec{F}_{E} = -m \\dot{\\vec{\\Omega}} \\times \\vec{r}^{\\prime}$ and the Coriolis force $\\vec{F}_{C} = -2 m \\vec{\\Omega} \\times \\frac{d}{d t} \\vec{r}^{\\prime}$, where $\\vec{r}^{\\prime}$ is the position vector in $S^{\\prime}$ frame.\n\n[figure2] \nFigure 2. Top view of the axes of the rotating frame $S^{\\prime}$. The fixed and rotating frames share the same origin and vertical axis: $z$ and $z^{\\prime}$. \n\nThe rotation of the ball about the $y^{\\prime}$-axis (or the $\\phi$-componet in cylindrical coordinates) is coupled with the vertical motion of the ball when it is rolling without slipping. Therefore, knowing the torque of this rotation will give us insight into why the ball can move up and down under gravity. Let the angular velocity of the ball in this rotating frame as $\\vec{\\omega}^{\\prime}$.",
+        "question": "Which fictitious force can yield a torque which corresponds to the ball rolling up the wall? \n\n(A) Centrifugal force. \n(B) Euler force. \n(C) Coriolis force.",
+        "marking": [],
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_5_1_1.png",
+            "image_question/PanPhO_2025_5_11_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_1",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart A: Ultrashort laser pulse \n\nThe simplest form of pulsed electromagnetic field is a sinusoidal wave (center frequency $\\omega_{0}$) dressed in a Gaussian profile with peak $E_{0}$ and a standard deviation of $\\tau_{p} / \\sqrt{2}$, as shown in the figure.\n\n[figure1]",
+        "question": "(1) Please find the complex expression $a(t)$ of a Gaussian signal in the time domain. \n(2) Calculate the value of the average electric field of a Gaussian laser pulse over time.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$a(t) = E_{0} e^{-\\frac{t^{2}}{\\tau_{p}^{2}}} e^{i(\\omega_{0} t + \\varphi_{0})}$}",
+            "\\boxed{0}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.5,
+            1.5
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_2",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart A: Ultrashort laser pulse \n\nThe simplest form of pulsed electromagnetic field is a sinusoidal wave (center frequency $\\omega_{0}$) dressed in a Gaussian profile with peak $E_{0}$ and a standard deviation of $\\tau_{p} / \\sqrt{2}$, as shown in the figure.\n\n[figure1]",
+        "question": "The most commonly used laser for generation femtosecond pulses employs titanium-doped sapphire (Ti:sapphire) crystal as its gain medium. It emits light with photon energy around 1.55 eV. Please find the expression $a(t)$ of Gaussian pulse (Full-width at half maximum 35 fs in duration) out of such laser cavity.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$a(t) = E_{0} e^{-\\frac{t^{2}}{(4.2 \\times 10^{-12} s)^{2}}} \\cos \\left(2 \\pi \\times 375 \\times 10^{12} \\mathrm{Hz} \\times t + \\varphi_{0}\\right)$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_3",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart A: Ultrashort laser pulse \n\nThe simplest form of pulsed electromagnetic field is a sinusoidal wave (center frequency $\\omega_{0}$) dressed in a Gaussian profile with peak $E_{0}$ and a standard deviation of $\\tau_{p} / \\sqrt{2}$, as shown in the figure.\n\n[figure1]\n\nA Gaussian pulse that is only dependent on time cannot propagate in real space. Consider a Gaussian pulse propagating in one dimensional vacuum along the $z$-axis.",
+        "question": "Please find the expression the electric field $E(z, t)$ of a Gaussian pulse and show that your answer can indeed propagate. Hint: you may use the complex form to describe the propagating wave.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$E(z, t) = E_{0} \\int_{-\\infty}^{\\infty} \\exp \\left(-\\frac{\\tau_{p}^{2}(\\omega - \\omega_{0})^{2}}{4}\\right) e^{i(\\omega t - \\frac{\\omega}{c} z)} d \\omega$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_4",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart A: Ultrashort laser pulse \n\nThe simplest form of pulsed electromagnetic field is a sinusoidal wave (center frequency $\\omega_{0}$) dressed in a Gaussian profile with peak $E_{0}$ and a standard deviation of $\\tau_{p} / \\sqrt{2}$, as shown in the figure.\n\n[figure1]\n\nA Gaussian pulse that is only dependent on time cannot propagate in real space. Consider a Gaussian pulse propagating in one dimensional vacuum along the $z$-axis.",
+        "question": "Please find the expression of the electric field $E(t)$ if it is a Gaussian pulse after propagating at a distance $L$ in medium of the frequency dependent refractive index $n(\\omega)$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$E(t) = E_{0} \\int_{-\\infty}^{\\infty} \\exp \\left(-\\frac{\\tau_{p}^{2}(\\omega-\\omega_{0})^{2}}{4}\\right) e^{i(\\omega t - n \\frac{\\omega}{c} L)} d \\omega$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_6_1_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_5",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart B: Dispersion \n\nBefore entering the attosecond $(10^{-18} \\mathrm{s})$ regime, it historically took numerous effort of researchers to just generate femtosecond pulses ($1 \\mathrm{fs} = 10^{-15} \\mathrm{s}$), which now can be readily obtained from a standard Ti:sapphire laser and serve as the starting point to generate the even shorter attosecond pulse. One challenge at the time was to devise a laser cavity that can fight against the strong dispersion arise from traversing the Ti:sapphire crystal, an indispensable element in which amplification takes place. The dispersion here means the frequency dependent refractive index in the Ti:sapphire crystal, which has a strong absorption at 2.5 eV.\n\n[figure1]",
+        "question": "Assuming the transition responsible for the absorption can be described with a classical model for an oscillating bound electron (mass $m$) oscillating at a characteristic frequency $(\\Omega_{0})$ about a nucleus. In the presence of an external AC E-field of amplitude $E_{0}$ oscillating at single frequency $\\omega$, please find the largest possible displacement $X_{0}$ of the electron. The damping force of the oscillator can be described by $f_{d} = -m \\gamma v$ where $v$ is the velocity of the oscillator and $\\gamma$ is a single parameter to describe the total effect from energy loss of all kinds.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$X_{0} = \\frac{1}{m(\\omega^{2} - \\Omega_{0}^{2}) - i \\omega m \\gamma} e E_{0}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_6_5_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_6",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart B: Dispersion \n\nBefore entering the attosecond $(10^{-18} \\mathrm{s})$ regime, it historically took numerous effort of researchers to just generate femtosecond pulses ($1 \\mathrm{fs} = 10^{-15} \\mathrm{s}$), which now can be readily obtained from a standard Ti:sapphire laser and serve as the starting point to generate the even shorter attosecond pulse. One challenge at the time was to devise a laser cavity that can fight against the strong dispersion arise from traversing the Ti:sapphire crystal, an indispensable element in which amplification takes place. The dispersion here means the frequency dependent refractive index in the Ti:sapphire crystal, which has a strong absorption at 2.5 eV.\n\n[figure1]",
+        "question": "Suppose the particle density of absorptive $\\mathrm{Ti}^{3+}$ centers is $N$ and $P = \\varepsilon_{0} \\left(\\varepsilon_{r} - 1\\right) E$. \n\n(1) Find the polarization density $\\vec{P}$. \n(2) Find the corresponding dielectric function $\\varepsilon(\\omega)$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\vec{P} = \\left(\\frac{N e^{2}}{m}\\right) \\frac{1}{(\\Omega_{0}^{2} - \\omega^{2}) + i \\gamma \\omega} \\vec{E}(t)$}",
+            "\\boxed{$\\varepsilon(\\omega) = 1 + \\left(\\frac{N e^{2}}{\\epsilon_{0} m}\\right) \\frac{1}{\\left(\\Omega_{0}^{2}-\\omega^{2}\\right) + i \\gamma \\omega}$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            2.0,
+            2.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Electromagnetism",
+        "source": "PanPhO_2025",
+        "image_question": [
+            "image_question/PanPhO_2025_6_5_1.png"
+        ]
+    },
+    {
+        "id": "PanPhO_2025_6_7",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart C: Pulse broadening effect \n\nA Gaussian pulse, of which the transient frequency is constant in the time domain, is referred to as a Fourier-transform-limited pulse $(\\tau_{p})$ and has the shortest possible duration at a given bandwidth. After propagating through a dispersive medium of distance $L$, a transform-limited pulse will acquire a broadened pulse. It happens because the lasing frequency is close to the strong absorption line of the gain medium at 2.5 eV, and the high-order dispersion (frequency dependent part in refractive index $n(\\omega)$) will start to take effect. (Hint: The dissipative part during propagation can be ignored.) \n\nIn this part, it is useful to define the propagating function \n$\\beta(\\omega) \\equiv n(\\omega) \\frac{\\omega}{c} \\approx \\beta_{0} + \\beta_{1}(\\omega-\\omega_{0}) + \\beta_{2}(\\omega-\\omega_{0})^{2} + \\cdots$ \nwhich can be expanded around the center frequency $\\omega_{0}$ of the Gaussian pulse.",
+        "question": "Find the expression of the duration $\\tau$ of the transform-limited pulse after the propagation distance of $L$, in terms of $\\beta_2, \\tau_p$, and $L$, where $\\beta_{2}$ is the second-order propagation factor from expansion about the center frequency $\\omega_{0}$. (You may ignore effect from third-order and above)",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\tau = \\tau_{p} \\sqrt{1 + \\frac{16 \\beta_{2}^{2} L^{2}}{\\tau_{p}^{4}}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text-only",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanPhO_2025_6_8",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart C: Pulse broadening effect \n\nA Gaussian pulse, of which the transient frequency is constant in the time domain, is referred to as a Fourier-transform-limited pulse $(\\tau_{p})$ and has the shortest possible duration at a given bandwidth. After propagating through a dispersive medium of distance $L$, a transform-limited pulse will acquire a broadened pulse. It happens because the lasing frequency is close to the strong absorption line of the gain medium at 2.5 eV, and the high-order dispersion (frequency dependent part in refractive index $n(\\omega)$) will start to take effect. (Hint: The dissipative part during propagation can be ignored.) \n\nIn this part, it is useful to define the propagating function \n$\\beta(\\omega) \\equiv n(\\omega) \\frac{\\omega}{c} \\approx \\beta_{0} + \\beta_{1}(\\omega-\\omega_{0}) + \\beta_{2}(\\omega-\\omega_{0})^{2} + \\cdots$ \nwhich can be expanded around the center frequency $\\omega_{0}$ of the Gaussian pulse.",
+        "question": "For an ultrafast femtosecond laser to oscillate in its stationary state, please come up with a design to compensate for such pulse broadening effect.",
+        "marking": [
+            "Award 3.0 pts if the answer correctly identifies either a prism compressor (lower panel), a grating compressor (upper panel), or an equivalent scheme. Otherwise, award 0.0 pts."
+        ],
+        "answer": [
+            ""
+        ],
+        "answer_type": [
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanPhO_2025_6_9",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$\n\nPart D: High-harmonic generation of attosecond pulse \n\nTake a short femtosecond pulse from Ti:sapphire laser (center frequency $\\omega_{0}$) and focus it into a gas medium. One could generate light at integer multiples of the driving frequency, often referred to as high-harmonic generation (HHG).",
+        "question": "One critical step for high-harmonic generation (HHG) is to drive the bound charge of molecules in the non-perturbative regime to initiate the ionization dynamics. If we take hydrogen molecules for HHG, please estimate the peak electric field strength required to initiate the process (expressed in $E > ? \\frac{GV}{m}$).",
+        "marking": [],
+        "answer": [
+            "\\boxed{$E > 30 \\frac{GV}{m}$}"
+        ],
+        "answer_type": [
+            "Inequality"
+        ],
+        "unit": [
+            "$\\frac{GV}{m}$"
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "PanPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanPhO_2025_6_10",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$ \n\nPart B: Dispersion \n\nBefore entering the attosecond $(10^{-18} \\mathrm{s})$ regime, it historically took numerous effort of researchers to just generate femtosecond pulses ($1 \\mathrm{fs} = 10^{-15} \\mathrm{s}$), which now can be readily obtained from a standard Ti:sapphire laser and serve as the starting point to generate the even shorter attosecond pulse. One challenge at the time was to devise a laser cavity that can fight against the strong dispersion arise from traversing the Ti:sapphire crystal, an indispensable element in which amplification takes place. The dispersion here means the frequency dependent refractive index in the Ti:sapphire crystal, which has a strong absorption at 2.5 eV.\n\n[figure1]\n\nB1: Assuming the transition responsible for the absorption can be described with a classical model for an oscillating bound electron (mass $m$) oscillating at a characteristic frequency $(\\Omega_{0})$ about a nucleus. In the presence of an external AC E-field of amplitude $E_{0}$ oscillating at single frequency $\\omega$, $X_{0}$ is the largest possible displacement of the electron. The damping force of the oscillator can be described by $f_{d} = -m \\gamma v$ where $v$ is the velocity of the oscillator and $\\gamma$ is a single parameter to describe the total effect from energy loss of all kinds. \n\nPart D: High-harmonic generation of attosecond pulse \n\nTake a short femtosecond pulse from Ti:sapphire laser (center frequency $\\omega_{0}$) and focus it into a gas medium. One could generate light at integer multiples of the driving frequency, often referred to as high-harmonic generation (HHG).",
+        "question": "To allow radiation at new frequencies, please modify the oscillator model correspondingly and show your modification is viable.",
+        "test": "In the previous analysis (see B1–B2), the motion of a bound electron under an external AC electric field was modeled as a damped driven linear harmonic oscillator. Specifically, for an electron of mass m, natural frequency Ω₀, and damping coefficient γ, subjected to an electric field E(t) = E₀ e^{-iωt}, the equation of motion was:\n\nm ẍ + mγ ẋ + mΩ₀² x = -e E₀ e^{-iωt}.\n\nThis model describes linear response near resonance and explains absorption and dispersion. To account for high-harmonic radiation, the oscillator model must be extended to include anharmonic terms in the potential, leading to nonlinear response.",
+        "marking": [
+            "Award 1.0 pt if the answer writes down or correctly explains the modified equation of motion",
+            "Award 1.5 pts if the answer shows how the first-order solution leads to $x_1 \\propto E_0 e^{i \\omega_0 t}$",
+            "Award 1.5 pts if the answer explains that higher-order solutions generate new frequencies, e.g., $x_n \\propto E_0^n e^{i n \\omega_0 t}$."
+        ],
+        "answer": [
+            ""
+        ],
+        "answer_type": [
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text-only",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanPhO_2025_6_11",
+        "context": "[Generation of ultrashort electromagnetic pulse] \n\nThe Nobel Prize in Physics 2018 \\& 2023 were awarded to pioneers who contributed to \"Method of generating high-intensity, ultra-short optical pulses\" and \"Generation of attosecond pulses of light for the study of electron dynamics in matter\". Attosecond pulse refers to electromagnetic field with a duration on the order of $10^{-18}$ second. The advent of attosecond technique has made possible the study of ultrafast dynamics in physical, chemical and biological systems at a record high temporal resolution. Thus far, the most widely used method to generate attosecond pulse (Nobel Prize in Physics 2023) is to rely on the interaction of gas molecules and intensive femtosecond laser pulse (Nobel Prize in Physics 2018). In this question, we will explore some important aspects of the short pulse generation.\n\nThe following identity may be useful:\n$\\int_{-\\infty}^{\\infty} e^{-a \\omega^{2}} e^{-i \\omega t} d \\omega = \\sqrt{\\frac{\\pi}{a}} \\exp \\left(-\\frac{t^{2}}{4 a}\\right)$ \n\nPhysical constants: \nElectric charge: $e = 1.60 \\times 10^{-19} \\mathrm{C}$ \nElectron mass: $m_{e} = 9.11 \\times 10^{-31} \\mathrm{kg}$ \nSpeed of light in vacuum: $c = 3.00 \\times 10^{8} \\mathrm{m} / \\mathrm{s}$ \nPlanck constant: $h = 6.63 \\times 10^{-34} \\mathrm{J} \\mathrm{s}$\n\nPart D: High-harmonic generation of attosecond pulse \n\nTake a short femtosecond pulse from Ti:sapphire laser (center frequency $\\omega_{0}$) and focus it into a gas medium. One could generate light at integer multiples of the driving frequency, often referred to as high-harmonic generation (HHG).",
+        "question": "Show how one could leverage the high-harmonic field to generate attosecond pulse.",
+        "marking": [
+            "Award 2.0 pts if the answer correctly shows that if oscillator is anharmonic, the n-th order dipole is proportional to $E_0^n e^{i n \\omega_0 t}$, thus indicating that the envelope of the high-harmonic field becomes narrower and can be used to generate attosecond pulses. Otherwise, award 0.0 pts."
+        ],
+        "answer": [
+            ""
+        ],
+        "answer_type": [
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Optics",
+        "source": "PanPhO_2025",
+        "image_question": []
+    }
+]

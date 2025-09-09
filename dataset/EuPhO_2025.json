@@ -1,0 +1,208 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "EuPhO_2025_1_1",
+        "context": "You are asked to study the features of the brightly lit circle and dark rings in the figures below. Make your calculations for an idealized situation: the chair leg is strictly cylindrical of radius $a$, strictly vertical, with a perfectly smooth, cylindrical, and perfectly reflecting surface. You may make any additional model assumptions and approximations you deem reasonable that will simplify your calculations.",
+        "question": "Determine how the illuminance surplus $I(r, \\theta)$ inside the brightly lit circle on the floor depends on the polar coordinates $r \\gg a$ and $\\theta$. The illuminance quantifies the amount of incoming light per area. By \"surplus\" we mean the additional illuminance introduced due to the presence of the cylinder. Express the answer in terms of $I_0$ defined as the illuminance difference between points $A$ and $B$ in the figure.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer uses correct angles, $2\\alpha + \\theta > \\pi$. Partial points: award 0.2 pt if the answer only states $2\\alpha + \\theta = \\pi$ without justification. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states the reflection law in any form. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer includes the equation $x = a \\sin \\alpha$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer derives $I_0 \\delta x = 2I l \\delta \\alpha$. Partial points: subtract 0.3 pt if the factor of 2 is missing; subtract 0.3 pt if $r$ is used instead of $l$. If the answer does not derive such formula, award 0 pt.",
+                "Award 0.5 pt if the answer derives $I = -\\frac{I_0 a}{2l} \\cos(\\beta)$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer justifies the approximation $l \\approx r$. Partial points: award 0.2 pt if the answer states the approximation without justification. Otherwise, award 0 pt.",
+                "Award 1.5 pt if the answer correctly obtains the results $I \\approx \\frac{I_{0}a}{2r} \\sin (\\theta /2)$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{I_{0}a}{2r} \\sin (\\theta /2)$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            5.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Optics",
+        "source": "EuPhO_2025",
+        "image_question": [
+            "image_question/EuPhO_2025_1_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2025_1_2",
+        "context": "You are asked to study the features of the brightly lit circle and dark rings in the figures below. Make your calculations for an idealized situation: the chair leg is strictly cylindrical of radius $a$, strictly vertical, with a perfectly smooth, cylindrical, and perfectly reflecting surface. You may make any additional model assumptions and approximations you deem reasonable that will simplify your calculations.",
+        "question": "In the following figure, some fingers are blocking some of the light from reaching the chair leg. Let $R(\\theta)$ denote the radial distance of the middle dark ring as a function of the angle $\\theta$ and let $R_{\\min}$ be the minimal value of $R(\\theta)$. Determine $R(\\theta) - R_{\\min}$.",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer includes a correct Cosine Law expression. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer correctly obtains $l = l_0 + a \\cos(\\alpha) = l_0 + a |\\cos(\\beta)|$ where $l_0$ is the horizontal distance when $\\alpha = \\pi/2$. Partial points: award 0.5 pt if the answer only provides a qualitative explanation of why $R(\\theta)$ varies with $\\theta$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer justifies $l_0 \\approx R_{\\min}$ to leading order. Partial points: award 0.5 pt if the answer only states $l_0 \\approx R_{\\min}$ without justification. Otherwise, award 0 pt.",
+                "Award 2.0 pt if the answer correcly derives $R - R_{\\min} \\approx 2a \\sin(\\theta/2)$. Partial points: award 1.0 pt if the answer gives $R - R_{\\min} = a \\sin(\\theta/2)$; award 0.5 pt if the answer only states $R_{\\max} - R_{\\min} = 2a$; award 0.0 pt if the answer only states $R_{\\max} - R_{\\min} = a$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$R(\\theta) - R_{\\min} \\approx 2a \\sin(\\theta/2)$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            5.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Optics",
+        "source": "EuPhO_2025",
+        "image_question": [
+            "image_question/EuPhO_2025_1_2_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2025_2_1",
+        "context": "A table is made by fastening a metal frame to a massive uniform plate (so they form a rigid body) and attaching it with chains to another frame that is fixed on the horizontal ground. The motion of the table is limited to the plane of the side view (right picture).\n\nThe masses of the chains and the frame can be neglected. The chains are frictionless, inextensible, and remain tensioned in oscillations. The grid step is $a = 0.100 m$, the acceleration of gravity $g = 9.81 m/s^2$.",
+        "question": "Show that in the configuration on the side view (right picture), the table is in a stable equilibrium.",
+        "marking": [
+            [
+                "Award 2.0 pt if the answer shows that the table is in equilibrium. Partial points: award 1.0 pt if the answer only gives a sketch of forces or an equation for forces. Otherwise, award 0 pt.",
+                "Award 2.0 pt if the answer shows that the equilibrium is stable. Partial points: award 1.0 pt if the answer gives a sketch with returning forces, but there is no proof that $\\omega_{0} = 0$; award 1.0 pt if the answer gives a statement that the stability comes from $y = k x^2$ if $k > 0$, but $k$ is not found correctly ($k = \\frac{1}{3a}$), which could potentially be negative. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            ""
+        ],
+        "answer_type": [
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "EuPhO_2025",
+        "image_question": [
+            "image_question/EuPhO_2025_2_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2025_2_2",
+        "context": "A table is made by fastening a metal frame to a massive uniform plate (so they form a rigid body) and attaching it with chains to another frame that is fixed on the horizontal ground. The motion of the table is limited to the plane of the side view (right picture).\n\nThe masses of the chains and the frame can be neglected. The chains are frictionless, inextensible, and remain tensioned in oscillations. The grid step is $a = 0.100 m$, the acceleration of gravity $g = 9.81 m/s^2$.",
+        "question": "Find the period $T$ of the small oscillations: (1) write the formula for $T$, (2) calculate the number of $T$ (keep three significant figures, and express the unit in $s$).",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer shows that the table can rotate, either explicitly in the sketch or by introducing $\\varphi$ in the equations. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer correctly argues that the table does not have immediate rotation, either by: geometric reasoning showing $\\varphi \\sim x^{2}$; or constraint equations leading to $\\varphi \\sim x^{2}$; or using immediate velocities to show no rotation. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer outlines a valid plan to find the oscillation period using any of the following ideas: second Newton's law: $\\ddot{x} \\sim -x$; or identifying kinetic and potential energies; or using curvature of the trajectory. Otherwise, award 0 pt.",
+                "Award 2.0 pt if the answer includes all necessary elements: small horizontal forces; correct approximations of kinetic and potential energies; accelerations/curvatures. Partial points: award 1.0 pt if not all elements are present or if the answer contains mistakes; award 1.0 pt if the answer misses the proof of $\\omega_0 = 0$ (or does not consider the rotation), but everything else is correct; award 0.0 pt if only partial elements are present with an unrelated approach (e.g., using energy but only writing force expressions). Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer provides both the correct formula ($T = 2 \\pi \\sqrt{\\frac{3a}{2g}}$) and numerical value ($T = 0.777 s$) for $T$. Partial points: award 0.5 pt the answer only gives the formula or only the number; award 0.5 pt if a simple mistake is made in the answer (like inverse formula under the root). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$T = 2 \\pi \\sqrt{\\frac{3a}{2g}}$}",
+            "\\boxed{0.777}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            "s"
+        ],
+        "points": [
+            3.0,
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "EuPhO_2025",
+        "image_question": [
+            "image_question/EuPhO_2025_2_1_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2025_3_2",
+        "context": "",
+        "question": "Now consider two infinite, straight, thin wires (wires $X$ and $Y$), each carrying a current $I$ as shown in the figure. The $x$-axis coincides with wire $X$, while wire $Y$ is parallel to the $y$-axis and passes through the point $(0, 0, -a)$. Let $P$ be the point $(3a, 0, r)$. Assuming $r \\ll a$, calculate $d$, the distance of closest approach of the magnetic field line that passes through $P$ to the wire $X$.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer correctly states that the magnetic field around an infinite, straight, thin wire carrying a current $I$ has magnitude $\\frac{\\mu_0 I}{2 \\pi \\rho}$, where $\\rho$ is the perpendicular distance to the wire. Partial points: award 0.2 pt if the direction is unclear. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer states that the magnetic field line is locally nearly circular. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer describes that the field line resembles helix tightly wound around wire. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer mentions that the radius of the helix is changing. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer introduces the idea of considering the funnel surface $S$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer relizes and justifies that the $\\vec{B}_Y$ flux is conserved along the funnel. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly argues or shows that the radius of the flux tube is smallest at $x = 0$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer approximates $\\vec{B}_Y$ as uniform across the flux tube cross-sections. Otherwise, award 0 pt.",
+                "Award 0.5 pt for correctly determining flux at $x = 3a$. Partial points: award 0.3 pt for correct projection; award 0.2 pt for correct area. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer determines the flux at $x = 0$ using $\\rho$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly calculates the final result for $d$: $d = r/\\sqrt{10}$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer checks the validity of approximations used in the considered region. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$d = r/\\sqrt{10}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            5.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Electromagnetism",
+        "source": "EuPhO_2025",
+        "image_question": [
+            "image_question/EuPhO_2025_3_2_1.png"
+        ]
+    },
+    {
+        "id": "EuPhO_2025_3_3",
+        "context": "Now consider two infinite, straight, thin wires (wires $X$ and $Y$), each carrying a current $I$ as shown in the figure. The $x$-axis coincides with wire $X$, while wire $Y$ is parallel to the $y$-axis and passes through the point $(0, 0, -a)$. Let $P$ be the point $(3a, 0, r)$. Assuming $r \\ll a$, calculate $d$, the distance of closest approach of the magnetic field line that passes through $P$ to the wire $X$.",
+        "question": "Let $L$ be the length of this field line between $P$ and its point of closest approach to wire $X$. Using values $a = 10 cm$ and $r = 1.0 mm$, calculate $L$ to within 20% relative error (express the unit in $m$).",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer states or implicitly assumes that $L$ is much larger than $a$ and $r$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly equates $\\mathrm{d}x$ with $\\mathrm{d}L$ using $B$-field components or an angle. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer identifies that $B_{\\prep}$ is dominated by wire $X$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer derives a correct integral expression for $L$: $L = \\int_Q^P \\mathrm{d}L = \\int_0^{3a} \\frac{a^2+x^2}{a \\rho} \\mathrm{d}x$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer provides an expression for $\\rho$ as a function of $a$, $r$, and $x$: $\\rho^2 = \\frac{r^2 (a^2 + x^2)}{10 a^2}$. Otherwise, award 0 pt.",
+                "Award 1.2 pt if the answer carries out reasonable numerical approximation ($L = \\int_0^{3a} \\frac{\\sqrt{10}}{r} \\sqrt{a^2 + x^2} \\mathrm{d}x = \\frac{\\sqrt{10} a^2}{r} \\int_0^3 \\sqrt{1+u^2} \\mathrm{d}u$) or rigorous calculation of integral ($\\int_0^3 \\sqrt{1+u^2} \\mathrm{d}u \\approx 6.24$). Otherwise, award 0 pt.",
+                "Award 1.0 pt if the final result of $L$ within the range of $140 m \\leq L \\leq 215 m$. Partial points: award 0.8 pt if the answer is within the correct range but has only 1 significant figure or more than 3. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{[140, 215]}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "m"
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Electromagnetism",
+        "source": "EuPhO_2025",
+        "image_question": [
+            "image_question/EuPhO_2025_3_2_1.png"
+        ]
+    }
+]

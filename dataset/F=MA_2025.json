@@ -1,0 +1,558 @@
+[
+    {
+        "information": "Use $g = 10 \\mathrm{N}/\\mathrm{kg}$ throughout, unless otherwise specified."
+    },
+    {
+        "id": "F=MA_2025_01",
+        "context": "",
+        "question": "A particle is moving on a plane at a constant speed of $1 m/s$, but not necessarily in a straight line. Which of the following plot pairs (as shown in the figure) could describe the particle's position over time, in rectilinear coordinates?\n\n(A) I only. \n(B) II only. \n(C) III only. \n(D) II and III only. \n(E) All three plots could describe the particle's position over time.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_01_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_02",
+        "context": "As shown in the figure, three identical disks are placed on a frictionless table. Initially, two of the disks are at rest and in contact with each other. The third disk is launched with speed $v$ directly toward the midpoint of the two stationary disks along a path perpendicular to the line connecting their centers, as shown in the diagram. Analyze the motion of the disks after the collision, assuming all interactions are perfectly elastic and that when the disks collide, there is no friction or inelastic energy loss.",
+        "question": "Assume that all three disks collide simultaneously. What is the final velocity of the third disk?\n\n(A) $v/3$ in the opposite direction to the initial velocity. \n(B) $v/3$ in the same direction as the initial velocity. \n(C) $\\overrightarrow{0}$. \n(D) $v/5$ in the opposite direction to the initial velocity. \n(E) $v/5$ in the same direction as the initial velocity.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_02_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_03",
+        "context": "As shown in the figure, three identical disks are placed on a frictionless table. Initially, two of the disks are at rest and in contact with each other. The third disk is launched with speed $v$ directly toward the midpoint of the two stationary disks along a path perpendicular to the line connecting their centers, as shown in the diagram. Analyze the motion of the disks after the collision, assuming all interactions are perfectly elastic and that when the disks collide, there is no friction or inelastic energy loss.",
+        "question": "Assume that there is a little imperfection in disks' initial alignment so when the disks collide two collisions happen one at a time, rather than all three disks colliding simultaneously. What is the final speed of the third disk?\n\n (A) $v/2$. \n(B) $v/3$. \n(C) $v/4$. \n(D) $v/5$. \n(E) $0$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_03_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_04",
+        "context": "",
+        "question": "As shown in the figure, a mouse $M$ is running from $A$ to $A^{\\prime}$ with constant speed $u_1$ . A cat $C$ is chasing the mouse with constant speed $u_2$ and direction always toward the mouse. At a certain time $MC \\perp AA^\\prime$ and the length of $MC = L$ . What is the magnitude of the acceleration of the cat $C$?\n\n(A) $0$. \n(B) $(u_1 - u_2)^2/(2\\pi L)$. \n(C) $u_1 u_2/L$. \n(D) $u_1 u_2/( 2\\pi L)$. \n(E) none of the above.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_04_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_05",
+        "context": "",
+        "question": "Three identical cylinders are used in this setup. Two of them are placed side by side on a horizontal surface, with a negligible distance between their surfaces so they do not touch. The third identical cylinder is placed on top of the first two, such that their centers form an equilateral triangle, as shown in the figure below.\n\nThe coefficients of friction are:\n\n$\\mu_1$: the coefficient of friction between the cylinders, and\n\n $\\mu_2$: the coefficient of friction between the cylinders and the ground.\n\nFor which of the following pairs $(\\mu_1, \\mu_2)$ will the system remain in equilibrium? \n\nPair 1: $(\\frac{1}{2}, \\frac{1}{12})$. Pair 2: $(\\frac{1}{3}, \\frac{1}{10})$. Pair 3: $(\\frac{1}{4}, \\frac{1}{8}})$.\n\n(A) Pair 1 only. \n(B) Pair 2 only. \n(C) Pair 3 only. \n(D) Pairs 1 and 2 only. \n(E) Pairs 1, Pair 2, and Pair 3.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_05_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_06",
+        "context": "",
+        "question": "A ball rolls without slipping down a ramp, which turns horizontal at the bottom; at the bottom of the ramp,the ball falls through the air, as in the diagram. If the ball starts from the position marked $O$, it lands $10 cm$ away from the bottom of the ramp. Which starting position will get the ball to land closest to $25 cm$ away?\n\n(A) Position A. \n(B) Position B. \n(C) Position C. \n(D) Position D. \n(E) Position E.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_06_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_07",
+        "context": "",
+        "question": "A mechanism consists of three point masses, each of mass $m$,connected by two massless rods of length $l$ and a torsion spring acting as a hinge. The potential energy of the torsion spring is given by $U_s$ . This system is designed to \"walk\" down a set of stairs, as shown in the figure. The angles $\\theta_1$ and $\\theta_2$ (see figure) represent the orientation of the rods,and their rates of change, $\\omega_1$ and $\\omega_2$, are the corresponding angular velocities. Assume that the mass on the surface is instantaneously at rest.\n\nWhich equation correctly describes the total energy of the system?\n\n(A) $E = m{l}^2\\omega_{1}^2 + \\frac{1}{2}m{l}^2\\omega_{2}^2 + m{l}^2\\omega_{1}\\omega_{2}\\cos \\left(\\theta_{1} + \\theta_{2}\\right) + {2mgl}\\sin \\theta_{1} + {mgl}\\sin \\theta_{2} + {U}_{s}$. \n(B) $E = \\frac{1}{2}m{l}^2\\omega_{1}^2 + \\frac{1}{2}m{l}^2\\omega_{2}^2 + {2mgl}\\sin \\theta_{1} + {mgl}\\sin \\theta_{2} - {U}_{s}$. \n(C) $E = m{l}^2\\omega_{1}^2 + \\frac{1}{2}m{l}^2\\omega_{2}^2 + m{l}^2\\omega_{1}\\omega_{2}\\cos \\left(\\theta_{1} - \\theta_{2}\\right) + {2mgl}\\sin \\theta_{1} + {mgl}\\sin \\theta_{2} + {U}_{s}$. \n(D) $E = m{l}^2\\omega_{1}^2 + \\frac{1}{2}m{l}^2\\omega_{2}^2 - m{l}^2\\omega_{1}\\omega_{2}\\cos \\left(\\theta_{1} - \\theta_{2}\\right) + {2mgl}\\sin \\theta_{1} + {mgl}\\sin \\theta_{2} + {U}_{s}$. \n(E) $E = \\frac{1}{2}m{l}^2\\omega_{1}^2 + \\frac{1}{2}m{l}^2\\omega_{2}^2 + {2mgl}\\sin \\theta_{1} + {mgl}\\sin \\theta_{2} + {U}_{s}$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_07_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_08",
+        "context": "",
+        "question": "A symmetric spinning top,rotating clockwise at an angular frequency $\\omega$, is placed upright in the center of a frictionless circular plate. The plate then begins to rotate counterclockwise at a constant angular velocity $\\omega$. Assume the top's axis remains perfectly vertical and stable without any precession. From the perspective of an observer rotating with the plate, how does the top appear to rotate?\n\n(A) The top appears stationary without any rotation. \n(B) The top appears to rotate in the clockwise direction at an angular frequency $\\omega$. \n(C) The top appears to rotate in the clockwise direction at an angular frequency $2\\omega$. \n(D) The top appears to rotate in the counterclockwise direction at an angular frequency $\\omega$. \n(E) The top appears to rotate in the counterclockwise direction at an angular frequency ${2\\omega}$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_09",
+        "context": "",
+        "question": "$N$ circles in a plane, $C_{i}$, each rotate with frequency $\\omega$ relative to an inertial frame. The center of $C_{1}$ is fixed in the inertial frame, and the center of $C_{i}$ is fixed on $C_{i - 1}$ (for $i = 2, \\ldots, N$), as shown in the figure. Each circle has radius ${r}_{i} = \\lambda {r}_{i - 1}$, where $0 < \\lambda  < 1$. A mass is fixed on $C_{N}$. The position of the mass relative to the center of $C_{1}$ is $R\\left( t\\right)$. For the $N = 4$ case shown, which of the following statements is true?\n\n During the time interval from 0 to ${2\\pi}/\\omega$, the magnitude of acceleration of mass on $C_{4}$:\n\n(A) reached its maximum and minimum more than once. \n(B) reached its maximum and minimum exactly once. \n(C) reached its maximum only once but the minimum more than once. \n(D) reached its minimum only once but the maximum more than once. \n(E) was constant.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_09_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_10",
+        "context": "When two objects of very different masses collide, it is difficult to transfer a substantial fraction of the energy of one to the other. Consider two objects, of mass $m$ and $M \\gg m$.",
+        "question": "If the lighter object is initially at rest, and the heavier object collides elastically with it, what is the approximate maximum fraction of the heavier object's kinetic energy that could be transferred to the lighter object?\n\n(A) $m/M$. \n(B) ${2m}/M$. \n(C) ${4m}/M$. \n(D) ${m}^2/{M}^2$. \n(E) $2{m}^2/{M}^2$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_11",
+        "context": "When two objects of very different masses collide, it is difficult to transfer a substantial fraction of the energy of one to the other. Consider two objects, of mass $m$ and $M \\gg m$.",
+        "question": "Now suppose that instead, the heavier object is initially at rest, and the lighter object collides elastically with it. What is the approximate maximum fraction of the lighter object's kinetic energy that could be transferred to the heavier object?\n\n(A) $m/M$. \n(B) ${2m}/M$. \n(C) ${4m}/M$. \n(D) ${m}^2/{M}^2$. \n(E) $2{m}^2/{M}^2$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_12",
+        "context": "",
+        "question": "A $50 g$ piece of clay is thrown horizontally with a velocity of $20 m/s$ striking the bob of a stationary pendulum with length $l = 1 m$ and a bob mass of $200 g$. Upon impact, the clay sticks to the pendulum weight and the pendulum starts to swing. What is the maximum change in angle of the pendulum?\n\n(A) $\\arccos(1/5)$. \n(B) $\\arcsin(7/10)$. \n(C) $\\arccos(2/3)$. \n(D) $\\arcsin(3/10)$. \n(E) $\\arctan(4/5)$.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_13",
+        "context": "Angela the puppy loves chasing tennis balls, so her owners built a tennis ball launcher. It fires balls along the floor at some initial speed, applying no rotation to them. The balls initially slip along the floor, then start rolling without slipping. Ignore the potential deformation of the ball and floor during this process, as well as air resistance.",
+        "question": "Which of the following plot pairs (as shown in the figure) could show the linear speed $v$ and rotational speed $\\omega$ of one of the balls over time? Assume the floor has a constant roughness.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_13_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_14",
+        "context": "Angela the puppy loves chasing tennis balls, so her owners built a tennis ball launcher. It fires balls along the floor at some initial speed, applying no rotation to them. The balls initially slip along the floor, then start rolling without slipping. Ignore the potential deformation of the ball and floor during this process, as well as air resistance.",
+        "question": "There are three kinds of balls that can be launched in this set-up, all having the same radius $R$:\nI. a regular tennis ball (a thin spherical shell of rubber) of mass $m_1$. \nII. a solid wooden ball of mass $m_2$. \nIII. a solid rubber ball of mass $m_3$.\n where $m_1 < m_2 < m_3$. All three types of ball emerge from the launcher with the same velocity. For which ball will the final velocity be highest?\n\n(A) Ball I. \n(B) Ball II. \n(C) Ball III. \n(D) Balls II and III. \n(E) The final velocity will be the same for all three balls.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_15",
+        "context": "",
+        "question": "As shown in the figure, a uniform rigid rod of mass $M$ and length $2L$ is attached to a massless rod of length $L$, which is fixed at one end to the ceiling and free to rotate in a vertical plane. The massive rod is connected to the free end of the massless rod. Suppose an impulse $J$ is applied horizontally to the bottom of the massive rod.\n\nDetermine the relationship between the magnitudes of the angular velocity $\\omega$ of the massless rod and $\\Omega$ of the massive rod immediately after the impulse is applied. The moment of inertia of a uniform rod of length $d$ and mass $m$ about its center of mass is given by $I = \\frac{1}{12}m{d}^2$.\n\n(A) $\\Omega = \\frac{3}{4}\\omega$. \n(B) $\\Omega = \\frac{2}{3}\\omega$. \n(C) $\\Omega = \\frac{4}{3}\\omega$. \n(D) $\\Omega = \\frac{1}{12}\\omega$. \n(E) $\\Omega = \\frac{3}{2}\\omega$.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_15_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_16",
+        "context": "",
+        "question": "Two soap bubbles of radii $R_1 = 1 cm$ and $R_2 = 2 cm$ conjoin together in the air,such that a narrow bridge forms between them. Assuming the system starts in equilibrium, the bubbles are extremely thin, and that air can flow freely between the bubbles through the bridge, describe the evolution and final state of the bubbles.\n\n(A) The smaller bubble will shrink and the larger bubble will grow. \n(B) The larger bubble will shrink and the smaller bubble will grow. \n(C) The bubbles will maintain their sizes. \n(D) Air will oscillate between the two bubbles. \n(E) Both bubbles will simultaneously shrink.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_17",
+        "context": "",
+        "question": "A particle of mass $m$ moves in the ${xy}$ plane with potential energy $U(x,y) = -k\\frac{x^2 + y^2}{2}$. The closest point to the origin $(x = 0, y = 0)$ during its motion was at a distance $d$, and the particle's speed at that point was $v \\neq 0$. Which of the following statements is true regarding the path of the particle after a long time $t$ ($t \\gg d/v$)?\n\n(A) The particle's trajectory will be circular. \n(B) The particle's trajectory will be asymptotic to a straight line pointing away from the origin. \n(C) The particle will spiral outwards away from the origin. \n(D) The particle will travel on a parabolic trajectory. \n(E) The particle will spiral inwards towards the origin.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_18",
+        "context": "",
+        "question": "A particle of mass $m$ moves in the ${xy}$ plane with potential energy $U(x,y) = {kxy}/2$. If the particle begins at the origin, then it is possible to displace it slightly in some direction, so that the particle subsequently oscillates periodically. What is the period of this motion?\n\n(A) $2\\pi\\sqrt{m/{4k}}$. \n(B) $2\\pi\\sqrt{m/{2k}}$. \n(C) $2\\pi\\sqrt{m/k}$. \n(D) $2\\pi\\sqrt{{2m}/k}$. \n(E) $2\\pi\\sqrt{{4m}/k}$.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_19",
+        "context": "",
+        "question": "Near the ground, wind speed can be modeled as proportional to height above the ground. (This is a reasonable assumption for small heights.) A wind turbine converts a constant fraction of the available kinetic energy into electricity. The conditions are such that when operating at $10 m$ above the ground,the turbine delivers $15 kW$ of power. How much power would the same windmill deliver if it were operating at $20 m$ above the ground?\n\n(A) $15 kW$. \n(B) $21 kW$. \n(C) $30 kW$. \n(D) $60 kW$. \n(E) $120 kW$.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_20",
+        "context": "",
+        "question": "The International Space Station orbits the Earth in a circular orbit $400 km$ above the surface,and a full revolution takes 93 minutes. An astronaut on a space walk neglects safety precautions and tosses away a spanner at a speed of $1 m/s$ directly towards the Earth. You may assume that the Earth is a sphere of uniform density. At which of the following five times will the spanner be closest to the astronaut?\n\n(A) After 139.5 minutes. \n(B) After 131.5 minutes. \n(C) After 93 minutes. \n(D) After 46.5 minutes. \n(E) After 1 minute.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_21",
+        "context": "As shown in the figure, water flows through a pipe with a radius of $5 cm$ at a velocity of $10 cm/s$ before entering a narrower section of pipe with a radius of $2.5 cm$.",
+        "question": "What is the difference in the speed of water between the two pipes?\n\n(A) $20 cm/s$. \n(B) $30 cm/s$. \n(C) $40 cm/s$. \n(D) $50 cm/s$. \n(E) $60 cm/s$.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_21_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_22",
+        "context": "As shown in the figure, water flows through a pipe with a radius of $5 cm$ at a velocity of $10 cm/s$ before entering a narrower section of pipe with a radius of $2.5 cm$.",
+        "question": "To measure this difference, two graduated cylinders are connected to the top of the pipe (one in the broad section and the other in the narrowed section). Water then flows up each pipe and the height the water reaches is measured. Estimate the difference in height between the two cylinders.\n\n(A) $6.3 mm$. \n(B) $7.5 mm$. \n(C) $8.2 mm$. \n(D) $12.2 mm$. \n(E) $12.7 mm$.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_22_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_23",
+        "context": "",
+        "question": "A student conducted an experiment to determine the spring constant of a spring using a ruler and two different weighing scales. The measured elongation of the spring was $1.5 cm$ ,and the smallest division on the ruler was $1 mm$ . The mass of the attached weight was measured using two different scales in the school laboratory,yielding values of $198 g$ and $210 g$ . The student also found that the local acceleration due to gravity in her city is given as $(9.806 \\pm 0.001) m/s^2$. Calculate the percent error in measuring the spring constant.\n\n(A) $2\\%$. \n(B) $4\\%$. \n(C) $8\\%$. \n(D) ${11}\\%$. \n(E) ${14}\\%$.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2025_24",
+        "context": "",
+        "question": "As shown in the figure, a massive bead is attached to the end of a massless rigid rod of length $L$. The other end of the rod is attached to an ideal pivot, which allows it to rotate frictionlessly in any direction. The rod is initially at angle $\\theta$ to the horizontal, and there is no gravitational force. Next, the bead receives an impulse directly into the page, giving it a speed $v$. How long does it take for the bead to return to its original position?\n\n(A) $2\\pi L / v$. \n(B) $(2 \\pi L / v) \\sin \\theta$. \n(C) $(2 \\pi L / v) \\cos \\theta$. \n(D) $(2 \\pi L / v) \\cos^2 \\theta$. \n(E) $(2 \\pi L / v) \\cos^2 (2\\theta)$.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_24_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2025_25",
+        "context": "",
+        "question": "As shown in the figure, a puck of mass $m$ can slide on a frictionless inclined plane (prism). The prism has a much greater mass compared to the puck and is itself sliding without friction on a horizontal surface. The velocity of the prism is $v = \\sqrt{2gh}$, where $g$ is the acceleration due to gravity and $h$ is the height from which the puck starts sliding on the prism. The transition from the prism to the horizontal surface is smooth. The puck starts from rest relative to the prism. Find the final velocity of the puck once it begins sliding on the horizontal surface.\n\n(A) $\\frac{v}{2}$. \n(B) $\\frac{v}{\\sqrt{2}}$. \n(C) $v$. \n(D) $\\sqrt{2}v$. \n(E) $2v$.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2025",
+        "image_question": [
+            "image_question/F=MA_2025_25_1.png"
+        ]
+    }
+]

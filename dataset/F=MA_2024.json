@@ -1,0 +1,565 @@
+[
+    {
+        "information": "Use $g = 10 \\mathrm{N}/\\mathrm{kg}$ throughout, unless otherwise specified."
+    },
+    {
+        "id": "F=MA_2024_01",
+        "context": "",
+        "question": "An archer fires an arrow from the ground so that it passes through two hoops, which are both a height $h$ above the ground. The arrow passes through the first hoop one second after the arrow is launched, and through the second hoop another second later. What is the value of $h$?\n\n(A) $5 m$. \n(B) $10 m$. \n(C) $12 m$. \n(D) $15 m$. \n(E) There is not enough information to decide.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_02",
+        "context": "",
+        "question": "An amusement park ride consists of a circular, horizontal room. A rider leans against its frictionless outer walls,which are angled back at $30^{\\circ}$ with respect to the vertical, so that the rider's center of mass is $5.0 m$ from the center of the room. When the room begins to spin about its center, at what angular velocity will the rider's feet first lift off the floor?\n\n(A) $1.9 \\mathrm{rad}/\\mathrm{s}$. \n(B) $2.3 \\mathrm{rad}/\\mathrm{s}$. \n(C) $3.5 \\mathrm{rad}/\\mathrm{s}$. \n(D) $4.0 \\mathrm{rad}/\\mathrm{s}$. \n(E) $5.6 \\mathrm{rad}/\\mathrm{s}$.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_03",
+        "context": "",
+        "question": "As shown in the figure, a simple bridge is made of five thin rods rigidly connected at four vertices. The ground is frictionless, so that it can only exert vertical normal forces at $B$ and $D$. The weight of the bridge is negligible, but a person stands at its middle, exerting a downward force $F$ at vertex $C$. In static equilibrium, each rod can be experiencing either tension or compression. Which of the following is true?\n\n(A) Only the vertical rod is in tension. \n(B) Only the horizontal rods are in tension. \n(C) Both the vertical rod and the diagonal rods are in tension. \n(D) Both the vertical rod and the horizontal rods are in tension. \n(E) All of the rods are in tension.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_03_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_04",
+        "context": "",
+        "question": "A bouncy ball is thrown vertically upward from the ground. Air resistance is negligible, and the ball's collisions with the ground are perfectly elastic. Which of the following plots in the figure shows the kinetic energy of the ball as a function of time? Assume the collisions are too quick for their duration to be seen in the plot.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_04_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_05",
+        "context": "",
+        "question": "As shown in the figure, a massless inclined plane with angle $30^{\\circ}$ to the horizontal is fixed to a scale. A block of mass $m$ is released from the top of the plane, which is frictionless. As the block slides down the plane, what is the reading on the scale? \n\n(A) $\\sqrt{3}{mg}/4$. \n(B) ${mg}/2$. \n(C) ${3mg}/4$. \n(D) $\\sqrt{3}{mg}/2$. \n(E) ${mg}$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_05_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_06",
+        "context": "",
+        "question": "As shown in the figure, a pendulum is made with a string and a bucket full of water. When the string is vertical, the bottom of the bucket is near the ground. Then, the pendulum is set swinging with a small amplitude, and a very small hole is opened at the bottom of the bucket, which leaks water at a constant rate. After a few full swings, which of the following plots in the figure best shows the amount of water that has landed on the ground as a function of position?",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_06_1.png",
+            "image_question/F=MA_2024_06_2.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_07",
+        "context": "",
+        "question": "A particle travels in a straight line. Its velocity as a function of time is shown in the figure. Which of the following plots shows the velocity as a function of distance $x$ from its initial position?",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_07_1.png",
+            "image_question/F=MA_2024_07_2.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_08",
+        "context": "",
+        "question": "As shown in the figure, a rod of length $L$ is sliding down a frictionless wall. When the rod makes an angle of $45^{\\circ}$ to the horizontal, the bottom of the rod has speed $v$. At this moment, what is the speed of the middle of the rod?\n\n(A) $v/2$. \n(B) $v/\\sqrt{2}$. \n(C) $v$. \n(D) $\\sqrt{2}v$. \n(E) ${2v}$.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_08_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_09",
+        "context": "",
+        "question": "When a car's brakes are fully engaged, it takes $100 m$ to stop on a dry road, which has coefficient of kinetic friction $\\mu_{k} = 0.8$ with the tires. Now suppose only the first $50 m$ of the road is dry, and the rest is covered with ice, with $\\mu_{k} = 0.2$. What total distance does the car need to stop?\n\n(A) $150 m$. \n(B) $200 m$. \n(C) $250 m$. \n(D) $400 m$. \n(E) $850 m$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_10",
+        "context": "",
+        "question": "As shown in the figure, a block of mass $m$ is connected to the walls of a frictionless box by two massless springs with relaxed lengths $\\ell$ and $2\\ell$, and spring constants $k$ and $2k$ respectively. The length of the box is $3\\ell$. The system rotates with a constant angular velocity $\\omega$ about one of its walls. Suppose the block stays at a constant distance $r$ from the axis of rotation, without touching either of the walls. What is the value of $r$?\n\n(A) $\\frac{2k\\ell}{2k - m\\omega^2}$. \n(B) $\\frac{2k\\ell}{2k + m\\omega^2}$. \n(C) $\\frac{2k\\ell}{3k + m\\omega^2}$. \n(D) $\\frac{3k\\ell}{3k - m\\omega^2}$. \n(E) $\\frac{3k\\ell}{3k + m\\omega^2}$.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_10_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_11",
+        "context": "",
+        "question": "Two hemispherical shells can be pressed together to form a airtight sphere of radius $40 cm$. Suppose the shells are pressed together at a high altitude, where the air pressure is half its value at sea level. The sphere is then returned to sea level, where the air pressure is $10^{5}\\mathrm{Pa}$. What force $F$, applied directly outward to each hemisphere, is required to pull them apart?\n\n(A) $25,000 N$. \n(B) $50,000 N$. \n(C) $100,000 N$. \n(D) $200,000 N$. \n(E) $400,000 N$.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_12",
+        "context": "",
+        "question": "A space probe with mass $m$ at point P traverses through a cluster of three asteroids,at points A, B, and C. The masses and locations of the asteroids are shown in the figure. What is the torque on the probe about point C?\n\n(A) $\\frac{1}{2\\sqrt{2}} \\frac{GMm}{d}$. \n(B) $\\frac{1}{2} \\frac{GMm}{d}$. \n(C) $\\frac{1}{\\sqrt{2}}\\frac{GMm}{d}$. \n(D) $\\frac{GMm}{d}$. \n(E) $\\frac{\\sqrt{2}GMm}{d}$.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_12_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_13",
+        "context": "",
+        "question": "Two frictionless blocks of mass $m$ are connected by a massless string which passes through a fixed massless pulley, which is a height $h$ above the ground. Suppose the blocks are initially held with horizontal separation $x$, and the length of the string is chosen so that the right block hangs in the air as shown in the figure. If the blocks are relased, the tension in the string immediately afterward will be $T$. Which of the following plots in the figure shows a plot of $T$ versus $x$?",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_13_1.png",
+            "image_question/F=MA_2024_13_2.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_14",
+        "context": "",
+        "question": "A bead of mass $m$ can slide frictionlessly on a vertical circular wire hoop of radius $20 cm$. The hoop is attached to a stand of mass $m$, which can slide frictionlessly on the ground. Initially, the bead is at the bottom of the hoop, the stand is at rest, and the bead has velocity $2 m/s$ to the right. At some point, the bead will stop moving with respect to the hoop. At that moment, through what angle along the hoop has the bead traveled?\n\n(A) $30^{\\circ}$. \n(B) $45^{\\circ}$. \n(C) $60^{\\circ}$. \n(D) $90^{\\circ}$. \n(E) $120^{\\circ}$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_14_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_15",
+        "context": "",
+        "question": "The viscous force between two plates of area $A$, with relative speed $v$ and separation $d$, is $F = {\\eta Av}/d$, where $\\eta$ is the viscosity. In fluid mechanics,the Ohnesorge number is a dimensionless number proportional to $\\eta$ which characterizes the importance of viscous forces,in a drop of fluid of density $\\rho$, surface tension $\\gamma$, and length scale $\\ell$. Which of the following could be the definition of the Ohnesorge number?\n\n(A) $\\frac{\\eta \\ell}{\\sqrt{\\rho \\gamma}}$. \n(B) $\\eta \\ell \\sqrt{\\frac{\\rho}{\\gamma}}$. \n(C) $\\eta \\sqrt{\\frac{\\rho}{\\gamma \\ell}}$. \n(D) $\\eta \\sqrt{\\frac{\\rho \\ell}{\\gamma}}$. \n(E) $\\frac{\\eta}{\\sqrt{\\rho \\gamma \\ell}}$.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_16",
+        "context": "",
+        "question": "A child of mass $m$ holds onto the end of a massless rope of length $\\ell$ ,which is attached to a pivot a height $H$ above the ground. The child is released from rest when the rope is straight and horizontal. As shown in the figure, at some point, the child lets go of the rope, flies through the air, and lands on the ground a horizontal distance $d$ from the pivot. On Earth,the maximum possible value of $d$ is $d_E$. If the setup is moved to the Moon, which has $1/6$ the gravitational acceleration, what is the new maximum possible value of $d$?\n\n(A) $d_E/6$. \n(B) $d_E/\\sqrt{6}$. \n(C) $d_E$. \n(D) $\\sqrt{6}d_E$. \n(E) $6d_E$.",
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_16_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_17",
+        "context": "",
+        "question": "As shown in the figure, consider the system of massless and frictionless pulleys, ropes, and springs. Initially, a block of mass $m$ is attached to the end of a rope, and the system is in equilibrium. Next the block is doubled in mass, and the system is allowed to come to equilibrium again. During the transition between these equilibria, how far does the end of the rope (where the block is suspended) move?\n\n(A) $\\frac{7}{12}\\frac{mg}{k}$. \n(B) $\\frac{11}{12}\\frac{mg}{k}$. \n(C) $\\frac{13}{12}\\frac{mg}{k}$. \n(D) $\\frac{7}{6}\\frac{mg}{k}$. \n(E) $\\frac{11}{6}\\frac{mg}{k}$.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_17_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_18",
+        "context": "",
+        "question": "As shown in the figure, a satellite is initially in a circular orbit of radius $R$ around a planet of mass $M$. It fires its rockets to instantaneously increase its speed by $\\Delta v$, keeping the direction of its velocity the same, so that it enters an elliptical orbit whose maximum distance from the planet is $2R$. What is the value of $\\Delta v$? (Hint: when the satellite is in an elliptical orbit with semimajor axis $a$, its total energy per unit mass is $- {GM}/{2a}$.) \n\n(A) $0.08 \\sqrt{\\frac{GM}{R}}$. \n(B) $0.15 \\sqrt{\\frac{GM}{R}}$. \n(C) $0.22 \\sqrt{\\frac{GM}{R}}$. \n(D) $0.29 \\sqrt{\\frac{GM}{R}}$. \n(E) $0.41 \\sqrt{\\frac{GM}{R}}$.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_18_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_19",
+        "context": "",
+        "question": "A wheel of radius $R$ has a thin rim and four spokes,each of which have uniform density.As shown in the figure, the entire rim has mass $m$, three of the spokes each have mass $m$, and the fourth spoke has mass $3m$. The wheel is suspended on a horizontal frictionless axle passing through its center. If the wheel is slightly rotated from its equilibrium position, what is the angular frequency of small oscillations?\n\n(A) $\\sqrt{\\frac{g}{3R}}$. \n(B) $\\sqrt{\\frac{g}{2R}}$. \n(C) $\\sqrt{\\frac{2g}{3R}}$. \n(D) $\\sqrt{\\frac{g}{R}}$. \n(E) $\\sqrt{\\frac{7g}{6R}}$.",
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_19_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_20",
+        "context": "",
+        "question": "As shown in the figure, four massless rigid rods are connected into a quadrilateral by four hinges. The hinges have mass $m$, and allow the rods to freely rotate. A spring of spring constant $k$ is connected across each of the diagonals, so that the springs are at their relaxed length when the rods form a square. Assume the springs do not interfere with each other. If the square is slightly compressed along one of its diagonals, its shape will oscillate over time. What is the period of these oscillations?\n\n(A) $2\\pi \\sqrt{\\frac{m}{4k}}$. \n(B) $2\\pi \\sqrt{\\frac{m}{2k}}$. \n(C) $2\\pi \\sqrt{\\frac{m}{k}}$. \n(D) $2\\pi \\sqrt{\\frac{2m}{k}}$. \n(E) $2\\pi \\sqrt{\\frac{4m}{k}}$.",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_20_1.png"
+        ]
+    },
+    {
+        "id": "F=MA_2024_21",
+        "context": "",
+        "question": "A syringe is filled with water of density $\\rho$ and negligible viscosity. Its body is a cylinder of cross-sectional area $A_1$, which gradually tapers into a needle with cross-sectional area $A_2 \\ll  A_1$. The syringe is held in place and its end is slowly pushed inward by a force $F$, so that it moves with constant speed $v$. Water shoots straight out of the needle's tip. What is the approximate value of $F$?\n\n(A) $\\rho {v}^2{A}_{1}$. \n(B) $\\frac{\\rho {v}^2{A}_{1}^2}{2{A}_{2}}$. \n(C) $\\frac{\\rho {v}^2{A}_{1}^2}{{A}_{2}}$. \n(D) $\\frac{\\rho {v}^2{A}_{1}^{3}}{2{A}_{2}^2}$. \n(E) $\\frac{\\rho {v}^2{A}_{1}^{3}}{{A}_{2}^2}$",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_22",
+        "context": "",
+        "question": "A spherical shell is made from a thin sheet of material with a mass per area of $\\sigma$. Consider two points, $P_1$ and $P_2$, which are close to each other, but just inside and outside the sphere, respectively. If the accelerations due to gravity at these points are $g_1$ and $g_2$, respectively, what is the value of $|g_1 - g_2|$?\n\n(A) $\\pi G\\sigma$. \n(B) $4\\pi G\\sigma /3$. \n(C) $2\\pi G\\sigma$. \n(D) $4\\pi G\\sigma$. \n(E) $8\\pi G\\sigma$.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_23",
+        "context": "",
+        "question": "Collisions between ping pong balls and paddles are not perfectly elastic. Suppose that if a player holds a paddle still and drops a ball on top of it from any height $h$, it will bounce back up to height $h/2$. To keep the ball bouncing steadily, the player moves the paddle up and down, so that it is moving upward with speed $1.0 m/s$ whenever the ball hits it. What is the height to which the ball is bouncing?\n\n(A) $0.21 m$. \n(B) $0.45 m$. \n(C) $1.0 m$. \n(D) $1.7 m$. \n(E) There is not enough information to determine the height.",
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_24",
+        "context": "",
+        "question": "When a projectile falls through a fluid, it experiences a drag force proportional to the product of its cross-sectional area, the fluid density $\\rho_{f}$, and the square of its speed. Suppose a sphere of density $\\rho_{s} \\gg \\rho_{f}$ of radius $R$ is dropped in the fluid from rest. When the projectile has reached half of its terminal velocity, which of the following is its displacement proportional to?\n\n(A) $R\\sqrt{\\rho_{s}/\\rho_{f}}$. \n(B) $R \\rho_{s}/\\rho_{f}$. \n(C) $R (\\rho_{s}/\\rho_{f})^{3/2}$. \n(D) $R (\\rho_{s}/\\rho_{f})^2$. \n(E) $R (\\rho_{s}/\\rho_{f})^{3}$",
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": []
+    },
+    {
+        "id": "F=MA_2024_25",
+        "context": "",
+        "question": "A yo-yo consists of two massive uniform disks of radius $R$ connected by a thin axle. As shown in the figure, a thick string is wrapped many times around the axle, so that the end of the string is initially a distance $R$ from the axle. Then, the end of the string is held in place and the yo-yo is dropped from rest. Assume that energy losses are negligible, and that the string has negligible mass and always remains vertical. Below, we show a cross-section of the yo-yo partway through its descent. Between the moment the yo-yo is released and the moment the string completely unwinds, which of the following is true regarding the yo-yo's acceleration?\n\n(A) It is always zero.\n(B) It points downward, but decreases in magnitude over time. \n(C) It points downward and has constant magnitude. \n(D) It points downward, but increases in magnitude over time. \n(E) None of the above.",
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "F=MA_2024",
+        "image_question": [
+            "image_question/F=MA_2024_25_1.png"
+        ]
+    }
+]

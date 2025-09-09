@@ -1,0 +1,745 @@
+[
+    {
+        "information": "None."
+    },
+    {
+        "id": "NBPhO_2024_1_1",
+        "context": "[Four Charges] \n\nFour identical particles are initially in the corners of a square, as shown in the figure. All particles have the same charge $q$, mass $m$, and the same magnitude of initial velocity $v_0$. The directions of the initial velocities are indicated in the figure. You can assume $v \\ll c$ and ignore gravity.\n\n[figure1]",
+        "question": "After a long time has passed, what is the magnitude of the final velocity $v_f$ of the particles with respect to the center of mass of the system?",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer shows the idea of using energy conservation to relate initial and final states. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer recognizes symmetry and equality of particle quantities (e.g., all four particles have same mass and charge). Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer expresses total energy as a sum of kinetic and electrostatic energy. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer writes the formula for electrostatic energy with two different distances: $\\frac{k q^2}{L}$ and $\\frac{k q^2}{\\sqrt{2}L}$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer includes the factor $\\frac{1}{2}$ in the electrostatic energy to avoid double counting from pairings. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly states that the final energy is purely kinetic: $E_{\\text{final}} = 4 \\cdot \\frac{1}{2} m v_f^2$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives the correct final expression for $v_f$: $v_f = \\sqrt{v_0^2 + \\frac{k q^2}{L m} \\cdot \\frac{4 + \\sqrt{2}}{2}}$. Partial points: award 0.2 pt if only dimensionless factors are missing but the final answer is reasonable. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$v_{f} = \\sqrt{v_0^{2} + \\frac{k{q}^{2}}{Lm} \\frac{4 + \\sqrt{2}}{2}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            2.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Electromagnetism",
+        "source": "NBPhO_2024",
+        "image_question": [
+            "image_question/NBPhO_2024_1_1_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2024_1_2",
+        "context": "[Four Charges] \n\nFour identical particles are initially in the corners of a square, as shown in the figure. All particles have the same charge $q$, mass $m$, and the same magnitude of initial velocity $v_0$. The directions of the initial velocities are indicated in the figure. You can assume $v \\ll c$ and ignore gravity.\n\n[figure1]\n\n(i) After a long time has passed, what is the magnitude of the final velocity $v_f$ of the particles with respect to the center of mass of the system?\n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "What is the angle between the initial velocity $\\vec{v}_0$ and the final velocity $\\vec{v}_f$ of a particle?",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer correctly states that the effective repulsive force $F = \\frac{A}{r^2}$ is pointing from the center of the masses (explicit expression or statement is required). Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer recognizes the motion as hyperbolic. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer identifies that the central charge $Q_e$ is located at the correct focus of the hyperbola. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer expresses the angle $\\phi$ or $\\alpha$ in terms of geometrical parameters, e.g., $\\cos \\alpha = a/c$, or $\\tan \\alpha = b/a$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer applies the vis-viva equation or energy conservation to the hyperbolic orbit: $E = \\frac{k q Q_e}{2a} = \\frac{1}{2} m v_0^2 + \\frac{\\sqrt{2} k q Q_e}{L}$. Partial points for angular momentum conservation: award 0.3 pt if the answer mentions that angular momentum is conserved; award 0.3 pt if the answer writes the angular momentum around the center of the masses using $L$ and $v_0$; award 0.4 pt if the answer writes final angular momentum around the center of the masses using $v_f$. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer derives the final answer $\\sin \\phi = \\frac{1}{1 + \\frac{4 L m v_0^2}{k q^2 (4+\\sqrt{2})}}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\sin \\phi = \\frac{1}{1 + \\frac{4 L m v_0^2}{k q^2 (4+\\sqrt{2})}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            5.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Electromagnetism",
+        "source": "NBPhO_2024",
+        "image_question": [
+            "image_question/NBPhO_2024_1_1_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2024_2_1",
+        "context": "[Oklo Fission Reactor] \n\nBased on the ratio of the uranium isotopes $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$, as well as the abundances of the isotopes produced by nuclear reactors, researchers have established that self-sustaining natural nuclear reactors operated in Oklo ca $T_0 = 1.8 \\times {10}^{9}$ years ago in Gabon, central Africa. For such reactors to exist, two conditions must be met: (a) presence of deposits with high enough concentration of uranium; (b) sufficiently high abundance of $^{235}\\mathrm{U}$ in natural uranium. Rich uranium ores were created by floods: scattered uranium was dissolved in oxygen-rich water and transported by it to underground pools. Significant concentration of oxygen appeared in the atmosphere only around 2.5 billion years ago, so the first condition was not met earlier than that. You will learn below that the abundance of $^{235}\\mathrm{U}$ decreases relatively fast in time, so the second condition ceased to be satisfied soon after the operation of Oklo's reactor. \n\nWhat made the operation of Oklo's reactor possible was a stable influx of ground water that kept the uranium deposits sufficiently wet. Water is the so-called moderator for the fission reactor: it slows down neutrons emerging from fission reactions, dramatically enhancing the chances of a neutron triggering the fission of a next $^{235}\\mathrm{U}$ nucleus. \n\nIn what follows,in addition to $T_0$, you can use the following numerical values. Energy released by the fission of a single $^{235}\\mathrm{U}$ nucleus: $E_0 = 200 \\mathrm{MeV}$. \nHalf-life of $^{235} \\mathrm{U}$: $\\tau_5 \\approx 7 \\times 10^8$ years. \nHalf-life of $^{238}\\mathrm{U}$: $\\tau_8 \\approx 4.5 \\times 10^9$ years. \nLatent heat of evaporation of water: $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$. \nSpecific heat of water $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$. \nAbundance of $^{235}\\mathrm{U}$ in natural uranium today: $R = 0.72\\%$. We define abundance as the number of atoms of the isotope, normalized to the number of atoms of the given element.\n\nAverage abundance of $^{235}\\mathrm{U}$ in the uranium from Oklo's uranium ore today: $R_{O} = 0.62\\%$. \nThe total amount of uranium in Oklo's mine today: $M = 5 \\times {10}^{8}\\mathrm{kg}$. \n\nThe duration of the time period over which \nOklo's reactor operated: $T \\approx 1 \\times {10}^{5}$ year. \nElementary charge: $e = 1.6 \\times {10}^{-19}\\mathrm{C}$. \nAtomic mass unit: $u = 1.66 \\times {10}^{-27} \\mathrm{kg}$. \nAvogadro's number: $N_{A} = 6.02 \\times {10}^{23} \\mathrm{mol}^{-1}$. \n\nNote that: (a) the abundance of other isotopes of uranium besides $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$ is negligibly small; (b) $^{235}\\mathrm{U}$ is not among the decay products of $^{238}\\mathrm{U}$; and (c) fission channels other than the fission of $^{235}\\mathrm{U}$ (e.g., synthesis and fission of plutonium) can be neglected.",
+        "question": "What was the abundance of $^{235}\\mathrm{U}$ in natural uranium when the Oklo's reactor operated? Express your answer as a percentage.",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer correctly gives the amount of $^{238}\\mathrm{U}$ during operation as $\\nu_8^{\\prime} = \\nu_8 2^{T_0 / \\tau_8}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly gives the amount of $^{235}\\mathrm{U}$ during operation as $\\nu_5^{\\prime} = \\nu_5 2^{T_0 / \\tau_5}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the abundance of $^{235}\\mathrm{U}$ is expressed in terms of $\\nu_5$ and $\\nu_8$, where $\\nu$ is the amount of $^{235} \\mathrm{U}$ at some point in time. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the ratio $\\nu_5 / \\nu_8$ is expressed in terms of $R$ as $\\nu_5 / \\nu_8 = R / (1 - R)$, where $\\nu$ is the amount of $^{235} \\mathrm{U}$ at some point in time. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the abundance of $^{235}\\mathrm{U}$ is correctly expressed in terms of $R$, and the final numerical answer $\\approx 3.16\\%$ is given. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$3.16 \\%$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.5
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_2_2",
+        "context": "[Oklo Fission Reactor] \n\nBased on the ratio of the uranium isotopes $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$, as well as the abundances of the isotopes produced by nuclear reactors, researchers have established that self-sustaining natural nuclear reactors operated in Oklo ca $T_0 = 1.8 \\times {10}^{9}$ years ago in Gabon, central Africa. For such reactors to exist, two conditions must be met: (a) presence of deposits with high enough concentration of uranium; (b) sufficiently high abundance of $^{235}\\mathrm{U}$ in natural uranium. Rich uranium ores were created by floods: scattered uranium was dissolved in oxygen-rich water and transported by it to underground pools. Significant concentration of oxygen appeared in the atmosphere only around 2.5 billion years ago, so the first condition was not met earlier than that. You will learn below that the abundance of $^{235}\\mathrm{U}$ decreases relatively fast in time, so the second condition ceased to be satisfied soon after the operation of Oklo's reactor. \n\nWhat made the operation of Oklo's reactor possible was a stable influx of ground water that kept the uranium deposits sufficiently wet. Water is the so-called moderator for the fission reactor: it slows down neutrons emerging from fission reactions, dramatically enhancing the chances of a neutron triggering the fission of a next $^{235}\\mathrm{U}$ nucleus. \n\nIn what follows,in addition to $T_0$, you can use the following numerical values. Energy released by the fission of a single $^{235}\\mathrm{U}$ nucleus: $E_0 = 200 \\mathrm{MeV}$. \nHalf-life of $^{235} \\mathrm{U}$: $\\tau_5 \\approx 7 \\times 10^8$ years. \nHalf-life of $^{238}\\mathrm{U}$: $\\tau_8 \\approx 4.5 \\times 10^9$ years. \nLatent heat of evaporation of water: $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$. \nSpecific heat of water $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$. \nAbundance of $^{235}\\mathrm{U}$ in natural uranium today: $R = 0.72\\%$. We define abundance as the number of atoms of the isotope, normalized to the number of atoms of the given element.\n\nAverage abundance of $^{235}\\mathrm{U}$ in the uranium from Oklo's uranium ore today: $R_{O} = 0.62\\%$. \nThe total amount of uranium in Oklo's mine today: $M = 5 \\times {10}^{8}\\mathrm{kg}$. \n\nThe duration of the time period over which \nOklo's reactor operated: $T \\approx 1 \\times {10}^{5}$ year. \nElementary charge: $e = 1.6 \\times {10}^{-19}\\mathrm{C}$. \nAtomic mass unit: $u = 1.66 \\times {10}^{-27} \\mathrm{kg}$. \nAvogadro's number: $N_{A} = 6.02 \\times {10}^{23} \\mathrm{mol}^{-1}$. \n\nNote that: (a) the abundance of other isotopes of uranium besides $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$ is negligibly small; (b) $^{235}\\mathrm{U}$ is not among the decay products of $^{238}\\mathrm{U}$; and (c) fission channels other than the fission of $^{235}\\mathrm{U}$ (e.g., synthesis and fission of plutonium) can be neglected. \n\n(i) What was the abundance of $^{235}\\mathrm{U}$ in natural uranium when the Oklo's reactor operated? \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "What was the average power of the Oklo's reactor? Express your answer in $W$.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer gives the final mass of $^{235}\\mathrm{U}$ by the end of operation as $M_5^{\\prime} = 2^{T_0 / \\tau_5} M R_0$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives the final mass of $^{238}\\mathrm{U}$ by the end of operation as $M_8^{\\prime} = 2^{T_0 / \\tau_8} M (1 - R)$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer gives the initial mass of $^{235}\\mathrm{U}$ at the beginning of operation as $2^{T_0 / \\tau_8} M (1 - R) \\cdot \\frac{R^{\\prime}}{1 - R^{\\prime}}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the number of atoms that have undergone fission is computed as $N = N_A \\cdot \\Delta M / 0.235$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the total energy is given as $E = N E_0$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if all units (e.g., mass in $kg$, power in $W$) are correctly converted and used. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the power is calculated correctly using $P = \\nu E_0 / T$ (where $\\nu$ is the number of $^{235}U$ nuclei that reacted), and the numerical value is approximately $7.73 \\times 10^7$ W. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$7.73 \\times 10^7$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "W"
+        ],
+        "point": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_2_3",
+        "context": "[Oklo Fission Reactor] \n\nBased on the ratio of the uranium isotopes $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$, as well as the abundances of the isotopes produced by nuclear reactors, researchers have established that self-sustaining natural nuclear reactors operated in Oklo ca $T_0 = 1.8 \\times {10}^{9}$ years ago in Gabon, central Africa. For such reactors to exist, two conditions must be met: (a) presence of deposits with high enough concentration of uranium; (b) sufficiently high abundance of $^{235}\\mathrm{U}$ in natural uranium. Rich uranium ores were created by floods: scattered uranium was dissolved in oxygen-rich water and transported by it to underground pools. Significant concentration of oxygen appeared in the atmosphere only around 2.5 billion years ago, so the first condition was not met earlier than that. You will learn below that the abundance of $^{235}\\mathrm{U}$ decreases relatively fast in time, so the second condition ceased to be satisfied soon after the operation of Oklo's reactor. \n\nWhat made the operation of Oklo's reactor possible was a stable influx of ground water that kept the uranium deposits sufficiently wet. Water is the so-called moderator for the fission reactor: it slows down neutrons emerging from fission reactions, dramatically enhancing the chances of a neutron triggering the fission of a next $^{235}\\mathrm{U}$ nucleus. \n\nIn what follows,in addition to $T_0$, you can use the following numerical values. Energy released by the fission of a single $^{235}\\mathrm{U}$ nucleus: $E_0 = 200 \\mathrm{MeV}$. \nHalf-life of $^{235} \\mathrm{U}$: $\\tau_5 \\approx 7 \\times 10^8$ years. \nHalf-life of $^{238}\\mathrm{U}$: $\\tau_8 \\approx 4.5 \\times 10^9$ years. \nLatent heat of evaporation of water: $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$. \nSpecific heat of water $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$. \nAbundance of $^{235}\\mathrm{U}$ in natural uranium today: $R = 0.72\\%$. We define abundance as the number of atoms of the isotope, normalized to the number of atoms of the given element.\n\nAverage abundance of $^{235}\\mathrm{U}$ in the uranium from Oklo's uranium ore today: $R_{O} = 0.62\\%$. \nThe total amount of uranium in Oklo's mine today: $M = 5 \\times {10}^{8}\\mathrm{kg}$. \n\nThe duration of the time period over which \nOklo's reactor operated: $T \\approx 1 \\times {10}^{5}$ year. \nElementary charge: $e = 1.6 \\times {10}^{-19}\\mathrm{C}$. \nAtomic mass unit: $u = 1.66 \\times {10}^{-27} \\mathrm{kg}$. \nAvogadro's number: $N_{A} = 6.02 \\times {10}^{23} \\mathrm{mol}^{-1}$. \n\nNote that: (a) the abundance of other isotopes of uranium besides $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$ is negligibly small; (b) $^{235}\\mathrm{U}$ is not among the decay products of $^{238}\\mathrm{U}$; and (c) fission channels other than the fission of $^{235}\\mathrm{U}$ (e.g., synthesis and fission of plutonium) can be neglected. \n\n(i) What was the abundance of $^{235}\\mathrm{U}$ in natural uranium when the Oklo's reactor operated? \n\n(ii) What was the average power of the Oklo's reactor? \n\nParts (i)–(ii) are preliminary questions and should not be included in the final answer.",
+        "question": "Qualitatively explain why was Oklo's reactor operating in a stable regime and did not blow up. Water inflow rate varied over time; what happened to the reactor when the water inflow rate increased two times?",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer states that neutrons from fission are unlikely to cause further fission unless slowed down (moderation). Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer identifies water as a moderator for slowing down neutrons. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer explains that the reactor was self-regulating because increased power would vaporize water, reducing moderation and slowing the reaction. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states that when water inflow doubles, the reactor power also doubles. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            ""
+        ],
+        "answer_type": [
+            "Open-Ended"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.5
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_2_4",
+        "context": "[Oklo Fission Reactor] \n\nBased on the ratio of the uranium isotopes $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$, as well as the abundances of the isotopes produced by nuclear reactors, researchers have established that self-sustaining natural nuclear reactors operated in Oklo ca $T_0 = 1.8 \\times {10}^{9}$ years ago in Gabon, central Africa. For such reactors to exist, two conditions must be met: (a) presence of deposits with high enough concentration of uranium; (b) sufficiently high abundance of $^{235}\\mathrm{U}$ in natural uranium. Rich uranium ores were created by floods: scattered uranium was dissolved in oxygen-rich water and transported by it to underground pools. Significant concentration of oxygen appeared in the atmosphere only around 2.5 billion years ago, so the first condition was not met earlier than that. You will learn below that the abundance of $^{235}\\mathrm{U}$ decreases relatively fast in time, so the second condition ceased to be satisfied soon after the operation of Oklo's reactor. \n\nWhat made the operation of Oklo's reactor possible was a stable influx of ground water that kept the uranium deposits sufficiently wet. Water is the so-called moderator for the fission reactor: it slows down neutrons emerging from fission reactions, dramatically enhancing the chances of a neutron triggering the fission of a next $^{235}\\mathrm{U}$ nucleus. \n\nIn what follows,in addition to $T_0$, you can use the following numerical values. Energy released by the fission of a single $^{235}\\mathrm{U}$ nucleus: $E_0 = 200 \\mathrm{MeV}$. \nHalf-life of $^{235} \\mathrm{U}$: $\\tau_5 \\approx 7 \\times 10^8$ years. \nHalf-life of $^{238}\\mathrm{U}$: $\\tau_8 \\approx 4.5 \\times 10^9$ years. \nLatent heat of evaporation of water: $L = 2260 \\mathrm{kJ} \\mathrm{kg}^{-1}$. \nSpecific heat of water $c = 4200 \\mathrm{J} \\mathrm{kg}^{-1} \\mathrm{K}^{-1}$. \nAbundance of $^{235}\\mathrm{U}$ in natural uranium today: $R = 0.72\\%$. We define abundance as the number of atoms of the isotope, normalized to the number of atoms of the given element.\n\nAverage abundance of $^{235}\\mathrm{U}$ in the uranium from Oklo's uranium ore today: $R_{O} = 0.62\\%$. \nThe total amount of uranium in Oklo's mine today: $M = 5 \\times {10}^{8}\\mathrm{kg}$. \n\nThe duration of the time period over which \nOklo's reactor operated: $T \\approx 1 \\times {10}^{5}$ year. \nElementary charge: $e = 1.6 \\times {10}^{-19}\\mathrm{C}$. \nAtomic mass unit: $u = 1.66 \\times {10}^{-27} \\mathrm{kg}$. \nAvogadro's number: $N_{A} = 6.02 \\times {10}^{23} \\mathrm{mol}^{-1}$. \n\nNote that: (a) the abundance of other isotopes of uranium besides $^{235}\\mathrm{U}$ and $^{238}\\mathrm{U}$ is negligibly small; (b) $^{235}\\mathrm{U}$ is not among the decay products of $^{238}\\mathrm{U}$; and (c) fission channels other than the fission of $^{235}\\mathrm{U}$ (e.g., synthesis and fission of plutonium) can be neglected. \n\n(i) What was the abundance of $^{235}\\mathrm{U}$ in natural uranium when the Oklo's reactor operated? \n\n(ii) What was the average power of the Oklo's reactor? \n\n(iii) Qualitatively explain why was Oklo's reactor operating in a stable regime and did not blow up. Water inflow rate varied over time; what happened to the reactor when the water inflow rate increased two times? \n\nParts (i)–(iii) are preliminary questions and should not be included in the final answer.",
+        "question": "Estimate the total mass of water that flowed into the Oklo's reactor during its operation period. Express your answer in $kg$.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer assumes that all energy from the reactor went into heating and vaporizing water. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer approximates $\\Delta T \\approx 100\\ ^\\circ\\mathrm{C}$, e.g., by considering water flows in at $0^\\circ\\mathrm{C}$ and leaves at $100^\\circ\\mathrm{C}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer considers both heating and vaporization. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the amount of energy absorbed by 1kg of water is $E_w = 2.68 \\times 10^6 \\mathrm{J}$ or similar results. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the total mass of water is correctly computed as $\\nu E_0 / E_w = 9.09 \\times 10^{13} \\mathrm{kg}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$9.09 \\times 10^{13}$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "kg"
+        ],
+        "point": [
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Modern Physics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_3_1",
+        "context": "",
+        "question": "[Sticky Ball] \n\nA glass ball of radius $R$ rests on a flat glass plate. A tiny droplet of water (of surface tension $\\sigma$) is injected with a syringe so that water forms a small thin neck between the ball and the plate. Both the ball and the plate are perfectly hydrophilic, i.e. the contact angle of water is $0^{\\circ}$. Find the increase of the normal force ($\\Delta F$) between the plate and the ball caused by the presence of the neck of water.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer states that the meniscus is (roughly) inverse spherical or uses the constant $r$ to characterise the meniscus as inverse spherical. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer states or uses $r \\ll \\rho \\ll R$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states that surface tension force at the contact is negligible or that $\\Delta F$ comes from pressure difference (either explicitly or implicitly). Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer uses the relation $2r \\cdot 2R \\approx \\rho^2$. If this relation is not found, partial points can be earned as below. (1) Award 0.1 pt if the relation $CT \\approx 2r$ is used or mentioned. (2) Award 0.1 pt if the relation $R + r \\approx R$ is used. (3) Award 0.2 pt if $AC \\approx \\rho$ is stated or used. (4) Award 0.3 pt if the answer uses $AC^2 \\approx CT \\cdot CD$ or states the interesecting secants theorems. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the pressure difference is given as $\\Delta p = \\sigma / r$. If this equation is not found, partial points can be earned as below. (1) Award 0.2 pt for attempting to use a Laplace-Young formula such as $\\Delta p = \\sigma (1/r_1 + 1/r_2)$. (2) Award 0.3 pt if $\\Delta p = \\sigma / (1/\\rho - 1/r)$ is used. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the vertical cross-sectional area is given as $S = \\pi \\rho^2$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the force difference is expressed as $\\Delta F = \\Delta p \\cdot S$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the final expression $\\Delta F \\approx 4 \\pi \\sigma R$ is obtained. Partial points: (1) Award 0.1 pt if the answer states that $\\Delta F > 0$ or notes that the contact force increases. (2) Award 0.1 pt if the correct dimensionless factor $4\\pi$ and correct dimensions are used (only if the approach is correct). Otherwise, award 0 pt."
+            ],
+            [
+                "Award 0.5 pt if the answer states that the meniscus is (roughly) inverse spherical or uses constant $r$ to characterize the meniscus as inverse spherical. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer uses the small-angle approximation $|\\theta| \\ll 1$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the neck radius is approximated as $\\rho \\approx R \\theta$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the distance $AC \\approx \\rho$ is used. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the curvature radius is correctly derived as $r \\approx R \\theta^2 / 4$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the surface tension force $\\Delta F_\\sigma$ is stated to be negligible or $\\Delta F = \\Delta F_p$ is used. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the pressure difference is given as $\\Delta p = \\sigma / r$. If this equation is not found, partial points can be earned as below: (1) Award 0.2 pt if a Laplace-like equation is attempted, such as $\\Delta p = \\sigma (1/r_1 + 1/r_2)$. (2) Award 0.3 pt if the pressure difference is given as $\\Delta p = \\sigma (1/\\rho - 1/r)$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the correct effective area $S = \\pi \\rho^2$ is used for computing the force. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the force from pressure is computed using $\\Delta F_p = - S \\Delta p$. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the final result $\\Delta F \\approx 4 \\pi \\sigma R$ is obtained. Partial points: (1) Award 0.1 pt if the answer states that $\\Delta F > 0$ or notes that the contact force increases. (2) Award 0.1 pt if the correct dimensionless factor $4\\pi$ and correct dimensions are used (only if the approach is correct). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\Delta F \\approx 4 \\pi \\sigma R$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            4.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_4_1",
+        "context": "[Totality] \n\nTotal solar eclipses are a rare phenomenon which occur when the Moon completely covers the disk of the Sun for some parts of the Earth. This doesn't happen during every solar eclipse because the Moon's apparent size in the sky is sometimes too small to fully cover the Sun, but also because the Moon's shadow usually misses the Earth due its orbital inclination. As a result, total solar eclipses occur on average every 18 months. \n\nLet us consider a total solar eclipse where during the peak, the centre-points of Earth, the Moon and the Sun lie on a line on the same plane as the equator. We measure that right before the total solar eclipse ends at latitude $\\lambda = 28.5^{\\circ}$, the totality lasts for $t_0 = 2 \\mathrm{min}$. Earth's radius is $r_{e} = 6370 \\mathrm{km}$, Moon's radius is $r_{m} = 1740 \\mathrm{km}$, orbital period of the Moon $T_{m} = 27.3 \\mathrm{d}$,orbital radius of the Moon ${R}_{m} = 384000 \\mathrm{km}$. One day on Earth is $T_0 = 24 \\mathrm{hrs}$.",
+        "question": "For how long is there a place on Earth where the total solar eclipse is observable? Express your answer in hours.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer explains that the Moon's shadow speed on Earth can be approximated by the Moon's position. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the Moon's speed is correctly calculated using $v_m = \\frac{2 \\pi R_m}{T_m}$ and the value $v_m \\approx 1.02\\ \\mathrm{km/s}$ is obtained. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the final eclipse duration expression $T_{\\mathrm{ecl}} = \\frac{2 r_e}{v_m} = \\frac{r_e}{\\pi R_m} T_m$ is correctly obtained, where the numerical result of $T_{\\mathrm{ecl}}$ is $3.46 h$. Partial points: Deduct 0.2 pt for a minor mistake in the final expression (e.g., missing constant or slight dimensional inconsistency). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{3.46}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "h"
+        ],
+        "point": [
+            1.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_4_2",
+        "context": "[Totality] \n\nTotal solar eclipses are a rare phenomenon which occur when the Moon completely covers the disk of the Sun for some parts of the Earth. This doesn't happen during every solar eclipse because the Moon's apparent size in the sky is sometimes too small to fully cover the Sun, but also because the Moon's shadow usually misses the Earth due its orbital inclination. As a result, total solar eclipses occur on average every 18 months. \n\nLet us consider a total solar eclipse where during the peak, the centre-points of Earth, the Moon and the Sun lie on a line on the same plane as the equator. We measure that right before the total solar eclipse ends at latitude $\\lambda = 28.5^{\\circ}$, the totality lasts for $t_0 = 2 \\mathrm{min}$. Earth's radius is $r_{e} = 6370 \\mathrm{km}$, Moon's radius is $r_{m} = 1740 \\mathrm{km}$, orbital period of the Moon $T_{m} = 27.3 \\mathrm{d}$,orbital radius of the Moon ${R}_{m} = 384000 \\mathrm{km}$. One day on Earth is $T_0 = 24 \\mathrm{hrs}$. \n\n(i) For how long is there a place on Earth where the total solar eclipse is observable? \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "How many degrees in longitude on Earth does the total solar eclipse cover?",
+        "marking": [
+            [
+                "Award 0.3 pt if the answer identifies that the eclipse would cover $\\pi$ radians without the Earth's rotation. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly explains that the angle becomes smaller than $\\pi$ due to Earth's rotation. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the final formula $\\left|180 \\left(1 - \\frac{2 T_{\\mathrm{ecl}}}{T_0} \\right)\\right|$ and answer $\\approx 128$ degrees is given correctly. Partial points: Deduct 0.3 pt if the answer incorrectly assumes Earth’s rotation goes against the Moon’s shadow and obtains an angle greater than $\\pi$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{128}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "degree"
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_4_3",
+        "context": "[Totality] \n\nTotal solar eclipses are a rare phenomenon which occur when the Moon completely covers the disk of the Sun for some parts of the Earth. This doesn't happen during every solar eclipse because the Moon's apparent size in the sky is sometimes too small to fully cover the Sun, but also because the Moon's shadow usually misses the Earth due its orbital inclination. As a result, total solar eclipses occur on average every 18 months. \n\nLet us consider a total solar eclipse where during the peak, the centre-points of Earth, the Moon and the Sun lie on a line on the same plane as the equator. We measure that right before the total solar eclipse ends at latitude $\\lambda = 28.5^{\\circ}$, the totality lasts for $t_0 = 2 \\mathrm{min}$. Earth's radius is $r_{e} = 6370 \\mathrm{km}$, Moon's radius is $r_{m} = 1740 \\mathrm{km}$, orbital period of the Moon $T_{m} = 27.3 \\mathrm{d}$,orbital radius of the Moon ${R}_{m} = 384000 \\mathrm{km}$. One day on Earth is $T_0 = 24 \\mathrm{hrs}$. \n\n(i) For how long is there a place on Earth where the total solar eclipse is observable? \n\n(ii) How many degrees in longitude on Earth does the total solar eclipse cover? \n\nParts (i)–(ii) are preliminary questions and should not be included in the final answer.",
+        "question": "What is the width of the path of totality near the equator? Express your answer in $km$.",
+        "marking": [
+            [
+                "Award 0.4 pt if the answer realizes that the velocities are perpendicular at the end of the eclipse. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer computes the width of the eclipse at some point on Earth as $w_\\lambda = v_m t_0 = \\frac{2\\pi R_m t_0}{T_m} \\approx 123 \\mathrm{km}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly explains how to translate the width to the width at the equator using angular diameter $\\alpha = 2r_m / R_m$ and computes $\\alpha r_e \\approx 57.7 \\mathrm{km}$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the final expression $w_\\text{eq} = v_m t_0 + \\alpha r_e = 180 \\mathrm{km}$ is correct. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{180}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "km"
+        ],
+        "point": [
+            1.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_4_4",
+        "context": "[Totality] \n\nTotal solar eclipses are a rare phenomenon which occur when the Moon completely covers the disk of the Sun for some parts of the Earth. This doesn't happen during every solar eclipse because the Moon's apparent size in the sky is sometimes too small to fully cover the Sun, but also because the Moon's shadow usually misses the Earth due its orbital inclination. As a result, total solar eclipses occur on average every 18 months. \n\nLet us consider a total solar eclipse where during the peak, the centre-points of Earth, the Moon and the Sun lie on a line on the same plane as the equator. We measure that right before the total solar eclipse ends at latitude $\\lambda = 28.5^{\\circ}$, the totality lasts for $t_0 = 2 \\mathrm{min}$. Earth's radius is $r_{e} = 6370 \\mathrm{km}$, Moon's radius is $r_{m} = 1740 \\mathrm{km}$, orbital period of the Moon $T_{m} = 27.3 \\mathrm{d}$,orbital radius of the Moon ${R}_{m} = 384000 \\mathrm{km}$. One day on Earth is $T_0 = 24 \\mathrm{hrs}$. \n\n(i) For how long is there a place on Earth where the total solar eclipse is observable? \n\n(ii) How many degrees in longitude on Earth does the total solar eclipse cover? \n\n(iii) What is the width of the path of totality near the equator? \n\nParts (i)–(iii) are preliminary questions and should not be included in the final answer.",
+        "question": "What is the longest amount of time the total eclipse is visible for a single location on Earth? Express your answer in minutes.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer shows that the eclipse is observable for the longest time at the equator. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly finds the velocity of the surface of the Earth as $v_e = \\frac{2\\pi r_e}{T_0} = 0.46 \\mathrm{km/s}$ and the relative speed of the Moon's shadow as $v_{\\text{rel}} = \\sqrt{v_m^2 + v_e^2 - 2 v_m v_e \\cos \\lambda} = 0.654 \\mathrm{km/s}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer derives the formula for the maximum duration of the eclipse: $t_\\text{eq} = \\frac{w_\\text{eq}}{v_\\text{rel}} = 276 \\mathrm{s} = 4.6 \\mathrm{min}$. Partial points: Deduct 0.3 pt if the angle $\\lambda$ between the two velocities is not taken into account in the relative velocity calculation. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{4.6}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "min"
+        ],
+        "point": [
+            1.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_4_5",
+        "context": "[Totality] \n\nTotal solar eclipses are a rare phenomenon which occur when the Moon completely covers the disk of the Sun for some parts of the Earth. This doesn't happen during every solar eclipse because the Moon's apparent size in the sky is sometimes too small to fully cover the Sun, but also because the Moon's shadow usually misses the Earth due its orbital inclination. As a result, total solar eclipses occur on average every 18 months. \n\nLet us consider a total solar eclipse where during the peak, the centre-points of Earth, the Moon and the Sun lie on a line on the same plane as the equator. We measure that right before the total solar eclipse ends at latitude $\\lambda = 28.5^{\\circ}$, the totality lasts for $t_0 = 2 \\mathrm{min}$. Earth's radius is $r_{e} = 6370 \\mathrm{km}$, Moon's radius is $r_{m} = 1740 \\mathrm{km}$, orbital period of the Moon $T_{m} = 27.3 \\mathrm{d}$,orbital radius of the Moon ${R}_{m} = 384000 \\mathrm{km}$. One day on Earth is $T_0 = 24 \\mathrm{hrs}$. \n\n(i) For how long is there a place on Earth where the total solar eclipse is observable? \n\n(ii) How many degrees in longitude on Earth does the total solar eclipse cover? \n\n(iii) What is the width of the path of totality near the equator? \n\n(iv) What is the longest amount of time the total eclipse is visible for a single location on Earth? \n\nParts (i)–(iv) are preliminary questions and should not be included in the final answer.",
+        "question": "For how long is the total eclipse near the location described in (iii), at the distance of $a = 50 km$ from the centreline of the eclipse path? Express your answer in minutes.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer explains that the relative velocity $v_\\text{rel}$ is approximately as $v_{\\text{rel}} = \\sqrt{v_m^2 + v_e^2 - 2 v_m v_e \\cos \\lambda} = 0.654 \\mathrm{km/s}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly applies the geometry and gives the correct time as $\\frac{1}{v_\\text{rel}}\\sqrt{w_\\text{eq}^2 - 4a^2} = 230 \\mathrm{s} = 3.8 \\mathrm{min}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{3.8}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "min"
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_4_6",
+        "context": "[Totality] \n\nTotal solar eclipses are a rare phenomenon which occur when the Moon completely covers the disk of the Sun for some parts of the Earth. This doesn't happen during every solar eclipse because the Moon's apparent size in the sky is sometimes too small to fully cover the Sun, but also because the Moon's shadow usually misses the Earth due its orbital inclination. As a result, total solar eclipses occur on average every 18 months. \n\nLet us consider a total solar eclipse where during the peak, the centre-points of Earth, the Moon and the Sun lie on a line on the same plane as the equator. We measure that right before the total solar eclipse ends at latitude $\\lambda = 28.5^{\\circ}$, the totality lasts for $t_0 = 2 \\mathrm{min}$. Earth's radius is $r_{e} = 6370 \\mathrm{km}$, Moon's radius is $r_{m} = 1740 \\mathrm{km}$, orbital period of the Moon $T_{m} = 27.3 \\mathrm{d}$,orbital radius of the Moon ${R}_{m} = 384000 \\mathrm{km}$. One day on Earth is $T_0 = 24 \\mathrm{hrs}$. \n\n(i) For how long is there a place on Earth where the total solar eclipse is observable? \n\n(ii) How many degrees in longitude on Earth does the total solar eclipse cover? \n\n(iii) What is the width of the path of totality near the equator? \n\n(iv) What is the longest amount of time the total eclipse is visible for a single location on Earth? \n\n(v) For how long is the total eclipse near the location described in (iii), at the distance of $a = 50 km$ from the centreline of the eclipse path? \n\nParts (i)–(v) are preliminary questions and should not be included in the final answer.",
+        "question": "Find the average time interval (in years) between two total solar eclipses for a given location on Earth by making the following simplifying assumptions:\n\n(a) the average width of the full eclipse path is equal to the arithmetic average of its smallest and largest width; \n(b) typical width of a full eclipse path is half of the average width of the eclipse studied above; \n(c) typical length of a full eclipse path is equal to the length of the eclipse path studied above if the Earth were not rotating; \n(d) total solar eclipses occur with equal likelihood anywhere on Earth.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer explains that the probability per eclipse is equal to the area covered by the eclipse divided by the total area of the earth. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly calculates the area covered by one eclipse as $\\pi r_e (w_\\lambda + w_\\text{eq})/4$ using the given assumptions. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly multiplies the inverse probability with the duration between eclipses and finds the correct answer, i.e. $\\frac{16r_e}{w_\\lambda + w_\\text{eq}} \\cdot 18 \\text{months} \\approx 500 \\text{years}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{500}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "years"
+        ],
+        "point": [
+            1.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_6_1",
+        "context": "",
+        "question": "[Cones] \n\nThe photo below shows a self-anamorphic drawing - a red heart in green background. The reflection of the red heart in the conical mirror is a reduced green heart. What is the apex angle of the conical mirror? Express your answer in degrees. You can take measurements from the photo. The distance where the photo was taken was much larger than the diameter of the red heart.\n\n[figure1]",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer states that the image is formed by vertical rays because the camera is far away. Otherwise, award 0 pt.",
+                "Award 1 pt if the answer gives a correct explicit expression for $\\theta$ in terms of $r$ or another measurable quantity. If this is not found, partial points can be earned as below: (1) Award 0.2 pt if the answer provides a correct geometrical figure of the setup. (2) Award 0.5 pt if the answer derives $r = \\tan \\theta / \\tan 2\\theta$ or equivalent or a correct implicit equation for $\\theta$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the final numerical result is correct and within $2\\theta \\in [65^\\circ, 76^\\circ]$. Partial points: Deduct 0.2 pt if only $\\theta$ is given and $2\\theta$ is not reported. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{71}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "degrees"
+        ],
+        "point": [
+            2.0
+        ],
+        "modality": "text+data figure",
+        "field": "Optics",
+        "source": "NBPhO_2024",
+        "image_question": [
+            "image_question/NBPhO_2024_6_1_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2024_6_2",
+        "context": "",
+        "question": "[Cones] \n\nA point-like puck of mass $m$ can slide frictionlessly along the internal surface of a cone of half apex angle $\\theta$. The gravitational acceleration is $g$ and points along the symmetry axis of the cone at the apex. The puck starts sliding from a point $P$ on the surface of the cone with such a horizontal velocity that it will stay moving at the same fixed height while performing uniform circular motion of radius $R$. What is its speed $v$?",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer states the correct balance of forces. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer derives the correct expression for $v$ as $v = \\sqrt{Rg \\cot \\theta}$. Partial points: Deduct 0.1 pt if there are mistakes in trigonometry. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$v = \\sqrt{Rg \\cot \\theta}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_6_3",
+        "context": "[Cones] \n\n(ii) A point-like puck of mass $m$ can slide frictionlessly along the internal surface of a cone of half apex angle $\\theta$. The gravitational acceleration is $g$ and points along the symmetry axis of the cone at the apex. The puck starts sliding from a point $P$ on the surface of the cone with such a horizontal velocity that it will stay moving at the same fixed height while performing uniform circular motion of radius $R$. What is its speed $v$? \n\nPart (ii) is a preliminary question and should not be included in the final answer.",
+        "question": "Now the puck starts sliding horizontally from the same point $P$ as before, but its initial speed is reduced to $v/2$. What is the smallest distance between the puck and the cone's axis during the subsequent motion?",
+        "marking": [
+            [
+                "Award 0.1 pt if the answer mentions using energy conservation. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer mentions using angular momentum conservation. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the energy conservation equation is correctly written as $E = \\frac{v^2}{8} + g h_f = \\frac{v_f^2}{2}$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the angular momentum conservation equation is correctly written as $\\frac{v}{2} R = v_f R_f$. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the relation between $h_f$ and $R_f$ is correctly given as $h_f = (R - R_f) \\cot \\theta$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the correct third degree polynomial in $R_f$ is derived: $8R_f^3 - 9R R_f^2 + R^3 = 0$. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the physically meaningful root $R_f = \\frac{1 + \\sqrt{33}}{16}R$ is correctly selected. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the final answer $R_f \\approx 0.42 R$ is correctly given. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$0.42 R$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            2.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_6_4",
+        "context": "[Cones] \n\n(ii) A point-like puck of mass $m$ can slide frictionlessly along the internal surface of a cone of half apex angle $\\theta$. The gravitational acceleration is $g$ and points along the symmetry axis of the cone at the apex. The puck starts sliding from a point $P$ on the surface of the cone with such a horizontal velocity that it will stay moving at the same fixed height while performing uniform circular motion of radius $R$. What is its speed $v$? \n\n(iii) Now the puck starts sliding horizontally from the same point $P$ as before, but its initial speed is reduced to $v/2$. What is the smallest distance between the puck and the cone's axis during the subsequent motion? \n\nParts (ii)–(iii) are preliminary questions and should not be included in the final answer.",
+        "question": "Now, the cone and the puck are moved to weightlessness. The puck starts again from the point $P$ with the same velocity as in part (ii). By how many degrees will the radius vector drawn from the cone's axis to the puck rotate during the subsequent motion? Assume that the cone is infinitely long. Express your answer in radians.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer mentions the idea of unfolding the cone. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer states that the puck’s trajectory is a straight line in the folded plane. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer correctly describes a $90^{\\circ}$ ($\\pi/2$) rotation in the folded diagram, or provides a correct corresponding figure. Otherwise, award 0 pt.",
+                "Award 0.7 pt if the answer correctly relates the rotation in the folded plane to the rotation of the radius vector, noting that a $360^{\\circ}$ rotation of the radius vector corresponds to a $2\\phi$ rotation in the drawing, and correctly derives the number of radians of rotation as $\\frac{\\pi}{2 \\sin \\theta}$. Partial points: if the answer incorrectly uses $\\theta$ instead of $2 \\theta$ as the apex angle, award 0.4 pt. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{\\pi}{2 \\sin \\theta}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            "radians"
+        ],
+        "point": [
+            2.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_7_1",
+        "context": "The dispersion relation (i.e. the dependence of the circular frequency $\\omega$ on the wave vector $k = \\frac{2\\pi}{\\lambda}$) of capillary-gravity waves is $\\omega^2 = g k^{\\alpha} + \\frac{\\sigma}{\\rho} k^{\\beta}$, where $\\sigma$ denotes the surface tension, $g = 9.81 m/s^2$, and $\\rho = 1000 \\mathrm{kg} m^{-3}$.",
+        "question": "(1) Determine the value of the exponent $\\alpha$. \n(2) Determine the value of the exponent $\\beta$.",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer applies dimensional analysis (or an equivalent technique) to determine the exponents. Otherwise, award 0 pt.",
+                "Award 0.2 pt if the answer correctly states the units of surface tension $\\sigma$ as $\\mathrm{kg/s^2}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly finds $\\alpha = 1$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly finds $\\beta = 3$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\alpha = 1$}",
+            "\\boxed{$\\beta = 3$}"
+        ],
+        "answer_type": [
+            "Numerical Value",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "point": [
+            0.5,
+            0.5
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_7_2",
+        "context": "The dispersion relation (i.e. the dependence of the circular frequency $\\omega$ on the wave vector $k = \\frac{2\\pi}{\\lambda}$) of capillary-gravity waves is $\\omega^2 = g k^{\\alpha} + \\frac{\\sigma}{\\rho} k^{\\beta}$, where $\\sigma$ denotes the surface tension, $g = 9.81 m/s^2$, and $\\rho = 1000 \\mathrm{kg} m^{-3}$.\n\n[figure1] \n\n(i) Determine the values of the exponents $\\alpha$ and $\\beta$. \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "In the figure, we can see how an object moving with a constant speed $U = 60 \\mathrm{cm} \\mathrm{s}^{-1}$ generates a wake - a set of waves of different wavelengths. Pay attention to the short-wavelength waves whose wave crest extends from the object almost up to the edges of the photo: the presence of a very long wavefront testifies that for these particular waves, the phase and group velocities are equal.\n\n(1) Determine the expression of the surface tension $\\sigma$ of water. \n(2) Estimate the numerical value of $\\sigma$ in $g/s^2$. \nYou can take measurements from the photo. Note that while phase speed is the speed of a constant phase of the wave, the group speed $v_g = \\frac{\\mathrm{d} \\omega}{\\mathrm{d} k}$ is the speed of a wave packet (a train of waves).",
+        "marking": [
+            [
+                "Award 0.6 pt if the answer correctly identifies $\\frac{d\\omega}{dk} = \\omega / k$. Otherwise, award 0 pt.",
+                "Award 0.6 pt if the answer gives the correct angle $\\sin(\\mu) = \\omega / (U k)$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer measures $\\mu$ from the picture. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer provides the measured $\\mu$ within the range $[20^{\\circ}, 30^{\\circ}]$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly derivatives $d\\omega/dk$ from the dispersion relation and obtains $2 \\omega \\frac{d\\omega}{dk} = g + 3 \\frac{\\sigma}{\\rho} k^2$. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer correctly derives the expression for $\\sigma$ as $\\sigma = \\frac{\\rho U^4 \\sin^4 \\mu}{4 g}$. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer correctly obtains the final value $\\sigma \\approx 60 g s^{-2}$. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\sigma = \\frac{\\rho U^4 {\\sin}^{4} \\mu}{4g}$}",
+            "\\boxed{60}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Numerical Value"
+        ],
+        "unit": [
+            null,
+            "g/s^2"
+        ],
+        "point": [
+            1.5,
+            1.5
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": [
+            "image_question/NBPhO_2024_7_2_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2024_8_1",
+        "context": "Two airplanes pass each other while flying at a constant altitudes. While they have identical airspeeds, their ground speeds are $v_1$ and $v_2$, respectively, and the angle between the velocity vectors is $\\alpha$.",
+        "question": "Based on the above knowledge, what is the minimal possible value of the airspeed of the planes?",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer represents the problem using vectors and correctly adds the velocities as $\\vec{v}_1 = \\vec{w} + \\vec{u}_1$ and $\\vec{v}_2 = \\vec{w} + \\vec{u}_2$, where $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Partial points: award 0.1 pt if the answer has the wrong order or sign in vector addition. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer identifies that the wind velocity vector $\\vec{w}$ lies on the perpendicular bisector of segment $(AB)$, where the segment $(OA)$ corresponds to the vector $\\vec{v}_1$ ($\\vec{v}_1 = \\vec{w} + \\vec{u}_1$), the segment $(OB)$ corresponds to the vector $\\vec{v}_2$ ($\\vec{v}_2 = \\vec{w} + \\vec{u}_2$), $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Otherwise, award 0 pt.",
+                "Award 0.1 pt if the answer states that the minimum airspeed requires $\\vec{w}$ to lie on the intersection of $AB$ and the perpendicular bisector, where the segment $(OA)$ corresponds to the vector $\\vec{v}_1$ ($\\vec{v}_1 = \\vec{w} + \\vec{u}_1$), the segment $(OB)$ corresponds to the vector $\\vec{v}_2$ ($\\vec{v}_2 = \\vec{w} + \\vec{u}_2$), $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Otherwise, award 0 pt.",
+                "Award 0.3 pt if the answer calculates the correct formula for the minimum airspeed as $|\\vec{u}_1|_{\\min} = \\frac{|\\vec{v}_1 - \\vec{v}_2|}{2} = \\frac{1}{2} \\sqrt{v_1^2 + v_2^2 - 2 v_1 v_2 \\cos \\alpha}$. Partial points: award 0.2 pt if the answer has a small error but is otherwise reasonable with correct units, or if the answer is not expanded when it can be simply expanded. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{1}{2} \\sqrt{v_1^{2} + v_2^{2} - 2 v_1 v_2 \\cos \\alpha}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_8_2",
+        "context": "Two airplanes pass each other while flying at a constant altitudes. While they have identical airspeeds, their ground speeds are $v_1$ and $v_2$, respectively, and the angle between the velocity vectors is $\\alpha$.",
+        "question": "Based on the above knowledge, what is the minimal possible value of the wind speed $|\\vec{w}|$ at the altitudes of the planes?",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer represents the problem using vectors and correctly adds the velocities as $\\vec{v}_1 = \\vec{w} + \\vec{u}_1$ and $\\vec{v}_2 = \\vec{w} + \\vec{u}_2$, where $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states that the wind velocity vector $\\vec{w}$ lies on the perpendicular bisector of segment $(AB)$, where the segment $(OA)$ corresponds to the vector $\\vec{v}_1$ ($\\vec{v}_1 = \\vec{w} + \\vec{u}_1$), the segment $(OB)$ corresponds to the vector $\\vec{v}_2$ ($\\vec{v}_2 = \\vec{w} + \\vec{u}_2$), $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer states that the wind velocity $\\vec{w}$ is smallest when it is perpendicular to $l$, where $l$ is the perpendicular bisector of the segment $(AB)$, the segment $(OA)$ corresponds to the vector $\\vec{v}_1$ ($\\vec{v}_1 = \\vec{w} + \\vec{u}_1$), the segment $(OB)$ corresponds to the vector $\\vec{v}_2$ ($\\vec{v}_2 = \\vec{w} + \\vec{u}_2$), $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Otherwise, award 0 pt.",
+                "Award 1.5 pt if the answer correctly calculates the minimal wind speed as $|\\vec{w}|_{\\min} = \\frac{|v_1^2 - v_2^2|}{2\\sqrt{v_1^2 + v_2^2 - 2 v_1 v_2 \\cos \\alpha}}$. Partial points: award 1.0 pt if there is a small error but the answer is otherwise reasonable with correct units, or if the answer is not expanded when it can be simply expanded. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{\\left| v_1^{2} - v_2^{2} \\right|}{2 \\sqrt{v_1^{2} + v_2^{2} - 2 v_1 v_2 \\cos \\alpha}}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_8_3",
+        "context": "Two airplanes pass each other while flying at a constant altitudes. While they have identical airspeeds, their ground speeds are $v_1$ and $v_2$, respectively, and the angle between the velocity vectors is $\\alpha$.",
+        "question": "If now $v_1 = v_2 = v$, but it is known that the airspeed of one of the planes is two times bigger than that of the other. What is the minimal possible value of the wind speed at the altitudes of the planes?",
+        "marking": [
+            [
+                "Award 0.2 pt if the answer represents the problem using vectors and correctly adds the velocities as $\\vec{v}_1 = \\vec{w} + \\vec{u}_1$ and $\\vec{v}_2 = \\vec{w} + \\vec{u}_2$, where $\\vec{w}$ is the speed of the wind at the airplanes' altitude, $\\vec{u}_1$ and $\\vec{u}_2$ are the planes' respective speeds in absence of wind. Otherwise, award 0 pt.",
+                "Award 1.3 pt if the answer states that the wind velocity vector $\\vec{w}$ lies on the Apollonius circle (name not required). Partial points: award 0.5 pt if the answer realizes it is a circle but provides an incorrect one. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly calculates the radius $R_A$ of the Apollonius circle as $R_A = \\frac{2|\\vec{v}_1 - \\vec{v}_2|}{3}$, where $R_A$ is the distance from the circle's center to its intersection point with the line $AB$. Otherwise, award 0 pt.",
+                "Award 1 pt if the answer correctly calculates the minimal wind speed as $|\\vec{w}|_{\\min} = \\left| \\frac{4}{3}\\vec{v}_2 - \\frac{1}{3}\\vec{v}_1 \\right| - \\frac{2}{3}|\\vec{v}_2 - \\vec{v}_1| = \\frac{\\sqrt{17 - 8 \\cos \\alpha} - 4 \\sin(\\frac{\\alpha}{2})}{3} v$. Partial points: award 0.5 pt if there is a small error but the answer is otherwise reasonable with correct units, or if the answer is not expanded when it can be simply expanded. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{$\\frac{\\sqrt{17 - 8 \\cos \\alpha} - 4 \\sin(\\frac{\\alpha}{2})}{3} v$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": []
+    },
+    {
+        "id": "NBPhO_2024_9_1",
+        "context": "Three identical small iron balls were initially arranged in an equilateral triangle formation, connected by massless nonstretchable threads. Upon being thrown into the air, the system experienced the following conditions: (a) all threads were taut initially; (b) all balls possessed different velocities; (c) all velocities were confined to the plane of the triangle as the system underwent free fall within Earth's gravitational field. At a certain moment $t = 0$, two threads ruptured, leaving two balls tethered together while the third ball separated from the rest of the system. The accompanying diagram depicts the positions of all three balls and the remaining thread within the plane of their initial arrangement at a later moment of time $t = T$ when all the balls were still continuing their free fall. To answer the questions below, you can take measurements from the figure.\n\n[figure1]",
+        "question": "By how many degrees did the remaining thread rotate during the time period from $t = 0$ to $t = T$? Express your answer in radians.",
+        "marking": [
+            [
+                "Award 0.5 pt if the answer shows understanding of the situation, i.e., recognizes that the motion is rotating in a plane perpendicular to the ground. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer correctly determines the center of mass $G$ and explains that $|GA| = 2|GM|$, where $A$ is the position of the detached ball and $M$ is the midpoint of the remaining string. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer draws or clearly describes the trajectory after separation and does so correctly, i.e., the lines of motion of $A$ and $M$ are parallel but not colinear, representing the motion of the center of mass of each part. Otherwise, award 0 pt.",
+                "Award 1.0 pt if the answer correctly shows that $\\omega_1 = \\omega_2$ based on the triangle configuration and the two connected balls, where $\\omega_1$ is the angular velocity of the detached ball and $\\omega_2$ is the angular velocity of the two balls that remain connected. Otherwise, award 0 pt.",
+                "Award 0.6 pt for the answer correctly writing each of the following formulas (0.2 pt each): $v_1 = \\omega_1 r$, $s_1 = v_1 T$, and $\\alpha = \\omega_2 T$, where $v_1$ is the linear speed of the detached ball, $\\omega_1$ is the angular velocity of the detached ball, $r$ is the radius of its circular trajectory, $s_1$ is the arc length traveled by the detached ball after separation, $T$ is the travel time after separation, $\\alpha$ is the rotation angle of the two connected balls, and $\\omega_2$ is the angular velocity of the two connected balls. Otherwise, award 0 pt.",
+                "Award 0.4 pt if the answer obtains the correct final expression for $\\alpha$ as $\\alpha = \\frac{s_1}{r}$, where $\\alpha$ is the rotation angle of the two connected balls, $s_1$ is the arc length traveled by the detached ball after separation, and $r$ is the radius of its circular trajectory. Otherwise, award 0 pt.",
+                "Award 0.5 pt if the answer obtains the correct numerical final value $\\alpha \\approx 5.6 \\text{rad}$ (allowing for some tolerance for small measurement errors). Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{5.6}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "radian"
+        ],
+        "point": [
+            4.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": [
+            "image_question/NBPhO_2024_9_1_1.png"
+        ]
+    },
+    {
+        "id": "NBPhO_2024_9_2",
+        "context": "Three identical small iron balls were initially arranged in an equilateral triangle formation, connected by massless nonstretchable threads. Upon being thrown into the air, the system experienced the following conditions: (a) all threads were taut initially; (b) all balls possessed different velocities; (c) all velocities were confined to the plane of the triangle as the system underwent free fall within Earth's gravitational field. At a certain moment $t = 0$, two threads ruptured, leaving two balls tethered together while the third ball separated from the rest of the system. The accompanying diagram depicts the positions of all three balls and the remaining thread within the plane of their initial arrangement at a later moment of time $t = T$ when all the balls were still continuing their free fall. To answer the questions below, you can take measurements from the figure.\n\n[figure1] \n\n(i) By how many degrees did the remaining thread rotate during the time period from $t = 0$ to $t = T$? \n\nPart (i) is a preliminary question and should not be included in the final answer.",
+        "question": "Was the rotation clockwise or counterclockwise?\n\n(A) Clockwise \n(B) Counterclockwise",
+        "marking": [
+            [
+                "Award 1.0 pt if the answer correctly determines that the rotation is counterclockwise or selects option B as the final answer. Otherwise, award 0 pt."
+            ]
+        ],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "point": [
+            1.0
+        ],
+        "modality": "text+data figure",
+        "field": "Mechanics",
+        "source": "NBPhO_2024",
+        "image_question": [
+            "image_question/NBPhO_2024_9_1_1.png"
+        ]
+    }
+]

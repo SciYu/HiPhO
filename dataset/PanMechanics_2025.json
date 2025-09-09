@@ -1,0 +1,548 @@
+[
+    {
+        "information": "若有需要，取重力加速度 $g = 9.80 m/s^2$ 及 重力常数 $G = 6.67 \\times 10^{-11} N m^2/\\mathrm{kg}^2$（若没有特别注明，取所有摩擦力为零）。"
+    },
+    {
+        "id": "PanMechanics_2025_1",
+        "context": "",
+        "question": "一辆重量为 800 公斤的赛车沿着半径为 $R = 100$ 米的圆形赛道行驶。赛道倾斜角度为 $\\beta = 30.0^{\\circ}$，如图所示。轮胎与赛道之间的静摩擦系数和动摩擦系数分别为 $\\mu_s = 0.300$ 和 $\\mu_k = 0.200$。保留 3 位有效数字，在什么速度范围内，轮胎不会相对于赛道打滑？您可以忽略空气阻力和滚动摩擦，这样轮胎和赛道之间在赛道切线方向上就没有摩擦力。\n\n[figure1]\n\n(A) $v \\leq 32.2 m/s$. \n(B) $15.2 m/s \\leq v$. \n(C) $v \\leq 38.4 m/s$. \n(D) $15.2 m/s \\leq v \\leq 32.2 m/s$. \n(E) $20.7 m/s \\leq v \\leq 38.4 m/s$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_1_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_2",
+        "context": "",
+        "question": "一辆重量为 800 公斤的赛车沿着半径为 $R = 100$ 米的圆形赛道行驶。赛道倾斜角度为 $\\beta = 30.0^{\\circ}$，如图所示。轮胎与赛道之间的静摩擦系数和动摩擦系数分别为 $\\mu_s = 0.600$ 和 $\\mu_k = 0.400$。保留 3 位有效数字，在什么速度范围内，轮胎不会相对于赛道打滑？您可以忽略空气阻力和滚动摩擦，这样轮胎和赛道之间在赛道切线方向上就没有摩擦力。\n\n[figure1]\n\n(A) $10.4 m/s \\leq v$. \n(B) $v \\leq 35.1 m/s$. \n(C) $v \\leq 42.0 m/s$. \n(D) $10.4 m/s \\leq v \\leq 42.0 m/s$. \n(E) $18.5 m/s \\leq v \\leq 35.1 m/s$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_1_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_3",
+        "context": "",
+        "question": "一个装有弹簧的玩具静止地放在水平、无摩擦的表面上。当弹簧松开时，玩具会分裂成三块，A、B 和 C，且各自沿着表面滑动。A、B 和 C 的质量分别为 $m_A$、$m_B$ 和 $m_C$。若已知 A 和 B 的速度之间的角度为 $120^{\\circ}$，问必须满足以下哪个条件才能确保 C 的速率为三者中最快？\n\n(A) $m_C < m_A + m_B$. \n(B) $m_C < \\frac{m_A + m_B}{2}$. \n(C) $m_C < \\frac{\\sqrt{3}}{2} (m_A + m_B)$. \n(D) $m_C < \\frac{\\min{m_A, m_B}}{2}$. \n(E) $m_C < \\frac{\\sqrt{3}}{2} \\min{m_A, m_B}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_4",
+        "context": "",
+        "question": "质量为 $4.00 \\times 10^{30}$ 千克的恒星 A 正朝某个方向移动，质量为 $2.00 \\times 10^{30}$ 千克的恒星 B 位于其前方并正朝同一方向移动。恒星 A 和恒星 B 的初速度分别为 10 公里/秒和 40 公里/秒，它们的初始距离为 $2.00 \\times 10^8$ 公里。求它们的最大距离。\n\n(A) $2.58 \\times 10^8$ 公里. \n(B) $3.33 \\times 10^8$ 公里. \n(C) $4.75 \\times 10^8$ 公里. \n(D) $5.29 \\times 10^8$ 公里. \n(E) $6.14 \\times 10^8$ 公里.",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_5",
+        "context": "",
+        "question": "在一个半径为 $R$ 的均匀球体上挖出一个直径为 $R$ 的洞，使原球体的中心 $O$ 位于洞的表面，如图所示。洞的中心和 $O$ 都位于 $y$ 轴上。求该物体绕通过 $O$ 并与洞表面相切的轴（图中的 $x$ 轴）的转动惯量，以 $R$ 和物体的质量 $M$ 表达。\n\n[figure1]\n\n(A) $\\frac{1}{3} MR^2$. \n(B) $\\frac{57}{140} MR^2$. \n(C) $\\frac{463}{1120} MR^2$. \n(D) $\\frac{31}{70} MR^2$. \n(E) $\\frac{249}{560} MR^2$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_5_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_6",
+        "context": "",
+        "question": "一个均匀的矩形板，其一边固定在地面上，且板面与垂直方向成角度 $\\theta_0$，其中 $0^{\\circ} \\leq \\theta_0 \\leq 90^{\\circ}$。如果 $\\theta_0$ 大于某个角度，则在放开板体使其在重力作用下绕固定边缘旋转的那一刻，板体的另一端的加速度的垂直向下分量大于 $g$。求该角度。\n\n(A) $\\sin^{-1} \\frac{1}{3}$. \n(B) $\\sin^{-1} \\sqrt{\\frac{1}{3}}$. \n(C) $\\sin^{-1} \\frac{2}{3}$. \n(D) $45^{\\circ}$. \n(E) $\\sin^{-1} \\sqrt{\\frac{2}{3}}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_7",
+        "context": "",
+        "question": "一个均匀的矩形板，其一边固定在地面上，且板面与垂直方向成角度 $\\theta_0$，其中 $0^{\\circ} \\leq \\theta_0 \\leq 90^{\\circ}$。如果 $\\theta_0$ 大于某个角度，则在放开板体使其在重力作用下绕固定边缘旋转的那一刻，板体的另一端的加速度的垂直向下分量大于 $g$。当板体以上述角度被放开的瞬间，地面所施加的反作用力的大小和垂直分力分别是多少？\n\n(A) $\\sqrt{\\frac{3}{8}} Mg$, $\\frac{1}{2} Mg$ 向上. \n(B) $\\sqrt{\\frac{3}{8}} Mg$, $\\frac{1}{2} Mg$ 向下. \n(C) $\\frac{\\sqrt{3}}{2} Mg$, $\\frac{1}{2} Mg$ 向上. \n(D) $\\frac{\\sqrt{3}}{2} Mg$, $\\frac{1}{2} Mg$ 向下. \n(E) 此瞬间没有任何反作用力.",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_8",
+        "context": "",
+        "question": "一个均匀的矩形板，其一边固定在地面上，且板面与垂直方向成角度 $\\theta_0$，其中 $0^{\\circ} \\leq \\theta_0 \\leq 90^{\\circ}$。如果 $\\theta_0$ 大于某个角度，则在放开板体使其在重力作用下绕固定边缘旋转的那一刻，板体的另一端的加速度的垂直向下分量大于 $g$。如果 $\\theta_0$ 小于上述临界角，则当板旋转到某个角度时，板体的另一端的加速度的垂直向下分量大于 $g$。如果 $\\theta_0 = 0^{\\circ}$，求该角度。\n\n(A) $\\sin^{-1} \\frac{\\sqrt{2}-1}{3}$. \n(B) $\\cos^{-1} \\frac{1+\\sqrt{3}}{3}$. \n(C) $\\cos^{-1} \\frac{1+\\sqrt{2}}{3}$. \n(D) $\\sin^{-1} \\frac{1+\\sqrt{2}}{3}$. \n(E) $\\cos^{-1} \\frac{\\sqrt{2}-1}{3}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_9",
+        "context": "",
+        "question": "一根均匀的细杆，质量为 $M$，长度为 $a$，最初静止在光滑的地板上。它的一端被一个点质量 $m$ 撞击，该点质量的速率为 $v$，垂直于杆。碰撞后，点质量嵌入杆中，如图所示。取 $M = 6.00$ 千克，$m = 2.00$ 千克，$a = 10.0$ 米，$v = 20.0$ 米/秒。求刚碰撞后瞬间杆另一端的速度。\n\n[figure1]\n\n(A) 0 米/秒. \n(B) 向右 6.67 米/秒. \n(C) 向右 10.2 米/秒. \n(D) 向左 3.45 米/秒. \n(E) 向左 5.71 米/秒.",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_9_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_10",
+        "context": "",
+        "question": "大炮 A 和大炮 B 可以以相同的速率 $u$ 发射炮弹。大炮 B 位于高为 $h$ 的悬崖顶。大炮 A 位于悬崖左方地面上，与悬崖的距离为 $d$。在某一时刻，大炮 B 向左水平发射一枚炮弹。大炮 A 同时以一定的仰角 $\\theta$ 发射一枚炮弹，如图所示。求出使得两枚炮弹可能相撞的 $\\theta$。\n\n[figure1]\n\n(A) $\\tan^{-1} \\frac{h}{d}$. \n(B) $\\tan^{-1} \\frac{d}{h}$. \n(C) $2 \\tan^{-1} \\frac{h}{d}$. \n(D) $2 \\tan^{-1} \\frac{d}{h}$. \n(E) $90^{\\circ}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{C}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_10_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_11",
+        "context": "",
+        "question": "大炮 A 和大炮 B 可以以相同的速率 $u$ 发射炮弹。大炮 B 位于高为 $h$ 的悬崖顶。大炮 A 位于悬崖左方地面上，与悬崖的距离为 $d$。在某一时刻，大炮 B 向左水平发射一枚炮弹。大炮 A 同时以一定的仰角 $\\theta$ 发射一枚炮弹，如图所示。当速度 $u$ 低于多少时，两颗炮弹不可能相撞？\n\n[figure1]\n\n(A) $\\frac{(h^2+d^2)}{hd} \\sqrt{gh}$. \n(B) $\\frac{1}{2} \\frac{(h^2+d^2)}{hd} \\sqrt{gh}$. \n(C) $\\frac{1}{\\sqrt{2}} \\frac{(h^2+d^2)}{hd} \\sqrt{gh}$. \n(D) $\\frac{1}{2\\sqrt{2}} \\frac{(h^2+d^2)}{hd} \\sqrt{gh}$. \n(E) $\\frac{1}{4} \\frac{(h^2+d^2)}{hd} \\sqrt{gh}$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_10_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_12",
+        "context": "",
+        "question": "如图所示，一根刚性均匀杆，其右端受到向右 $2F$ 的力，左端受到向右 $F$ 的力。杆中点处的张力是多少？\n\n[figure1]\n\n(A) 0. \n(B) $F/2$. \n(C) $F$. \n(D) $3F/2$. \n(E) $2F$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_12_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_13",
+        "context": "",
+        "question": "考虑一个牛顿摆，其中只有两个球 A 和 B，它们的质量分别为 $m_A$ 和 $m_B$，且这两个质量可能不同。每个球都用一根绳子悬挂在一水平杆上固定的点。B 最初处于静止状态，A 最初在一定高度开始向下摆动并以速率 $u$ 撞击 B，如图所示。此时，两根绳子都是垂直的。碰撞是理想的弹性碰撞。碰撞后，两个球向上摆动，然后再次向下摆动，并在相同的最低位置再次碰撞。求 $m_B / m_A$。\n\n[figure1]\n\n(A) 1/3. \n(B) 1/2. \n(C) 1. \n(D) 2. \n(E) 3.",
+        "marking": [],
+        "answer": [
+            "\\boxed{E}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_13_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_14",
+        "context": "",
+        "question": "考虑一个牛顿摆，其中只有两个球 A 和 B，它们的质量分别为 $m_A$ 和 $m_B$，且这两个质量可能不同。每个球都用一根绳子悬挂在一水平杆上固定的点。B 最初处于静止状态，A 最初在一定高度开始向下摆动并以速率 $u$ 撞击 B，如图所示。此时，两根绳子都是垂直的。碰撞是理想的弹性碰撞。碰撞后，两个球向上摆动，然后再次向下摆动，并在相同的最低位置再次碰撞。第二次碰撞后 A 和 B 的速度分别是多少？取向右的速度为正。\n\n[figure1]\n\n(A) A: $-u$, B: 0. \n(B) A: $u$, B: 0. \n(C) A: $\\frac{m_A-m_B}{m_A+m_B} u$, B: $\\frac{2m_A}{m_A+m_B} u$. \n(D) A: 0, B: $\\sqrt{\\frac{m_A}{m_B}} u$. \n(E) A: 0, B: $\\frac{m_A}{m_B} u$.",
+        "marking": [],
+        "answer": [
+            "\\boxed{A}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+illustration figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_13_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_15",
+        "context": "",
+        "question": "考虑如图所示的装置。4 个金属球完全相同，质量均为 $m$。磁铁的质量为 $M = 5m$。整个装置放置在气垫轨道上，这样可以忽略所有摩擦力。最初，球 A 从左侧很远的地方以初速率 $u$ 向右移动。球 A 撞到磁铁后，球 D 被射向右侧，并在很远的地方达到最终速率 $v = 9u$。碰撞后，磁铁与球 A、B 和 C 粘在一起。由于没有摩擦，球在轨道上滑动而不旋转。分别用 $K_i$ 和 $K_f$ 表示整个系统的初动能和终动能。求 $K_f / K_i$。\n\n[figure1]\n\n(A) 81. \n(B) 89. \n(C) 105. \n(D) 121. \n(E) 137.",
+        "marking": [],
+        "answer": [
+            "\\boxed{B}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_15_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_16",
+        "context": "",
+        "question": "一根 $2.00$ 米长的均匀细绳的一端连接到振荡器上，另一端固定。当振荡器设置为进行振幅为 $1.00$ 毫米、频率为 $10.0$ 赫兹的简谐运动时，会产生横向驻波。沿弦传播的波速为 $41.0$ 米/秒。由于振荡幅度很小，可以忽略由于振荡引起的弦长变化，故振荡器到固定端的距离可以取为 $2.00$ 米。求产生的驻波的最大振幅。\n\n(A) 1.00 毫米. \n(B) 6.53 毫米. \n(C) 9.35 毫米. \n(D) 13.1 毫米. \n(E) 18.7 毫米.",
+        "marking": [],
+        "answer": [
+            "\\boxed{D}"
+        ],
+        "answer_type": [
+            "Multiple Choice"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            3.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_17_1",
+        "context": "",
+        "question": "如图所示，两个均匀薄圆盘的质量分别为 $m$ 和 $4m$，半径分别为 $a$ 和 $2a$，由一根穿过它们中心的无质量的刚性杆牢固地固定住，该杆长度为 $l = \\sqrt{24} a$。该组件放在坚固平坦的表面上，并使其在表面上滚动而不滑动。绕杆轴的角速率为 $\\omega$。\n\n[figure1]\n\n求杆与水平面的夹角 $\\theta$。（单位用 $\\mathrm{rad}$ 表示）",
+        "marking": [],
+        "answer": [
+            "\\boxed{0.201}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            "$\\mathrm{rad}$"
+        ],
+        "points": [
+            4.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_17_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_17_2",
+        "context": "",
+        "question": "如图所示，两个均匀薄圆盘的质量分别为 $m$ 和 $4m$，半径分别为 $a$ 和 $2a$，由一根穿过它们中心的无质量的刚性杆牢固地固定住，该杆长度为 $l = \\sqrt{24} a$。该组件放在坚固平坦的表面上，并使其在表面上滚动而不滑动。绕杆轴的角速率为 $\\omega$。\n\n[figure1]\n\n求组件质心绕 $z$ 轴的角速率。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{\\omega}{5}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            7.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_17_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_17_3",
+        "context": "",
+        "question": "如图所示，两个均匀薄圆盘的质量分别为 $m$ 和 $4m$，半径分别为 $a$ 和 $2a$，由一根穿过它们中心的无质量的刚性杆牢固地固定住，该杆长度为 $l = \\sqrt{24} a$。该组件放在坚固平坦的表面上，并使其在表面上滚动而不滑动。绕杆轴的角速率为 $\\omega$。\n\n[figure1]\n\n求绕点 $O$ 的轨道角动量的大小，即忽略在质心参考系中观察到的由于自转而产生的自旋角动量而只计算由于组件质心运动而产生的角动量。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\frac{1944 \\sqrt{24}}{125} m \\omega a^2$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            11.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_17_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_18_1",
+        "context": "",
+        "question": "考虑两个质量分别为 $m$ 和 $M$ 的物体在光滑水平面上作一维运动运动并发生弹性碰撞。$m$ 和 $M$ 的初速度分别为 $u$ 和 $U$，碰撞后的速度分别为 $v$ 和 $V$。\n\n(1) 求 $v$ 的表达式，用 $m$, $M$, $u$ 和 $U$ 表示。\n(2) 求 $V$ 的表达式，用 $m$, $M$, $u$ 和 $U$ 表示。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$v = \\frac{m-M}{m+M} u + \\frac{2M}{m+M} U$}",
+            "\\boxed{$V = \\frac{2m}{m+M} u - \\frac{m-M}{m+M} U$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null,
+            null
+        ],
+        "points": [
+            2.0,
+            2.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    },
+    {
+        "id": "PanMechanics_2025_18_2",
+        "context": "考虑两个质量分别为 $m$ 和 $M$ 的物体在光滑水平面上作一维运动运动并发生弹性碰撞。$m$ 和 $M$ 的初速度分别为 $u$ 和 $U$，碰撞后的速度分别为 $v$ 和 $V$。\n\n已知 $m < M$ 且 $m$ 最初处于静止状态，而 $M$ 在右侧以速度 $U$ 向 $m$ 移动。将向右的方向视为正方向，因此 $U < 0$。初次碰撞后，$m$ 向左移动并在一定距离处撞到一墙壁，然后反弹回来再次向右移动。然后它可能再次撞到 $M$ 并再反弹回来撞到墙壁。将 $m$ 和 $M$ 之间的初次碰撞称为第 0 次碰撞。我们假设所有碰撞都是弹性碰撞。设 $m$ 和 $M$ 在第 $n$ 次碰撞之前的速度分别为 $v_n$ 和 $V_n$，因此 $V_0 = U$ 和 $v_0 = 0$。\n\n[figure1]",
+        "question": "用相空间中的一个点 $(\\sqrt{M}V, \\sqrt{m}v)$ 表示两个物体的运动状态。因此，在第一次碰撞之前，状态为 $(\\sqrt{M}V_0, \\sqrt{m}v_0) = (\\sqrt{M}U, 0)$。在第二次碰撞之前，状态为 $(\\sqrt{M}V_1, \\sqrt{m}v_1)$。用 $m$ 和 $M$ 表示如图所示的角度 $\\theta$。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\theta = \\tan^{-1} \\frac{2 \\sqrt{Mm}}{M-m}$}"
+        ],
+        "answer_type": [
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            6.0
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_18_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_18_3",
+        "context": "考虑两个质量分别为 $m$ 和 $M$ 的物体在光滑水平面上作一维运动运动并发生弹性碰撞。$m$ 和 $M$ 的初速度分别为 $u$ 和 $U$，碰撞后的速度分别为 $v$ 和 $V$。\n\n已知 $m < M$ 且 $m$ 最初处于静止状态，而 $M$ 在右侧以速度 $U$ 向 $m$ 移动。将向右的方向视为正方向，因此 $U < 0$。初次碰撞后，$m$ 向左移动并在一定距离处撞到一墙壁，然后反弹回来再次向右移动。然后它可能再次撞到 $M$ 并再反弹回来撞到墙壁。将 $m$ 和 $M$ 之间的初次碰撞称为第 0 次碰撞。我们假设所有碰撞都是弹性碰撞。设 $m$ 和 $M$ 在第 $n$ 次碰撞之前的速度分别为 $v_n$ 和 $V_n$，因此 $V_0 = U$ 和 $v_0 = 0$。\n\n[figure1]\n\n用相空间中的一个点 $(\\sqrt{M}V, \\sqrt{m}v)$ 表示两个物体的运动状态。因此，在第一次碰撞之前，状态为 $(\\sqrt{M}V_0, \\sqrt{m}v_0) = (\\sqrt{M}U, 0)$。在第二次碰撞之前，状态为 $(\\sqrt{M}V_1, \\sqrt{m}v_1)$。",
+        "question": "如上所述，或以其他方法：(1) 求 $v_n$ 的表达式，用 $m$, $M$, 和 $U$ 表示。\n(2) 求 $V_n$ 的表达式，用 $m$, $M$, 和 $U$ 表示。",
+        "marking": [],
+        "answer": [
+            "\\boxed{$v_n = -\\sqrt{\\frac{M}{m}} U \\sin\\left( n \\tan^{-1} \\frac{2\\sqrt{Mm}}{M-m} \\right)$}",
+            "\\boxed{$V_n = U \\cos\\left( n \\tan^{-1} \\frac{2\\sqrt{Mm}}{M-m} \\right)$}"
+        ],
+        "answer_type": [
+            "Expression",
+            "Expression"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            6.5,
+            6.5
+        ],
+        "modality": "text+variable figure",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": [
+            "image_question/PanMechanics_2025_18_1.png"
+        ]
+    },
+    {
+        "id": "PanMechanics_2025_18_4",
+        "context": "考虑两个质量分别为 $m$ 和 $M$ 的物体在光滑水平面上作一维运动运动并发生弹性碰撞。$m$ 和 $M$ 的初速度分别为 $u$ 和 $U$，碰撞后的速度分别为 $v$ 和 $V$。\n\n已知 $m < M$ 且 $m$ 最初处于静止状态，而 $M$ 在右侧以速度 $U$ 向 $m$ 移动。将向右的方向视为正方向，因此 $U < 0$。初次碰撞后，$m$ 向左移动并在一定距离处撞到一墙壁，然后反弹回来再次向右移动。然后它可能再次撞到 $M$ 并再反弹回来撞到墙壁。将 $m$ 和 $M$ 之间的初次碰撞称为第 0 次碰撞。我们假设所有碰撞都是弹性碰撞。设 $m$ 和 $M$ 在第 $n$ 次碰撞之前的速度分别为 $v_n$ 和 $V_n$，因此 $V_0 = U$ 和 $v_0 = 0$。上述过程重复一定次数，直到系统达到不再发生碰撞的状态。",
+        "question": "假设两物体之间以及 $m$ 与墙壁之间的碰撞总次数为 $N$。如果画出 $N$ 与 $\\sqrt{M/m}$ 的关系图，那么当$M \\gg m$ 时，这些点渐近位于一条直线上。求这条直线的斜率是多少？",
+        "marking": [],
+        "answer": [
+            "\\boxed{$\\pi$}"
+        ],
+        "answer_type": [
+            "Numerical Value"
+        ],
+        "unit": [
+            null
+        ],
+        "points": [
+            7.0
+        ],
+        "modality": "text-only",
+        "field": "Mechanics",
+        "source": "PanMechanics_2025",
+        "image_question": []
+    }
+]
