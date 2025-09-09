@@ -1,10 +1,9 @@
 # 🥇 HiPhO: High School Physics Olympiad Benchmark
 
 <div align="center">
-  <img src="img/HiPhO_title.png" alt="paper title screenshot" width="600"/>
+  <img src="img/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
 
----
 
 ## 🌐 Introduction
 
@@ -21,7 +20,6 @@
 3. **Professional Evaluation**: Uses official marking schemes for answer-level and step-level grading.
 4. **Human-level Comparison**: Maps model scores to medal levels (Gold/Silver/Bronze) and compares with human performance.
 
----
 
 ## 🏆 IPhO 2025 (Theory) Results
 
@@ -37,7 +35,7 @@
 
 > Although models like Gemini-2.5-Pro and GPT-5 achieved gold-level scores, they still fall noticeably short of the very best human contestants.
 
----
+
 
 ## 📊 Dataset Overview
 
@@ -59,7 +57,6 @@ Evaluation is conducted using:
 - **Medal-based comparison**, using official thresholds for gold, silver, and bronze  
 
 
----
 
 ## 🖼️ Modality Categorization
 
@@ -74,7 +71,7 @@ Evaluation is conducted using:
 
 > As models move from TO → TD, performance drops sharply—highlighting the challenges of visual reasoning.
 
----
+
 
 ## 📈 Main Results
 
@@ -87,15 +84,15 @@ Evaluation is conducted using:
 - **Open-source LLMs** demonstrate **stronger reasoning** and generally outperform open-source MLLMs  
 
 
----
+
 
 ## 📥 Download
 
 - Dataset & annotations: [https://github.com/SciYu/HiPhO](https://github.com/SciYu/HiPhO)
-- 📄 Paper: *[ArXiv Preprint]* (TBD)
+- 📄 Paper: TBD
 - 📧 Contact: *fangchenyu@link.cuhk.edu.cn*
 
----
+
 
 ## 🔖 Citation
 
