@@ -1,5 +1,15 @@
-# 🥇 HiPhO: High School Physics Olympiad Benchmark
 
+<div align="center">
+
+<p align="center" style="font-size:28px"><b>🥇 HiPhO: High School Physics Olympiad Benchmark</b></p>
+<p align="center">
+<a href="https://huggingface.co/datasets/SciYu/HiPhO">[📊 Dataset]</a>
+<a href="https://github.com/SciYu/HiPhO">[✨ GitHub]</a>
+<a href="https://arxiv.org/abs/2509.07894">[📄 Paper]</a>
+</p>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
+</div>
 <div align="center">
   <img src="img/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
@@ -88,7 +98,8 @@ Evaluation is conducted using:
 
 ## 📥 Download
 
-- Dataset & annotations: [https://github.com/SciYu/HiPhO](https://github.com/SciYu/HiPhO)
+- Dataset & Annotations: [https://huggingface.co/datasets/SciYu/HiPhO](https://huggingface.co/datasets/SciYu/HiPhO)
+- GitHub Repository: [https://github.com/SciYu/HiPhO](https://github.com/SciYu/HiPhO)
 - 📄 Paper: [https://arxiv.org/abs/2509.07894](https://arxiv.org/abs/2509.07894)
 - 📧 Contact: *fangchenyu@link.cuhk.edu.cn*
 
