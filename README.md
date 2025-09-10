@@ -79,7 +79,7 @@ Evaluation is conducted using:
   <img src="img/HiPhO_main_results.png" alt="main results medal table" width="700"/>
 </div>
 
-- **Closed-source reasoning MLLMs** lead the benchmark, earning **6–12 gold medals** (Top 5: Gemini-2.5-Pro, Gemini-2.5-Flash, GPT-5, o3, Grok-4)  
+- **Closed-source reasoning MLLMs** lead the benchmark, earning **6–12 gold medals** (Top 5: Gemini-2.5-Pro, Gemini-2.5-Flash, GPT-5, o3, Grok-4)
 - **Open-source MLLMs** mostly score at or below the **bronze** level 
 - **Open-source LLMs** demonstrate **stronger reasoning** and generally outperform open-source MLLMs  
 
@@ -89,7 +89,7 @@ Evaluation is conducted using:
 ## 📥 Download
 
 - Dataset & annotations: [https://github.com/SciYu/HiPhO](https://github.com/SciYu/HiPhO)
-- 📄 Paper: TBD
+- 📄 Paper: [https://arxiv.org/abs/2509.07894](https://arxiv.org/abs/2509.07894)
 - 📧 Contact: *fangchenyu@link.cuhk.edu.cn*
 
 
@@ -100,6 +100,7 @@ Evaluation is conducted using:
 @article{hipho2025,
   title={HiPhO: How Far Are (M)LLMs from Humans in the Latest High School Physics Olympiad Benchmark?},
   author={Yu, Fangchen and Wan, Haiyuan and Cheng, Qianjia and Zhang, Yuchen and Chen, Jiacheng and Han, Fujun and Wu, Yulun and Yao, Junchi and Hu, Ruilizhen and Ding, Ning and Cheng, Yu and Chen, Tao and Bai, Lei and Zhou, Dongzhan and Luo, Yun and Cui, Ganqu and Ye, Peng},
+  journal={arXiv preprint arXiv:2509.07894},
   year={2025}
 }
 ```
