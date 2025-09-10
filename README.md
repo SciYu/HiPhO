@@ -5,14 +5,14 @@
 <p align="center">
 <a href="https://huggingface.co/datasets/SciYu/HiPhO">[📊 Dataset]</a>
 <a href="https://github.com/SciYu/HiPhO">[✨ GitHub]</a>
-<a href="https://arxiv.org/abs/2509.07894">[📄 Paper]</a>
+<a href="https://huggingface.co/papers/2509.07894">[📄 Paper]</a>
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 </div>
 
 <div align="center">
-  <img src="img/HiPhO_title.png" alt="paper title screenshot" width="800"/>
+  <img src="intro/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
 
 
@@ -21,7 +21,7 @@
 **HiPhO** (High School Physics Olympiad Benchmark) is the **first benchmark** specifically designed to evaluate the physical reasoning abilities of (M)LLMs on **real-world Physics Olympiads from 2024–2025**.
 
 <div align="center">
-  <img src="img/HiPhO_overview.png" alt="hipho overview five rings" width="600"/>
+  <img src="intro/HiPhO_overview.png" alt="hipho overview five rings" width="600"/>
 </div>
 
 ### ✨ Key Features
@@ -35,7 +35,7 @@
 ## 🏆 IPhO 2025 (Theory) Results
 
 <div align="center">
-  <img src="img/HiPhO_IPhO2025.png" alt="ipho2025 results" width="800"/>
+  <img src="intro/HiPhO_IPhO2025.png" alt="ipho2025 results" width="800"/>
 </div>
 
 - **Top-1 Human Score**: 29.2 / 30.0  
@@ -51,7 +51,7 @@
 ## 📊 Dataset Overview
 
 <div align="center">
-  <img src="img/HiPhO_statistics.png" alt="framework and stats" width="700"/>
+  <img src="intro/HiPhO_statistics.png" alt="framework and stats" width="700"/>
 </div>
 
 HiPhO contains:
@@ -72,7 +72,7 @@ Evaluation is conducted using:
 ## 🖼️ Modality Categorization
 
 <div align="center">
-  <img src="img/HiPhO_modality.png" alt="modality examples" width="700"/>
+  <img src="intro/HiPhO_modality.png" alt="modality examples" width="700"/>
 </div>
 
 - 📝 **Text-Only (TO)**: Pure text, no figures  
@@ -87,7 +87,7 @@ Evaluation is conducted using:
 ## 📈 Main Results
 
 <div align="center">
-  <img src="img/HiPhO_main_results.png" alt="main results medal table" width="700"/>
+  <img src="intro/HiPhO_main_results.png" alt="main results medal table" width="700"/>
 </div>
 
 - **Closed-source reasoning MLLMs** lead the benchmark, earning **6–12 gold medals** (Top 5: Gemini-2.5-Pro, Gemini-2.5-Flash, GPT-5, o3, Grok-4)
