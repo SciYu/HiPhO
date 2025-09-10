@@ -1,7 +1,7 @@
+# 🥇 HiPhO: High School Physics Olympiad Benchmark
 
 <div align="center">
 
-<p align="center" style="font-size:50px"><b>🥇 HiPhO: High School Physics Olympiad Benchmark</b></p>
 <p align="center">
 <a href="https://huggingface.co/datasets/SciYu/HiPhO">[📊 Dataset]</a>
 <a href="https://github.com/SciYu/HiPhO">[✨ GitHub]</a>
