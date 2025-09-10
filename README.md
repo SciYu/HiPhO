@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<p align="center" style="font-size:28px"><b>🥇 HiPhO: High School Physics Olympiad Benchmark</b></p>
+<p align="center" style="font-size:50px"><b>🥇 HiPhO: High School Physics Olympiad Benchmark</b></p>
 <p align="center">
 <a href="https://huggingface.co/datasets/SciYu/HiPhO">[📊 Dataset]</a>
 <a href="https://github.com/SciYu/HiPhO">[✨ GitHub]</a>
@@ -10,6 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 </div>
+
 <div align="center">
   <img src="img/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
