@@ -3,7 +3,7 @@
 <div align="center">
 
 <p align="center">
-<a href="https://huggingface.co/datasets/SciYu/HiPhO">[🏆 Leaderboard]</a>
+<a href="https://phyarena.github.io/">[🏆 Leaderboard]</a>
 <a href="https://huggingface.co/datasets/SciYu/HiPhO">[📊 Dataset]</a>
 <a href="https://github.com/SciYu/HiPhO">[✨ GitHub]</a>
 <a href="https://huggingface.co/papers/2509.07894">[📄 Paper]</a>
@@ -16,7 +16,7 @@
   <img src="intro/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
 
-- 🏆 **New (Sep. 16):** Introducing "**PhyArena**" - our new physics reasoning leaderboard that now includes the **HiPhO leaderboard**.
+- 🏆 **New (Sep. 16):** We launched "[**PhyArena**](https://phyarena.github.io/)", a physics reasoning leaderboard incorporating the HiPhO benchmark.
 
 
 ## 🌐 Introduction
