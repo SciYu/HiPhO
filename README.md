@@ -16,7 +16,7 @@
   <img src="intro/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
 
-- 🏆 **New (Sep. 16):** We launched "[**PhyArena**](https://phyarena.github.io/)", a physics reasoning leaderboard incorporating the HiPhO benchmark.
+🏆 **New (Sep. 16):** We launched "[**PhyArena**](https://phyarena.github.io/)", a physics reasoning leaderboard incorporating the HiPhO benchmark.
 
 
 ## 🌐 Introduction
@@ -93,7 +93,7 @@ Evaluation is conducted using:
   <img src="intro/HiPhO_main_results.png" alt="main results medal table" width="700"/>
 </div>
 
-- **Closed-source reasoning MLLMs** lead the benchmark, earning **6–12 gold medals** (Top 5: Gemini-2.5-Pro, Gemini-2.5-Flash, GPT-5, o3, Grok-4)
+- **Closed-source reasoning MLLMs** lead the benchmark, earning **6–12 gold medals** (Top 5: Gemini-2.5-Pro, Gemini-2.5-Flash-Thinking, GPT-5, o3, Grok-4)
 - **Open-source MLLMs** mostly score at or below the **bronze** level 
 - **Open-source LLMs** demonstrate **stronger reasoning** and generally outperform open-source MLLMs  
 
