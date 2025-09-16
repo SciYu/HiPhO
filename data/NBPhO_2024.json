@@ -26,7 +26,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             2.0
         ],
         "modality": "text+variable figure",
@@ -59,7 +59,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             5.0
         ],
         "modality": "text+variable figure",
@@ -91,7 +91,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.5
         ],
         "modality": "text-only",
@@ -123,7 +123,7 @@
         "unit": [
             "W"
         ],
-        "point": [
+        "points": [
             2.0
         ],
         "modality": "text-only",
@@ -152,7 +152,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.5
         ],
         "modality": "text-only",
@@ -182,7 +182,7 @@
         "unit": [
             "kg"
         ],
-        "point": [
+        "points": [
             2.0
         ],
         "modality": "text-only",
@@ -227,7 +227,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             4.0
         ],
         "modality": "text-only",
@@ -255,7 +255,7 @@
         "unit": [
             "h"
         ],
-        "point": [
+        "points": [
             1.5
         ],
         "modality": "text-only",
@@ -283,7 +283,7 @@
         "unit": [
             "degree"
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -312,7 +312,7 @@
         "unit": [
             "km"
         ],
-        "point": [
+        "points": [
             1.5
         ],
         "modality": "text-only",
@@ -340,7 +340,7 @@
         "unit": [
             "min"
         ],
-        "point": [
+        "points": [
             1.5
         ],
         "modality": "text-only",
@@ -367,7 +367,7 @@
         "unit": [
             "min"
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -395,7 +395,7 @@
         "unit": [
             "years"
         ],
-        "point": [
+        "points": [
             1.5
         ],
         "modality": "text-only",
@@ -423,7 +423,7 @@
         "unit": [
             "degrees"
         ],
-        "point": [
+        "points": [
             2.0
         ],
         "modality": "text+data figure",
@@ -452,7 +452,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -485,7 +485,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             2.5
         ],
         "modality": "text-only",
@@ -514,7 +514,7 @@
         "unit": [
             "radians"
         ],
-        "point": [
+        "points": [
             2.5
         ],
         "modality": "text-only",
@@ -546,7 +546,7 @@
             null,
             null
         ],
-        "point": [
+        "points": [
             0.5,
             0.5
         ],
@@ -582,7 +582,7 @@
             null,
             "g/s^2"
         ],
-        "point": [
+        "points": [
             1.5,
             1.5
         ],
@@ -614,7 +614,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -643,7 +643,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             3.0
         ],
         "modality": "text-only",
@@ -672,7 +672,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             3.0
         ],
         "modality": "text-only",
@@ -704,7 +704,7 @@
         "unit": [
             "radian"
         ],
-        "point": [
+        "points": [
             4.0
         ],
         "modality": "text+data figure",
@@ -732,7 +732,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+data figure",

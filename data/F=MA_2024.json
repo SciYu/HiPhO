@@ -15,7 +15,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -36,7 +36,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -57,7 +57,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+variable figure",
@@ -80,7 +80,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+data figure",
@@ -103,7 +103,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -126,7 +126,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+data figure",
@@ -150,7 +150,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+data figure",
@@ -174,7 +174,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -197,7 +197,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -218,7 +218,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -241,7 +241,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -262,7 +262,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+variable figure",
@@ -285,7 +285,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+data figure",
@@ -309,7 +309,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -332,7 +332,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -353,7 +353,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -376,7 +376,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+variable figure",
@@ -399,7 +399,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -422,7 +422,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+variable figure",
@@ -445,7 +445,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
@@ -468,7 +468,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -489,7 +489,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -510,7 +510,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -531,7 +531,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text-only",
@@ -552,7 +552,7 @@
         "unit": [
             null
         ],
-        "point": [
+        "points": [
             1.0
         ],
         "modality": "text+illustration figure",
