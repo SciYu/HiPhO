@@ -16,6 +16,8 @@
   <img src="intro/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
 
+🧩 **New (Nov. 5):** We added **CPhO 2025 (Chinese Physics Olympiad)** — the national final theoretical exam to the HiPhO benchmark.
+
 🏆 **New (Sep. 16):** We launched "[**PhyArena**](https://phyarena.github.io/)", a physics reasoning leaderboard incorporating the HiPhO benchmark.
 
 
