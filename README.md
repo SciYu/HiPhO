@@ -16,6 +16,8 @@
   <img src="intro/HiPhO_title.png" alt="paper title screenshot" width="800"/>
 </div>
 
+📊 **New (Dec. 19):** Results from **GPT-5.2 (high)** have been added to the [**HiPhO Leaderboard**](https://phyarena.github.io/).
+
 📊 **New (Dec. 8):** Results from **Gemini-3-Pro**, **DeepSeek-V3.2-Speciale**, and **Kimi-K2-Thinking** have been added to the [**HiPhO Leaderboard**](https://phyarena.github.io/). Notably, **Gemini-3-Pro achieved gold-medal performance across all 13 Olympiads in HiPhO**.
 
 🧩 **New (Nov. 5):** We added **CPhO 2025 (Chinese Physics Olympiad)** — the national final theoretical exam to the HiPhO benchmark.
